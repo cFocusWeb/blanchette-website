@@ -18,7 +18,9 @@ gulp.task("clean-image", function(){
     'themes/blanchette/static/img/**/*',
     // we don't want to clean this file though so we negate the pattern
     '!themes/blanchette/static/img/ico',
-    '!themes/blanchette/static/img/logos'
+    '!themes/blanchette/static/img/ico/*',
+    '!themes/blanchette/static/img/logos',
+    '!themes/blanchette/static/img/logos/*'
   ]);
 });
 // resize and optimize images
