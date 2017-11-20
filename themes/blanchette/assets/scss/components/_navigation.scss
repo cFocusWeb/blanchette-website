@@ -1,0 +1,339 @@
+/*================================
+=            Main Bar            =
+================================*/
+
+#main-bar {
+	background:$gray;
+	height:84px;
+	font-size: 16px;
+	@include small-lap {
+		height: 70px;
+	}
+	@include breakpoint(laptop) {
+		height: 70px;
+		font-size: 15px;
+	}
+	@include breakpoint(tablet) {
+		font-size: 14px;
+		height: 70px;
+	}
+	@include breakpoint(phone) {
+		height: 60px;
+	}
+	/* brand */
+	.navbar-brand {
+		img {
+			max-width: 56px;
+			@include breakpoint(phone) {
+				max-width: 50px;
+			}
+		}
+	}
+	/* menu */
+	.container {
+		height: 100%;
+		.navbar-nav.navbar-right:last-child {
+			margin-right: 0px !important;
+		}
+		.navbar  {
+			height: 100%;
+			position: relative;
+			.navbar-header {
+				@include centre(y);
+				@include breakpoint(phone) {
+					width: 100%;
+				}
+			}
+			.navbar-nav {
+				> li {
+					padding-left: 50px;
+					padding-right: 50px;
+					@include animate-fade;
+					&:last-child {
+						a {
+						}
+					}
+					@include breakpoint(laptop) {
+						padding-left: 30px;
+						padding-right: 30px;
+					}
+					@include breakpoint(tablet) {
+						padding-left: 15px;
+						padding-right: 15px;
+					}
+					&:hover {
+						background:#3c3c3c;
+					}
+					> a {
+						display: inline-block;
+						vertical-align: middle;
+						color:$white;
+						font-family: $font-sec;
+						padding-left: 0px;
+						padding-right: 0px;
+						font-size: 1.125em;
+						position: relative;
+						height: 84px;
+						line-height: 84px;		
+						padding:0px;	
+						@include small-lap {
+							height: 70px;
+							line-height: 70px;
+						}			
+						@include breakpoint(laptop) {
+							height: 70px;
+							line-height: 70px;
+						}
+						@include breakpoint(tablet) {
+							height: 70px;
+							line-height: 70px;
+						}
+						&:after {
+							display: block;
+							width: 0%;
+							height: 2px;
+							background:$green;
+							content:'';
+							position: absolute;
+							bottom:20px;
+							left:0px;
+						}
+						&:hover {
+							&:after {
+								width: 100%;
+							}
+						}
+					}
+				}
+			}
+		}
+		/* dropdwn */
+		.dropdown-menu {
+			box-shadow: none;
+			border-radius:0px;
+			padding:0px;
+			margin:0px;
+			padding-top: 50px;
+			padding-bottom: 50px;
+			background:rgba(255,255,255,0.95);
+			.logo-box {
+				position: relative;
+				height: 150px;
+				span {
+					position: absolute;
+					bottom:0px;
+					text-align: center;
+					width: 100%;
+					color:$black;
+					font-family: $font-sec;
+					opacity: 0;
+					@include animate-fade;
+					i {
+						margin-left: 5px;
+					}
+				}					
+				a {
+					display: block;
+					width: 100%;
+					height: 100%;				
+					&:hover {
+						img {
+							filter: grayscale(100%);
+							margin-top: -20px;
+						}
+						span {
+							opacity: 1;
+						}
+					}
+				}
+				img {
+					@include centre(both);
+					width: 60%;
+					max-height: 120px;
+				}
+			}
+		}
+	}
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	background:none;
+}
+
+/*=====  End of Main Bar  ======*/
+
+/*==============================
+=            Mobile            =
+==============================*/
+
+	#menu-btn-wrapepr {
+		@include centre(y);
+		right: 0px;
+		.menu-btn {
+			position: relative;
+			top:5px;
+			width: 55px;
+			@include breakpoint(tablet) {
+				width: 45px;
+			}
+			@include breakpoint(phone-xs) {
+				width: 45px;
+			}
+			span {
+				height: 4px;
+				border-radius:6px;
+				background-color:$white;
+				width: 36px;
+				margin-bottom: 5px;
+				display: block;
+				margin-left:auto;
+				margin-right: 0px;
+				@include animate-fade;
+				@include breakpoint(tablet) {
+					margin-bottom:4px;
+					height: 3px;
+				}
+				&:first-child {
+					width: 26px;
+				}
+				&:last-child {
+					width: 19px;
+				}
+			}
+			&:hover {
+				span {
+					&:first-child {
+						width: 36px;
+					}
+					&:nth-child(2) {
+						width: 26px;
+					}
+					&:last-child {
+						width: 26px;
+					}
+				}
+			}
+		}		
+	}
+
+/*=====  End of Mobile  ======*/
+
+/*====================================
+=            Menu Ovelray            =
+====================================*/
+
+.menu-overlay {
+    background: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;	
+}
+
+.active-overlay {
+	opacity: 1;
+    visibility: visible;	
+}
+
+.main-menu-sidebar {
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    transition: all 0.7s ease-in-out;
+    visibility: hidden;
+    width: 100%;
+    z-index: 1100;	
+    padding-top: 90px;
+    background:rgba(20,20,20,0.9);
+	/* close menu */
+	.close-menu-btn {
+		position:absolute;
+		right: 32px;
+		top:32px;
+		color:#e2e2e2;
+		font-size: 40px;
+		@include breakpoint(laptop) {
+			top:20px;
+			right: 20px;
+		}
+		@include breakpoint(tablet) {
+			top:20px;
+			right: 20px;
+		}
+		@include breakpoint(phone) {
+			top:45px;
+			right: 15px;
+		}
+		&:hover {
+			opacity: 0.6;
+		}		
+	}
+	/* main menu */
+	#sidebar-menu-wrapper {
+		padding-top: 55px;
+		@include breakpoint(phone-xs) {
+			padding-top: 15px;
+		}
+		@include breakpoint(phone) {
+			padding-top: 25px;
+		}
+		.nav-links {
+			li {
+				a {
+					display: block;
+					padding-top: 20px;
+					padding-bottom: 20px;
+					text-transform: uppercase;
+					font-size: 1.2em;
+					color:$white;
+					border-bottom:1px solid $green;
+				}
+			}
+		}
+		footer {
+			text-align: center;
+			padding-top: 20px;
+			ul {
+				li {
+					display: inline-block;
+					a {
+						display: inline-block;
+						color:$white;
+						font-size: 1.5em;
+						margin-left: 5px;
+						margin-right: 5px;
+					}
+				}
+			}
+		}
+		#lang-bar-mobile {
+			padding-top: 20px;
+			a {
+				color:$green;
+				font-family: $font-sec;
+			}
+		}
+	}
+}
+
+.body-scroll {
+	overflow-y:hidden;
+}
+
+.menu-active {
+	opacity: 1;
+    	visibility: visible;
+}
+
+/*=====  End of Mobile Navbar  ======*/

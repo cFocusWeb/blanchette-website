@@ -15,23 +15,24 @@ const imagethumb = 80;
 // clean images from dir
 gulp.task("clean-image", function(){
   return del([
-    'themes/airevisuelle/static/img/**/*',
+    'themes/blanchette/static/img/**/*',
     // we don't want to clean this file though so we negate the pattern
-    '!themes/airevisuelle/static/img/icons'
+    '!themes/blanchette/static/img/ico',
+    '!themes/blanchette/static/img/logos'
   ]);
 });
 // resize and optimize images
 gulp.task("image-resize", () => {
-  return gulp.src("themes/airevisuelle/source-images/*.{jpg,png,jpeg,gif}")
+  return gulp.src("themes/blanchette/source-images/*/*.{jpg,png,jpeg,gif}")
     .pipe(imagemin())
     .pipe(imageresize({ width: imagefull }))
-    .pipe(gulp.dest("themes/airevisuelle/static/img"))
+    .pipe(gulp.dest("themes/blanchette/static/img"))
     .pipe(imageresize({ width: imagehalf }))
-    .pipe(gulp.dest("themes/airevisuelle/static/img/half"))
+    .pipe(gulp.dest("themes/blanchette/static/img/half"))
     .pipe(imageresize({ width: imagequart }))
-    .pipe(gulp.dest("themes/airevisuelle/static/img/quart"))
+    .pipe(gulp.dest("themes/blanchette/static/img/quart"))
     .pipe(imageresize({ width: imagethumb }))
-    .pipe(gulp.dest("themes/airevisuelle/static/img/thumb"));
+    .pipe(gulp.dest("themes/blanchette/static/img/thumb"));
 });
 
 // hugo production call
@@ -45,7 +46,7 @@ gulp.task("hugo", function (cb) {
 
 // watching images and resizing
 gulp.task("watch", function() {
-  gulp.watch('themes/airevisuelle/source-images/*.{jpg,png,jpeg,gif}', function(){ runSequence('clean-image', 'image-resize') });
+  gulp.watch('themes/blanchette/source-images/*.{jpg,png,jpeg,gif}', function(){ runSequence('clean-image', 'image-resize') });
 });
 
 // watching images and resizing

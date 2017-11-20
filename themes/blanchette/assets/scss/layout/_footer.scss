@@ -1,0 +1,230 @@
+/*===================================
+=            Page Footer            =
+===================================*/
+
+#page-footer {
+	background:$main;
+	font-size: 16px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	@include small-lap {
+		font-size: 15px;
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	@include breakpoint(laptop) {
+		font-size: 14px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	@include breakpoint(tablet) {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		font-size: 15px;
+	}
+	@include breakpoint(phone) {
+		padding-top: 40px;
+		padding-bottom: 40px;
+		font-size: 14px;
+	}
+	/* brand */
+	#brand-footer {
+		padding-bottom: 60px;
+		@include breakpoint(phone) {
+			padding-bottom: 20px;
+		}
+		.brand-box {
+			position: relative;
+			height: 100px;
+			@include breakpoint(phone) {
+				height: auto;
+			}
+			img {
+				@include breakpoint(phone) {
+					display: block;
+					margin:0px auto;
+				}
+			}
+			.content {
+				@include centre(y);
+				left:0px;
+				padding-left: 155px;
+				vertical-align: middle;
+				@include breakpoint(phone) {
+					padding-left: 0px;
+					padding-top: 20px;
+					padding-bottom: 20px;
+					text-align: center;
+					@include clear-pos;
+				}
+				p {
+					a {
+						font-family: $font-sec;
+						color:$white;
+						&:hover {
+							color:$green;
+						}
+					}
+					a.tel-ico {
+						font-size: 1.500em;
+						margin-bottom: 15px;
+						display: block;
+					}
+					a.mail-ico {
+						font-size: 1.250em;
+					}
+				}
+			}
+		}
+	}
+	/* footer area */
+	#footer-area {
+		.sitemap-box {
+			.title {
+				display: block;
+				color:$white;
+				font-size: 1.250em;
+				margin-bottom: 20px;
+				font-family: $font-sec;
+			}
+			.content {
+				height: 280px;
+				border-top:2px solid $green;
+				border-bottom:2px solid $green;
+				padding-top: 20px;
+				@include breakpoint(phone) {
+					height: auto;
+					padding-bottom: 20px;
+				}
+				ul {
+					li {
+						a {
+							display: block;
+							color:$white;
+							font-size: 1.125em;
+							padding-top: 8px;
+							padding-bottom: 8px;
+							position: relative;
+							&:before {
+								@include font-ico;
+								content:'\f105';
+								left:0px;
+								top:8px;
+								color:$green;
+								opacity: 0;
+								@include animate-fade;
+							}
+							&:hover {
+								color:$green;
+								padding-left: 20px;
+								&:before {
+									opacity: 1;
+								}
+							}
+						}
+					}
+				}
+			}
+			/* sitemap socials */
+			#social-nav {
+				padding-top: 15px;
+				li {
+					display: inline-block;
+					margin-right: 9px;
+					&:last-child {
+						margin-left: 15px;
+					}
+					a {
+						display: inline-block;
+						color:$white;
+						font-size: 1.500em;
+						&:hover {
+							color:$green;
+						}
+					}
+				}
+			}
+		}
+		/* franchises */
+		#franchises-footer {
+			@include breakpoint(tablet) {
+				padding-top: 50px;
+			}
+			@include breakpoint(phone) {
+				padding-top: 30px;
+			}
+			.title {
+				display: block;
+				color:$white;
+				font-size: 1.250em;
+				margin-bottom: 20px;
+				font-family: $font-sec;				
+			}
+			.content {
+				height: 280px;
+				border-top:2px solid $green;
+				border-bottom:2px solid $green;
+				padding-top: 20px;
+				.logo-box {
+					height: 120px;
+					img {
+						@include centre(both);
+						width: 60%;
+					}
+				}				
+			}
+		}
+	}
+}
+
+/*=====  End of Page Footer  ======*/
+
+/*================================
+=            Copy Bar            =
+================================*/
+
+#copy-bar {
+	background:$white;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	font-size: 16px;
+	text-align: center;
+	vertical-align:middle;
+	@include small-lap {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	@include breakpoint(laptop) {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	@include breakpoint(tablet) {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	@include breakpoint(phone) {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	img {
+		margin-right: 40px;
+		@include breakpoint(phone) {
+			margin-right: 0px;
+			max-width: 100%;
+		}
+	}
+	small {
+		font-size: 1em;
+		color:$black;
+		font-family: $font-sec;
+		position:relative;
+		top:-15px;
+		@include breakpoint(phone) {
+			top:0px;
+			margin-top: 15px;
+			display: block;
+		}
+	}
+}
+
+/*=====  End of Copy Bar  ======*/

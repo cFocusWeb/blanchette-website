@@ -1,0 +1,160 @@
+/*====================================
+=            Page Wrapper            =
+====================================*/
+
+#page-wrapper {
+	margin-top: 170px;
+	padding-bottom: 100px;
+	@include breakpoint(phone) {
+		margin-top: 140px;
+		padding-bottom: 50px;		
+	}
+	#bradcrumb-wrapper {
+		padding-bottom: 20px;
+		font-size: 16px;
+		@include breakpoint(laptop) {
+			font-size: 14px;
+		}
+		@include breakpoint(tablet) {
+			font-size: 14px;
+		}
+		@include breakpoint(phone) {
+			font-size: 14px;			
+		}
+		@include breakpoint(phone-xs) {
+			font-size: 13px;
+		}
+		ul {
+			li {
+				display: inline-block;
+				&:last-child {
+					a {
+						&:after {
+							display: none;
+						}
+					}
+				}
+				a {
+					display: inline-block;
+					font-family: $font-sec;
+					color:$black;
+					font-size: 1.375em;
+					padding-right: 15px;
+					&:after {
+						@include font-ico;
+						content: '\f054';
+						margin-left: 15px;
+						position: relative;
+						top:2px;
+
+					}
+					&:hover {
+						color:$green;
+					}
+				}
+			}
+		}
+	}
+}
+
+/*=====  End of Page Wrapper  ======*/
+
+/*==================================
+=            bottom CTA            =
+==================================*/
+
+#bottom-cta-inner {
+	background:url(../img/bg/bottom-cta.jpg) no-repeat;
+	background-position:center right;
+	background-size:cover;
+	height:580px;
+	font-size: 16px;
+	@include small-lap {
+		background-size:inherit;
+		height: 500px;
+		background-position:center 69%;
+	}
+	@include breakpoint(laptop) {
+		background-size:inherit;
+		height: 450px;
+		background-position:-100px 60%;		
+	}
+	@include breakpoint(tablet) {
+		background-size:inherit;
+		height: 450px;
+		background-position:-200px 100%;		
+		font-size: 14px;	
+	}
+	@include breakpoint(phone) {
+		font-size: 15px;
+		height: 450px;
+	}
+	@include breakpoint(phone-xs) {
+		font-size: 12px;
+	}
+	.container {
+		height: 100%;
+		position: relative;
+		width: 90%;
+		@include breakpoint(phone-xs) {
+			width: 100%;
+		}
+		.holder {
+			@include centre(y);
+			.title {
+				color:$yellow;
+				display: block;
+				font-family: $font-sec;
+				text-transform: uppercase;
+				font-size: 4.688em;
+			}
+			.subtitle {
+				color:$yellow;
+				font-size: 2.905em;
+				font-family: $font-sec;
+				text-transform: uppercase;
+				display: block;
+				@include breakpoint(phone-xs) {
+					font-size: 2.5em;
+				}
+			}
+			p {
+				color:$white;
+				font-size: 1.438em;
+				text-transform: uppercase;
+				font-family: $font-sec;
+				margin-top: 10px;
+				margin-bottom: 30px;
+			}
+			.cta-btn {
+				height: 44px;
+				line-height: 44px;
+				text-align: center;
+				border-radius:12px;
+				color:$white;
+				background:$black;
+				display: block;
+				margin-bottom: 25px;
+				font-family: $font-sec;
+				font-size: 1.063em;
+				&:hover {
+					background:$dark;
+					i {
+						left:10px;
+					}
+				}
+				span {
+					color:$yellow;
+				}
+				i {
+					position: relative;
+					left:5px;
+					top:2px;
+					@include animate-fade;
+				}				
+			}
+		}
+	}
+}
+
+/*=====  End of bottom CTA  ======*/

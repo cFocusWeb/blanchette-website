@@ -1,0 +1,179 @@
+/*====================================
+=            History Page            =
+====================================*/
+
+.history-page {
+	font-size: 16px;
+	@include breakpoint(laptop) {
+		font-size: 15px;
+	}
+	@include breakpoint(tablet) {
+		font-size: 15px;
+	}
+	@include breakpoint(phone) {
+		font-size: 14px;
+	}
+	#intro {
+		padding-top: 35px;
+		padding-bottom: 100px;
+		@include breakpoint(laptop) {
+			padding-top: 25px;
+			padding-bottom: 40px;
+		}
+		@include breakpoint(tablet) {
+			padding-top: 25px;
+			padding-bottom: 40px;
+		}
+		@include breakpoint(phone) {
+			padding-top: 25px;
+			padding-bottom: 40px;
+		}
+		p {
+			margin-bottom: 100px;
+			font-size: 1.250em;
+			line-height: 1.5;
+			color:$black;
+			font-family: $font-sec;
+			font-style: italic;
+			@include breakpoint(laptop) {
+				margin-bottom: 50px;
+			}
+			@include breakpoint(tablet) {
+				margin-bottom: 50px;
+			}
+			@include breakpoint(phone) {
+				margin-bottom: 40px;
+			}
+		}
+	}
+}
+
+#featured-header-image  {
+	img {
+		width: 100%;
+		@include breakpoint(laptop) {
+			height: 400px;
+			object-fit: cover;
+		}
+		@include breakpoint(phone) {
+			height: 200px;
+			object-fit: cover;
+		}
+	}
+}
+
+/*=====  End of History Page  ======*/
+
+/*================================
+=            Listing             =
+================================*/
+
+#team-listing {
+	font-size: 16px;
+	@include breakpoint(tablet) {
+		font-size: 14px;
+	}
+	.team-block {
+		height: 470px;
+		@include breakpoint(laptop) {
+			height: 420px;
+		}
+		@include breakpoint(tablet) {
+			height: 400px;
+		}
+		@include breakpoint(phone) {
+			height: auto;
+		}
+		&:nth-child(even) {
+			.image-holder {
+				float: right;
+				padding-right: 0px;
+				padding-left: 10px;
+				position: relative;
+				top:-100px;
+				@include breakpoint(laptop) {
+					top:-60px;
+				}
+				@include breakpoint(tablet) {
+					top:-50px;
+				}
+				@include breakpoint(phone) {
+					top:0px;
+					padding-left: 0px;
+					float: none;
+				}
+			}
+			.content {
+				float: left;
+				padding-left: 0px;
+				padding-right: 35px;
+				position: relative;
+				@include breakpoint(phone) {
+					padding-right: 0px;
+					float: none;
+				}
+				.holder {
+					position: absolute;
+					bottom:100px;
+					left:0px;
+					width: 100%;
+					@include breakpoint(laptop) {
+						bottom:60px;
+					}
+					@include breakpoint(tablet) {
+						bottom:50px;
+					}
+					@include breakpoint(phone) {
+						position: relative;
+						bottom:0px;
+					}
+				}
+			}
+		}
+		.image-holder {
+			float: left;
+			width: 50%;
+			padding-right: 10px;
+			@include breakpoint(phone) {
+				width: 100%;
+				float: none;
+				padding-right: 0px;
+			}
+			img {
+				@include breakpoint(laptop) {
+					height: 420px;
+					object-fit: cover;
+				}
+				@include breakpoint(tablet) {
+					height: 400px;
+					object-fit: cover;
+				}
+			}
+		}
+		.content {
+			float: right;
+			width: 50%;
+			padding-left: 35px;
+			height: 100%;
+			@include breakpoint(phone) {
+				width: 100%;
+				float: none;
+				padding-left: 0px;
+				padding-top: 20px;
+				padding-bottom: 20px;
+			}
+			h5 {
+				font-size: 1.063em;
+				color:$black;
+				font-family: $font-sec;
+				margin-bottom: 10px;
+			}
+			p {
+				line-height: 1.5;
+				font-size: 1.063em;
+			}
+		}
+	}
+}
+
+/*=====  End of Listing   ======*/

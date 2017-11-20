@@ -1,0 +1,261 @@
+/*===================================
+=            Single Page            =
+===================================*/
+
+.franchise-details-page {
+	#main-content {
+		font-size: 16px;
+		@include breakpoint(laptop) {
+			font-size: 15px;
+		}
+		@include breakpoint(tablet) {
+			font-size: 14px;
+		}
+		@include breakpoint(phone) {
+			font-size: 14px;
+		}
+		header {
+			padding-bottom: 30px;
+		}
+		@include breakpoint(phone) {
+			padding-bottom: 20px;
+		}
+		.intro {
+			padding-bottom: 60px;
+			@include breakpoint(laptop) {
+				padding-bottom: 40px;
+			}
+			@include breakpoint(tablet) {
+				padding-bottom: 30px;
+			}
+			@include breakpoint(phone) {
+				padding-bottom: 30px;
+			}
+			p {
+				font-size: 1.250em;
+				line-height: 1.4;
+				font-family: $font-sec;
+				font-style: italic;
+			}
+		}
+		h2 {
+			color:$black;
+			font-family: $font-sec;
+			font-size: 1.375em;
+			margin-bottom: 20px;
+		}
+		h3 {
+			font-family: $font-sec;
+			color:#b99134;
+			font-size: 1.063em;
+			margin-bottom: 15px;
+		}
+		p {
+			margin-bottom: 10px;
+			font-size: 1.063em;
+			color:$black;
+			line-height: 1.4;
+		}
+		h4 {
+			color:$black;
+			font-size: 1.375em;
+			font-family: $font-sec;
+			margin-bottom: 20px;
+			margin-top: 30px;
+		}
+		ul {
+			li {
+				display: block;
+				font-size: 1.063em;
+				color:$black;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				position: relative;
+				padding-left: 15px;
+				&:before {
+					content:'';
+					display: block;
+					width: 6px;
+					height: 6px;
+					background: $black;
+					border-radius: 100%;
+					position: absolute;
+					left:0px;
+					top:16px;
+				}
+			}
+		}
+	}
+	/* sidebar */
+	#side-details {
+		font-size: 16px;
+		@include breakpoint(laptop) {
+			font-size: 15px;
+		}
+		@include breakpoint(tablet) {
+			font-size: 14px;
+		}
+		@include breakpoint(phone) {
+			margin-top: 30px;
+			font-size: 15px;
+		}
+		@include breakpoint(phone-xs) {
+			font-size: 14px;
+		}
+		.form-dload {
+			height: 44px;
+			line-height: 44px;
+			text-align: center;
+			border-radius:12px;
+			color:$white;
+			background:$black;
+			display: block;
+			margin-bottom: 25px;
+			font-family: $font-sec;
+			font-size: 1.063em;
+			@include breakpoint(laptop) {
+				font-size: 0.875em;
+			}
+			@include breakpoint(tablet) {
+				font-size: 0.875em;
+			}
+			&:hover {
+				background:$dark;
+				i {
+					left:10px;
+				}
+			}
+			span {
+				color:$yellow;
+			}
+			i {
+				position: relative;
+				left:5px;
+				top:2px;
+				@include animate-fade;
+			}
+		}
+		#brand-holder {
+
+		}
+		#about-block-aside {
+			margin-top: 25px;
+			margin-bottom: 25px;
+			h5 {
+				color:$black;
+				font-family: $font-sec;
+				font-size: 1.250em;
+				margin-bottom: 5px;
+			}
+			p {
+				font-size: 1.063em;
+				line-height: 1.5;
+				text-align: justify;
+				opacity: 0.6;
+			}
+		}
+		/* offer details */
+		#offer-details {
+			border:1px solid #b2b2b4;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			padding-left: 20px;
+			padding-right: 20px;
+			box-shadow: 0px 0px 12.8986px 0.1014px rgba(0, 0, 0, 0.35); 
+			margin-bottom: 25px;
+			@include breakpoint(laptop) {
+				padding-top: 20px;
+				padding-bottom: 20px;
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+			@include breakpoint(tablet) {
+				padding-top: 15px;
+				padding-bottom: 15px;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+			@include breakpoint(phone) {
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+			h6 {
+				font-size: 1.250em;
+				font-family: $font-sec;
+				color:$black;
+				margin-bottom: 30px;
+				@include breakpoint(tablet) {
+					margin-bottom: 15px;
+				}
+				@include breakpoint(phone) {
+					margin-bottom: 15px;
+				}
+				span {
+					color:$yellow;
+				}
+			}
+			table {
+				width: 100%;
+				font-size: 0.913em;
+				strong {
+					font-family: $font-sec;
+				}
+				td {
+					padding:10px;
+					padding-top: 13px;
+					padding-bottom: 13px;
+					line-height: 1.4;
+					@include breakpoint(laptop) {
+						padding:7px;
+					}
+				}
+				tr {
+					border-bottom:1px solid #d9d9d9;
+				}
+			}
+		}
+		/* video block */
+		#video-block {
+			margin-top: 50px;
+			@include breakpoint(laptop) {
+				margin-top: 30px;
+			}
+			@include breakpoint(tablet) {
+				margin-top: 30px;
+			}
+			@include breakpoint(phone) {
+				margin-top: 30px;
+			}
+			h6 {
+				color:$black;
+				font-family: $font-sec;
+				font-size: 1.250em;
+				margin-bottom: 15px;
+			}
+		}
+		/* site block */
+		#site-block {
+			margin-top: 25px;
+			padding-top: 25px;
+			border-top:1px solid #b2b2b2;
+			h6 {
+				color:$black;
+				font-family: $font-sec;
+				font-size: 1.250em;
+				margin-bottom: 15px;
+			}
+			p {
+				a {
+					color:$black;
+					opacity: 0.6;
+					font-size: 1.063em;
+					&:hover {
+						color:$green;
+					}
+				}
+			}			
+		}
+	}
+}
+
+/*=====  End of Single Page  ======*/

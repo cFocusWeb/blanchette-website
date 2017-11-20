@@ -1,0 +1,191 @@
+/*===============================
+=            Top Bar            =
+===============================*/
+
+#top-bar {
+	font-size: 16px;
+	height:40px;
+	background:$main;
+	@include animate-fade;
+	@include small-lap {
+		height: 35px;
+	}
+	@include breakpoint(laptop) {
+		height: 35px;
+		font-size: 15px;
+	}
+	@include breakpoint(tablet) {
+		font-size: 14px;
+		height: 35px;
+	}
+	.container {
+		position: relative;
+		height: 100%;
+	}
+	/* top nav */
+	#top-nav {
+		text-align: right;
+		@include centre(y);
+		vertical-align: middle;
+		right: 15px;
+		@include breakpoint(phone) {
+			text-align: center;
+			width: 100%;
+		}
+		ul#sec-nav {
+			display: inline-block;
+			li {
+				display: inline-block;
+				a {
+					display: inline-block;
+					color:$white;
+					font-size: 0.750em;
+					padding-right: 10px;
+					padding-left: 10px;
+					border-right: 1px solid #8e8e8e;
+					&:hover {
+						opacity: 0.8;
+					}
+				}
+			}
+		}
+		/* social nav */
+		ul#social-nav {
+			vertical-align: middle;
+			display: inline-block;
+			li {
+				display: inline-block;
+				padding-left: 6px;
+				padding-right: 6px;
+				a {
+					display: inline-block;
+					color:$white;
+					font-size: 1.1em;
+					@include breakpoint(laptop) {
+						font-size: 1em;
+					}
+					&:hover {
+						color:$green;
+					}
+				}
+			}
+		}
+		/* language */
+		ul#lang-nav {
+			display: inline-block;
+			li {
+				display: inline-block;
+				a {
+					display: inline-block;
+					color:$white;
+					text-transform: uppercase;
+					border-left: 1px solid #8e8e8e;
+					padding-left: 10px;
+					font-size: 1em;
+					&:hover {
+						opacity: 0.8;
+					}
+				}
+			}
+		}
+	}
+}
+
+/*=====  End of Top Bar  ======*/
+	
+/*==============================
+=            Stikcy            =
+==============================*/
+
+.sticky {
+	#top-bar {
+		margin-top: -40px;
+		@include breakpoint(laptop) {
+			margin-top: -35px;
+		}
+		@include breakpoint(tablet) {
+			margin-top: -35px;
+		}
+		@include breakpoint(phone) {
+			margin-top: -40px;
+		}
+	}
+	.navbar-brand {
+		img {
+			@include small-lap {
+				max-width: 40px!important;
+			}
+			@include breakpoint(laptop) {
+				max-width: 40px!important;
+			}
+		}
+	}
+	#main-bar {
+		// height: 70px;
+		// @include small-lap {
+		// 	height: 60px;
+		// }
+		// @include breakpoint(laptop) {
+		// 	height: 60px;
+		// }
+		// @include breakpoint(tablet) {
+		// 	height: 60px;
+		// }
+		// .container {
+		// 	.navbar {
+		// 		.navbar-nav {
+		// 			> li {
+		// 				a {
+		// 					height: 70px;
+		// 					line-height: 70px;
+		// 					@include small-lap {
+		// 					}
+		// 					@include breakpoint(laptop) {
+		// 						height: 60px;
+		// 						line-height: 60px;
+		// 					}
+		// 					@include breakpoint(tablet) {
+		// 						height: 60px;
+		// 						line-height: 60px;
+		// 					}
+		// 				}
+		// 			}
+		// 		}
+		// 	}
+		// }
+	}
+}
+
+/*=====  End of Stikcy  ======*/
+
+/*====================================
+=            INner Header            =
+====================================*/
+
+#inner-header {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	@include breakpoint(laptop) {
+		padding-top: 0px;
+	}
+	@include breakpoint(tablet) {
+		padding-top: 0px;
+	}
+	@include breakpoint(phone) {
+		padding-top: 0px;
+	}
+	h2 {
+		text-transform: uppercase;
+		color:$black;
+		font-family: $font-sec;
+		font-size: 1.375em;
+	}	
+	h3 {
+		font-size: 1.063em;
+		color:$black;
+		font-family: $font-sec;
+		margin-top: 15px;
+	}	
+}
+
+/*=====  End of INner Header  ======*/

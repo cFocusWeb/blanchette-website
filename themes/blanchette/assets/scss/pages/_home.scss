@@ -1,0 +1,493 @@
+/*====================================
+=            Video Holder            =
+====================================*/
+
+#mas-header {
+	height:750px;
+	background:#000;
+	background-size:cover;
+	font-size: 16px;
+	position: relative;
+	margin-top: 124px;
+	@include small-lap {
+		margin-top: 105px;
+		height: 620px;
+	}
+	@include breakpoint(laptop) {
+		margin-top: 105px;
+		height: 600px;
+	}
+	@include breakpoint(tablet) {
+		margin-top: 105px;
+	}
+	@include breakpoint(phone) {
+		margin-top: 100px;
+		height: 550px;
+	}
+	.overlay {
+		@extend .dark-overlay;
+		background:rgba(29,31,41,0.2);
+		z-index: 10;
+	}	
+	/* logos */
+	#logos-holder {
+		position: absolute;
+		bottom:30px;
+		width: 96%;
+		@include centre(x);
+		z-index: 20;
+		@include small-lap {
+			bottom:15px;
+		}
+		@include breakpoint(laptop) {
+			bottom:5px;
+		}
+		@include breakpoint(tablet) {
+			bottom:15px;
+		}
+		@include breakpoint(phone) {
+			bottom:15px;
+			width: 100%;
+		}
+		#logos-slider {
+			.item {
+				.logo-box {
+					position: relative;
+					height: 200px;
+					@include breakpoint(laptop) {
+						height: 150px;
+					}
+					@include breakpoint(tablet) {
+						height: 150px;
+					}
+					@include breakpoint(phone) {
+						height: 150px;
+					}
+					img {
+						@include centre(both);
+						max-width: 200px;
+						@include small-lap {
+							max-width: 130px;
+						}
+						@include breakpoint(laptop) {
+							max-width: 160px;
+						}
+						@include breakpoint(phone) {
+							max-width: 160px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/*=====  End of Video Holder  ======*/
+
+/*=============================
+=            Video            =
+=============================*/
+
+.video-holder {
+	width:100%;
+	height:750px;
+	z-index:1;	
+	@include small-lap {
+		height: 620px;
+	}
+	@include breakpoint(laptop) {
+		height: 600px;
+	}
+	@include breakpoint(phone) {
+		height: 550px;
+	}
+}
+
+/*=====  End of Video  ======*/
+
+/*===================================
+=            About Block            =
+===================================*/
+
+#about-block {
+	height:500px;
+	font-size: 16px;
+	@include small-lap {
+		font-size: 15px;
+		height: 450px;
+	}
+	@include breakpoint(laptop) {
+		font-size: 14px;
+	}
+	@include breakpoint(tablet) {
+		font-size: 15px;
+		height: auto;
+	}
+	@include breakpoint(phone) {
+		font-size: 14px;
+		height: auto;
+	}
+	.content-holder {
+		position: relative;
+		float: left;
+		width: 50%;
+		height: 100%;
+		background:$dark;
+		color:$white;
+		@include breakpoint(tablet) {
+			width: 100%;
+			height: auto;
+			float: none;
+		}
+		@include breakpoint(phone) {
+			width: 100%;
+			height: auto;
+			float: none;
+		}
+		.content {
+			@include centre(both);
+			text-align: center;
+			padding:60px;
+			width: 100%;
+			max-width: 700px;
+			@include breakpoint(laptop) {
+				padding:40px;
+			}
+			@include breakpoint(tablet) {
+				@include clear-pos;
+				padding:50px;
+				max-width: 100%;
+			}
+			@include breakpoint(phone) {
+				@include clear-pos;
+				padding:15px;
+				max-width: 100%;
+				padding-top: 30px;
+				padding-bottom: 30px;
+			}
+			h1 {
+				margin-bottom: 15px;
+				text-transform: uppercase;
+				font-size: 2.938em;
+			}
+			p {
+				font-size: 1.063em;
+				margin-top: 25px;
+				line-height: 1.5;
+			}
+		}
+	}
+	.image-holder {
+		float: right;
+		width: 50%;
+		height: 100%;
+		@include breakpoint(tablet) {
+			height: 400px;
+			width: 100%;
+			float: none;
+		}
+		@include breakpoint(phone) {
+			height: 300px;
+			width: 100%;
+			float: none;
+		}
+		img {
+			width: 100%;
+			height: 500px;
+			object-fit: cover;
+			@include small-lap {
+				height: 450px;
+			}
+			@include breakpoint(tablet) {
+				height: 400px;
+			}
+			@include breakpoint(phone) {
+				height: 300px;
+			}
+		}
+	}
+}
+
+/*=====  End of About Block  ======*/
+
+/*=========================================
+=            Masonry Franchise            =
+=========================================*/
+
+#masonry-franchise {
+	.first-gallery-row {
+		height: 400px;
+		@include small-lap {
+			height: 350px;
+		}
+		@include breakpoint(laptop) {
+			height: 300px;
+		}
+		@include breakpoint(tablet) {
+			height: 350px;
+		}
+		@include breakpoint(phone) {
+			height: 300px;
+		}
+		img.img-responsive {
+			height: 400px;
+			object-fit: cover;
+			width: 100%;
+			@include small-lap {
+				height: 350px;
+			}
+			@include breakpoint(laptop) {
+				height: 300px;
+			}
+			@include breakpoint(tablet) {
+				height: 350px;
+			}
+			@include breakpoint(phone) {
+				height: 300px;
+			}
+		}
+	}
+	.sec-gallery-row {
+		height: 550px;
+		@include small-lap {
+			height: 500px;
+		}
+		@include breakpoint(laptop) {
+			height: 450px;
+		}
+		@include breakpoint(tablet) {
+			height: 350px;
+		}
+		@include breakpoint(phone) {
+			height: 300px;
+		}
+		img.img-responsive {
+			height: 550px;
+			object-fit: cover;
+			width: 100%;
+			@include small-lap {
+				height: 500px;
+			}
+			@include breakpoint(laptop) {
+				height: 450px;
+			}
+			@include breakpoint(tablet) {
+				height: 350px;
+			}
+			@include breakpoint(phone) {
+				height: 300px;
+			}
+		}		
+	}
+	img {
+		width: 100%;
+		object-fit: cover;
+	}
+	a {
+		display: block;
+		width: 100%;
+		height: 100%;
+		position: relative;
+		overflow: hidden;
+		.caption {
+			@include centre(both);
+			text-align: center;
+			z-index: 50;
+			width: 100%;
+			img {
+				max-width: 270px;
+				opacity: 0;
+				@include small-lap {
+					max-width: 220px;
+				}
+				@include breakpoint(laptop) {
+					max-width: 200px;
+				}
+				@include breakpoint(tablet) {
+					max-width: 200px;
+				}
+				@include breakpoint(phone) {
+					max-width: 200px;
+				}
+			}
+		}
+		&:hover {
+			img.img-responsive {
+    			filter: grayscale(100%) brightness(40%);
+    			transform: scale(1.1);
+			}
+			.caption {
+				img {
+					opacity: 1;
+				}
+			}
+		}
+	}
+	.tall-image {
+		height: 530px;
+		@include small-lap {
+			height: 480px;
+		}
+		@include breakpoint(laptop) {
+			height: 430px;
+		}
+		@include breakpoint(tablet) {
+			height: 350px;
+		}
+		@include breakpoint(phone) {
+			height: 300px;
+		}
+	}
+	.small-image {
+		height: 420px;
+		@include small-lap {
+			height: 370px;
+		}
+		@include breakpoint(laptop) {
+			height: 320px;
+		}
+		@include breakpoint(tablet) {
+			height: 350px;
+		}
+		@include breakpoint(phone) {
+			height: 300px;
+		}
+	}
+}
+
+/*=====  End of Masonry Franchise  ======*/
+
+/*=======================================
+=            Frnachise Block            =
+=======================================*/
+
+#franchise-logos {
+	font-size: 16px;
+	background:$white;
+	padding-top: 70px;
+	padding-bottom: 35px;
+	@include small-lap {
+		font-size: 15px;
+	}
+	@include breakpoint(tablet) {
+		font-size: 15px;
+	}
+	@include breakpoint(laptop) {
+		font-size: 15px;
+		padding-top: 50px;
+		padding-bottom: 20px;
+	}
+	@include breakpoint(phone) {
+		font-size: 15px;
+	}
+	.row {
+		.col-md-4 {
+			&:nth-child(3n+3) {
+				.franchise-box {
+					border-right:none;
+				}
+			}
+			&:nth-last-child(-n+3) {
+				.franchise-box {
+					@include breakpoint(laptop) {
+						border-bottom:none;
+					}
+					@include breakpoint(desktop) {
+						border-bottom:none;
+					}
+					@include breakpoint(desktop-lg) {
+						border-bottom:none;
+					}
+				}
+			}
+			&:last-child {
+				.franchise-box {
+					@include breakpoint(tablet) {
+						border:none;
+					}
+					@include breakpoint(phone) {
+						border:none;
+					}
+				}
+			}
+		}
+	}
+	.franchise-box {
+		text-align: center;
+		padding-left: 30px;
+		padding-right: 30px;
+		min-height: 630px;
+		border-right:1px solid #c1c1c1;
+		border-bottom:1px solid #c1c1c1;
+		@include breakpoint(tablet) {
+			min-height: auto;
+			padding-bottom: 30px;
+			border-right:none;
+		}
+		@include breakpoint(laptop) {
+			padding-bottom: 30px;
+		}
+		@include breakpoint(phone) {
+			min-height: auto;
+			padding-bottom: 30px;
+			border-right:none;
+		}
+		header {
+			height: 210px;
+			position: relative;
+			h4 {
+				font-size: 2.3em;
+				color:$black;
+				text-transform: uppercase;
+				@include centre(x);
+				bottom:30px;
+			}
+		}
+		.image-holder {
+			height: 210px;
+			position: relative;
+			img {
+				@include centre(both);
+				max-height: 150px;
+				width: 70%;
+			}
+		}
+		p {
+			font-size: 1.000em;
+			line-height: 1.5;
+			color:$black;
+		}
+		footer {
+			text-align: center;
+			padding-top: 50px;
+			small {
+				display: block;
+				font-size: 1.125em;
+				color:#8e8e8e;
+				strong {
+					font-family: $font-sec;
+					color:$black;
+				}
+			}
+			a {
+				display: inline-block;
+				margin-top: 50px;
+				width: 166px;
+				text-align: center;
+				height: 50px;
+				line-height: 48px;
+				border-radius:999px;
+				border:2px solid $black;
+				font-size: 0.875em;
+				color:$black;
+				font-family: $font-sec;
+				&:hover {
+					background:$black;
+					color:$white;
+				}
+			}
+		}
+	}
+}
+
+/*=====  End of Frnachise Block  ======*/
