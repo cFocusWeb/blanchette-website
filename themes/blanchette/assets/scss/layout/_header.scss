@@ -100,6 +100,9 @@
 .sticky {
 	#top-bar {
 		margin-top: -40px;
+		@include small-lap {
+			margin-top: -35px;
+		}
 		@include breakpoint(laptop) {
 			margin-top: -35px;
 		}
@@ -118,41 +121,46 @@
 			@include breakpoint(laptop) {
 				max-width: 40px!important;
 			}
+			@include breakpoint(tablet) {
+				max-width: 45px!important;
+			}
 		}
 	}
 	#main-bar {
-		// height: 70px;
-		// @include small-lap {
-		// 	height: 60px;
-		// }
-		// @include breakpoint(laptop) {
-		// 	height: 60px;
-		// }
-		// @include breakpoint(tablet) {
-		// 	height: 60px;
-		// }
-		// .container {
-		// 	.navbar {
-		// 		.navbar-nav {
-		// 			> li {
-		// 				a {
-		// 					height: 70px;
-		// 					line-height: 70px;
-		// 					@include small-lap {
-		// 					}
-		// 					@include breakpoint(laptop) {
-		// 						height: 60px;
-		// 						line-height: 60px;
-		// 					}
-		// 					@include breakpoint(tablet) {
-		// 						height: 60px;
-		// 						line-height: 60px;
-		// 					}
-		// 				}
-		// 			}
-		// 		}
-		// 	}
-		// }
+		height: 70px;
+		@include small-lap {
+			height: 60px;
+		}
+		@include breakpoint(laptop) {
+			height: 60px;
+		}
+		@include breakpoint(tablet) {
+			height: 60px;
+		}
+		.container {
+			.navbar {
+				.navbar-nav {
+					> li {
+						a {
+							height: 70px;
+							line-height: 70px;
+							@include small-lap {
+								height: 60px;
+								line-height: 60px;
+							}
+							@include breakpoint(laptop) {
+								height: 60px;
+								line-height: 60px;
+							}
+							@include breakpoint(tablet) {
+								height: 60px;
+								line-height: 60px;
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 }
 

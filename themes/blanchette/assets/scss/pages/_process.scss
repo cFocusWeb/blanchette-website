@@ -160,6 +160,31 @@
 		.logo-box {
 			position: relative;
 			height: 200px;
+			@include animate-fade;
+			border:1px solid transparent;
+			border-radius:9px;
+			margin-bottom: 10px;
+			&:before {
+				@include font-ico;
+				content:'\f058';
+				position: absolute;
+				right: 15px;
+				top:15px;
+				font-size: 24px;
+				color:#ddd;
+				@include animate-fade;
+			}
+			&.choose-brand {
+				border:1px solid $yellow;
+				&:before {
+					color:$yellow;
+				}				
+			}
+			&:hover {
+				border:1px solid #ddd;
+				border-radius:9px;
+				transform: scale(1.05);
+			}
 			img {
 				@include centre(both);
 				width: 50%;
@@ -176,7 +201,7 @@
 		padding-top: 60px;
 		h4 {
 			text-transform: uppercase;
-			color:#ab9089;
+			color:#572214;
 			font-family: $font-sec;
 			font-size: 2.5em;
 			margin-bottom: 30px;
@@ -185,24 +210,31 @@
 			margin-bottom: 20px;
 			font-size: 1.250em;
 			line-height: 1.4;
-			color:#ab9089;
+			color:#572214;
+		}
+		.form-holder {
+			margin-top: 50px;
 		}
 		label {
 			display: block;
 			font-size: 1em;
 			font-family: $font-sec;
 			margin-bottom: 10px;
-			color:#ab9089;
+			color:#572214;
+			i {
+				width: 25px;
+				color:#d68d4b;
+			}
 		}
 		input[type="text"], input[type="email"], input[type="tel"] {
 			margin-bottom: 30px;
-			border:2px solid #f3f0f0;
+			border:2px solid #e8e2e1;
 			padding:10px;
 			width: 100%;
 		}
 		select {
 			margin-bottom: 30px;
-			border:2px solid #f3f0f0;
+			border:2px solid #e8e2e1;
 			padding:10px;
 			width: 100%;			
 		}
@@ -214,7 +246,7 @@
 			line-height: 60px;
 			border-radius:4px;
 			color:$white;
-			background-color:#eac6a4;
+			background-color:#d58d4a;
 			border:none;
 			float: right;
 			font-size: 1.3em;
@@ -224,7 +256,6 @@
 			}
 		}
 		form {
-			margin-top: 50px;
 		}
 	}
 }

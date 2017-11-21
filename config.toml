@@ -22,7 +22,7 @@ defaultContentLanguageInSubdir = false
 #CUSTOM PARAMS
 [params]
   ## Include google maps, with API Key
-  googleapikey = ""
+  googleapikey = "AIzaSyALtPGkHNxStzZd3Xz9xDnSDKLx4I23Fvo"
   ## This is used when the BaseURL does not need to modified (eg, in share links)
   siteaddress = "https://www.groupeblanchette.com/"
   siteaddressno = "https://www.groupeblanchette.com"
