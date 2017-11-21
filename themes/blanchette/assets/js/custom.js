@@ -387,6 +387,7 @@ function initMap() {
     marker = new google.maps.Marker({
          position: { lat: mshaker[i][1], lng: mshaker[i][0]},
          map: map,
+         animation: google.maps.Animation.DROP,
          icon: '/img/logos/marker-shaker.png'
     });
   }
@@ -408,6 +409,7 @@ function initMap() {
     marker = new google.maps.Marker({
          position: { lat: mchocolato[i][1], lng: mchocolato[i][0]},
          map: map,
+         animation: google.maps.Animation.DROP,
          icon: '/img/logos/marker-chocolato.png'
     });
   }
@@ -419,6 +421,7 @@ function initMap() {
     marker = new google.maps.Marker({
          position: { lat: mfritz[i][1], lng: mfritz[i][0]},
          map: map,
+         animation: google.maps.Animation.DROP,
          icon: '/img/logos/marker-fritz.png'
     });
   }
@@ -429,6 +432,7 @@ function initMap() {
     marker = new google.maps.Marker({
          position: { lat: mtartar[i][1], lng: mtartar[i][0]},
          map: map,
+         animation: google.maps.Animation.DROP,
          icon: '/img/logos/marker-tartar.png'
     });
   }
@@ -439,6 +443,7 @@ function initMap() {
     marker = new google.maps.Marker({
          position: { lat: mhola[i][1], lng: mhola[i][0]},
          map: map,
+         animation: google.maps.Animation.DROP,
          icon: '/img/logos/marker-hola.png'
     });
   }
@@ -451,6 +456,7 @@ function initMap() {
     marker = new google.maps.Marker({
          position: { lat: mvapo[i][1], lng: mvapo[i][0]},
          map: map,
+         animation: google.maps.Animation.DROP,
          icon: '/img/logos/marker-vapo.png'
     });
   }
@@ -476,6 +482,7 @@ function initMap() {
     marker = new google.maps.Marker({
          position: { lat: mgrenouille[i][1], lng: mgrenouille[i][0]},
          map: map,
+         animation: google.maps.Animation.DROP,
          icon: '/img/logos/marker-grenouille.png'
     });
   }
@@ -491,6 +498,7 @@ function initMap() {
     marker = new google.maps.Marker({
          position: { lat: mplanete[i][1], lng: mplanete[i][0]},
          map: map,
+         animation: google.maps.Animation.DROP,
          icon: '/img/logos/marker-planete.png'
     });
   }

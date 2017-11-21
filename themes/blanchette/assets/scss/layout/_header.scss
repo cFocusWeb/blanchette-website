@@ -141,7 +141,7 @@
 			.navbar {
 				.navbar-nav {
 					> li {
-						a {
+						a:not(.big-nav) {
 							height: 70px;
 							line-height: 70px;
 							@include small-lap {
