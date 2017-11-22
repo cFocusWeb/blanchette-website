@@ -22,7 +22,7 @@
 	}
 	@include breakpoint(phone) {
 		margin-top: 100px;
-		height: 550px;
+		height: 450px;
 	}
 	.overlay {
 		@extend .dark-overlay;
@@ -99,7 +99,7 @@
 		height: 600px;
 	}
 	@include breakpoint(phone) {
-		height: 550px;
+		height: 450px;
 	}
 }
 
@@ -168,7 +168,7 @@
 			h1 {
 				margin-bottom: 15px;
 				text-transform: uppercase;
-				font-size: 2.938em;
+				font-size: 2.6em;
 			}
 			p {
 				font-size: 1.063em;
@@ -191,7 +191,7 @@
 			width: 100%;
 			float: none;
 		}
-		img {
+		img:not(.logo-hover) {
 			width: 100%;
 			height: 500px;
 			object-fit: cover;
@@ -324,12 +324,12 @@
 		}
 	}
 	.tall-image {
-		height: 530px;
+		height: 570px;
 		@include small-lap {
-			height: 480px;
+			height: 520px;
 		}
 		@include breakpoint(laptop) {
-			height: 430px;
+			height: 520px;
 		}
 		@include breakpoint(tablet) {
 			height: 350px;
@@ -339,12 +339,12 @@
 		}
 	}
 	.small-image {
-		height: 420px;
+		height: 380px;
 		@include small-lap {
-			height: 370px;
+			height: 330px;
 		}
 		@include breakpoint(laptop) {
-			height: 320px;
+			height: 230px;
 		}
 		@include breakpoint(tablet) {
 			height: 350px;
@@ -450,6 +450,12 @@
 				@include centre(both);
 				max-height: 150px;
 				width: 70%;
+				&.fritz {
+					max-height: 130px;
+				}
+				&.planete {
+					max-height: 170px;
+				}
 			}
 		}
 		p {

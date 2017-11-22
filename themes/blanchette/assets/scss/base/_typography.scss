@@ -44,6 +44,7 @@ a {
 	@include animate-fade;
 	&:hover {
 		text-decoration: none;
+    color: $green
 	}
 	&:focus {
 		outline: 0;
@@ -51,6 +52,9 @@ a {
 	}
 }
 
+strong {
+  font-family: $font-sec;
+}
 /*=====  End of Body Styles  ======*/
 
 /*=============================================

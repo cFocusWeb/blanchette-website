@@ -16,6 +16,14 @@
 		}
 		header {
 			padding-bottom: 30px;
+			img {
+				max-width: 110%;
+				margin-left: -10%;
+				@include breakpoint(phone) {
+					margin-left: 0;
+					max-width: 100%;
+				}
+			}
 		}
 		@include breakpoint(phone) {
 			padding-bottom: 20px;

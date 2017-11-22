@@ -55,7 +55,7 @@
 			}
 			&:hover {
 				cursor: pointer;
-				color:$yellow;
+				color:$green;
 			}
 		}
 	}
@@ -100,7 +100,7 @@
 				a {
 					background:none;
 					border:none;
-					color:$yellow;
+					color:$green;
 				}
 			}
 			a {
@@ -245,8 +245,8 @@
 						text-align: center;
 						color:$black;
 						&:hover {
-							border:1px solid $yellow;
-							color:$yellow;
+							border:1px solid $green;
+							color:$green;
 						}
 					}
 					small {

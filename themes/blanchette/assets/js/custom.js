@@ -373,6 +373,14 @@ function initMap() {
   //Associate the styled map with the MapTypeId and set it to display.
   map.mapTypes.set('styled_map', styledMapType);
   map.setMapTypeId('styled_map');
+
+  var iconshaker = {
+    url: "/img/logos/marker-shaker.png", // url
+    scaledSize: new google.maps.Size(50, 67), // scaled size
+    origin: new google.maps.Point(0,0), // origin
+    anchor: new google.maps.Point(0, 0) // anchor
+  };
+
   var mshaker = [
       [-71.2822777777778,46.7869722222222],
       [-71.1726944444444,46.7918888888889],
@@ -388,9 +396,15 @@ function initMap() {
          position: { lat: mshaker[i][1], lng: mshaker[i][0]},
          map: map,
          animation: google.maps.Animation.DROP,
-         icon: '/img/logos/marker-shaker.png'
+         icon: iconshaker
     });
   }
+  var iconchocolato = {
+    url: "/img/logos/marker-chocolato.png", // url
+    scaledSize: new google.maps.Size(50, 67), // scaled size
+    origin: new google.maps.Point(0,0), // origin
+    anchor: new google.maps.Point(0, 0) // anchor
+  };
   var mchocolato = [
       [-71.2877222222222,46.7915833333333],
       [-71.1665277777778,46.7923888888889],
@@ -410,9 +424,15 @@ function initMap() {
          position: { lat: mchocolato[i][1], lng: mchocolato[i][0]},
          map: map,
          animation: google.maps.Animation.DROP,
-         icon: '/img/logos/marker-chocolato.png'
+         icon: iconchocolato
     });
   }
+  var iconfritz = {
+    url: "/img/logos/marker-fritz.png", // url
+    scaledSize: new google.maps.Size(50, 67), // scaled size
+    origin: new google.maps.Point(0,0), // origin
+    anchor: new google.maps.Point(0, 0) // anchor
+  };
   var mfritz = [
       [-71.2822777777778,46.7869722222222],
       [-71.1967777777778,46.8753333333333]
@@ -422,9 +442,15 @@ function initMap() {
          position: { lat: mfritz[i][1], lng: mfritz[i][0]},
          map: map,
          animation: google.maps.Animation.DROP,
-         icon: '/img/logos/marker-fritz.png'
+         icon: iconfritz
     });
   }
+  var icontartar = {
+    url: "/img/logos/marker-tartar.png", // url
+    scaledSize: new google.maps.Size(50, 67), // scaled size
+    origin: new google.maps.Point(0,0), // origin
+    anchor: new google.maps.Point(0, 0) // anchor
+  };
   var mtartar = [
       [-71.2822777777778,46.7869722222222]
   ];
@@ -433,9 +459,15 @@ function initMap() {
          position: { lat: mtartar[i][1], lng: mtartar[i][0]},
          map: map,
          animation: google.maps.Animation.DROP,
-         icon: '/img/logos/marker-tartar.png'
+         icon: icontartar
     });
   }
+  var iconhola = {
+    url: "/img/logos/marker-hola.png", // url
+    scaledSize: new google.maps.Size(50, 67), // scaled size
+    origin: new google.maps.Point(0,0), // origin
+    anchor: new google.maps.Point(0, 0) // anchor
+  };
   var mhola = [
       [-71.2822777777778,46.7869722222222]
   ];
@@ -444,9 +476,15 @@ function initMap() {
          position: { lat: mhola[i][1], lng: mhola[i][0]},
          map: map,
          animation: google.maps.Animation.DROP,
-         icon: '/img/logos/marker-hola.png'
+         icon: iconhola
     });
   }
+  var iconvapo = {
+    url: "/img/logos/marker-vapo.png", // url
+    scaledSize: new google.maps.Size(50, 67), // scaled size
+    origin: new google.maps.Point(0,0), // origin
+    anchor: new google.maps.Point(0, 0) // anchor
+  };
   var mvapo = [
       [-71.31975,46.7710277777778],
       [-71.2681111111111,46.8634444444444],
@@ -457,9 +495,15 @@ function initMap() {
          position: { lat: mvapo[i][1], lng: mvapo[i][0]},
          map: map,
          animation: google.maps.Animation.DROP,
-         icon: '/img/logos/marker-vapo.png'
+         icon: iconvapo
     });
   }
+  var icongrenouille = {
+    url: "/img/logos/marker-grenouille.png", // url
+    scaledSize: new google.maps.Size(50, 67), // scaled size
+    origin: new google.maps.Point(0,0), // origin
+    anchor: new google.maps.Point(0, 0) // anchor
+  };
   var mgrenouille = [
       [-71.2883611111111,46.7904722222222],
       [-73.7118888888889,45.5775],
@@ -483,9 +527,15 @@ function initMap() {
          position: { lat: mgrenouille[i][1], lng: mgrenouille[i][0]},
          map: map,
          animation: google.maps.Animation.DROP,
-         icon: '/img/logos/marker-grenouille.png'
+         icon: icongrenouille
     });
   }
+  var iconplanete = {
+    url: "/img/logos/marker-planete.png", // url
+    scaledSize: new google.maps.Size(50, 67), // scaled size
+    origin: new google.maps.Point(0,0), // origin
+    anchor: new google.maps.Point(0, 0) // anchor
+  };
   var mplanete = [
       [-71.2728333333333,46.83525],
       [-71.2658055555556,46.7228611111111],
@@ -499,7 +549,7 @@ function initMap() {
          position: { lat: mplanete[i][1], lng: mplanete[i][0]},
          map: map,
          animation: google.maps.Animation.DROP,
-         icon: '/img/logos/marker-planete.png'
+         icon: iconplanete
     });
   }
 }

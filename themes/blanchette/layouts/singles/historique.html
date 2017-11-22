@@ -14,23 +14,29 @@
 
             <div class="container">
                 <div id="intro">
-                    <p>Avec plus de 860 restaurants, A&W est la deuxième plus grande chaîne à service rapide de hamburgers au Québec et au Canada et figure au premier rang au niveau de la croissance. </p>
+                    <p>Les Blanchette, réunis au premier restaurant SHAKER Cuisine & Mixologie ; un projet marquant le début d'une ère nouvelle. C'est dans leur bureau adjacent à ce restaurant qu'ils se rencontrent chaque jour et travaillent ensemble pour faire avancer leurs projets communs. </br>De gauche à droite: </p>
                     <img src="/img/misc/history.jpg" alt="" class="img-responsive">
                 </div>
                 <!-- // intro  -->
-
+                <div id="history" style="display: none;">
+                	{{ .Content }}
+                </div>
+								
                 <div id="team-listing">
 
-
-                    <div class="team-block">
+									{{ range $i, $e := sort $.Site.Data.equipe.blanchette "ordre" "asce"}}
+										{{ $mod1 := modBool $i 1}}
+										{{ $mod2 := modBool $i 2}}
+										{{ $mod3 := modBool $i 3}}
+										<div class="team-block">
                         <div class="image-holder">
-                            <img src="/img/misc/teamsample.jpg" alt="" class="img-responsive">
+                            <img src="/img/team/{{$e.photo}}" alt="{{$e.nom}}" class="img-responsive">
                         </div>
                         <!-- // image holder  -->
                         <div class="content">
                             <div class="holder">
-                                <h5>X Blanchette</h5>
-                                <p>Notre plus grande force est sans contredit le soutien que nous apportons à nos franchisés. En bref, nous savons que nos franchisés exploitent d'excellents restaurants et nous réinvestissons constamment dans des ressources qui les habilitent et assurent leur succès dans leurs localités. Étant donné notre croissance actuelle et projetée, nous devons continuer de nous intégrer dans la collectivité de chacun des marchés que nous desservons.</p>
+                                <h5>{{$e.nom}}</h5>
+                                <p>{{$e.description}}</p>
                             </div>
                             <!-- // holder  -->
                         </div>
@@ -38,97 +44,7 @@
                         <div class="clearfix"></div>
                     </div>
                     <!-- // team block  -->
-
-                    <div class="team-block">
-                        <div class="image-holder">
-                            <img src="/img/misc/teamsample.jpg" alt="" class="img-responsive">
-                        </div>
-                        <!-- // image holder  -->
-                        <div class="content">
-                            <div class="holder">
-                                <h5>X Blanchette</h5>
-                                <p>Notre plus grande force est sans contredit le soutien que nous apportons à nos franchisés. En bref, nous savons que nos franchisés exploitent d'excellents restaurants et nous réinvestissons constamment dans des ressources qui les habilitent et assurent leur succès dans leurs localités. Étant donné notre croissance actuelle et projetée, nous devons continuer de nous intégrer dans la collectivité de chacun des marchés que nous desservons.</p>
-                            </div>
-                            <!-- // holder  -->
-                        </div>
-                        <!-- // content  -->
-                        <div class="clearfix"></div>
-                    </div>
-                    <!-- // team block  -->
-
-
-                    <div class="team-block">
-                        <div class="image-holder">
-                            <img src="/img/misc/teamsample.jpg" alt="" class="img-responsive">
-                        </div>
-                        <!-- // image holder  -->
-                        <div class="content">
-                            <div class="holder">
-                                <h5>X Blanchette</h5>
-                                <p>Notre plus grande force est sans contredit le soutien que nous apportons à nos franchisés. En bref, nous savons que nos franchisés exploitent d'excellents restaurants et nous réinvestissons constamment dans des ressources qui les habilitent et assurent leur succès dans leurs localités. Étant donné notre croissance actuelle et projetée, nous devons continuer de nous intégrer dans la collectivité de chacun des marchés que nous desservons.</p>
-                            </div>
-                            <!-- // holder  -->
-                        </div>
-                        <!-- // content  -->
-                        <div class="clearfix"></div>
-                    </div>
-                    <!-- // team block  -->
-
-
-                    <div class="team-block">
-                        <div class="image-holder">
-                            <img src="/img/misc/teamsample.jpg" alt="" class="img-responsive">
-                        </div>
-                        <!-- // image holder  -->
-                        <div class="content">
-                            <div class="holder">
-                                <h5>X Blanchette</h5>
-                                <p>Notre plus grande force est sans contredit le soutien que nous apportons à nos franchisés. En bref, nous savons que nos franchisés exploitent d'excellents restaurants et nous réinvestissons constamment dans des ressources qui les habilitent et assurent leur succès dans leurs localités. Étant donné notre croissance actuelle et projetée, nous devons continuer de nous intégrer dans la collectivité de chacun des marchés que nous desservons.</p>
-                            </div>
-                            <!-- // holder  -->
-                        </div>
-                        <!-- // content  -->
-                        <div class="clearfix"></div>
-                    </div>
-                    <!-- // team block  -->
-
-
-                    <div class="team-block">
-                        <div class="image-holder">
-                            <img src="/img/misc/teamsample.jpg" alt="" class="img-responsive">
-                        </div>
-                        <!-- // image holder  -->
-                        <div class="content">
-                            <div class="holder">
-                                <h5>X Blanchette</h5>
-                                <p>Notre plus grande force est sans contredit le soutien que nous apportons à nos franchisés. En bref, nous savons que nos franchisés exploitent d'excellents restaurants et nous réinvestissons constamment dans des ressources qui les habilitent et assurent leur succès dans leurs localités. Étant donné notre croissance actuelle et projetée, nous devons continuer de nous intégrer dans la collectivité de chacun des marchés que nous desservons.</p>
-                            </div>
-                            <!-- // holder  -->
-                        </div>
-                        <!-- // content  -->
-                        <div class="clearfix"></div>
-                    </div>
-                    <!-- // team block  -->
-
-
-                    <div class="team-block">
-                        <div class="image-holder">
-                            <img src="/img/misc/teamsample.jpg" alt="" class="img-responsive">
-                        </div>
-                        <!-- // image holder  -->
-                        <div class="content">
-                            <div class="holder">
-                                <h5>X Blanchette</h5>
-                                <p>Notre plus grande force est sans contredit le soutien que nous apportons à nos franchisés. En bref, nous savons que nos franchisés exploitent d'excellents restaurants et nous réinvestissons constamment dans des ressources qui les habilitent et assurent leur succès dans leurs localités. Étant donné notre croissance actuelle et projetée, nous devons continuer de nous intégrer dans la collectivité de chacun des marchés que nous desservons.</p>
-                            </div>
-                            <!-- // holder  -->
-                        </div>
-                        <!-- // content  -->
-                        <div class="clearfix"></div>
-                    </div>
-                    <!-- // team block  -->
-                                                  
-
+									{{ end }}
 
                 </div>
                 <!-- // team listing  -->
@@ -138,9 +54,4 @@
         </div> 
         <!-- pagewrapper  -->
 
-				<!-- {{ range $i, $e := sort $.Site.Data.equipe.equipe "ordre" "asce"}}
-					{{ $mod1 := modBool $i 1}}
-					{{ $mod2 := modBool $i 2}}
-					{{ $mod3 := modBool $i 3}}
-				{{ end }} -->
 {{ end }}

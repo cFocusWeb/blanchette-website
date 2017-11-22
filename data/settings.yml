@@ -1,8 +1,8 @@
 socials:
-  facebookurl: ''
-  linkedinurl: ''
+  facebookurl: 'https://www.facebook.com/groupeblanchette/'
+  linkedinurl: 'https://www.linkedin.com/company/11134166/'
   twitterurl: ''
-  youtubeurl: ''
+  youtubeurl: 'https://www.youtube.com/channel/UCozX1YyZeFtVW0gP1UpGXAQ'
   instagramurl: ''
   googleplusurl: ''
   pinteresturl: ""
@@ -20,7 +20,7 @@ address:
   country:
 phone: 
 mphone: '+'
-email: 
+email: 'info@groupeblanchette.com'
 sitedescription: ""
 sitetitle: ""
 defaultsocialimage: "/images/logo-share.jpg"

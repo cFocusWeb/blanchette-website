@@ -46,6 +46,14 @@
 			}
 		}
 	}
+	#history {
+		h6 {
+			font-size: 1.5em;
+		}
+		h5 {
+			font-size: 2em;
+		}
+	}
 }
 
 #featured-header-image  {
@@ -74,12 +82,12 @@
 		font-size: 14px;
 	}
 	.team-block {
-		height: 470px;
+		height: 380px;
 		@include breakpoint(laptop) {
-			height: 420px;
+			height: 370px;
 		}
 		@include breakpoint(tablet) {
-			height: 400px;
+			height: 350px;
 		}
 		@include breakpoint(phone) {
 			height: auto;

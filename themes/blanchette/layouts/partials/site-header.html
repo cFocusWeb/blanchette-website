@@ -41,9 +41,33 @@
                     <li><a href="https://grblanchette.gestock.ca/" target="_blank">Boutique</a></li>
                 </ul>
                 <ul id="social-nav">
-                    <li><a href="#"><span class="icon-facebook"></span></a></li>
-                    <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                    <li><a href="#"><span class="icon-youtube"></span></a></li>
+                    {{with .Site.Data.settings.socials.facebookurl}}
+										<li class="social-facebook"><a href="{{.}}"><span class="icon-facebook"></span></a></li>
+										{{ end }}
+										{{with .Site.Data.settings.socials.twitterurl}}
+										<li class="social-twitter"><a href="{{.}}"><span class="fa fa-twitter"></span></a></li>
+										{{ end }}
+										{{with .Site.Data.settings.socials.googleplusurl}}
+										<li class="social-google"><a href="{{.}}"><span class="fa fa-google-plus"></span></a></li>
+										{{ end }}
+										{{with .Site.Data.settings.socials.pinteresturl}}
+										<li class="social-pinterest"><a href="{{.}}"><span class="fa fa-pinterest"></span></a></li>
+										{{ end }}
+										{{with .Site.Data.settings.socials.vimeourl}}
+										<li class="social-vimeo"><a href="{{.}}"><span class="fa fa-vimeo-square"></span></a></li>
+										{{ end }}
+										{{with .Site.Data.settings.socials.linkedinurl}}
+										<li class="social-linkedin"><a href="{{.}}"><span class="icon-linkedin"></span></a></li>
+										{{ end }}
+										{{with .Site.Data.settings.socials.dribbleurl}}
+										<li class="social-dribbble"><a href="{{.}}"><span class="fa fa-dribbble"></span></a></li>
+										{{ end }}
+										{{with .Site.Data.settings.socials.youtubeurl}}
+										<li class="social-youtube"><a href="{{.}}"><span class="icon-youtube"></span></a></li>
+										{{ end }}
+										{{with .Site.Data.settings.socials.rssurl}}
+										<li class="social-rss"><a href="{{.}}"><span class="fa fa-rss"></span></a></li>
+										{{ end }}
                 </ul>
                 <!-- // socials  -->
                 <ul id="lang-nav">

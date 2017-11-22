@@ -1,7 +1,26 @@
-equipe:
+blanchette:
   - description: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto cupiditate, reiciendis impedit unde similique sit nesciunt ex sapiente quidem aspernatur provident expedita corrupti nulla laborum corporis incidunt vel nostrum! Debitis?
-    nom: 'John Doe'
+      À la tête depuis les débuts, Vincent chapeaute toutes les principales opérations, décisions et grands mouvements du groupe. Rêveur et visionnaire né, son œil aiguisé pour le marketing engendre un fort succès des bannières sur les médias sociaux. Sa détermination et ses idées de grandeur sont à l’origine de multiples projets du groupe.
+    nom: "Vincent Blanchette, copropriétaire"
     ordre: 1
-    photo: /images/johndoe.jpg
-    titre: A really good guy
+    photo: 01-blanchette-vincent.jpg
+  - description: >-
+      Membre fondateur du groupe, André-François s’implique particulièrement dans l’aspect financier du groupe, manipulant avec aisance budgets et investissements. Son esprit rationnel le rend la personne tout indiquée pour veiller à la gestion des procédés opérationnels et au management pour l’ensemble des bannières. Grâce à son grand souci du détail, André-François s’implique également dans la recherche et le développement des recettes, en prêtant même ses papilles gustatives au jeu avant tout lancement de produits. 
+    nom: "André-François Blanchette, copropriétaire"
+    ordre: 2
+    photo: 02-blanchette-andre.jpg
+  - description: >-
+      Simon se spécialise dans les aspects relatifs à l’immobilier et à la construction. Son travail indispensable en matière de rénovation, de plans et devis, ainsi qu’en plans d’entretien pour l’ensemble des bannières font de lui un atout de taille dans tout processus de franchise ou licence. 
+    nom: "Simon Blanchette, copropriétaire"
+    ordre: 3
+    photo: 03-blanchette-simon.jpg
+  - description: >-
+      David a pour sa part pris sous son aile la bannière La P’tite Grenouille. Le choix de l’emplacement, la gestion des opérations, l’assistance dans le processus d’ouverture, le marketing et l’entretien de relations avec les franchisés ne sont que quelques-unes de ses principales fonctions. 
+    nom: "David Blanchette, copropriétaire"
+    ordre: 4
+    photo: 04-blanchette-david.jpg
+  - description: >-
+      Dernier arrivé dans le groupe, Kimpton ne donne pas sa place pour autant et s’occupe de la bannière au plus grand rayonnement du groupe, soit celle des restaurants-bars SHAKER Cuisine & Mixologie. Il participe activement à la recherche et au développement en lien avec le menu, à la gestion des opérations du franchiseur, aux tests de mise en marché, aux événements et au marketing. 
+    nom: "Kimpton Blanchette, copropriétaire"
+    ordre: 5
+    photo: 05-blanchette-kimpton.jpg
