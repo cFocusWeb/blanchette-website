@@ -12,4 +12,5 @@ resume:
 i18nlanguage: fr
 ordre: 1
 draft: false
+activemenu: projets
 ---

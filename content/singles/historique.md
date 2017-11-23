@@ -8,6 +8,11 @@ layout: historique
 image: null
 i18nlanguage: fr
 draft: false
+teamimage: history.jpg
+imagedesc: "Les Blanchette, réunis au premier restaurant SHAKER Cuisine & Mixologie ; un projet marquant le début d'une ère nouvelle. C'est dans leur bureau adjacent à ce restaurant qu'ils se rencontrent chaque jour et travaillent ensemble pour faire avancer leurs projets communs."
+imageordre: ""
+partnerdesc: "Avec l’expansion du groupe, les Blanchette se sont entourés des meilleurs dans l’atteinte de leurs objectifs. Découvrez leurs associés et experts de confiance!"
+activemenu: historique
 ---
 
 ##### L’histoire des Blanchette : de rêveurs à hommes d’affaires accomplis

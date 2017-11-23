@@ -1,0 +1,72 @@
+---
+title: La P'tite Grenouille
+description: >-
+  This is a desc
+slug: la-ptite-grenouille
+identifiant: grenouille
+image: "/img/franchises/03_PtiteGre_ImagePrincipale.jpg"
+logoc: "/img/logos/ptiteGrenouille.svg"
+logow: "/img/logos/ptiteGrenouille-white.svg"
+mainimage: /img/franchises/03_PtiteGre_ImagePrincipale.jpg
+resume:
+  titre: La P'tite Grenouille
+  desc: >-
+    Les boîtes à chansons **La P’tite Grenouille** composent la plus grande chaîne de bars de style chansonnier au Québec, et bientôt au Canada. Prestations de musiciens et d’humoristes, soirées thématiques, ambiance festive et alléchants spéciaux sur l’alcool ne sont que quelques-unes des raisons qui rendent le concept si populaire. 
+  investissement: "100 000$"
+  extraclass: 
+business: >-
+  Les boîtes à chansons La P’tite Grenouille composent la plus grande chaîne de bars de style chansonnier au Québec, et bientôt au Canada. Prestations de musiciens et d’humoristes, soirées thématiques, ambiance festive et alléchants spéciaux sur l’alcool ne sont que quelques-unes des raisons qui rendent le concept si populaire. 
+accentcolor: "#53ab01"
+website: https://www.laptitegrenouille.ca/
+details:
+  type: License
+  investissement: 5 000 000$ à 8 000 000$
+  misedefonds: 3 000 000$
+  contact: Luc Beaumont
+  fondation: 2015
+  nbre: 8
+  formation: Oui
+  redevances: 7%
+  pub: 3%
+ctaimage: /img/misc/grenouille-cta-banner.jpg
+i18nlanguage: fr
+ordre: 1
+draft: false
+activemenu: franchise
+---
+## La P'tite Grenouille – Survol de la bannière
+
+### Une histoire à succès
+
+C’est en 2005 que le tout premier établissement La P’tite Grenouille ouvrit ses portes, lequel fut suivi de près par plusieurs autres succursales pour maintenant totaliser 18 boîtes à chansons aux coins du Québec. 
+
+### La P’tite Grenouille fait rayonner nos artistes !
+
+La P’tite Grenouille encourage l’industrie québécoise de la musique et du divertissement par le biais des différentes prestations d’artistes, aidant ainsi à propager leur talent à un plus grand auditoire. 
+La possibilité de se produire dans de multiples établissements rend le concept des plus attirants pour tout chanteur, humoriste ou artiste de scène désireux de faire rayonner son art. 
+
+#### Occasions d'affaires
+
+### Un La P’tite Grenouille à votre portée !
+
+Offrez un atout majeur à votre région avec votre propre licence La P’tite Grenouille ! 
+
+### Pourquoi choisir la bannière La P’tite Grenouille ?
+
+- Possibilité de transformation d’un commerce existant ;
+- Concept à fort engouement touchant une large clientèle ;
+- Profiter de tarifs avantageux de la part des fournisseurs grâce aux ententes corporatives.
+
+### Profil du futur franchisé 
+
+- Démontrer un intérêt pour le milieu des bars ;
+- Avoir de l’expérience au sein d’un établissement en restauration ou bar ;
+- Avoir de l'intérêt pour le milieu musical du Québec. 
+
+### Autres détails 
+
+- Local d’une dimension de 3 500 à 5 000 pi2 ;
+- Permis de vente d’alcool requis (ou possibilité d’en obtenir) ; 
+- Situation stratégique au centre-ville ou dans un secteur ayant un achalandage naturel élevé ; 
+- Possibilité d’avoir une terrasse et plusieurs stationnements sont des atouts. 
+

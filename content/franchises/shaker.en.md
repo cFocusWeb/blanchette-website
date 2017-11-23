@@ -2,7 +2,7 @@
 title: Shaker
 description: >-
   This is a desc
-slug: shaker
+slug: en/shaker
 identifiant: shaker
 image: 
 resume:

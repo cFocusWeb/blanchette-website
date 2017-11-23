@@ -27,11 +27,15 @@
 		ul {
 			li {
 				display: inline-block;
+				&:after {
+					@include font-ico;
+					content: '\f054';
+					margin-right: 15px;
+					position: relative;
+				}
 				&:last-child {
-					a {
-						&:after {
-							display: none;
-						}
+					&:after {
+						display: none;
 					}
 				}
 				a {
@@ -40,14 +44,6 @@
 					color:$black;
 					font-size: 1.375em;
 					padding-right: 15px;
-					&:after {
-						@include font-ico;
-						content: '\f054';
-						margin-left: 15px;
-						position: relative;
-						top:2px;
-
-					}
 					&:hover {
 						color:$green;
 					}

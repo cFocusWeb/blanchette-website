@@ -8,6 +8,10 @@
   </url>
   
   <url>
+    <loc>https://www.groupeblanchette.com/franchises/chocolato/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.groupeblanchette.com/contact/</loc>
   </url>
   
@@ -24,11 +28,23 @@
   </url>
   
   <url>
-    <loc>https://www.groupeblanchette.com/historique/</loc>
+    <loc>https://www.groupeblanchette.com/franchises/fritz/</loc>
   </url>
   
   <url>
     <loc>https://www.groupeblanchette.com/historique/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.groupeblanchette.com/en/historique/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.groupeblanchette.com/franchises/hola/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.groupeblanchette.com/franchises/la-ptite-grenouille/</loc>
   </url>
   
   <url>
@@ -36,7 +52,11 @@
   </url>
   
   <url>
-    <loc>https://www.groupeblanchette.com/projects-developpements/</loc>
+    <loc>https://www.groupeblanchette.com/franchises/planete-nutrition/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.groupeblanchette.com/en/projects-developpements/</loc>
   </url>
   
   <url>
@@ -44,7 +64,7 @@
   </url>
   
   <url>
-    <loc>https://www.groupeblanchette.com/franchises/shaker/</loc>
+    <loc>https://www.groupeblanchette.com/franchises/en/shaker/</loc>
   </url>
   
   <url>
@@ -54,6 +74,10 @@
   <url>
     <loc>https://www.groupeblanchette.com/singles/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.groupeblanchette.com/franchises/tartar-station/</loc>
   </url>
   
   <url>
@@ -75,6 +99,10 @@
   
   <url>
     <loc>https://www.groupeblanchette.com/articles/single1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.groupeblanchette.com/franchises/vaposhop/</loc>
   </url>
   
 </urlset>

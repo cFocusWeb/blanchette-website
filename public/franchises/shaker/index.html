@@ -14,8 +14,8 @@
 <meta property="og:url" content="https://www.groupeblanchette.com/franchises/shaker/" />
 <meta property="og:locale" content="fr">
 <meta property="og:title" content="Shaker">
-<meta property="og:image" content="https://www.groupeblanchette.com/images/logo-share.jpg">
-<meta property="og:image:secure_url" content="https://www.groupeblanchette.com/images/logo-share.jpg"/>
+<meta property="og:image" content="https://www.groupeblanchette.com/img/franchises/shaker.jpg">
+<meta property="og:image:secure_url" content="https://www.groupeblanchette.com/img/franchises/shaker.jpg"/>
 <meta property="og:image:type" content="image/jpeg" />
 <meta property="og:description" content="This is a desc"/>
 <meta property="og:site_name" content="Groupe Blanchette">
@@ -50,13 +50,25 @@
 "paymentAccepted":"Visa, Master Card"
 } </script>
 
-<link rel="apple-touch-icon" sizes="152x152" href="../../apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../../apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
 <link rel="manifest" href="../../manifest.json">
-<link rel="mask-icon" href="../../safari-pinned-tab.svg" color="#5bbad5">
+<link rel="mask-icon" href="../../safari-pinned-tab.svg" color="#62d54c">
 <meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="../../css/main.min.css"><script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<link rel="stylesheet" href="../../css/main.min.css">
+
+
+<style>
+	#page-wrapper span, h3, h5 {
+		color: #b89217 !important;
+	}
+	#page-wrapper a:not(.form-dload):hover {
+		color: #b89217 !important;
+	}
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 <!--[if lt IE 9]>
 		<script src="js/vendor/html5shiv.min.js"></script>
 		<script src="js/vendor/respond.min.js"></script>
@@ -141,7 +153,7 @@
             
           <div class="navbar navbar-default yamm">
               <div class="navbar-header">
-                <a href="../../" class="navbar-brand"><img src="../../img/logos/site-logo.png" alt="" class="img-responsive"></a>
+                <a href="../../" class="navbar-brand"><img src="../../img/logos/b-logo-white.svg" alt="" class="img-responsive" style="width: 100%;"></a>
 
                 <div id="menu-btn-wrapepr" class="visible-xs">
                     <span class="menu-btn">
@@ -158,7 +170,7 @@
               <div id="navbar-collapse-grid" class="navbar-collapse collapse">
                <ul class="nav navbar-nav navbar-right">
                   
-                  <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Nos franchises</a>
+                  <li class='dropdown yamm-fw activated'><a href="#" data-toggle="dropdown" class="dropdown-toggle">Nos franchises</a>
                     <ul class="dropdown-menu animated fadeIn">
                       <li class="grid-demo">
                         <div class="row">
@@ -170,13 +182,13 @@
                           
                           <div class="col-sm-3">
                               <div class="logo-box">
-                                  <a href="../../franchises/shaker"><img class="svg" src="../../img/logos/chocolate.svg" /><span>Chocolato <i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                                  <a href="../../franchises/chocolato"><img class="svg" src="../../img/logos/chocolate.svg" /><span>Chocolato <i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
                               </div>
                           </div>
                           
                           <div class="col-sm-3">
                               <div class="logo-box">
-                                  <a href="../../franchises/shaker"><img class="svg" src="../../img/logos/ptiteGrenouille.svg" /><span>La P’tite Grenouille <i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                                  <a href="../../franchises/la-ptite-grenouille"><img class="svg" src="../../img/logos/ptiteGrenouille.svg" /><span>La P’tite Grenouille <i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
                               </div>
                           </div>
                           
@@ -220,9 +232,9 @@
                   </li>
                   
 
-                    <li><a href="../../historique">Notre histoire</a></li>
-                    <li><a href="../../devenir-franchise">Devenir franchisé</a></li>
-                    <li><a href="../../projets-developpement">Projets & développement</a></li>              
+                  <li class=''><a href="../../historique">Notre histoire</a></li>
+                  <li class=''><a href="../../devenir-franchise">Devenir franchisé</a></li>
+                  <li class=''><a href="../../projets-developpement">Projets & développement</a></li>              
 
                 </ul>
               </div>
@@ -247,7 +259,7 @@
                 <div id="bradcrumb-wrapper">
                     <ul>
                         <li><a href="#">Nos franchises</a></li>
-                        <li><a href="#">SHAKER Cuisine & Mixologie</a></li>
+                        <li><a href="#">SHAKER Cuisine &amp; Mixologie</a></li>
                     </ul>
                 </div>
                 
@@ -257,37 +269,73 @@
                     <div class="col-md-8 col-sm-7">
                         <div id="main-content">
                             <header>
-                                <img src="../../img/misc/shaker.jpg" alt="" class="img-responsive">
+                                <img src="../../img/franchises/shaker.jpg" alt="" class="img-responsive">
                             </header>
                             <div class="intro">
-                                <p>Avec plus de 860 restaurants, A&W est la deuxième plus grande chaîne à service rapide de hamburgers au Québec et au Canada et figure au premier rang au niveau de la croissance. </p>
+                                <p>SHAKER Cuisine &amp; Mixologie se présente comme la seule chaîne de restaurants-bars spécialisée en cocktails, tartares et burgers gourmets. C’est dans un décor de style industriel chic que sa clientèle de tous âges abonde, du dîner à la fin de soirée, pour « Vivre l’expérience SHAKER », au gré d’alléchantes promotions hebdomadaires.</p>
                             </div>
                             
-                            <h2>Une culture de franchisage unique</h2>
-                            <h3>La rentabilité des franchises</h3>
-                            <p>Notre plus grande force est sans contredit le soutien que nous apportons à nos franchisés. En bref, nous savons que nos franchisés exploitent d'excellents restaurants et nous réinvestissons constamment dans des ressources qui les habilitent et assurent leur succès dans leurs localités. Étant donné notre croissance actuelle et projetée, nous devons continuer de nous intégrer dans la collectivité de chacun des marchés que nous desservons.</p>
-                            <h3>Franchisage, immobilier et construction</h3>
-                            <p>La responsabilité des restaurants appartient aux franchisés Boston Pizza dès le départ. Après avoir achevé le processus de demande, d'approbation et de sélection de l'emplacement avec un membre de l'équipe du franchisage de Boston Pizza, les nouveaux franchisés collaborent avec nos spécialistes de l'immobilier pour obtenir le financement requis et mener à terme les négociations se rapportant au bail.</p>
-                            <h3>Exploitation</h3>
-                            <p>Boston Pizza offre un programme de formation complet de 6 semaines pour les nouveaux franchisés et l'équipe de gestion de leur restaurant. <br><br>
-La formation dans les restaurants commence deux semaines avant l'ouverture avec l'arrivée de quatre formateurs qui enseignent les méthodes de Boston Pizza au personnel et aux gérants. </p>
-                            <h3>Formation</h3>
-                            <p>Boston Pizza offre un programme de formation complet de 6 semaines pour les nouveaux franchisés et l'équipe de gestion de leur restaurant. <br><br>
-La formation dans les restaurants commence deux semaines avant l'ouverture avec l'arrivée de quatre formateurs qui enseignent les méthodes de Boston Pizza au personnel et aux gérants. </p>
-                            <h3>Marketing</h3>
-                            <p>Boston Pizza offre un programme de formation complet de 6 semaines pour les nouveaux franchisés et l'équipe de gestion de leur restaurant. <br><br>
-La formation dans les restaurants commence deux semaines avant l'ouverture avec l'arrivée de quatre formateurs qui enseignent les méthodes de Boston Pizza au personnel et aux gérants. </p>
-                            <h4>Une occasion d’affaires à saisir maintenant</h4>
-                            <p>Saisissez l’occasion de vous lancer en affaires avec une compagnie de premier rang, établie au Canada depuis plus de 60 ans. Avec plus de 860 restaurants, A&W est la deuxième plus grande chaîne de restaurants de hamburgers au Canada et la compagnie qui connaît la plus grande croissance. Nous sommes activement à la recherche de franchisés afin de soutenir notre expansion.</p>
-                            <p>Plusieurs occasions d’affaires exceptionnelles pour des restaurants autonomes avec service au volant sont disponibles dans les secteurs suivants:</p>
-                            <ul>
-                               <li>Lévis, Chaudière-Appalaches</li>
-                                <li>Rive-Sud de Montréal (Montérégie)</li>
-                                <li>Rive-Nord de Montréal (Laurentides, Lanaudière)</li>
-                                <li>Ville de Montréal</li>
-                                <li>Maniwaki</li>
-                                <li>Ste-Agathe-Des-Monts</li>
-                            </ul>
+                            
+
+<h2 id="shaker-cuisine-mixologie-survol-de-la-bannière">SHAKER Cuisine &amp; Mixologie – Survol de la bannière</h2>
+
+<h3 id="une-histoire-à-succès">Une histoire à succès</h3>
+
+<p>Dès ses débuts en avril 2015, la bannière SHAKER Cuisine &amp; Mixologie s’est imposée comme un modèle à suivre par son concept unique conviant une clientèle de plus variée à une expérience culinaire distincte et créative, dans une ambiance branchée.</p>
+
+<p>Une impressionnante carte de cocktails créatifs, une large sélection de tartares et burgers gourmets ainsi que de nombreuses promotions sur les plats et alcools ne sont que quelques-unes des raisons qui rendent ces restaurants-bars si populaires à travers la province.</p>
+
+<h3 id="un-modèle-d-affaires-d-avenir">Un modèle d’affaires d’avenir</h3>
+
+<p>Là où d’autres échouent, un restaurant SHAKER s’installe, et réussit. Dans un monde où les restaurateurs construisent des locaux aux dimensions et configurations identiques à chaque ville dans lesquelles ils s’installent, SHAKER Cuisine &amp; Mixologie, au contraire, s’adapte et rénove des locaux existants de restaurants ayant mis la clé sous la porte, épargnant ainsi énormément sur les coûts d’aménagements.</p>
+
+<h3 id="les-bons-coups-de-shaker-cuisine-mixologie">Les « bons coups » de SHAKER Cuisine &amp; Mixologie</h3>
+
+<ul>
+<li>Premier dans la catégorie « Meilleur goût », tartare « L&rsquo;albacore asiatique », La semaine Manger cru 2017 ;</li>
+<li>Premier dans la catégorie « Choix du public », cocktail « Trappeur », MADE WITH LOVE 2017 ;</li>
+<li>Premier dans la catégorie « Coup de coeur du public », grilled cheese « Le P&rsquo;TIT BAVEUX », Grilled cheese festival 2017 ;</li>
+<li>Premier dans la catégorie « Choix du public », cocktail « LE SHAMAN », MADE WITH LOVE 2016 ;</li>
+<li>Premier dans la catégorie « Choix du public », cocktail « MADE WITH LOVE », MADE WITH LOVE 2015 ;</li>
+<li>Premier dans la catégorie « Choix des juges », burger bœuf et canard, Le Burger Week 2015.</li>
+</ul>
+
+<h4 id="occasions-d-affaires">Occasions d&rsquo;affaires</h4>
+
+<h3 id="un-shaker-cuisine-mixologie-à-votre-portée">Un SHAKER Cuisine &amp; Mixologie à votre portée !</h3>
+
+<p>Faites partie de la plus grande chaîne de restaurants-bars spécialisée en cocktails, tartares et burgers en ouvrant votre propre franchise!</p>
+
+<h3 id="pourquoi-choisir-la-bannière-shaker-cuisine-mixologie">Pourquoi choisir la bannière SHAKER Cuisine &amp; Mixologie ?</h3>
+
+<ul>
+<li>Forte rentabilité versus investissement ;</li>
+<li>Possibilité de transformation d’un commerce existant ;</li>
+<li>Franchise standardisée et clés en main ;</li>
+<li>Concept tendance et cuisine actuelle ;</li>
+<li>Entente exclusive et concurrentielle avec plusieurs fournisseurs.</li>
+</ul>
+
+<h3 id="profil-du-futur-franchisé">Profil du futur franchisé</h3>
+
+<ul>
+<li>Avoir de l’expérience dans le domaine de la restauration et de la gestion de personnel ;</li>
+<li>Avoir un grand sens organisationnel ;</li>
+<li>Avoir de la facilité avec les relations humaines et la communication ;</li>
+<li>Être soucieux de la satisfaction des clients et des détails ;</li>
+<li>Être motivé et avoir une attitude positive ;</li>
+<li>Être impliqué dans l’opération du restaurant est un atout important.</li>
+</ul>
+
+<h3 id="autres-détails">Autres détails</h3>
+
+<ul>
+<li>Local d&rsquo;une dimension de 3000pi2 et + ;</li>
+<li>Permis de vente d’alcool requis (ou possibilité d’en obtenir) ;</li>
+<li>Situation stratégique au centre-ville ou dans un secteur ayant un achalandage naturel élevé ;</li>
+<li>Possibilité d’avoir une terrasse et plusieurs stationnements sont des atouts.</li>
+</ul>
+
                         </div>
                     </div>
                     
@@ -295,16 +343,16 @@ La formation dans les restaurants commence deux semaines avant l'ouverture avec 
                     <div class="col-md-4 col-sm-5">
                         <aside id="side-details">
                             
-                            <a href="#" class="form-dload">Formulaire de <span>demande d’informations</span> <i class="fa fa-chevron-right" aria-hidden="true"></i> </a>
+                            <a href="https://www.groupeblanchette.com/devenir-franchise?franchise=shaker" class="form-dload">Formulaire de <span>demande d’informations</span> <i class="fa fa-chevron-right" aria-hidden="true"></i> </a>
 
                             <div id="brand-holder">
-                                <a href="#"><img class="svg" src="../../img/logos/shaker.svg" /></a>
+                                <a href="https://www.groupeblanchette.com/devenir-franchise?franchise=shaker"><img class="svg" src="../../img/logos/shaker.svg" /></a>
                             </div>
                             
 
                             <div id="about-block-aside">
-                                <h5>L’entreprise</h5>
-                                <p>Avec plus de 860 restaurants, A&W est la deuxième plus grande chaîne à service rapide de hamburgers au Québec et au Canada et figure au premier rang au niveau de la croissance. Nous sommes la seule chaîne de burgers à servir du bœuf élevé sans ajout d'hormones ou de stéroïdes. </p>
+                                <h6>L’entreprise</h6>
+                                <p>SHAKER Cuisine &amp; Mixologie se présente comme la seule chaîne de restaurants-bars spécialisée en cocktails, tartares et burgers gourmets. C’est dans un décor de style industriel chic que sa clientèle de tous âges abonde, du dîner à la fin de soirée, pour « Vivre l’expérience SHAKER », au gré d’alléchantes promotions hebdomadaires.</p>
                             </div>
                             
 
@@ -318,11 +366,11 @@ La formation dans les restaurants commence deux semaines avant l'ouverture avec 
                                     </tr>
                                     <tr>
                                         <td><strong>Investissement total</strong></td>
-                                        <td>8 000 000 $ à 5 000 000 $</td>
+                                        <td>5 000 000$ à 8 000 000$</td>
                                     </tr>
                                     <tr>
                                         <td><strong>Mise de fonds</strong></td>
-                                        <td>3 000 000 $</td>
+                                        <td>3 000 000$</td>
                                     </tr>
                                     <tr>
                                         <td><strong>Personne contact</strong></td>
@@ -342,18 +390,18 @@ La formation dans les restaurants commence deux semaines avant l'ouverture avec 
                                     </tr>
                                     <tr>
                                         <td><strong>Redevances</strong></td>
-                                        <td>7 %</td>
+                                        <td>7%</td>
                                     </tr>
                                     <tr>
                                         <td><strong>Frais publicitaires</strong></td>
-                                        <td>3 %</td>
+                                        <td>3%</td>
                                     </tr>
                                 </table>
 
                             </div>
                             
 
-                            <a href="#" class="form-dload">Formulaire de <span>demande d’informations</span> <i class="fa fa-chevron-right" aria-hidden="true"></i> </a>
+                            <a href="https://www.groupeblanchette.com/devenir-franchise?franchise=shaker" class="form-dload">Formulaire de <span>demande d’informations</span> <i class="fa fa-chevron-right" aria-hidden="true"></i> </a>
 
                             <div id="video-block">
                                 <h6>Vidéo corporative</h6>
@@ -362,8 +410,8 @@ La formation dans les restaurants commence deux semaines avant l'ouverture avec 
                             
 
                             <div id="site-block">
-                                <h6>Consultez le site web :</h6>
-                                <p><a href="#">www.shakercuisineetmixologie.com</a></p>
+                                <h6>Consultez le <span>site web</span> :</h6>
+                                <p><a href="https://www.shakercuisineetmixologie.com/" target="_blank">https://www.shakercuisineetmixologie.com/</a></p>
                             </div>
                             
 
@@ -378,17 +426,10 @@ La formation dans les restaurants commence deux semaines avant l'ouverture avec 
         </div> 
         
 
-        <div id="bottom-cta-inner">
-            <div class="container">
-                <div class="holder">
-                    <span class="title">Imaginez</span>
-                    <span class="subtitle">votre propre </span>
-                    <p>shaker cuisine & mixologie</p>
-                    <a href="#" class="cta-btn">Formulaire de <span>demande d’informations </span> <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                </div>
-                
-            </div>
-            
+        <div id="">
+            <a href="https://www.groupeblanchette.com/devenir-franchise?franchise=shaker">
+                <img src="../../img/misc/shaker-cta-banner.jpg" alt="Devenir franchise" style="display: block">
+            </a>
         </div>
         
 <footer id="page-footer">
@@ -396,7 +437,7 @@ La formation dans les restaurants commence deux semaines avant l'ouverture avec 
 
 	      <div id="brand-footer">
 	          <div class="brand-box">
-	              <img src="../../img/logos/site-logo.png" alt="" class="img-responsive">                        
+	              <img src="../../img/logos/b-logo-white.svg" alt="" class="img-responsive" style="height: 100px;">                        
 	              <div class="content">
 	                  <p><a href="#" class="tel-ico">418 686-0069</a></p>
 	                  <p><a href="#" class="mail-ico">info@groupeblanchette.com</a></p>
@@ -445,7 +486,7 @@ La formation dans les restaurants commence deux semaines avant l'ouverture avec 
 	              </div>
 	              
 
-	              <div class="col-md-8">
+	              <div class="col-md-8 hidden-xs">
 	                  <div id="franchises-footer">
 	                      <span class="title">Visitez les site web respectifs de chacune des bannières</span>
 	                      <div class="content">
@@ -470,7 +511,7 @@ La formation dans les restaurants commence deux semaines avant l'ouverture avec 
 			                        
 			                        <div class="col-sm-3">
 			                            <div class="logo-box">
-			                                <a href="https://tartarstation.com/" target="_blank"><img class="svg" src="../../img/logos/tartar-white.svg" /></a>
+			                                <a href="https://tartarstation.com/" target="_blank"><img class="svg tartar-logo" src="../../img/logos/tartar-white-2.svg" /></a>
 			                            </div>
 			                        </div>
 			                                                                                            
@@ -485,7 +526,7 @@ La formation dans les restaurants commence deux semaines avant l'ouverture avec 
 			                        
 			                        <div class="col-sm-3">
 			                            <div class="logo-box">
-			                                <a href="https://www.holagrill.ca/" target="_blank"><img class="svg" src="../../img/logos/hola-white.svg" /></a>
+			                                <a href="https://www.holagrill.ca/" target="_blank"><img class="svg" src="../../img/logos/hola-white-2.svg" /></a>
 			                            </div>
 			                        </div>
 			                        
@@ -522,7 +563,7 @@ La formation dans les restaurants commence deux semaines avant l'ouverture avec 
 
 <div id="copy-bar">
   <div class="container">
-      <img src="../../img/logos/footer-logo.png" alt="">
+      <img src="../../img/logos/logo-blanchette.svg" alt="" style="width: 100%; max-width: 320px;">
       <small>&copy; 2017 Groupe Blanchette</small>
   </div>
   

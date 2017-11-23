@@ -14,8 +14,9 @@
 
             <div class="container">
                 <div id="intro">
-                    <p>Les Blanchette, réunis au premier restaurant SHAKER Cuisine & Mixologie ; un projet marquant le début d'une ère nouvelle. C'est dans leur bureau adjacent à ce restaurant qu'ils se rencontrent chaque jour et travaillent ensemble pour faire avancer leurs projets communs. </br>De gauche à droite: </p>
-                    <img src="/img/misc/history.jpg" alt="" class="img-responsive">
+                    <p>{{.Params.imagedesc}} 
+                    </br>{{.Params.imageordre}} </p>
+                    <img src="/img/misc/{{.Params.teamimage}}" alt="" class="img-responsive">
                 </div>
                 <!-- // intro  -->
                 <div id="history" style="display: none;">
@@ -48,7 +49,9 @@
 
                 </div>
                 <!-- // team listing  -->
-
+								<div id="partner-listing">
+									
+								</div>
             </div>
             <!-- // container  -->
         </div> 

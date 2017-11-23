@@ -26,7 +26,6 @@ gulp.task("clean-image", function(){
 // resize and optimize images
 gulp.task("image-resize", () => {
   return gulp.src("themes/blanchette/source-images/*/*.{jpg,png,jpeg,gif}")
-    .pipe(imagemin())
     .pipe(imageresize({ width: imagefull }))
     .pipe(gulp.dest("themes/blanchette/static/img"))
     .pipe(imageresize({ width: imagehalf }))

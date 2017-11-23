@@ -3,7 +3,7 @@ title: "Projects & development"
 description: >-
   This is a desc
 titre: Projets
-slug: projects-developpements
+slug: en/projects-developpements
 layout: projets
 image: null
 i18nlanguage: en

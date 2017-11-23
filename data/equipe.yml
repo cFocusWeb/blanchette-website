@@ -24,3 +24,54 @@ blanchette:
     nom: "Kimpton Blanchette, copropriétaire"
     ordre: 5
     photo: 05-blanchette-kimpton.jpg
+autres:
+  - description: >-
+      SHAKER Cuisine & Mixologie, SHAKER Cuisine & Mixologie Franchiseur
+    nom: "Luc Beaumont, copropriétaire et directeur du développement des affaires"
+    ordre: 1
+    photo: 06-shaker-luc.jpg
+  - description: >-
+      SHAKER Cuisine & Mixologie, SHAKER Cuisine & Mixologie Franchiseur
+    nom: "Frederick Forcier, copropriétaire, directeur des opérations et constructions"
+    ordre: 2
+    photo: 07-shaker-fred.jpg
+  - description: >-
+      SHAKER Cuisine & Mixologie, SHAKER Cuisine & Mixologie Franchiseur
+    nom: "Jean-David Forcier, copropriétaire, directeur des opérations et formateur"
+    ordre: 3
+    photo: 08-shaker-jean-david.jpg
+  - description: >-
+      Frit’s Burgers & Poutines, Chocolato
+    nom: "Guyaume Arsenault, associé"
+    ordre: 4
+    photo: 09-fritz-guyaume.jpg
+  - description: >-
+      La P’tite Grenouille
+    nom: "Jérôme Landry, copropriétaire et directeur général"
+    ordre: 5
+    photo: 10-grenouille-jerome.jpg
+  - description: >-
+      VAPOSHOP, TARTAR Station, Chocolato
+    nom: "Pierre-Antoine Morency, copropriétaire"
+    ordre: 7
+    photo: 11-tartar-pierre-antoine.jpg
+  - description: >-
+      VAPOSHOP, TARTAR Station, Chocolato
+    nom: "Jean-Félix Bureau, copropriétaire"
+    ordre: 8
+    photo: 11-tartar-felix.jpg
+  - description: >-
+      Groupe Blanchette
+    nom: "Hugo Laperrière, directeur du développement des affaires"
+    ordre: 9
+    photo: 14-blanchette-hugol.jpg
+  - description: >-
+      Groupe Blanchette
+    nom: "Catherine Roman, directrice marketing"
+    ordre: 10
+    photo: 15-blanchette-catherine.jpg
+  - description: >-
+      Groupe Blanchette
+    nom: "Hugo Morrissette, contrôleur, CPA CMA"
+    ordre: 11
+    photo: 13-blanchette-hugom.jpg

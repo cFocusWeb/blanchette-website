@@ -86,7 +86,7 @@
             
           <div class="navbar navbar-default yamm">
               <div class="navbar-header">
-                <a href="/" class="navbar-brand"><img src="/img/logos/site-logo.png" alt="" class="img-responsive"></a>
+                <a href="/" class="navbar-brand"><img src="/img/logos/b-logo-white.svg" alt="" class="img-responsive" style="width: 100%;"></a>
 
                 <div id="menu-btn-wrapepr" class="visible-xs">
                     <span class="menu-btn">
@@ -103,7 +103,7 @@
               <div id="navbar-collapse-grid" class="navbar-collapse collapse">
                <ul class="nav navbar-nav navbar-right">
                   <!-- Grid 12 Menu -->
-                  <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Nos franchises</a>
+                  <li class='dropdown yamm-fw {{ if eq .Params.activemenu "franchise"}}activated{{end}}'><a href="#" data-toggle="dropdown" class="dropdown-toggle">Nos franchises</a>
                     <ul class="dropdown-menu animated fadeIn">
                       <li class="grid-demo">
                         <div class="row">
@@ -115,13 +115,13 @@
                           <!-- // logo box  -->
                           <div class="col-sm-3">
                               <div class="logo-box">
-                                  <a href="/franchises/shaker"><img class="svg" src="/img/logos/chocolate.svg" /><span>Chocolato <i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                                  <a href="/franchises/chocolato"><img class="svg" src="/img/logos/chocolate.svg" /><span>Chocolato <i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
                               </div>
                           </div>
                           <!-- // logo box  -->
                           <div class="col-sm-3">
                               <div class="logo-box">
-                                  <a href="/franchises/shaker"><img class="svg" src="/img/logos/ptiteGrenouille.svg" /><span>La P’tite Grenouille <i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                                  <a href="/franchises/la-ptite-grenouille"><img class="svg" src="/img/logos/ptiteGrenouille.svg" /><span>La P’tite Grenouille <i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
                               </div>
                           </div>
                           <!-- // logo box  -->
@@ -166,9 +166,9 @@
                   <!--With Offsets 
                   -->
 
-                    <li><a href="/historique">Notre histoire</a></li>
-                    <li><a href="/devenir-franchise">Devenir franchisé</a></li>
-                    <li><a href="/projets-developpement">Projets & développement</a></li>              
+                  <li class='{{ if eq .Params.activemenu "historique"}}activated{{end}}'><a href="/historique">Notre histoire</a></li>
+                  <li class='{{ if eq .Params.activemenu "devenir"}}activated{{end}}'><a href="/devenir-franchise">Devenir franchisé</a></li>
+                  <li class='{{ if eq .Params.activemenu "projets"}}activated{{end}}'><a href="/projets-developpement">Projets & développement</a></li>              
 
                 </ul>
               </div>

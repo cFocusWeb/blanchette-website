@@ -1,2 +1,14 @@
 <!-- Import Main CSS -->
 <link rel="stylesheet" href="/css/main.min.css">
+{{ if eq .Type "franchises"}}
+{{ with .Params.accentcolor }}
+<style>
+	#page-wrapper span, h3, h5 {
+		color: {{.}} !important;
+	}
+	#page-wrapper a:not(.form-dload):hover {
+		color: {{.}} !important;
+	}
+</style>
+{{ end }}
+{{ end }}
