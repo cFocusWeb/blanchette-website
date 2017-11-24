@@ -29,16 +29,16 @@
 								
                 <div id="team-listing">
 
-									{{ range $i, $e := sort $.Site.Data.equipe.blanchette "ordre" "asce"}}
-										{{ $mod1 := modBool $i 1}}
-										{{ $mod2 := modBool $i 2}}
-										{{ $mod3 := modBool $i 3}}
-										<div class="team-block">
-                        <div class="image-holder">
+				{{ range $i, $e := sort $.Site.Data.equipe.blanchette "ordre" "asce"}}
+					{{ $mod1 := modBool $i 1}}
+					{{ $mod2 := modBool $i 2}}
+					{{ $mod3 := modBool $i 3}}
+					<div class="team-block row {{if $mod2}}{{else}}even{{end}}">
+                        <div class="image-holder col-sm-6 {{if $mod2}}{{else}}col-sm-push-6{{end}}">
                             <img src="/img/team/{{$e.photo}}" alt="{{$e.nom}}" class="img-responsive">
                         </div>
                         <!-- // image holder  -->
-                        <div class="content">
+                        <div class="content col-sm-6 {{if $mod2}}{{else}}col-sm-pull-6{{end}}">
                             <div class="holder">
                                 <h5>{{$e.nom}}</h5>
                                 <p>{{$e.description}}</p>
@@ -53,9 +53,83 @@
 
                 </div>
                 <!-- // team listing  -->
-								<div id="partner-listing">
-									
-								</div>
+				<div id="partner-listing">
+					<p class="header">Avec l'expansion du groupe, les Blanchettes se sont entourés des meilleurs dans l'atteinte de leurs objectifs.<br>Découvrez leurs associés et experts de confiance !</p>
+                    <div class="row">
+                        <div class="col-sm-6 match logo">
+                            <div class="holder">
+                                <img src="/img/logos/shaker-reverse.svg" alt="">
+                            </div>
+                        </div>
+                        {{ range sort .Site.Data.equipe.shaker "ordre" "asce" }}
+                        <div class="col-sm-6 match">
+                            <img src="/img/team/{{.photo}}" alt="{{.nom}}, {{.description}}" class="img-responsive">
+                            <p class="title">{{.nom}}</p>
+                            <p class="desc">{{.description}}</p>
+                        </div>
+                        {{ end }}
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 match logo">
+                            <div class="holder">
+                                <img src="/img/logos/chocolate.svg" alt="">
+                                <img src="/img/logos/frits.svg" alt="" style="width: 80%; margin-top: 10px">
+                            </div>
+                        </div>
+                        {{ range sort .Site.Data.equipe.chocolato "ordre" "asce" }}
+                        <div class="col-sm-6 match">
+                            <img src="/img/team/{{.photo}}" alt="{{.nom}}, {{.description}}" class="img-responsive">
+                            <p class="title">{{.nom}}</p>
+                            <p class="desc">{{.description}}</p>
+                        </div>
+                        {{ end }}
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 match logo">
+                            <div class="holder">
+                                <img src="/img/logos/ptiteGrenouille.svg" alt="">
+                            </div>
+                        </div>
+                        {{ range sort .Site.Data.equipe.grenouille "ordre" "asce" }}
+                        <div class="col-sm-6 match">
+                            <img src="/img/team/{{.photo}}" alt="{{.nom}}, {{.description}}" class="img-responsive">
+                            <p class="title">{{.nom}}</p>
+                            <p class="desc">{{.description}}</p>
+                        </div>
+                        {{ end }}
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 match-big logo">
+                            <div class="holder">
+                                <img src="/img/logos/tartar.svg" alt="">
+                                <img src="/img/logos/vapshop.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 match-big">
+                        {{ range sort .Site.Data.equipe.tartar "ordre" "asce" }}
+                        <div>
+                            <img src="/img/team/{{.photo}}" alt="{{.nom}}, {{.description}}" class="img-responsive">
+                            <p class="title">{{.nom}}</p>
+                            <p class="desc">{{.description}}</p>
+                        </div>
+                        {{ end }}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 match logo">
+                            <div class="holder" style="width: 80%">
+                                <img src="/img/logos/logo-blanchette.svg" alt="">
+                            </div>
+                        </div>
+                        {{ range sort .Site.Data.equipe.blancs "ordre" "asce" }}
+                        <div class="col-sm-6 match">
+                            <img src="/img/team/{{.photo}}" alt="{{.nom}}, {{.description}}" class="img-responsive">
+                            <p class="title">{{.nom}}</p>
+                            <p class="desc">{{.description}}</p>
+                        </div>
+                        {{ end }}
+                    </div>
+				</div>
             </div>
             <!-- // container  -->
         </div> 

@@ -102,94 +102,11 @@
 	@include breakpoint(tablet) {
 		font-size: 14px;
 	}
-	.team-block {
-		height: 380px;
-		@include breakpoint(laptop) {
-			height: 370px;
-		}
-		@include breakpoint(tablet) {
-			height: 350px;
-		}
-		@include breakpoint(phone) {
-			height: auto;
-		}
-		&:nth-child(even) {
-			.image-holder {
-				float: right;
-				padding-right: 0px;
-				padding-left: 10px;
-				position: relative;
-				top:-100px;
-				@include breakpoint(laptop) {
-					top:-60px;
-				}
-				@include breakpoint(tablet) {
-					top:-50px;
-				}
-				@include breakpoint(phone) {
-					top:0px;
-					padding-left: 0px;
-					float: none;
-				}
-			}
-			.content {
-				float: left;
-				padding-left: 0px;
-				padding-right: 35px;
-				position: relative;
-				@include breakpoint(phone) {
-					padding-right: 0px;
-					float: none;
-				}
-				.holder {
-					position: absolute;
-					bottom:100px;
-					left:0px;
-					width: 100%;
-					@include breakpoint(laptop) {
-						bottom:60px;
-					}
-					@include breakpoint(tablet) {
-						bottom:50px;
-					}
-					@include breakpoint(phone) {
-						position: relative;
-						bottom:0px;
-					}
-				}
-			}
-		}
-		.image-holder {
-			float: left;
-			width: 50%;
-			padding-right: 10px;
-			@include breakpoint(phone) {
-				width: 100%;
-				float: none;
-				padding-right: 0px;
-			}
-			img {
-				@include breakpoint(laptop) {
-					height: 420px;
-					object-fit: cover;
-				}
-				@include breakpoint(tablet) {
-					height: 400px;
-					object-fit: cover;
-				}
-			}
-		}
+	.row {
+		padding: 20px 0px;
 		.content {
-			float: right;
-			width: 50%;
-			padding-left: 35px;
-			height: 100%;
 			@include breakpoint(phone) {
-				width: 100%;
-				float: none;
-				padding-left: 0px;
-				padding-top: 20px;
-				padding-bottom: 20px;
+				padding: 20px 15px;
 			}
 			h5 {
 				font-size: 1.063em;
@@ -200,6 +117,87 @@
 			p {
 				line-height: 1.5;
 				font-size: 1.063em;
+			}
+		}
+		.col-sm-pull-6 {
+		  display: -webkit-box;
+		  display: -webkit-flex;
+		  display: -ms-flexbox;
+		  display: flex; /* or inline-flex */
+		  -webkit-box-orient: horizontal;
+		  -webkit-box-direction: normal;
+		  -webkit-flex-flow: row nowrap;
+		      -ms-flex-flow: row nowrap;
+		          flex-flow: row nowrap; /* is default: columns along the main-axis (row) and no wrapping to next lines */
+		  -webkit-box-align: end;
+		  -webkit-align-items: flex-end;
+		      -ms-flex-align: end;
+		          align-items: flex-end; /* bottom */
+		}
+		&.even {
+			position: relative;
+		}
+	}
+		
+}
+#partner-listing {
+	p.header {
+		font-size: 1.2em;
+		color:$black;
+		font-family: $font-sec;
+		text-align: center;
+		margin-bottom: 35px;
+		color: white;
+		background-color: #393939;
+		line-height: 1.6em;
+		padding: 0.7em;
+		margin-top: 35px;
+	}
+	.row {
+		border-bottom: 1px solid #d2d2d2;
+		padding-bottom: 30px;
+		.logo {
+			.holder {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: 50%;
+				text-align: center;
+				margin: auto;
+				@include breakpoint(phone) {
+					position: relative;
+					top: inherit;
+					left: inherit;
+					transform: inherit;
+					width: 100%
+				}
+				img {
+					width: 100%;
+				}
+			}
+		}
+		.col-sm-6 {
+			padding: 40px;
+			p.title {
+				font-family: $font-sec;
+				margin: 20px 0;
+			}
+			p.desc {
+
+			}
+		}
+		.col-sm-6.match-big {
+			div {
+				margin-bottom: 40px;
+			}
+			&.logo {
+				.holder {
+					img {
+						width: 60%;
+						margin-top: 20px;
+					}
+				}
 			}
 		}
 	}

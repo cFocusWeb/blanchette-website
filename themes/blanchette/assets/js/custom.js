@@ -139,6 +139,9 @@ $(window).scroll(function() {
 $(function() {
   $('#franchise-logos .franchise-box').matchHeight();
   $('.article-listing .col-md-4').matchHeight();
+  $('#team-listing .team-block .col-sm-6').matchHeight();
+  $('#partner-listing .match').matchHeight();
+  $('#partner-listing .match-big').matchHeight();
 });
 
 // Menu
