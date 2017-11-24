@@ -3,73 +3,87 @@ title: TARTAR Station
 description: >-
   This is a desc
 slug: tartar-station
-identifiant: tart
-image: "/img/franchises/02_TARTARStation_ImagePrincipale.jpg"
+identifiant: tartar
+image: "/img/franchises/tartar-franchise.jpg"
 logoc: "/img/logos/tartar.svg"
 logow: "/img/logos/tartar-white-2.svg"
-mainimage: /img/franchises/02_TARTARStation_ImagePrincipale.jpg
+mainimage: /img/franchises/tartar-franchise.jpg
 resume:
   titre: TARTAR Station
   desc: >-
-    Le bar à chocolat & crème glacée **Chocolato** se positionne comme l’un des plus gros joueurs dans son domaine d’activités, présentant la plus grande variété de trempages chocolatés. Avec un concept 4 saisons doté d’une offre de produits des plus diversifiée, à déguster sur place ou pour emporter, Chocolato se veut la destination par excellence des amateurs de sucré.  
-  investissement: "100 000$"
-  extraclass: 
+    Le comptoir de restauration rapide se spécialisant dans les tartares, tatakis et « poke bols » s’est rapidement taillé une place de choix dans le cœur des amateurs de repas santé et sur le pouce. À l’affût des dernières tendances, **TARTAR Station** propose des recettes savoureuses à déguster sur place, pour emporter ou en livraison ; sans compromis sur la qualité et le goût.   
+  investissement: "400 000$"
+  gridclass: 
+  carouselclass: tartar-logo 
+imagedesc: >-
 business: >-
-  Le bar à chocolat & crème glacée Chocolato se positionne comme l’un des plus gros joueurs dans son domaine d’activités, présentant la plus grande variété de trempages chocolatés. Avec un concept 4 saisons doté d’une offre de produits des plus diversifiée, à déguster sur place ou pour emporter, Chocolato se veut la destination par excellence des amateurs de sucré.  
-accentcolor: "#c6a099"
-website: http://www.chocolato.ca/
+  Le comptoir de restauration rapide se spécialisant dans les tartares, tatakis et « poke bols » s’est rapidement taillé une place de choix dans le cœur des amateurs de repas santé et sur le pouce. À l’affût des dernières tendances, TARTAR Station propose des recettes savoureuses à déguster sur place, pour emporter ou en livraison ; sans compromis sur la qualité et le goût. 
+accentcolor: "#fa5200"
+whitebg: true
+website: https://tartarstation.com/
 details:
   type: Franchise
-  investissement: 5 000 000$ à 8 000 000$
-  misedefonds: 3 000 000$
-  contact: Luc Beaumont
-  fondation: 2015
-  nbre: 8
-  formation: Oui
-  redevances: 7%
+  frais: 30 000 $
+  investissement: 400 000 $ 
+  misedefonds: à partir de 140 000 $
+  contact: Pierre-Antoine Morency
+  fondation: 2017
+  nbre: 2 (dont une en préparation)
+  redevances: 9%
   pub: 3%
-ctaimage: /img/misc/chocolato-cta-banner.jpg
+  royautes: 6%
+ctaimage: /img/franchises/tartar-cta-banner.jpg
 i18nlanguage: fr
 ordre: 1
 draft: false
 activemenu: franchise
+coupdecoeur: 
+  texte: >-
+    ### Les « bons coups » de TARTAR Station
+
+    **Concours culinaire _La semaine Manger cru 2017_** ;</br>
+    Première place dans la catégorie « Meilleur rapport qualité prix » pour le poke bol « Mini Pokebol Hawaïen au tartare double saumon & yogourt »
+  couleur: "250, 82, 0, 0.2"
+ordre: 4
 ---
-## Chocolato – Survol de la bannière
+## TARTAR Station – Survol de la bannière
 
 ### Une histoire à succès
 
-À peine 2 ans après le début de son aventure en août 2015, la bannière de bar à chocolat et crème glacée Chocolato dénombre 12 succursales aux quatre coins de la province, et prévoit plusieurs ouvertures au cours des prochains mois. 
-Avec des concepts de pignon sur rue, de kiosques en centres commerciaux, de succursales et de comptoirs « express »,  Chocolato continue son expansion d’un bout à l’autre du Québec pour propager son amour du chocolat. 
+TARTAR Station a vu le jour en février 2017, et compte déjà une succursale active et une seconde en voie d'ouvrir dans la même année. 
 
-### Une foule de choix 
+D'abord une idée, le concept voit le jour deux ans après la première image qu'en ont les deux entrepreneurs : créer la première chaîne de restaurants de style restauration rapide spécialisée en tartares et poke bols, servant à la fois ses plats sur place, mais également pour emporter et en livraison. Dans l'atteinte de son objectif, le duo à la base du concept joint ses forces à l'expertise du Groupe Blanchette-Maître Franchiseur, rendant leurs idées de grandeur enfin réalisables.  
 
-Chocolato se différencie de ses plus proches rivaux par son immense choix de produits, en commençant par son bar à trempages chocolatés offrant 20 variétés en permanence ainsi qu'une saveur surprise inspirée par le mois en cours. 
+### TARTAR 2.0
 
-Mais l'expérience Chocolato est loin de s'arrêter aux « simples cornets trempés » ! Les amateurs de chocolat peuvent déguster leur choix de trempage sous toutes les formes imaginables, tant sur un dessert glacé que maison (crêpe, gaufre et gâteau) ou dans un breuvage chaud. Toutes ces divines créations personnalisées peuvent être agrémentées de friandises parmi les 20 variétés offertes, tant sucrées que salées.
+Passant d'abord par son image de marque différente et une forte présence sur les réseaux sociaux, la marque TARTAR Station jouit d'une grande popularité grâce à son adaptation à une clientèle plus que jamais axée sur les nouvelles technologies. Ses bornes de commandes interactives en succursale et son système complet de commandes en ligne rendent l'expérience des plus conviviales pour les consommateurs. 
 
-En plus de ceux à déguster sur place, la clientèle peut se procurer divers produits dérivés en succursale afin de partager un moment chocolaté avec leurs proches : des fondues en conserve certifiées sans arachides, des figurines en chocolat, des produits de l'érable, des chocolats fins ainsi qu'une sélection de paniers-cadeaux pour tous les goûts et budgets.
- 
+Soucieux de satisfaire sa clientèle, TARTAR Station innove également par rapport à son offre de produits en proposant une ligne de thés froids infusés exclusive à leurs restaurants, les thés LT, ainsi qu'une gamme de mets préparés pour emporter.
+
 
 #### Occasions d'affaires
 
-### Un Chocolato à votre portée !
+### Un TARTAR Station à votre portée !
 
-Faites partie de la révolution chocolatée en ouvrant votre propre franchise Chocolato ! 
+Différenciez-vous de la masse en ouvrant votre propre comptoir TARTAR Station ! 
 
-### Pourquoi choisir la bannière Chocolato ?
+### Pourquoi choisir la bannière TARTAR Station ? 
 
-- Concept avec achalandage sur 4 saisons ;
-- Bon complément d'une offre de restauration existante ;
-- Heures d'ouverture flexibles.
+- Marché très en demande ;
+- Recettes éprouvées et populaires ; 
+- Systèmes de commandes en ligne très attrayant pour les clients.
 
-### Profil du futur franchisé 
 
-- Avoir de la facilité avec les relations humaines ;
-- Avoir de l'expérience dans le milieu de la restauration ou des bars laitiers (un atout de taille).
+### Profil du futur franchisé
+
+- Être à l'aise avec le public ; 
+- Aimer relever de nouveaux défis ;
+- Avoir de l'intérêt pour la cuisine crue (tartares, tatakis, etc.) ;
+- Avoir de l'expérience en restauration ou en opération d'un établissement dans ce milieu est un atout.
 
 ### Autres détails
 
-- Local d'une dimension de 1 500 à 2 000 pi2 ;
-- Possibilité de s'établir tant dans les centres-commerciaux que dans un local indépendant. 
+- Local d'une dimension entre 1 000 et 3 000 pi2.
+
 
 

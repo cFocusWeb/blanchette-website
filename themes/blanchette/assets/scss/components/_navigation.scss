@@ -114,6 +114,25 @@
 					}
 				}
 			}
+			.navbar-header {
+				.navbar-brand {
+					height: 84px;
+					line-height: 84px;		
+					padding:0px;	
+					@include small-lap {
+						height: 70px;
+						line-height: 70px;
+					}			
+					@include breakpoint(laptop) {
+						height: 70px;
+						line-height: 70px;
+					}
+					@include breakpoint(tablet) {
+						height: 70px;
+						line-height: 70px;
+					}
+				}
+			}
 		}
 		/* dropdwn */
 		.dropdown-menu {

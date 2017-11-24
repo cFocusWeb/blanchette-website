@@ -16,11 +16,15 @@
                 <div id="intro">
                     <p>{{.Params.imagedesc}} 
                     </br>{{.Params.imageordre}} </p>
-                    <img src="/img/misc/{{.Params.teamimage}}" alt="" class="img-responsive">
                 </div>
                 <!-- // intro  -->
-                <div id="history" style="display: none;">
-                	
+            </div>
+            <div class="container-fluid">
+                <img src="/img/misc/{{.Params.teamimage}}" alt="" class="img-responsive">
+            </div>
+            <div class="container">
+                <div id="history">
+                    {{.Content}}
                 </div>
 								
                 <div id="team-listing">

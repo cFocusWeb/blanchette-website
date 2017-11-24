@@ -12,27 +12,48 @@
 
                 <div class="row">
                     
-                    <div class="col-md-8 col-sm-7">
+                    <div class="col-md-7 col-sm-6">
                         <div id="main-content">
                             <header>
                                 <img src="{{.Params.mainimage}}" alt="" class="img-responsive">
                             </header>
+                            {{ with .Params.imagedesc}}
                             <div class="intro">
-                                <p>{{.Params.business}}</p>
+                                <p>{{.}}</p>
                             </div>
+                            {{ end }}
                             <!-- // intro  -->
                             {{ .Content }}
+                            {{ with .Params.coupdecoeur}}
+                            <div class="coupdecoeur" style="background-color: rgba({{string .couleur}})">
+                                {{.texte | markdownify }}
+                            </div>
+                            {{ end }}
                         </div>
                     </div>
                     <!-- // main content  -->
 
-                    <div class="col-md-4 col-sm-5">
+                    <div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1">
                         <aside id="side-details">
                             
                             <a href="{{.Site.BaseURL}}devenir-franchise?franchise={{.Slug}}" class="form-dload">Formulaire de <span>demande d’informations</span> <i class="fa fa-chevron-right" aria-hidden="true"></i> </a>
 
                             <div id="brand-holder">
-                                <a href="{{.Site.BaseURL}}devenir-franchise?franchise={{.Slug}}"><img class="svg" src="{{.Params.logoc}}" /></a>
+                                <a href="{{.Site.BaseURL}}devenir-franchise?franchise={{.Slug}}">
+                                    <div class='{{ if .Params.whitebg }}white-bg{{ end }}' {{ if .Params.colorbg }}style="background-color: {{.Params.colorforbg}}"{{ end }}>
+                                        {{ if .Params.colorbg }}
+                                          {{ if .Params.colorlogo}}
+                                            <img class="svg" src="{{.Params.logoc}}" style="max-height: 240px" />
+                                          {{ else }}
+                                            <img class="svg" src="{{.Params.logow}}" style="max-height: 240px"/>
+                                          {{ end }}
+                                        {{ else if .Params.whitebg}}
+                                        <img class="svg" src="{{.Params.logoc}}" style="max-height: 240px" />
+                                        {{ else }}
+                                        <img class="svg" src="{{.Params.logoc}}"/>
+                                        {{ end }}
+                                    </div>
+                                </a>
                             </div>
                             <!-- // brand holder  -->
 
@@ -51,12 +72,16 @@
                                         <td width="50%">{{.Params.details.type}}</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Investissement total</strong></td>
-                                        <td>{{.Params.details.investissement}}</td>
-                                    </tr>
-                                    <tr>
                                         <td><strong>Mise de fonds</strong></td>
                                         <td>{{.Params.details.misedefonds}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Frais de {{lower .Params.details.type}}</strong></td>
+                                        <td>{{.Params.details.frais}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Investissement total estimé (avant taxes)</strong></td>
+                                        <td>{{.Params.details.investissement}}</td>
                                     </tr>
                                     <tr>
                                         <td><strong>Personne contact</strong></td>
@@ -71,17 +96,23 @@
                                         <td>{{.Params.details.nbre}}</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Formation incluse</strong></td>
-                                        <td>{{.Params.details.formation}}</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Redevances</strong></td>
-                                        <td>{{.Params.details.redevances}}</td>
+                                        <td><strong>Royautés</strong></td>
+                                        <td>{{.Params.details.royautes}}</td>
                                     </tr>
                                     <tr>
                                         <td><strong>Frais publicitaires</strong></td>
                                         <td>{{.Params.details.pub}}</td>
                                     </tr>
+                                    <tr>
+                                        <td><strong>Redevances totales</strong></td>
+                                        <td>{{.Params.details.redevances}}</td>
+                                    </tr>
+                                    {{ with .Params.details.autre }}
+                                    <tr>
+                                        <td><strong>Autres informations</strong></td>
+                                        <td>{{.}}</td>
+                                    </tr>
+                                    {{ end }}
                                 </table>
 
                             </div>
@@ -96,7 +127,7 @@
                             <!-- // video block  -->
 
                             <div id="site-block">
-                                <h6>Consultez le <span>site web</span> :</h6>
+                                <h6>Consultez le <span>site Web</span> :</h6>
                                 <p><a href="{{.Params.website}}" target="_blank">{{.Params.website}}</a></p>
                             </div>
                             <!-- // site  -->
@@ -114,7 +145,7 @@
 
         <div id="">
             <a href="{{.Site.BaseURL}}devenir-franchise?franchise={{.Slug}}">
-                <img src="{{.Params.ctaimage}}" alt="Devenir franchise" style="display: block">
+                <img src="{{.Params.ctaimage}}" alt="Devenir franchise" style="display: block; width: 100%;">
             </a>
         </div>
         <!-- // bottom cta inner  -->

@@ -4,35 +4,40 @@ description: >-
   This is a desc
 slug: la-ptite-grenouille
 identifiant: grenouille
-image: "/img/franchises/03_PtiteGre_ImagePrincipale.jpg"
+image: "/img/franchises/grenouille-license.jpg"
 logoc: "/img/logos/ptiteGrenouille.svg"
 logow: "/img/logos/ptiteGrenouille-white.svg"
-mainimage: /img/franchises/03_PtiteGre_ImagePrincipale.jpg
+mainimage: /img/franchises/grenouille-license.jpg
 resume:
   titre: La P'tite Grenouille
   desc: >-
     Les boîtes à chansons **La P’tite Grenouille** composent la plus grande chaîne de bars de style chansonnier au Québec, et bientôt au Canada. Prestations de musiciens et d’humoristes, soirées thématiques, ambiance festive et alléchants spéciaux sur l’alcool ne sont que quelques-unes des raisons qui rendent le concept si populaire. 
-  investissement: "100 000$"
+  investissement: "170 000 $"
   extraclass: 
+imagedesc: >-
+  Le boîtes à chansons La P'tite Grenouille : pour fêter comme dans le bon vieux temps ! Ci-dessus : La P'tite Grenouille de Lévis.
 business: >-
   Les boîtes à chansons La P’tite Grenouille composent la plus grande chaîne de bars de style chansonnier au Québec, et bientôt au Canada. Prestations de musiciens et d’humoristes, soirées thématiques, ambiance festive et alléchants spéciaux sur l’alcool ne sont que quelques-unes des raisons qui rendent le concept si populaire. 
 accentcolor: "#53ab01"
+whitebg: true
 website: https://www.laptitegrenouille.ca/
 details:
-  type: License
-  investissement: 5 000 000$ à 8 000 000$
-  misedefonds: 3 000 000$
-  contact: Luc Beaumont
-  fondation: 2015
-  nbre: 8
-  formation: Oui
-  redevances: 7%
-  pub: 3%
-ctaimage: /img/misc/grenouille-cta-banner.jpg
+  type: Licence
+  frais: 0 $
+  investissement: à partir de 170 00 $ 
+  misedefonds: à partir de 200 000 $
+  contact: Jérôme Landry
+  fondation: 2005
+  nbre: 17
+  redevances: 0%
+  pub: 0%
+  royautes: 0%
+ctaimage: /img/franchises/grenouille-cta-banner.jpeg
 i18nlanguage: fr
 ordre: 1
 draft: false
 activemenu: franchise
+ordre: 3
 ---
 ## La P'tite Grenouille – Survol de la bannière
 
@@ -47,7 +52,7 @@ La possibilité de se produire dans de multiples établissements rend le concept
 
 #### Occasions d'affaires
 
-### Un La P’tite Grenouille à votre portée !
+### Une P’tite Grenouille à votre portée !
 
 Offrez un atout majeur à votre région avec votre propre licence La P’tite Grenouille ! 
 

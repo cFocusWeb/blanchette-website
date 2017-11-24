@@ -4,72 +4,77 @@ description: >-
   This is a desc
 slug: hola
 identifiant: hola
-image: "/img/franchises/02_Hola_ImagePrincipale.jpg"
+image: "/img/franchises/hola-franchise.jpg"
 logoc: "/img/logos/hola.svg"
 logow: "/img/logos/hola-white-2.svg"
-mainimage: /img/franchises/02_Hola_ImagePrincipale.jpg
+mainimage: /img/franchises/hola-franchise.jpg
 resume:
   titre: Hola
   desc: >-
-    Le bar à chocolat & crème glacée **Chocolato** se positionne comme l’un des plus gros joueurs dans son domaine d’activités, présentant la plus grande variété de trempages chocolatés. Avec un concept 4 saisons doté d’une offre de produits des plus diversifiée, à déguster sur place ou pour emporter, Chocolato se veut la destination par excellence des amateurs de sucré.  
-  investissement: "100 000$"
+    Qualité et saveurs sont au rendez-vous au comptoir de restauration rapide **HOLA Grill Mexicain**. On y propose une cuisine mexicaine axée sur la fraîcheur des aliments, pour des repas santé et sur le pouce. Les possibilités sont infinies pour créer un repas sur mesure, au goût du client ; sur place, pour emporter ou en livraison.   
+  investissement: "360 000$"
   extraclass: 
+imagedesc: >-
 business: >-
-  Le bar à chocolat & crème glacée Chocolato se positionne comme l’un des plus gros joueurs dans son domaine d’activités, présentant la plus grande variété de trempages chocolatés. Avec un concept 4 saisons doté d’une offre de produits des plus diversifiée, à déguster sur place ou pour emporter, Chocolato se veut la destination par excellence des amateurs de sucré.  
-accentcolor: "#c6a099"
-website: http://www.chocolato.ca/
+  Qualité et saveurs sont au rendez-vous au comptoir de restauration rapide HOLA Grill Mexicain. On y propose une cuisine mexicaine axée sur la fraîcheur des aliments, pour des repas santé et sur le pouce. Les possibilités sont infinies pour créer un repas sur mesure, au goût du client ; sur place, pour emporter ou en livraison.  
+accentcolor: "#dd1000"
+whitebg: true
+colorbg: true
+colorlogo: true
+colorforbg: "#dd1000"
+website: https://www.holagrill.ca/
 details:
   type: Franchise
-  investissement: 5 000 000$ à 8 000 000$
-  misedefonds: 3 000 000$
-  contact: Luc Beaumont
+  frais: 30 000 $
+  investissement: 360 000 $ 
+  misedefonds: 65 000 $
+  contact: Hugo Laperrière
   fondation: 2015
-  nbre: 8
-  formation: Oui
-  redevances: 7%
-  pub: 3%
-ctaimage: /img/misc/chocolato-cta-banner.jpg
+  nbre: 1
+  redevances: 8%
+  pub: 2%
+  royautes: 6%
+ctaimage: /img/franchises/hola-cta-banner.jpeg
 i18nlanguage: fr
 ordre: 1
 draft: false
 activemenu: franchise
+ordre: 6
 ---
-## Chocolato – Survol de la bannière
+## HOLA Grill Mexicain – Survol de la bannière
 
-### Une histoire à succès
+### L’histoire de HOLA Grill Mexicain
 
-À peine 2 ans après le début de son aventure en août 2015, la bannière de bar à chocolat et crème glacée Chocolato dénombre 12 succursales aux quatre coins de la province, et prévoit plusieurs ouvertures au cours des prochains mois. 
-Avec des concepts de pignon sur rue, de kiosques en centres commerciaux, de succursales et de comptoirs « express »,  Chocolato continue son expansion d’un bout à l’autre du Québec pour propager son amour du chocolat. 
+Le comptoir de restauration rapide HOLA Grill Mexicain a ouvert ses portes en 2015, guidé par un désir d’offrir une cuisine mexicaine à la fois saine, fraîche et sur le pouce. 
 
-### Une foule de choix 
+L’aménagement et l’équipement de base du concept fut pensé afin de maximiser l’utilisation d’espaces réduits, rendant ainsi l’implantation d’une succursale HOLA Grill Mexicain des plus faciles dans les centres commerciaux ou autres endroits à superficie restreinte. 
 
-Chocolato se différencie de ses plus proches rivaux par son immense choix de produits, en commençant par son bar à trempages chocolatés offrant 20 variétés en permanence ainsi qu'une saveur surprise inspirée par le mois en cours. 
+### L’avantage concurrentiel de HOLA Grill Mexicain
 
-Mais l'expérience Chocolato est loin de s'arrêter aux « simples cornets trempés » ! Les amateurs de chocolat peuvent déguster leur choix de trempage sous toutes les formes imaginables, tant sur un dessert glacé que maison (crêpe, gaufre et gâteau) ou dans un breuvage chaud. Toutes ces divines créations personnalisées peuvent être agrémentées de friandises parmi les 20 variétés offertes, tant sucrées que salées.
-
-En plus de ceux à déguster sur place, la clientèle peut se procurer divers produits dérivés en succursale afin de partager un moment chocolaté avec leurs proches : des fondues en conserve certifiées sans arachides, des figurines en chocolat, des produits de l'érable, des chocolats fins ainsi qu'une sélection de paniers-cadeaux pour tous les goûts et budgets.
- 
+Chez HOLA Grill Mexicain, le client est roi : il peut personnaliser son plat du début à la fin. Choix de repas, de viandes, de légumes, de condiments, de sauces et d’accompagnements ; tout y est pour plaire tant aux amateurs de plats doux, que de plats piquants. Ainsi, HOLA Grill Mexicain rejoint une clientèle des plus larges, pouvant séduire autant les fanatiques de plats mexicains traditionnels que les adeptes de cuisine santé. 
 
 #### Occasions d'affaires
 
-### Un Chocolato à votre portée !
+### Un HOLA Grill Mexicain à votre portée ! 
 
-Faites partie de la révolution chocolatée en ouvrant votre propre franchise Chocolato ! 
+Saisissez l’opportunité d’offrir une expérience différente en matière de restauration rapide avec votre propre franchise HOLA Grill Mexicain ! 
 
-### Pourquoi choisir la bannière Chocolato ?
+### Pourquoi HOLA Grill Mexicain ? 
 
-- Concept avec achalandage sur 4 saisons ;
-- Bon complément d'une offre de restauration existante ;
-- Heures d'ouverture flexibles.
+- Menu à l’affût des nouvelles tendances ; 
+- Parfait pour un premier projet de franchise ; 
+- Nombre d’employés nécessaires minime ;
+- Rejoint une clientèle très variée.
 
-### Profil du futur franchisé 
+### Profil du futur franchisé  
 
-- Avoir de la facilité avec les relations humaines ;
-- Avoir de l'expérience dans le milieu de la restauration ou des bars laitiers (un atout de taille).
-
+- Démontrer une aisance avec les relations humaines ; 
+- Être déterminé et optimiste ; 
+- Être ouvert aux commentaires constructifs. 
+ 
 ### Autres détails
 
-- Local d'une dimension de 1 500 à 2 000 pi2 ;
-- Possibilité de s'établir tant dans les centres-commerciaux que dans un local indépendant. 
+- Local d’une dimension de 1 000 à 1 500 pi2 ;
+- Choix d’un futur emplacement dans un secteur ayant un achalandage naturel élevé.
 
 

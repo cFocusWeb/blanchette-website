@@ -4,72 +4,79 @@ description: >-
   This is a desc
 slug: planete-nutrition
 identifiant: planete
-image: "/img/franchises/02_PlaneteNutrition_ImagePrincipale.jpg"
+image: "/img/franchises/planete-license.jpg"
 logoc: "/img/logos/planette.svg"
 logow: "/img/logos/planete-white.svg"
-mainimage: /img/franchises/02_PlaneteNutrition_ImagePrincipale.jpg
+mainimage: /img/franchises/planete-license.jpg
 resume:
   titre: Planète Nutrition
   desc: >-
-    Le bar à chocolat & crème glacée **Chocolato** se positionne comme l’un des plus gros joueurs dans son domaine d’activités, présentant la plus grande variété de trempages chocolatés. Avec un concept 4 saisons doté d’une offre de produits des plus diversifiée, à déguster sur place ou pour emporter, Chocolato se veut la destination par excellence des amateurs de sucré.  
-  investissement: "100 000$"
-  extraclass: 
+    **Planète Nutrition**, c’est bien plus qu’un magasin de suppléments alimentaires. Avec ses prix compétitifs, sa marque privée de renom, son Épicerie Athlétique et son service à la clientèle hors pair, Planète Nutrition est en voie de devenir la plus grande chaîne de suppléments alimentaires jumelée à une épicerie athlétique du Québec et bientôt du Canada.  
+  investissement: "90 500$"
+  gridclass: planete
+  carouselclass: 
+imagedesc: >-
+  
 business: >-
-  Le bar à chocolat & crème glacée Chocolato se positionne comme l’un des plus gros joueurs dans son domaine d’activités, présentant la plus grande variété de trempages chocolatés. Avec un concept 4 saisons doté d’une offre de produits des plus diversifiée, à déguster sur place ou pour emporter, Chocolato se veut la destination par excellence des amateurs de sucré.  
-accentcolor: "#c6a099"
-website: http://www.chocolato.ca/
+  Planète Nutrition, c’est bien plus qu’un magasin de suppléments alimentaires. Avec ses prix compétitifs, sa marque privée de renom, son Épicerie Athlétique et son service à la clientèle hors pair, Planète Nutrition est en voie de devenir la plus grande chaîne de suppléments alimentaires jumelée à une épicerie athlétique du Québec et bientôt du Canada.  
+accentcolor: "#9bd700"
+whitebg: true
+colorbg: false
+website: https://planetenutrition.ca/
 details:
-  type: Franchise
-  investissement: 5 000 000$ à 8 000 000$
-  misedefonds: 3 000 000$
-  contact: Luc Beaumont
+  type: Licence
+  frais: 10 000 $
+  investissement: 90 500 $ 
+  misedefonds: 54 000 $
+  contact: William Déry
   fondation: 2015
-  nbre: 8
-  formation: Oui
-  redevances: 7%
-  pub: 3%
-ctaimage: /img/misc/chocolato-cta-banner.jpg
+  nbre: 0
+  redevances: 0%
+  pub: 0%
+  royautes: 0%
+ctaimage: /img/franchises/planete-cta-banner.jpeg
 i18nlanguage: fr
 ordre: 1
 draft: false
 activemenu: franchise
+ordre: 8
 ---
-## Chocolato – Survol de la bannière
+## Planète Nutrition – Survol de la bannière
 
-### Une histoire à succès
+### Une popularité grandissante
 
-À peine 2 ans après le début de son aventure en août 2015, la bannière de bar à chocolat et crème glacée Chocolato dénombre 12 succursales aux quatre coins de la province, et prévoit plusieurs ouvertures au cours des prochains mois. 
-Avec des concepts de pignon sur rue, de kiosques en centres commerciaux, de succursales et de comptoirs « express »,  Chocolato continue son expansion d’un bout à l’autre du Québec pour propager son amour du chocolat. 
+Planète Nutrition rivalise déjà avec les géants de l’industrie malgré son arrivée relativement nouvelle sur le marché. Avec ses 6 succursales au Québec, la bannière part à la conquête de marché, guidé par sa mission d’« Être reconnu comme le leader et la référence des magasins de suppléments alimentaires à travers le Canada, spécialisé dans les suppléments sportifs, la santé générale de l’homme et de la femme et des collations et repas nutritionnels santés. ». En ces lieux, une clientèle grandissante à la fois avide de résultats sur le plan sportif qu’à la recherche d’un excellent rapport qualité-prix trouve chaussure à son pied. 
 
-### Une foule de choix 
+### Ce qui différencie Planète Nutrition
 
-Chocolato se différencie de ses plus proches rivaux par son immense choix de produits, en commençant par son bar à trempages chocolatés offrant 20 variétés en permanence ainsi qu'une saveur surprise inspirée par le mois en cours. 
-
-Mais l'expérience Chocolato est loin de s'arrêter aux « simples cornets trempés » ! Les amateurs de chocolat peuvent déguster leur choix de trempage sous toutes les formes imaginables, tant sur un dessert glacé que maison (crêpe, gaufre et gâteau) ou dans un breuvage chaud. Toutes ces divines créations personnalisées peuvent être agrémentées de friandises parmi les 20 variétés offertes, tant sucrées que salées.
-
-En plus de ceux à déguster sur place, la clientèle peut se procurer divers produits dérivés en succursale afin de partager un moment chocolaté avec leurs proches : des fondues en conserve certifiées sans arachides, des figurines en chocolat, des produits de l'érable, des chocolats fins ainsi qu'une sélection de paniers-cadeaux pour tous les goûts et budgets.
- 
+Loin de limiter son offre à la vente de suppléments, Planète Nutrition convie sa clientèle à une expérience de magasinage unique, passant d’abord par son équipe attentive aux besoins de chaque individu s’y présentant. Sur place, on y retrouve tant des suppléments de marques internationales que ceux de leur marque privée exclusive ; une ligne de la plus haute qualité offerte à prix des plus compétitifs. En complément, le client y retrouve une large gamme de produits alimentaires pouvant l’accompagner dans l’atteinte de ses objectifs. 
 
 #### Occasions d'affaires
 
-### Un Chocolato à votre portée !
+### Un Planète Nutrition à votre portée !
 
-Faites partie de la révolution chocolatée en ouvrant votre propre franchise Chocolato ! 
+Présentez une offre de services complète et différente avec votre propre licence Planète Nutrition !
 
-### Pourquoi choisir la bannière Chocolato ?
+### Pourquoi choisir la bannière Planète Nutrition ?
 
-- Concept avec achalandage sur 4 saisons ;
-- Bon complément d'une offre de restauration existante ;
-- Heures d'ouverture flexibles.
+- Concept unique de magasin de suppléments alimentaires au look épuré et dynamique ;
+- Une vaste gamme de produits et accessoires rencontrant les normes et standards de qualité de Santé Canada ;
+- Ententes exclusives et concurrentielles avec plusieurs fournisseurs.
 
-### Profil du futur franchisé 
+### Profil du futur licencié
 
-- Avoir de la facilité avec les relations humaines ;
-- Avoir de l'expérience dans le milieu de la restauration ou des bars laitiers (un atout de taille).
+- Avoir un intérêt pour le milieu du sport et de la supplémentation ;
+- Avoir un tempérament de leader ;
+- Avoir de la facilité à communiquer facilement ;
+- Être soucieux de la satisfaction des clients;
+- Être motivé et avoir une attitude positive ;
+- Démontrer un désir d’être impliqué l’opération du magasin est un atout important.
 
-### Autres détails
+### Autres détails 
 
-- Local d'une dimension de 1 500 à 2 000 pi2 ;
-- Possibilité de s'établir tant dans les centres-commerciaux que dans un local indépendant. 
+- Local d’une dimension d’environ 800 pi2 ;
+- Situation stratégique dans un secteur à proximité des artères passantes ;
+- La possibilité de plusieurs stationnements disponibles est un atout. 
+
 
 

@@ -16,14 +16,6 @@
 		}
 		header {
 			padding-bottom: 30px;
-			img {
-				max-width: 110%;
-				margin-left: -10%;
-				@include breakpoint(phone) {
-					margin-left: 0;
-					max-width: 100%;
-				}
-			}
 		}
 		@include breakpoint(phone) {
 			padding-bottom: 20px;
@@ -44,6 +36,7 @@
 				line-height: 1.4;
 				font-family: $font-sec;
 				font-style: italic;
+				margin-bottom: 0;
 			}
 		}
 		h2 {
@@ -59,7 +52,7 @@
 			margin: 15px 0;
 		}
 		p {
-			margin-bottom: 10px;
+			margin-bottom: 20px;
 			font-size: 1.063em;
 			color:$black;
 			line-height: 1.4;
@@ -69,7 +62,7 @@
 			font-size: 1.375em;
 			font-family: $font-sec;
 			margin-bottom: 20px;
-			margin-top: 30px;
+			margin-top: 40px;
 		}
 		ul {
 			li {
@@ -91,6 +84,19 @@
 					left:0px;
 					top:16px;
 				}
+			}
+		}
+		div.coupdecoeur {
+			padding: 20px 40px 35px;
+		    margin-top: 40px;
+		    background-color: rgba(183, 147, 0, 0.2);
+		    @include breakpoint(phone) {
+				padding: 10px 25px 25px;
+		    	margin-top: 30px;
+			}
+			@include breakpoint(phone-xs) {
+				padding: 10px 25px 25px;
+		    	margin-top: 30px;
 			}
 		}
 	}
@@ -144,23 +150,24 @@
 			}
 		}
 		#brand-holder {
-			min-height: 300px;
-			padding: 40px;
-			position: relative;
-			@include breakpoint(tablet) {
-				min-height: 200px
-			}
-			@include breakpoint(phone) {
-				min-height: 150px
-			}
-			@include breakpoint(phone-xs) {
-				min-height: 150px
-			}
-			img {
-				position: absolute;
-			    top: 50%;
-			    left: 50%;
-			    transform: translate(-50%,-50%);
+			a {
+				div {
+					&.white-bg {
+						position: relative;
+						height: 300px;
+						padding: 10%;
+						img {
+							position: absolute;
+						    top: 50%;
+						    left: 50%;
+						    transform: translate(-50%,-50%);
+						    width: 80%;
+						}
+					}
+					img {
+						width: 100%;
+					}
+				}
 			}
 		}
 		#about-block-aside {

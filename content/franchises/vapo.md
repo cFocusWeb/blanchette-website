@@ -4,72 +4,75 @@ description: >-
   This is a desc
 slug: vaposhop
 identifiant: vapo
-image: "/img/franchises/02_Vaposhop_ImagePrincipale.jpg"
+image: "/img/franchises/vapo-license.jpg"
 logoc: "/img/logos/vapshop.svg"
-logow: "/img/logos/vaposhop-white.svg"
-mainimage: /img/franchises/02_Vaposhop_ImagePrincipale.jpg
+logow: "/img/logos/vapo-white.svg"
+mainimage: /img/franchises/vapo-license.jpg
 resume:
   titre: Vaposhop
   desc: >-
-    Le bar à chocolat & crème glacée **Chocolato** se positionne comme l’un des plus gros joueurs dans son domaine d’activités, présentant la plus grande variété de trempages chocolatés. Avec un concept 4 saisons doté d’une offre de produits des plus diversifiée, à déguster sur place ou pour emporter, Chocolato se veut la destination par excellence des amateurs de sucré.  
-  investissement: "100 000$"
-  extraclass: 
+    **VAPOSHOP** est le leader incontesté en vente d’articles pour vapoteurs à Québec. Répondant à une demande grandissante pour un marché l’étant tout autant, leur inventaire impressionnant de produits distincts et de qualité comblera les attentes de tous types de consommateurs, tant les nouveaux utilisateurs que les plus initiés.   
+  investissement: "40 000$"
+  carouselclass: big-nav 
+imagedesc: >-
 business: >-
-  Le bar à chocolat & crème glacée Chocolato se positionne comme l’un des plus gros joueurs dans son domaine d’activités, présentant la plus grande variété de trempages chocolatés. Avec un concept 4 saisons doté d’une offre de produits des plus diversifiée, à déguster sur place ou pour emporter, Chocolato se veut la destination par excellence des amateurs de sucré.  
-accentcolor: "#c6a099"
-website: http://www.chocolato.ca/
+  VAPOSHOP est le leader incontesté en vente d’articles pour vapoteurs à Québec. Répondant à une demande grandissante pour un marché l’étant tout autant, leur inventaire impressionnant de produits distincts et de qualité comblera les attentes de tous types de consommateurs, tant les nouveaux utilisateurs que les plus initiés.   
+accentcolor: "#c5c3c4"
+whitebg: true
+website: https://www.vaposhop.fr/
 details:
-  type: Franchise
-  investissement: 5 000 000$ à 8 000 000$
-  misedefonds: 3 000 000$
-  contact: Luc Beaumont
-  fondation: 2015
-  nbre: 8
-  formation: Oui
-  redevances: 7%
-  pub: 3%
-ctaimage: /img/misc/chocolato-cta-banner.jpg
+  type: Licence
+  frais: 7500 $
+  investissement: à partir de 40 000 $ 
+  misedefonds: 40 000 $
+  contact: Pierre-Antoine Morency
+  fondation: 2014
+  nbre: 3
+  redevances: 0%
+  pub: 0%
+  royautes: 0%
+  autre: le licencié doit s’approvisionner directement du licencieur et par conséquent, celui-ci retient une marge sur tous les produits (entre 5 et 20%).
+ctaimage: /img/franchises/vapo-cta-banner.jpg
 i18nlanguage: fr
 ordre: 1
 draft: false
 activemenu: franchise
+ordre: 7
 ---
-## Chocolato – Survol de la bannière
+## VAPOSHOP – Survol de la bannière
 
-### Une histoire à succès
+### D'abord une ligne de produits 
 
-À peine 2 ans après le début de son aventure en août 2015, la bannière de bar à chocolat et crème glacée Chocolato dénombre 12 succursales aux quatre coins de la province, et prévoit plusieurs ouvertures au cours des prochains mois. 
-Avec des concepts de pignon sur rue, de kiosques en centres commerciaux, de succursales et de comptoirs « express »,  Chocolato continue son expansion d’un bout à l’autre du Québec pour propager son amour du chocolat. 
+En 2014, le groupe et deux jeunes entrepreneurs fondent VAPOSHOP et se lancent dans le marché des liquides pour cigarettes électroniques. Rapidement, leur gamme de produits connaît un fort intérêt et est distribuée dans 10 points de vente à travers le Québec. 
 
-### Une foule de choix 
+### L'ouverture de commerces 
 
-Chocolato se différencie de ses plus proches rivaux par son immense choix de produits, en commençant par son bar à trempages chocolatés offrant 20 variétés en permanence ainsi qu'une saveur surprise inspirée par le mois en cours. 
+Après avoir développé une expertise dans son domaine initial, l’équipe derrière VAPOSHOP décide de se lancer en ouvrant ses propres boutiques éponymes. Ils ouvrent donc une première boutique à Ste-Foy en 2014, vendent une franchise à Lévis et ouvrent finalement une deuxième succursale corporative à Charlesbourg en 2017. 
 
-Mais l'expérience Chocolato est loin de s'arrêter aux « simples cornets trempés » ! Les amateurs de chocolat peuvent déguster leur choix de trempage sous toutes les formes imaginables, tant sur un dessert glacé que maison (crêpe, gaufre et gâteau) ou dans un breuvage chaud. Toutes ces divines créations personnalisées peuvent être agrémentées de friandises parmi les 20 variétés offertes, tant sucrées que salées.
-
-En plus de ceux à déguster sur place, la clientèle peut se procurer divers produits dérivés en succursale afin de partager un moment chocolaté avec leurs proches : des fondues en conserve certifiées sans arachides, des figurines en chocolat, des produits de l'érable, des chocolats fins ainsi qu'une sélection de paniers-cadeaux pour tous les goûts et budgets.
- 
+Le concept a su évoluer rapidement pour permettre à VAPOSHOP de devenir un chef de file partout où un de leurs commerces est exploité. Détenir et produire sa propre gamme de liquides à cigarettes électroniques lui apporte un avantage concurrentiel indéniable.   
 
 #### Occasions d'affaires
 
-### Un Chocolato à votre portée !
+### Un VAPOSHOP à votre portée !
 
-Faites partie de la révolution chocolatée en ouvrant votre propre franchise Chocolato ! 
+Devenez votre propre patron en ouvrant votre succursale VAPOSHOP !
 
-### Pourquoi choisir la bannière Chocolato ?
+### Pourquoi choisir la bannière VAPOSHOP ?
 
-- Concept avec achalandage sur 4 saisons ;
-- Bon complément d'une offre de restauration existante ;
-- Heures d'ouverture flexibles.
+- Possibilité de forte rentabilité versus investissement ;
+- Marché en pleine croissance ;
+- Concept de licence clés en main ; 
+- Mise de fonds convenant aux budgets plus modestes. 
 
-### Profil du futur franchisé 
+### Profil du futur licencié
 
-- Avoir de la facilité avec les relations humaines ;
-- Avoir de l'expérience dans le milieu de la restauration ou des bars laitiers (un atout de taille).
+- Désir d’opérer une succursale avec un concept hors du commun ;
+- Avoir un intérêt pour le milieu entrepreneurial ;
+- Être avide de réussite et de nouveaux défis. 
 
-### Autres détails
+### Autres détails 
 
-- Local d'une dimension de 1 500 à 2 000 pi2 ;
-- Possibilité de s'établir tant dans les centres-commerciaux que dans un local indépendant. 
+- Local d’une dimension de 500 à 2 000 pi2.
+ 
 
 

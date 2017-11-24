@@ -21,11 +21,11 @@
 	                      <span class="title">Plan du site</span>
 	                      <div class="content">
 	                          <ul>
-	                              <li><a href="#">Nos franchises</a></li>
-	                              <li><a href="#">Notre histoire</a></li>
-	                              <li><a href="#">Devenir franchisé</a></li>
-	                              <li><a href="#">Projets & développement</a></li>
-	                              <li><a href="#">Contact</a></li>
+	                              <li><a href="/franchises">Nos franchises</a></li>
+	                              <li><a href="/historique">Notre histoire</a></li>
+	                              <li><a href="/devenir-franchise">Devenir franchisé</a></li>
+	                              <li><a href="/projets-developpement">Projets & développement</a></li>
+	                              <li><a href="/contact">Contact</a></li>
 	                              <li><a href="https://grblanchette.gestock.ca/" target="_blank">Boutique</a></li>
 	                          </ul>
 	                      </div>
@@ -66,60 +66,30 @@
 
 	              <div class="col-md-8 hidden-xs">
 	                  <div id="franchises-footer">
-	                      <span class="title">Visitez les site web respectifs de chacune des bannières</span>
+	                      <span class="title">Visitez les sites Web respectifs de chacune des bannières</span>
 	                      <div class="content">
 			                      <div class="row">
+			                      	{{ range $i, $e := first 4 (sort (where $.Site.Pages "Type" "franchises") ".Params.ordre" "asce") }}
 			                        <div class="col-sm-3">
 			                            <div class="logo-box">
-			                                <a href="https://shakercuisineetmixologie.com/" target="_blank"><img class="svg" src="/img/logos/shaker-logo-white.svg" /></a>
+			                                <a href="{{.Params.website}}" target="_blank"><img class="svg {{with .Params.resume.carouselclass}}{{.}}{{end}}" src="{{.Params.logow}}" /></a>
 			                            </div>
 			                        </div>
 			                        <!-- // logo box  -->
-			                        <div class="col-sm-3">
-			                            <div class="logo-box">
-			                                <a href="http://www.chocolato.ca/" target="_blank"><img class="svg" src="/img/logos/chocolate-white.svg" /></a>
-			                            </div>
-			                        </div>
-			                        <!-- // logo box  -->
-			                        <div class="col-sm-3">
-			                            <div class="logo-box">
-			                                <a href="https://www.laptitegrenouille.ca/" target="_blank"><img class="svg" src="/img/logos/ptiteGrenouille-white.svg" /></a>
-			                            </div>
-			                        </div>
-			                        <!-- // logo box  -->
-			                        <div class="col-sm-3">
-			                            <div class="logo-box">
-			                                <a href="https://tartarstation.com/" target="_blank"><img class="svg tartar-logo" src="/img/logos/tartar-white-2.svg" /></a>
-			                            </div>
-			                        </div>
-			                        <!-- // logo box  -->                                                                    
+			                        {{ end }}
 			                      </div>
 			                      <!-- // row  -->   
 			                      <div class="row">
+			                        {{ range $i, $e := after 4 (sort (where $.Site.Pages "Type" "franchises") ".Params.ordre" "asce") }}
+			                        {{ if .Params.mainimage }}
 			                        <div class="col-sm-3">
 			                            <div class="logo-box">
-			                                <a href="https://www.fritsburgerspoutines.com/" target="_blank"><img class="svg" src="/img/logos/frits-white.svg" /></a>
+			                                <a href="{{.Params.website}}" target="_blank"><img class="svg {{with .Params.resume.carouselclass}}{{.}}{{end}}" src="{{.Params.logow}}" /></a>
 			                            </div>
 			                        </div>
 			                        <!-- // logo box  -->
-			                        <div class="col-sm-3">
-			                            <div class="logo-box">
-			                                <a href="https://www.holagrill.ca/" target="_blank"><img class="svg" src="/img/logos/hola-white-2.svg" /></a>
-			                            </div>
-			                        </div>
-			                        <!-- // logo box  -->
-			                        <div class="col-sm-3">
-			                            <div class="logo-box">
-			                                <a href="https://www.vaposhop.fr/" target="_blank"><img src="/img/logos/vapo-white.svg" alt=""></a>
-			                            </div>
-			                        </div>
-			                        <!-- // logo box  -->
-			                        <div class="col-sm-3">
-			                            <div class="logo-box">
-			                                <a href="https://planetenutrition.ca/" target="_blank"><img src="/img/logos/planete-white.svg" alt=""></a>
-			                            </div>
-			                        </div>
-			                        <!-- // logo box  -->                                                                    
+			                        {{ end }}
+			                        {{ end }}                                                                    
 			                      </div>
 			                      <!-- // row  -->                                                                 
 	                      </div>

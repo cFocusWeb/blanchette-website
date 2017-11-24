@@ -4,35 +4,66 @@ description: >-
   This is a desc
 slug: shaker
 identifiant: shaker
-image: "/img/franchises/shaker.jpg"
+image: "/img/franchises/shaker-franchise.jpg"
 logoc: "/img/logos/shaker.svg"
 logow: "/img/logos/shaker-logo-white.svg"
-mainimage: /img/franchises/shaker.jpg
+mainimage: /img/franchises/shaker-franchise.jpg
 resume:
   titre: SHAKER Cuisine & Mixologie
   desc: >-
     **SHAKER Cuisine & Mixologie** se présente comme la seule chaîne de restaurants-bars spécialisée en cocktails, tartares et burgers gourmets. C’est dans un décor de style industriel chic que sa clientèle de tous âges abonde, du dîner à la fin de soirée, pour « Vivre l’expérience SHAKER », au gré d’alléchantes promotions hebdomadaires. 
-  investissement: "100 000$"
-  extraclass: 
+  investissement: "640 000 $"
+  carouselclass: big-nav
+imagedesc: >-
+  SHAKER Cuisine & Mixologie : l’endroit parfait pour dîners d’affaires, soupers tendance et sorties nocturnes. (Ci-dessus, le SHAKER Gatineau ; le 7e restaurant de la bannière). 
 business: >-
   SHAKER Cuisine & Mixologie se présente comme la seule chaîne de restaurants-bars spécialisée en cocktails, tartares et burgers gourmets. C’est dans un décor de style industriel chic que sa clientèle de tous âges abonde, du dîner à la fin de soirée, pour « Vivre l’expérience SHAKER », au gré d’alléchantes promotions hebdomadaires.
 accentcolor: "#b89217"
 website: https://www.shakercuisineetmixologie.com/
 details:
   type: Franchise
-  investissement: 5 000 000$ à 8 000 000$
-  misedefonds: 3 000 000$
+  frais: 30 000 $
+  investissement: à partir de 640 000 $ 
+  misedefonds: à partir de 190 000 $
   contact: Luc Beaumont
   fondation: 2015
-  nbre: 8
-  formation: Oui
+  nbre: 9
   redevances: 7%
   pub: 3%
-ctaimage: /img/misc/shaker-cta-banner.jpg
+  royautes: 4%
+ctaimage: /img/franchises/shaker-cta-banner.jpeg
 i18nlanguage: fr
 ordre: 1
 draft: false
 activemenu: franchise
+coupdecoeur: 
+  texte: >-
+    ### Les « bons coups » de SHAKER Cuisine & Mixologie
+
+    **Concours culinaire _La semaine Manger cru 2017_** ;</br>
+    Premier dans la catégorie « Meilleur goût », tartare « L'albacore asiatique »
+
+
+    **Concours de mixologie _MADE WITH LOVE 2017_** ;</br>
+    Premier dans la catégorie « Choix du public », cocktail « Trappeur »
+
+
+    **Concours culinaire _Grilled cheese festival 2017_** ;</br>
+    Premier dans la catégorie « Coup de cœur du public », grilled cheese « Le P'TIT BAVEUX »
+
+
+    **Concours de mixologie _MADE WITH LOVE 2016_** ;</br>
+    Premier dans la catégorie « Choix du public », cocktail « LE SHAMAN »
+
+
+    **Concours de mixologie _MADE WITH LOVE 2015_** ;</br>
+    Premier dans la catégorie « Choix du public », cocktail « MADE WITH LOVE »
+
+
+    **Concours culinaire _Le Burger Week 2015_** ;</br>
+    Premier dans la catégorie « Choix des juges », burger bœuf et canard
+  couleur: "183, 147, 0, 0.2"
+ordre: 1
 ---
 ## SHAKER Cuisine & Mixologie – Survol de la bannière
 
@@ -46,20 +77,11 @@ Une impressionnante carte de cocktails créatifs, une large sélection de tartar
 
 Là où d’autres échouent, un restaurant SHAKER s’installe, et réussit. Dans un monde où les restaurateurs construisent des locaux aux dimensions et configurations identiques à chaque ville dans lesquelles ils s’installent, SHAKER Cuisine & Mixologie, au contraire, s’adapte et rénove des locaux existants de restaurants ayant mis la clé sous la porte, épargnant ainsi énormément sur les coûts d’aménagements. 
 
-### Les « bons coups » de SHAKER Cuisine & Mixologie
-
-- Premier dans la catégorie « Meilleur goût », tartare « L'albacore asiatique », La semaine Manger cru 2017 ;
-- Premier dans la catégorie « Choix du public », cocktail « Trappeur », MADE WITH LOVE 2017 ; 
-- Premier dans la catégorie « Coup de coeur du public », grilled cheese « Le P'TIT BAVEUX », Grilled cheese festival 2017 ;
-- Premier dans la catégorie « Choix du public », cocktail « LE SHAMAN », MADE WITH LOVE 2016 ;
-- Premier dans la catégorie « Choix du public », cocktail « MADE WITH LOVE », MADE WITH LOVE 2015 ;
-- Premier dans la catégorie « Choix des juges », burger bœuf et canard, Le Burger Week 2015.
-
 #### Occasions d'affaires
 
 ### Un SHAKER Cuisine & Mixologie à votre portée !
 
-Faites partie de la plus grande chaîne de restaurants-bars spécialisée en cocktails, tartares et burgers en ouvrant votre propre franchise!
+Faites partie de la plus grande chaîne de restaurants-bars spécialisée en cocktails, tartares et burgers en ouvrant votre propre franchise !
 
 ### Pourquoi choisir la bannière SHAKER Cuisine & Mixologie ?
 
@@ -80,7 +102,7 @@ Faites partie de la plus grande chaîne de restaurants-bars spécialisée en coc
 
 ### Autres détails
 
-- Local d'une dimension de 3000pi2 et + ;
+- Local d'une dimension de 3000 pi2 et + ;
 - Permis de vente d’alcool requis (ou possibilité d’en obtenir) ;
 - Situation stratégique au centre-ville ou dans un secteur ayant un achalandage naturel élevé ;
 - Possibilité d’avoir une terrasse et plusieurs stationnements sont des atouts.

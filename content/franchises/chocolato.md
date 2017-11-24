@@ -4,35 +4,42 @@ description: >-
   This is a desc
 slug: chocolato
 identifiant: chocolato
-image: "/img/franchises/02_Chocolato_ImagePrincipale.jpg"
+image: "/img/franchises/chocolato-franchise.jpg"
 logoc: "/img/logos/chocolate.svg"
 logow: "/img/logos/chocolate-white.svg"
-mainimage: /img/franchises/02_Chocolato_ImagePrincipale.jpg
+mainimage: /img/franchises/chocolato-franchise.jpg
 resume:
   titre: Chocolato
   desc: >-
     Le bar à chocolat & crème glacée **Chocolato** se positionne comme l’un des plus gros joueurs dans son domaine d’activités, présentant la plus grande variété de trempages chocolatés. Avec un concept 4 saisons doté d’une offre de produits des plus diversifiée, à déguster sur place ou pour emporter, Chocolato se veut la destination par excellence des amateurs de sucré.  
-  investissement: "100 000$"
-  extraclass: 
+  investissement: "255 000 $"
+  extraclass:
+imagedesc: >-
+  Chocolato est la destination dessert en toutes saisons ! Ci-dessus : la première succursale Chocolato, située à Ste-Foy.
 business: >-
   Le bar à chocolat & crème glacée Chocolato se positionne comme l’un des plus gros joueurs dans son domaine d’activités, présentant la plus grande variété de trempages chocolatés. Avec un concept 4 saisons doté d’une offre de produits des plus diversifiée, à déguster sur place ou pour emporter, Chocolato se veut la destination par excellence des amateurs de sucré.  
 accentcolor: "#c6a099"
+whitebg: true
+colorbg: true
+colorforbg: "#663022"
 website: http://www.chocolato.ca/
 details:
   type: Franchise
-  investissement: 5 000 000$ à 8 000 000$
-  misedefonds: 3 000 000$
-  contact: Luc Beaumont
+  frais: 30 000 $
+  investissement: à partir de 255 000 $ 
+  misedefonds: à partir de 90 000 $
+  contact: Guyaume Arsenault
   fondation: 2015
-  nbre: 8
-  formation: Oui
-  redevances: 7%
+  nbre: 12
+  redevances: 9%
   pub: 3%
-ctaimage: /img/misc/chocolato-cta-banner.jpg
+  royautes: 6%
+ctaimage: /img/franchises/chocolato-cta-banner.jpeg
 i18nlanguage: fr
 ordre: 1
 draft: false
 activemenu: franchise
+ordre: 2
 ---
 ## Chocolato – Survol de la bannière
 
