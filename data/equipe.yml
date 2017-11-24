@@ -42,40 +42,40 @@ shaker:
     photo: 08-shaker-jean-david.jpg
 chocolato:
   - description: >-
-      Frit’s Burgers & Poutines, Chocolato
-    nom: "Guyaume Arsenault, associé"
+      Associé
+    nom: "Guyaume Arsenault"
     ordre: 4
     photo: 09-fritz-guyaume.jpg
 grenouille:
   - description: >-
-      La P’tite Grenouille
-    nom: "Jérôme Landry, copropriétaire et directeur général"
+      Copropriétaire et directeur général
+    nom: "Jérôme Landry"
     ordre: 5
     photo: 10-grenouille-jerome.jpg
 tartar:
   - description: >-
-      VAPOSHOP, TARTAR Station, Chocolato
-    nom: "Pierre-Antoine Morency, copropriétaire"
+      Copropriétaire
+    nom: "Pierre-Antoine Morency"
     ordre: 7
     photo: 12-tartar-pierre-antoine.jpg
   - description: >-
-      VAPOSHOP, TARTAR Station, Chocolato
-    nom: "Jean-Félix Bureau, copropriétaire"
+      Copropriétaire
+    nom: "Jean-Félix Bureau"
     ordre: 8
     photo: 11-tartar-felix.jpg
 blancs:
   - description: >-
-      Groupe Blanchette
-    nom: "Hugo Laperrière, directeur du développement des affaires"
+      Directeur du développement des affaires
+    nom: "Hugo Laperrière"
     ordre: 9
     photo: 14-blanchette-hugol.jpg
   - description: >-
-      Groupe Blanchette
-    nom: "Catherine Roman, directrice marketing"
+      Directrice marketing
+    nom: "Catherine Roman"
     ordre: 10
     photo: 15-blanchette-catherine.jpg
   - description: >-
-      Groupe Blanchette
-    nom: "Hugo Morrissette, contrôleur, CPA CMA"
+      Contrôleur, CPA CMA
+    nom: "Hugo Morrissette"
     ordre: 11
     photo: 13-blanchette-hugom.jpg

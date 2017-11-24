@@ -1,5 +1,48 @@
 {{ define "main" }}
-<main class="main" id="{{ .Type }}-indiv">
-	
-</main>
+<div class="article-indiv" id="page-wrapper">
+	<div class="container">
+		<div id="bradcrumb-wrapper">
+        <ul>
+            <li><a href="#">PROJETS & DÉVELOPPEMENT</a></li>
+            <li><a href="#">SHAKER Cuisine & Mixologie</a></li>
+            <li><a href="#">{{.Title}}</a></li>
+        </ul>
+    </div>
+    <div class="content">
+	    <!-- // breadcrumb  -->
+	    <div class="main-img">
+	    	<img src="{{.Params.image}}" alt="">
+	    	<i class="fa fa-chevron-right"></i>
+	    	<i class="fa fa-chevron-left"></i>
+	    </div>
+	    <div class="main-txt">
+	    	{{.Content}}
+	    </div>
+	    <a href="/projets-developpement" class="btn">Retour aux articles</a>
+	  </div>
+	  <div class="cross row">
+	  	<h6>Articles de la même bannière</h6>
+	  	<div class="col-md-3 col-sm-4 text-left">
+	  		<img src="/img/misc/video.jpg" alt="">
+	  		<p class="title">Ceci est le titre d'un article test</p>
+	  		<p class="date">21 janvier 2016</p>
+	  	</div>
+	  	<div class="col-md-3 col-sm-4 text-left">
+	  		<img src="/img/misc/video.jpg" alt="">
+	  		<p class="title">Ceci est le titre d'un article test</p>
+	  		<p class="date">21 janvier 2016</p>
+	  	</div>
+	  	<div class="col-md-3 col-sm-4 text-left">
+	  		<img src="/img/misc/video.jpg" alt="">
+	  		<p class="title">Ceci est le titre d'un article test</p>
+	  		<p class="date">21 janvier 2016</p>
+	  	</div>
+	  	<div class="col-md-3 col-sm-4 text-left">
+	  		<img src="/img/misc/video.jpg" alt="">
+	  		<p class="title">Ceci est le titre d'un article test</p>
+	  		<p class="date">21 janvier 2016</p>
+	  	</div>
+	  </div>
+	</div>
+</div>
 {{ end }}
