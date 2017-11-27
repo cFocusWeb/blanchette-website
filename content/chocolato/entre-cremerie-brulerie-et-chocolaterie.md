@@ -1,5 +1,5 @@
 ---
-title: "Entre crèmerie, brûlerie et chocolaterie !""
+title: "Entre crèmerie, brûlerie et chocolaterie !"
 identifiant: entre-cremerie-brulerie-et-chocolaterie
 slug: entre-cremerie-brulerie-et-chocolaterie
 image: Entre-cremerie-brulerie-et-chocolaterie.jpg
