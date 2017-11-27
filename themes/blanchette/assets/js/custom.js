@@ -180,10 +180,10 @@ var getUrlParameter = function getUrlParameter(sParam) {
 };
 // Preselect stuff depending on locaton and GET request
 $(function() {
-  if (location.pathname.indexOf('/devenir-franchise') == 0 || location.pathname.indexOf('/become-a-franchisee') == 0) {
+  if (location.pathname.indexOf('/devenir-franchise') == 0 || location.pathname.indexOf('/en/become-a-franchisee') == 0) {
     var franchise = getUrlParameter('franchise');
     if (franchise) {
-      $('#'+franchise).toggleClass('choose-brand');
+      $('#'+franchise).toggleClass('choose-brand').toggleClass('brand-2');
       $('html, body').animate({
         scrollTop: $('#'+franchise).offset().top - 120
       }, 1000);
@@ -896,10 +896,12 @@ $('.registration-form input[type="text"],.registration-form input[type="tel"], .
 });
 var chosenBrand;
 $('.registration-form').on('submit', function (e) {
+    e.preventDefault();
     chosenBrand = [];
     $('.choose-brand').each(function(e){
       chosenBrand.push($(this).attr('id'));
     })
+    $('input#chosenbrands').val(chosenBrand);
     $(this).find('input[type="text"]:not(.not-required),input[type="email"]:not(.not-required),input[type="tel"]:not(.not-required)').each(function () {
         if ($(this).val() == "") {
             e.preventDefault();
@@ -911,6 +913,7 @@ $('.registration-form').on('submit', function (e) {
     $('html, body').animate({
       scrollTop: $('#form-start').offset().top
     }, 1000);
+    
 });
 
 // video handler

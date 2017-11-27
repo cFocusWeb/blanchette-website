@@ -34,7 +34,7 @@
             </div>
             <!-- // container -->
 
-            <form action="/" class="registration-form" method="post" name="devenir-franchise">
+            <form action="/" class="registration-form" method="post" name="devenir-franchise" netlify>
 
             <div class="container">
                 <div class="process-content">
@@ -118,6 +118,7 @@
                                   </div>
                                   <label for=""><i class="fa fa-envelope-o" aria-hidden="true"></i> Email address</label>
                                   <input type="email" name="email">
+                                  <input type="hidden" value="[]" id="chosenbrands">
                                   <input type="submit" value="Send >">
                                 {{ end }}
 
