@@ -1,7 +1,7 @@
 ---
-title: Hola
+title: HOLA Mexican Grill Franchise
 description: >-
-  This is a desc
+  Mexican cuisine based on the freshest ingredients, for healthy, on the go meals.
 slug: hola
 identifiant: hola
 image: "/img/franchises/hola-franchise.jpg"
@@ -11,7 +11,11 @@ mainimage: /img/franchises/hola-franchise.jpg
 resume:
   titre: HOLA Mexican Grill 
   desc: >-
-    Quality and flavor are a given at a **HOLA Mexican Grill** fast service counter. Mexican cuisine based on the freshest ingredients, for healthy, on the go meals. The possibilities and combinations are unlimited for the creation of a made-to-measure meal, tailored to the customer’s tastes; be it on location, for take-out or delivery.    
+    Quality and flavor are a given at a 
+
+    ### HOLA Mexican Grill 
+
+    fast service counter. Mexican cuisine based on the freshest ingredients, for healthy, on the go meals. The possibilities and combinations are unlimited for the creation of a made-to-measure meal, tailored to the customer’s tastes; be it on location, for take-out or delivery.    
   investissement: "360 000$"
   extraclass: 
 imagedesc: >-

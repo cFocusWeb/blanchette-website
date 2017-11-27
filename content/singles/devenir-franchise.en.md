@@ -1,8 +1,8 @@
 ---
-title: Become a francisee
+title: Become a franchisee
 description: >-
-  This is a desc
-titre: Become a francisee
+  Doing business with the Groupe Blanchette – Master Franchisor, is being surrounded and supported by a team of consummate professionals and experts, from the very first contact.
+titre: Become a franchisee
 slug: become-a-franchisee
 layout: devenir
 image: null

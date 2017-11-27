@@ -1,7 +1,7 @@
 ---
-title: Chocolato
+title: Chocolato Franchise
 description: >-
-  This is a desc
+  The chocolate and ice cream bar is positioned as one of the top players in its field of activity, with the largest variety of chocolate dipping choices.
 slug: chocolato
 identifiant: chocolato
 image: "/img/franchises/chocolato-franchise.jpg"
@@ -11,7 +11,11 @@ mainimage: /img/franchises/chocolato-franchise.jpg
 resume:
   titre: Chocolato
   desc: >-
-    The chocolate & ice cream bar **Chocolato** is positioned as one of the top players in its field of activity, with the largest variety of chocolate dipping choices. Its 4-season concept offering a very diverse product selection, to be enjoyed on site or to-go, makes Chocolato THE destination for fans of sweets.   
+    The chocolate & ice cream bar 
+
+    ### Chocolato 
+
+    is positioned as one of the top players in its field of activity, with the largest variety of chocolate dipping choices. Its 4-season concept offering a very diverse product selection, to be enjoyed on site or to-go, makes Chocolato THE destination for fans of sweets.   
   investissement: "255 000 $"
   extraclass:
 imagedesc: >-

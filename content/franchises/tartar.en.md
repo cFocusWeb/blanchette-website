@@ -1,7 +1,7 @@
 ---
-title: TARTAR Station
+title: TARTAR Station Franchise - Restauration
 description: >-
-  This is a desc
+  This fast service counter specializing in tartares, tatakis and poke bowls is your stop for healthy and go meals.
 slug: tartar-station
 identifiant: tartar
 image: "/img/franchises/tartar-franchise.jpg"
@@ -11,7 +11,11 @@ mainimage: /img/franchises/tartar-franchise.jpg
 resume:
   titre: TARTAR Station
   desc: >-
-    This fast service counter specializing in tartares, tatakis and poke bowls has quickly become a favorite among amateurs of healthy, on the go meals. At the forefront of the latest food trends, **TARTAR Station** offers delicious recipes to be enjoyed on site, as take-out or delivery; without compromising quality or taste in any way.   
+    This fast service counter specializing in tartares, tatakis and poke bowls has quickly become a favorite among amateurs of healthy, on the go meals. At the forefront of the latest food trends, 
+
+    ### TARTAR Station 
+
+    offers delicious recipes to be enjoyed on site, as take-out or delivery; without compromising quality or taste in any way.   
   investissement: "400 000$"
   gridclass: 
   carouselclass: tartar-logo 

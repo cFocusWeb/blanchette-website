@@ -1,7 +1,7 @@
 ---
-title: Planète Nutrition
+title: Licence Planète Nutrition
 description: >-
-  This is a desc
+  Magasin de suppléments alimentaires et épicerie athlétique à Québec
 slug: planete-nutrition
 identifiant: planete
 image: "/img/franchises/planete-license.jpg"
@@ -11,7 +11,9 @@ mainimage: /img/franchises/planete-license.jpg
 resume:
   titre: Planète Nutrition
   desc: >-
-    **Planète Nutrition**, c’est bien plus qu’un magasin de suppléments alimentaires. Avec ses prix compétitifs, sa marque privée de renom, son Épicerie Athlétique et son service à la clientèle hors pair, Planète Nutrition est en voie de devenir la plus grande chaîne de suppléments alimentaires jumelée à une épicerie athlétique du Québec et bientôt du Canada.  
+    ### Planète Nutrition, 
+
+    c’est bien plus qu’un magasin de suppléments alimentaires. Avec ses prix compétitifs, sa marque privée de renom, son Épicerie Athlétique et son service à la clientèle hors pair, Planète Nutrition est en voie de devenir la plus grande chaîne de suppléments alimentaires jumelée à une épicerie athlétique du Québec et bientôt du Canada.  
   investissement: "90 500$"
   gridclass: planete
   carouselclass: 

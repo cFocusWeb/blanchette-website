@@ -1,7 +1,7 @@
 ---
 title: Devenir franchise
 description: >-
-  This is a desc
+  Faire affaire avec le Groupe Blanchette – Maître Franchiseur, c’est s’entourer d’une équipe complète d’experts chevronnés, dès les premiers instants.
 titre: Devenir franchise
 slug: devenir-franchise
 layout: devenir

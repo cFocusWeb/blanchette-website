@@ -448,6 +448,21 @@
   </url>
   
   <url>
+    <loc>http://blanchette-cfocus.netlify.com/</loc>
+    <lastmod>2017-11-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/"
+                />
+  </url>
+  
+  <url>
     <loc>http://blanchette-cfocus.netlify.com/categories/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -459,20 +474,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="http://blanchette-cfocus.netlify.com/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://blanchette-cfocus.netlify.com/franchises/chocolato/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://blanchette-cfocus.netlify.com/en/franchises/chocolato/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://blanchette-cfocus.netlify.com/franchises/chocolato/"
                 />
   </url>
   
@@ -505,16 +506,16 @@
   </url>
   
   <url>
-    <loc>http://blanchette-cfocus.netlify.com/franchises/</loc>
+    <loc>http://blanchette-cfocus.netlify.com/franchises/chocolato/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://blanchette-cfocus.netlify.com/en/franchises/"
+                href="http://blanchette-cfocus.netlify.com/en/franchises/chocolato/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://blanchette-cfocus.netlify.com/franchises/"
+                href="http://blanchette-cfocus.netlify.com/franchises/chocolato/"
                 />
   </url>
   
@@ -533,20 +534,6 @@
   </url>
   
   <url>
-    <loc>http://blanchette-cfocus.netlify.com/historique/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://blanchette-cfocus.netlify.com/en/history/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://blanchette-cfocus.netlify.com/historique/"
-                />
-  </url>
-  
-  <url>
     <loc>http://blanchette-cfocus.netlify.com/franchises/hola/</loc>
     <xhtml:link
                 rel="alternate"
@@ -557,6 +544,62 @@
                 rel="alternate"
                 hreflang="fr"
                 href="http://blanchette-cfocus.netlify.com/franchises/hola/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/franchises/shaker/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/franchises/shaker/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/franchises/shaker/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/franchises/tartar-station/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/franchises/tartar-station/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/franchises/tartar-station/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/franchises/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/franchises/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/franchises/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/historique/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/history/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/historique/"
                 />
   </url>
   
@@ -575,20 +618,6 @@
   </url>
   
   <url>
-    <loc>http://blanchette-cfocus.netlify.com/merci/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://blanchette-cfocus.netlify.com/en/thank-you/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://blanchette-cfocus.netlify.com/merci/"
-                />
-  </url>
-  
-  <url>
     <loc>http://blanchette-cfocus.netlify.com/franchises/planete-nutrition/</loc>
     <xhtml:link
                 rel="alternate"
@@ -603,6 +632,20 @@
   </url>
   
   <url>
+    <loc>http://blanchette-cfocus.netlify.com/merci/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/thank-you/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/merci/"
+                />
+  </url>
+  
+  <url>
     <loc>http://blanchette-cfocus.netlify.com/projets-developpement/</loc>
     <xhtml:link
                 rel="alternate"
@@ -613,20 +656,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="http://blanchette-cfocus.netlify.com/projets-developpement/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://blanchette-cfocus.netlify.com/franchises/shaker/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://blanchette-cfocus.netlify.com/en/franchises/shaker/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://blanchette-cfocus.netlify.com/franchises/shaker/"
                 />
   </url>
   
@@ -646,20 +675,6 @@
   </url>
   
   <url>
-    <loc>http://blanchette-cfocus.netlify.com/franchises/tartar-station/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://blanchette-cfocus.netlify.com/en/franchises/tartar-station/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://blanchette-cfocus.netlify.com/franchises/tartar-station/"
-                />
-  </url>
-  
-  <url>
     <loc>http://blanchette-cfocus.netlify.com/tags/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -671,21 +686,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="http://blanchette-cfocus.netlify.com/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://blanchette-cfocus.netlify.com/</loc>
-    <lastmod>2017-11-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://blanchette-cfocus.netlify.com/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://blanchette-cfocus.netlify.com/"
                 />
   </url>
   

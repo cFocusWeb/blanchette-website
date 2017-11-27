@@ -1,7 +1,7 @@
 ---
-title: The Little Frog
+title: The Little Frog Licence
 description: >-
-  This is a desc
+  Live music and stand-up acts, theme nights, a festive atmosphere and irresistible specials on alcohol.
 slug: the-little-frog
 identifiant: grenouille
 image: "/img/franchises/grenouille-license.jpg"
@@ -11,7 +11,9 @@ mainimage: /img/franchises/grenouille-license.jpg
 resume:
   titre: The Little Frog
   desc: >-
-    **The Little Frog** live music & party house bar is the largest chain of its kind in Québec, and soon, in Canada. Live music and stand-up acts, theme nights, a festive atmosphere and irresistible specials on alcohol are only a some of the reasons it has become such a popular choice for a fun evening.  
+    ### The Little Frog 
+
+    live music & party house bar is the largest chain of its kind in Québec, and soon, in Canada. Live music and stand-up acts, theme nights, a festive atmosphere and irresistible specials on alcohol are only a some of the reasons it has become such a popular choice for a fun evening.  
   investissement: "170 000 $"
   extraclass: 
 imagedesc: >-

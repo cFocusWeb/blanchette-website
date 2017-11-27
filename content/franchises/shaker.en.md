@@ -1,5 +1,5 @@
 ---
-title: SHAKER Kitchen & Mixology
+title: SHAKER Kitchen & Mixology Franchise
 description: >-
   This is a desc
 slug: shaker
@@ -11,7 +11,9 @@ mainimage: /img/franchises/shaker-franchise.jpg
 resume:
   titre: SHAKER Kitchen & Mixology
   desc: >-
-    **SHAKER Kitchen & Mixology** is the only restaurant-bar chain specialized in cocktails, tartares and gourmet burgers. Its chic industrial décor welcomes customers of all ages, from lunch to late nights, to "Live the SHAKER experience", and enjoy great weekly promotions. 
+    ### SHAKER Kitchen & Mixology 
+
+    is the only restaurant-bar chain specialized in cocktails, tartares and gourmet burgers. Its chic industrial décor welcomes customers of all ages, from lunch to late nights, to "Live the SHAKER experience", and enjoy great weekly promotions. 
   investissement: "640 000 $"
   carouselclass: big-nav
 imagedesc: >-

@@ -1,7 +1,7 @@
 ---
-title: Chocolato
+title: Franchise Chocolato
 description: >-
-  This is a desc
+  "Bannière de bar à chocolat et crème glacée Chocolato dénombre 12 succursales aux quatre coins du Québec"
 slug: chocolato
 identifiant: chocolato
 image: "/img/franchises/chocolato-franchise.jpg"
@@ -11,7 +11,11 @@ mainimage: /img/franchises/chocolato-franchise.jpg
 resume:
   titre: Chocolato
   desc: >-
-    Le bar à chocolat & crème glacée **Chocolato** se positionne comme l’un des plus gros joueurs dans son domaine d’activités, présentant la plus grande variété de trempages chocolatés. Avec un concept 4 saisons doté d’une offre de produits des plus diversifiée, à déguster sur place ou pour emporter, Chocolato se veut la destination par excellence des amateurs de sucré.  
+    Le bar à chocolat & crème glacée 
+
+    ### Chocolato 
+
+    se positionne comme l’un des plus gros joueurs dans son domaine d’activités, présentant la plus grande variété de trempages chocolatés. Avec un concept 4 saisons doté d’une offre de produits des plus diversifiée, à déguster sur place ou pour emporter, Chocolato se veut la destination par excellence des amateurs de sucré.  
   investissement: "255 000 $"
   extraclass:
 imagedesc: >-

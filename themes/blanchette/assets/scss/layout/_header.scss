@@ -182,7 +182,7 @@
 	@include breakpoint(phone) {
 		padding-top: 0px;
 	}
-	h2 {
+	h2, h1 {
 		text-transform: uppercase;
 		color:$black;
 		font-family: $font-sec;

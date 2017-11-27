@@ -287,6 +287,21 @@
   </url>
   
   <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/"
+                />
+  </url>
+  
+  <url>
     <loc>http://blanchette-cfocus.netlify.com/en/categories/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -406,6 +421,20 @@
   </url>
   
   <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/franchises/hola/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/franchises/hola/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/franchises/hola/"
+                />
+  </url>
+  
+  <url>
     <loc>http://blanchette-cfocus.netlify.com/en/historique/</loc>
     <lastmod>2004-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -432,20 +461,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://blanchette-cfocus.netlify.com/en/history/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://blanchette-cfocus.netlify.com/en/franchises/hola/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://blanchette-cfocus.netlify.com/franchises/hola/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://blanchette-cfocus.netlify.com/en/franchises/hola/"
                 />
   </url>
   
@@ -624,21 +639,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://blanchette-cfocus.netlify.com/en/franchises/the-little-frog/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://blanchette-cfocus.netlify.com/en/</loc>
-    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://blanchette-cfocus.netlify.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://blanchette-cfocus.netlify.com/en/"
                 />
   </url>
   

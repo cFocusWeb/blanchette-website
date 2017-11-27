@@ -1,7 +1,7 @@
 ---
-title: Frit's
+title: Franchise Frit's Burgers & Poutines
 description: >-
-  This is a desc
+  Gamme complète de burgers & poutines de luxe et autres classiques du fast food réinventés.
 slug: frits
 identifiant: frits
 image: "/img/franchises/fritz-franchise.jpg"
@@ -11,7 +11,11 @@ mainimage: /img/franchises/fritz-franchise.jpg
 resume:
   titre: Frit’s Burgers & Poutines
   desc: >-
-    Unique en son genre, la bannière de restauration rapide **Frit’s Burgers & Poutines** se distingue par son menu tout aussi varié qu'éclaté, proposant une gamme complète de burgers & poutines de luxe et autres classiques du fast food réinventés. Ses créations toutes plus originales les unes que les autres suscitent un grand engouement du public, faisant rayonner la bannière à travers la province.   
+    Unique en son genre, la bannière de restauration rapide 
+
+    ### Frit’s Burgers & Poutines 
+
+    se distingue par son menu tout aussi varié qu'éclaté, proposant une gamme complète de burgers & poutines de luxe et autres classiques du fast food réinventés. Ses créations toutes plus originales les unes que les autres suscitent un grand engouement du public, faisant rayonner la bannière à travers la province.   
   investissement: "360 000$"
   gridclass: fritz
   carouselclass: 

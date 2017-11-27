@@ -1,7 +1,7 @@
 ---
 title: "Projects & Development"
 description: >-
-  This is a desc
+  The Groupe Blanchette – Master Franchisor is one of the largest franchise broker groups in Québec, offering truly innovative restaurant and entertainment concepts.
 titre: Projects & Development
 slug: projects-development
 layout: projets

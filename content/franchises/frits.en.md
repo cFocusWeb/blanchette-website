@@ -1,7 +1,7 @@
 ---
-title: Frit's
+title: Frit's Burgers & Poutines Franchise 
 description: >-
-  This is a desc
+  Complete choice of de luxe burgers and poutines along with other revisited fast food classics.
 slug: frits
 identifiant: frits
 image: "/img/franchises/fritz-franchise.jpg"
@@ -11,7 +11,11 @@ mainimage: /img/franchises/fritz-franchise.jpg
 resume:
   titre: Frit’s Burgers & Poutines
   desc: >-
-    This one of a kind concept, the **Frit’s Burgers & Poutines** fast food banner is distinctively recognizable with its varied and whimsical menu, offering a most complete choice of de luxe burgers and poutines along with other revisited fast food classics. The highly original creations have garnered a large following, making the banner a must throughout the province.   
+    This one of a kind concept, the 
+
+    ### Frit’s Burgers & Poutines 
+
+    fast food banner is distinctively recognizable with its varied and whimsical menu, offering a most complete choice of de luxe burgers and poutines along with other revisited fast food classics. The highly original creations have garnered a large following, making the banner a must throughout the province.   
   investissement: "360 000$"
   gridclass: fritz
   carouselclass: 

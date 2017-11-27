@@ -11,7 +11,9 @@ mainimage: /img/franchises/vapo-license.jpg
 resume:
   titre: VAPOSHOP
   desc: >-
-    **VAPOSHOP** is the indisputed leader in vaping products in Québec. Satisfying a growing demand for an equally growing market, its extensive product inventory offers distinctive quality products to answer every consumer’s expectations, both for new as for experienced users.   
+    ### VAPOSHOP 
+
+    is the indisputed leader in vaping products in Québec. Satisfying a growing demand for an equally growing market, its extensive product inventory offers distinctive quality products to answer every consumer’s expectations, both for new as for experienced users.   
   investissement: "40 000$"
   carouselclass: big-nav 
 imagedesc: >-

@@ -1,7 +1,7 @@
 ---
-title: Historique
+title: Historique - Maître Franchiseur
 description: >-
-  This is a desc
+  Groupe Blanchette - Maître Franchiseur est l’un des plus importants courtiers en franchises. Acheter une franchise tel que le Shaker, Chocolato et plus encore!
 titre: Historique
 slug: historique
 layout: historique

@@ -1,7 +1,7 @@
 ---
-title: Contact
+title: Contactez-nous
 description: >-
-  This is a desc
+  Si vous avez des questions, des commentaires ou des suggestions à propos d'une de nos bannières, nous vous répondrons avec plaisir !
 titre: Contact
 slug: contact
 layout: contact
@@ -12,6 +12,6 @@ map:
   need: true
   type: contact
 ---
-## Nous sommes à l'écoute
+# Nous sommes à l'écoute
 
 Si vous avez des questions, des commentaires ou des suggestions à propos d'une de nos bannières, veuillez remplir le formulaire ci-dessous ou téléphonez-nous. Nous vous répondrons avec plaisir !

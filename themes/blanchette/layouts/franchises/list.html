@@ -1,11 +1,11 @@
 {{ define "main" }}
-<div id="franchise-logos" style="margin-top: 50px;">
+<div id="franchise-logos" class="franchises-list">
 
             <div class="container">
                 {{ if eq .Lang "fr" }}
-                <h1 style="margin-bottom: 20px">Nos franchises</h1>
+                <h1>Nos franchises</h1>
                 {{ else if eq .Lang "en" }}
-                <h1 style="margin-bottom: 20px">Our franchises</h1>
+                <h1>Our franchises</h1>
                 {{ end }}
                 <div class="row no-gutter">
                     {{ range $i, $e := (sort (where $.Site.Pages "Type" "franchises") ".Params.ordre" "asce") }}
@@ -36,16 +36,16 @@
                             <!-- // holder  -->
                             <p>Guidé par son désir d'innover, le Groupe Blanchette - Maître Franchiseur est toujours à la recherche d'opportunités d’affaires novatrices, et déploie de constants efforts afin de développer de nouvelles franchises.</p>
                             <footer>
-                                <a href="/historique">En savoir plus</a>
+                                <a href="{{.Site.BaseURL}}historique">En savoir plus</a>
                             </footer>
                             {{ else if eq .Lang "en" }}
                             <header>
-                                <h4>Franchise <br> à venir</h4>
+                                <h4>More franchises <br> to come</h4>
                             </header>
                             <!-- // holder  -->
-                            <p>Guidé par son désir d'innover, le Groupe Blanchette - Maître Franchiseur est toujours à la recherche d'opportunités d’affaires novatrices, et déploie de constants efforts afin de développer de nouvelles franchises.</p>
+                            <p>Guided by his desire to innovate, the Group Blanchette - Master Franchisor is always seeking for unique business opportunities and rolls out constant efforts in order to to develop new franchises.</p>
                             <footer>
-                                <a href="/historique">En savoir plus</a>
+                                <a href="{{.Site.BaseURL}}en/history">More information</a>
                             </footer>
                             {{ end }}
                         </div>

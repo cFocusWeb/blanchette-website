@@ -432,7 +432,7 @@
 		header {
 			height: 210px;
 			position: relative;
-			h4 {
+			h3, h2 {
 				font-size: 2.3em;
 				color:$black;
 				text-transform: uppercase;
@@ -459,6 +459,12 @@
 			font-size: 1.000em;
 			line-height: 1.5;
 			color:$black;
+			display: inline;
+		}
+		h3 {
+			font-family: $font-sec;
+		    display: inline;
+		    font-size: 1.1em;
 		}
 		footer {
 			text-align: center;
