@@ -3,7 +3,7 @@ title: "La P'tite Grenouille - Présentation de la bannière"
 description: >-
 slug: presentation-la-ptite-grenouille
 identifiant: presentation-la-ptite-grenouille 
-image: presentation-la-ptite-grenouille.png
+image: presentation-la-ptite-grenouille.jpg
 arrowc: black
 i18nlanguage: fr
 weight: 1
