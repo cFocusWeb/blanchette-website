@@ -1,6 +1,18 @@
 {{ if eq .Section "shaker"}}
-SHAKER Cuisine & Mixologie :</br>
-{{ else if .Section "grenouille"}}
+SHAKER Cuisine & Mixologie
+{{ else if eq .Section "grenouille"}}
 La P'tite Grenouille
+{{ else if eq .Section "chocolato"}}
+Chocolato
+{{ else if eq .Section "frits"}}
+Frit's Burgers & Poutines
+{{ else if eq .Section "tartar"}}
+TARTAR Station
+{{ else if eq .Section "hola"}}
+HOLA Grill Mexicain
+{{ else if eq .Section "planete"}}
+Planète Nutrition
+{{ else if eq .Section "vapo"}}
+VAPOSHOP
 {{ else }}
 {{ end }}
