@@ -16,6 +16,7 @@ resume:
   gridclass: fritz
   carouselclass: 
 imagedesc: >-
+  Frit's Burgers & Poutines est la destination pour les amateurs de fast food ! Ci-dessus : le 2e Frit's Burgers & Poutines, situé à Beauport.
 business: >-
   Unique en son genre, la bannière de restauration rapide Frit’s Burgers & Poutines se distingue par son menu tout aussi varié qu'éclaté, proposant une gamme complète de burgers & poutines de luxe et autres classiques du fast food réinventés. Ses créations toutes plus originales les unes que les autres suscitent un grand engouement du public, faisant rayonner la bannière à travers la province.   
 accentcolor: "#dd1000"
@@ -24,8 +25,8 @@ website: https://www.fritsburgerspoutines.com/
 details:
   type: Franchise
   frais: 30 000 $
-  investissement: 360 000 $ 
-  misedefonds: 65 000 $
+  investissement: à partir de 360 000 $ 
+  misedefonds: à partir de 65 000 $
   contact: Hugo Laperrière
   fondation: 2011
   nbre: 2
@@ -60,7 +61,7 @@ Joignez la vague Frit’s Burgers & Poutines en ouvrant votre propre franchise !
 
 ### Pourquoi Frit’s Burgers & Poutines ?
 
-- Menu différent et à base de produits d’ici
+- Menu différent et à base de produits d’ici ;
 - Établissement d'une grande facilité à opérer, parfait pour un premier projet de franchise.
 
 ### Profil du futur franchisé  

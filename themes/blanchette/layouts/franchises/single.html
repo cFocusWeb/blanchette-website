@@ -19,7 +19,7 @@
                             </header>
                             {{ with .Params.imagedesc}}
                             <div class="intro">
-                                <p>{{.}}</p>
+                                <p>{{.}}{{if eq $.Params.identifiant "shaker"}}Ci-dessus, le SHAKER Gatineau ; le 7<sup style="vertical-align: super;margin-left: 3px;">e</sup> restaurant de la bannière.{{ end }}</p>
                             </div>
                             {{ end }}
                             <!-- // intro  -->
@@ -92,7 +92,7 @@
                                         <td>{{.Params.details.fondation}}</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Nombre de succursales(Corpo & franchises)</strong></td>
+                                        <td><strong>Nombre de succursales</strong></td>
                                         <td>{{.Params.details.nbre}}</td>
                                     </tr>
                                     <tr>
@@ -102,10 +102,6 @@
                                     <tr>
                                         <td><strong>Frais publicitaires</strong></td>
                                         <td>{{.Params.details.pub}}</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Redevances totales</strong></td>
-                                        <td>{{.Params.details.redevances}}</td>
                                     </tr>
                                     {{ with .Params.details.autre }}
                                     <tr>
@@ -123,7 +119,7 @@
                             <div id="video-block">
                                 <h6>Vidéo corporative</h6>
                                 <div class="video-container">
-                                    <iframe width="100%" src="https://www.youtube.com/embed/{{.Params.video}}?rel=0&amp;showinfo=0&autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                    <iframe width="100%" src="https://www.youtube.com/embed/{{.Params.video}}?rel=0&amp;showinfo=0&autoplay=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                                 </div>
                             </div>
                             <!-- // video block  -->

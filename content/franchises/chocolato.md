@@ -26,8 +26,8 @@ website: http://www.chocolato.ca/
 details:
   type: Franchise
   frais: 30 000 $
-  investissement: à partir de 255 000 $ 
-  misedefonds: à partir de 90 000 $
+  investissement: à partir de 490 000 $ 
+  misedefonds: à partir de 170 000 $
   contact: Guyaume Arsenault
   fondation: 2015
   nbre: 12

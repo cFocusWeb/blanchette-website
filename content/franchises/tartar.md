@@ -11,24 +11,25 @@ mainimage: /img/franchises/tartar-franchise.jpg
 resume:
   titre: TARTAR Station
   desc: >-
-    Le comptoir de restauration rapide se spécialisant dans les tartares, tatakis et « poke bols » s’est rapidement taillé une place de choix dans le cœur des amateurs de repas santé et sur le pouce. À l’affût des dernières tendances, **TARTAR Station** propose des recettes savoureuses à déguster sur place, pour emporter ou en livraison ; sans compromis sur la qualité et le goût.   
+    Le comptoir de restauration rapide se spécialisant dans les tartares, tatakis et poke bols s’est rapidement taillé une place de choix dans le cœur des amateurs de repas santé et sur le pouce. À l’affût des dernières tendances, **TARTAR Station** propose des recettes savoureuses à déguster sur place, pour emporter ou en livraison ; sans compromis sur la qualité et le goût.   
   investissement: "400 000$"
   gridclass: 
   carouselclass: tartar-logo 
 imagedesc: >-
+  TARTAR Station : pour des repas savoureux et sur le pouce ! Ci-dessus : le premier comptoir de la bannière, situé à Ste-foy.
 business: >-
-  Le comptoir de restauration rapide se spécialisant dans les tartares, tatakis et « poke bols » s’est rapidement taillé une place de choix dans le cœur des amateurs de repas santé et sur le pouce. À l’affût des dernières tendances, TARTAR Station propose des recettes savoureuses à déguster sur place, pour emporter ou en livraison ; sans compromis sur la qualité et le goût. 
+  Le comptoir de restauration rapide se spécialisant dans les tartares, tatakis et poke bols s’est rapidement taillé une place de choix dans le cœur des amateurs de repas santé et sur le pouce. À l’affût des dernières tendances, TARTAR Station propose des recettes savoureuses à déguster sur place, pour emporter ou en livraison ; sans compromis sur la qualité et le goût. 
 accentcolor: "#fa5200"
 whitebg: true
 website: https://tartarstation.com/
 details:
   type: Franchise
   frais: 30 000 $
-  investissement: 400 000 $ 
+  investissement: à partir de 400 000 $ 
   misedefonds: à partir de 140 000 $
   contact: Pierre-Antoine Morency
   fondation: 2017
-  nbre: 2 (dont une en préparation)
+  nbre: 2
   redevances: 9%
   pub: 3%
   royautes: 6%
@@ -53,7 +54,7 @@ video: K6K6AZN6LZc
 
 TARTAR Station a vu le jour en février 2017, et compte déjà une succursale active et une seconde en voie d'ouvrir dans la même année. 
 
-D'abord une idée, le concept voit le jour deux ans après la première image qu'en ont les deux entrepreneurs : créer la première chaîne de restaurants de style restauration rapide spécialisée en tartares et poke bols, servant à la fois ses plats sur place, mais également pour emporter et en livraison. Dans l'atteinte de son objectif, le duo à la base du concept joint ses forces à l'expertise du Groupe Blanchette-Maître Franchiseur, rendant leurs idées de grandeur enfin réalisables.  
+Le concept voit le jour deux ans après la première image qu'en ont les deux entrepreneurs : créer la première chaîne de restaurants de style restauration rapide spécialisée en tartares et poke bols, servant à la fois ses plats sur place, mais également pour emporter et en livraison. Dans l'atteinte de son objectif, le duo à la base du concept joint ses forces à l'expertise du Groupe Blanchette-Maître Franchiseur, rendant leurs idées de grandeur enfin réalisables.  
 
 ### TARTAR 2.0
 

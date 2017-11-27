@@ -54,7 +54,7 @@
                 </div>
                 <!-- // team listing  -->
 				<div id="partner-listing">
-					<p class="header">Avec l'expansion du groupe, les Blanchettes se sont entourés des meilleurs dans l'atteinte de leurs objectifs.<br>Découvrez leurs associés et experts de confiance !</p>
+					<p class="header">{{.Params.partnerdesc1}}</br>{{.Params.partnerdesc2}}</p>
                     <div class="row">
                         <div class="col-sm-6 match logo">
                             <div class="holder">
@@ -73,7 +73,7 @@
                         <div class="col-sm-6 match logo">
                             <div class="holder">
                                 <img src="/img/logos/chocolate.svg" alt="">
-                                <img src="/img/logos/frits.svg" alt="" style="width: 80%; margin-top: 10px">
+                                <img src="/img/logos/frits.svg" alt="" style="width: 80%; margin-top: 30px">
                             </div>
                         </div>
                         {{ range sort .Site.Data.equipe.chocolato "ordre" "asce" }}

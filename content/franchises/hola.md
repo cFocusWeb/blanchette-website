@@ -15,6 +15,7 @@ resume:
   investissement: "360 000$"
   extraclass: 
 imagedesc: >-
+  HOLA Grill Mexicain, pour une cuisine saine et sur le pouce ! Ci-dessus : le comptoir HOLA Grill situé à La Pyramide à Ste-Foy.
 business: >-
   Qualité et saveurs sont au rendez-vous au comptoir de restauration rapide HOLA Grill Mexicain. On y propose une cuisine mexicaine axée sur la fraîcheur des aliments, pour des repas santé et sur le pouce. Les possibilités sont infinies pour créer un repas sur mesure, au goût du client ; sur place, pour emporter ou en livraison.  
 accentcolor: "#dd1000"
@@ -26,8 +27,8 @@ website: https://www.holagrill.ca/
 details:
   type: Franchise
   frais: 30 000 $
-  investissement: 360 000 $ 
-  misedefonds: 65 000 $
+  investissement: à partir de 360 000 $ 
+  misedefonds: à partir de 65 000 $
   contact: Hugo Laperrière
   fondation: 2015
   nbre: 1
@@ -52,7 +53,7 @@ L’aménagement et l’équipement de base du concept fut pensé afin de maximi
 
 ### L’avantage concurrentiel de HOLA Grill Mexicain
 
-Chez HOLA Grill Mexicain, le client est roi : il peut personnaliser son plat du début à la fin. Choix de repas, de viandes, de légumes, de condiments, de sauces et d’accompagnements ; tout y est pour plaire tant aux amateurs de plats doux, que de plats piquants. Ainsi, HOLA Grill Mexicain rejoint une clientèle des plus larges, pouvant séduire autant les fanatiques de plats mexicains traditionnels que les adeptes de cuisine santé. 
+Chez HOLA Grill Mexicain, le client est roi : il peut personnaliser son repas du début à la fin. Choix de repas, de viandes, de légumes, de condiments, de sauces et d’accompagnements ; tout y est pour plaire tant aux amateurs de plats doux, que de plats piquants. Ainsi, HOLA Grill Mexicain rejoint une clientèle des plus larges, pouvant séduire autant les fanatiques de plats mexicains traditionnels que les adeptes de cuisine santé. 
 
 #### Occasions d'affaires
 

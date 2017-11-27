@@ -15,7 +15,7 @@ resume:
   investissement: "640 000 $"
   carouselclass: big-nav
 imagedesc: >-
-  SHAKER Cuisine & Mixologie : l’endroit parfait pour dîners d’affaires, soupers tendance et sorties nocturnes. (Ci-dessus, le SHAKER Gatineau ; le 7e restaurant de la bannière). 
+  SHAKER Cuisine & Mixologie : l’endroit parfait pour dîners d’affaires, soupers tendance et sorties nocturnes. 
 business: >-
   SHAKER Cuisine & Mixologie se présente comme la seule chaîne de restaurants-bars spécialisée en cocktails, tartares et burgers gourmets. C’est dans un décor de style industriel chic que sa clientèle de tous âges abonde, du dîner à la fin de soirée, pour « Vivre l’expérience SHAKER », au gré d’alléchantes promotions hebdomadaires.
 accentcolor: "#b89217"
@@ -70,7 +70,7 @@ video: zwEe7XGCTOI
 
 ### Une histoire à succès
 
-Dès ses débuts en avril 2015, la bannière SHAKER Cuisine & Mixologie s’est imposée comme un modèle à suivre par son concept unique conviant une clientèle de plus variée à une expérience culinaire distincte et créative, dans une ambiance branchée. 
+Dès ses débuts en avril 2015, la bannière SHAKER Cuisine & Mixologie s’est imposée comme un modèle à suivre par son concept unique conviant une clientèle de plus variées à une expérience culinaire distincte et créative, dans une ambiance branchée. 
 
 Une impressionnante carte de cocktails créatifs, une large sélection de tartares et burgers gourmets ainsi que de nombreuses promotions sur les plats et alcools ne sont que quelques-unes des raisons qui rendent ces restaurants-bars si populaires à travers la province.   
 

@@ -15,7 +15,7 @@ resume:
   investissement: "170 000 $"
   extraclass: 
 imagedesc: >-
-  Le boîtes à chansons La P'tite Grenouille : pour fêter comme dans le bon vieux temps ! Ci-dessus : La P'tite Grenouille de Lévis.
+  Les boîtes à chansons La P'tite Grenouille : pour fêter comme dans le bon vieux temps ! Ci-dessus : La P'tite Grenouille de Lévis.
 business: >-
   Les boîtes à chansons La P’tite Grenouille composent la plus grande chaîne de bars de style chansonnier au Québec, et bientôt au Canada. Prestations de musiciens et d’humoristes, soirées thématiques, ambiance festive et alléchants spéciaux sur l’alcool ne sont que quelques-unes des raisons qui rendent le concept si populaire. 
 accentcolor: "#53ab01"
@@ -24,8 +24,8 @@ website: https://www.laptitegrenouille.ca/
 details:
   type: Licence
   frais: 0 $
-  investissement: à partir de 170 00 $ 
-  misedefonds: à partir de 200 000 $
+  investissement: à partir de 100 000 $ 
+  misedefonds: à partir de 100 000 $
   contact: Jérôme Landry
   fondation: 2005
   nbre: 17
@@ -44,7 +44,7 @@ video: r-92rtBzKrk
 
 ### Une histoire à succès
 
-C’est en 2005 que le tout premier établissement La P’tite Grenouille ouvrit ses portes, lequel fut suivi de près par plusieurs autres succursales pour maintenant totaliser 18 boîtes à chansons aux coins du Québec. 
+C’est en 2005 que le tout premier établissement La P’tite Grenouille ouvrit ses portes, lequel fut suivi de près par plusieurs autres succursales pour maintenant totaliser 17 boîtes à chansons aux coins du Québec. 
 
 ### La P’tite Grenouille fait rayonner nos artistes !
 
@@ -66,7 +66,7 @@ Offrez un atout majeur à votre région avec votre propre licence La P’tite Gr
 ### Profil du futur franchisé 
 
 - Démontrer un intérêt pour le milieu des bars ;
-- Avoir de l’expérience au sein d’un établissement en restauration ou bar ;
+- Avoir de l’expérience au sein d’un établissement en restauration ou dans un bar ;
 - Avoir de l'intérêt pour le milieu musical du Québec. 
 
 ### Autres détails 

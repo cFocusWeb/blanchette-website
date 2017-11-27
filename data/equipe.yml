@@ -1,11 +1,11 @@
 blanchette:
   - description: >-
-      À la tête depuis les débuts, Vincent chapeaute toutes les principales opérations, décisions et grands mouvements du groupe. Rêveur et visionnaire né, son œil aiguisé pour le marketing engendre un fort succès des bannières sur les médias sociaux. Sa détermination et ses idées de grandeur sont à l’origine de multiples projets du groupe.
+      Membre fondateur du groupe, Vincent chapeaute toutes les principales opérations, décisions et tous les grands mouvements du groupe. Rêveur et visionnaire né, son œil aiguisé pour le marketing engendre un fort succès des bannières. Sa détermination et ses idées de grandeur sont à l’origine de l'ensemble des projets du groupe.
     nom: "Vincent Blanchette, copropriétaire"
     ordre: 1
     photo: 01-blanchette-vincent.jpg
   - description: >-
-      Membre fondateur du groupe, André-François s’implique particulièrement dans l’aspect financier du groupe, manipulant avec aisance budgets et investissements. Son esprit rationnel le rend la personne tout indiquée pour veiller à la gestion des procédés opérationnels et au management pour l’ensemble des bannières. Grâce à son grand souci du détail, André-François s’implique également dans la recherche et le développement des recettes, en prêtant même ses papilles gustatives au jeu avant tout lancement de produits. 
+      Membre fondateur du groupe, André-François chapeaute toutes les principales opérations, décisions et tous les grands mouvements du groupe. Il s’implique particulièrement dans l’aspect financier du groupe, manipulant avec aisance budgets et investissements. Son esprit rationnel le rend la personne tout indiquée pour veiller à la gestion des procédés opérationnels et au management pour l’ensemble des bannières. 
     nom: "André-François Blanchette, copropriétaire"
     ordre: 2
     photo: 02-blanchette-andre.jpg
@@ -20,7 +20,7 @@ blanchette:
     ordre: 4
     photo: 04-blanchette-david.jpg
   - description: >-
-      Dernier arrivé dans le groupe, Kimpton ne donne pas sa place pour autant et s’occupe de la bannière au plus grand rayonnement du groupe, soit celle des restaurants-bars SHAKER Cuisine & Mixologie. Il participe activement à la recherche et au développement en lien avec le menu, à la gestion des opérations du franchiseur, aux tests de mise en marché, aux événements et au marketing. 
+      Kimpton s’occupe de la bannière au plus grand rayonnement du groupe, soit celle des restaurants-bars SHAKER Cuisine & Mixologie. Il participe activement à la recherche et au développement en lien avec le menu, à la gestion des opérations du franchiseur, aux tests de mise en marché, aux événements et au marketing. 
     nom: "Kimpton Blanchette, copropriétaire"
     ordre: 5
     photo: 05-blanchette-kimpton.jpg
@@ -74,7 +74,7 @@ blancs:
   - description: >-
       Directeur du développement des affaires
     nom: "Hugo Laperrière"
-    ordre: 9
+    ordre: 11
     photo: 14-blanchette-hugol.jpg
     email: "hl@groupeblanchette.com"
   - description: >-
@@ -86,6 +86,6 @@ blancs:
   - description: >-
       Contrôleur, CPA CMA
     nom: "Hugo Morrissette"
-    ordre: 11
+    ordre: 9
     photo: 13-blanchette-hugom.jpg
     email: "hm@groupeblanchette.com"

@@ -26,11 +26,11 @@ website: https://planetenutrition.ca/
 details:
   type: Licence
   frais: 10 000 $
-  investissement: 90 500 $ 
-  misedefonds: 54 000 $
+  investissement: à partir de 90 500 $ 
+  misedefonds: à partir de 54 000 $
   contact: William Déry
   fondation: 2015
-  nbre: 0
+  nbre: 7
   redevances: 0%
   pub: 0%
   royautes: 0%
