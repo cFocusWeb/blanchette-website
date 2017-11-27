@@ -496,4 +496,34 @@ img.tartar-logo {
 	padding: 25px
 }
 
+.thank-page {
+	text-align: center;
+	p {
+		font-family: $font-main;
+		font-size: 1.063em;
+		line-height: 1.5;
+		text-align: left;
+	}
+	a.btn {
+		padding: 20px;
+	    border: 2px solid black;
+	    color: black;
+	    margin-top: 30px;
+	    display: inline-block;
+	    border-radius: 5px;
+	    -webkit-transition: 0.4s background-color;
+	    -moz-transition: 0.4s background-color;
+	    -ms-transition: 0.4s background-color;
+	    -o-transition: 0.4s background-color;
+	    transition: 0.4s background-color;
+	    text-transform: uppercase;
+	    font-family: "helveticabold";
+	    margin-right: 30px;
+	    &:hover {
+	    	background-color: $green;
+	    	color: white;
+	    	border-color: $green;
+	    }
+	}
+}
 /*=====  End of Frnachise Block  ======*/

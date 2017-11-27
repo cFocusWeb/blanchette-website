@@ -35,7 +35,9 @@ details:
   redevances: 8%
   pub: 2%
   royautes: 6%
-ctaimage: /img/franchises/hola-cta-banner.jpeg
+ctaimage: 
+  need: true
+  url: /img/franchises/hola-cta-banner.jpeg
 i18nlanguage: fr
 ordre: 1
 draft: false

@@ -15,6 +15,7 @@ resume:
   investissement: "40 000$"
   carouselclass: big-nav 
 imagedesc: >-
+  VAPOSHOP est l'un des plus gros joueurs dans le domaine de la vente de produits pour cigarettes électroniques à Québec. Ci-dessus : la succursale de Charlesbourg.
 business: >-
   VAPOSHOP est le leader incontesté en vente d’articles pour vapoteurs à Québec. Répondant à une demande grandissante pour un marché l’étant tout autant, leur inventaire impressionnant de produits distincts et de qualité comblera les attentes de tous types de consommateurs, tant les nouveaux utilisateurs que les plus initiés.   
 accentcolor: "#c5c3c4"
@@ -31,7 +32,9 @@ details:
   redevances: 0%
   pub: 0%
   royautes: 0%
-ctaimage: /img/franchises/vapo-cta-banner.jpg
+ctaimage: 
+  need: false
+  url: /img/franchises/vapo-cta-banner.jpg
 i18nlanguage: fr
 ordre: 1
 draft: false

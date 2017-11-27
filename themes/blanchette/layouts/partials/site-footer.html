@@ -5,8 +5,8 @@
 	          <div class="brand-box">
 	              <img src="/img/logos/b-logo-white.svg" alt="" class="img-responsive" style="height: 100px;">                        
 	              <div class="content">
-	                  <p><a href="#" class="tel-ico">418 686-0069</a></p>
-	                  <p><a href="#" class="mail-ico">info@groupeblanchette.com</a></p>
+	                  <p><a href="tel:+14186860069" class="tel-ico">418 686-0069</a></p>
+	                  <p><a href="mailto:info@groupeblanchette.com" class="mail-ico">info@groupeblanchette.com</a></p>
 	              </div>
 	          </div>
 	          <!-- // brand box  -->
@@ -18,17 +18,31 @@
 
 	              <div class="col-md-4">
 	                  <div class="sitemap-box">
+	                  	{{ if eq .Lang "fr" }}
 	                      <span class="title">Plan du site</span>
 	                      <div class="content">
 	                          <ul>
-	                              <li><a href="/franchises">Nos franchises</a></li>
-	                              <li><a href="/historique">Notre histoire</a></li>
-	                              <li><a href="/devenir-franchise">Devenir franchisé</a></li>
-	                              <li><a href="/projets-developpement">Projets & développement</a></li>
-	                              <li><a href="/contact">Contact</a></li>
+	                              <li><a href="{{.Site.BaseURL}}franchises">Nos franchises</a></li>
+	                              <li><a href="{{.Site.BaseURL}}devenir-franchise">Devenir franchisé</a></li>
+	                              <li><a href="{{.Site.BaseURL}}projets-developpement">Projets & développement</a></li>
+	                              <li><a href="{{.Site.BaseURL}}historique">Notre histoire</a></li>
+	                              <li><a href="{{.Site.BaseURL}}contact">Contact</a></li>
 	                              <li><a href="https://grblanchette.gestock.ca/" target="_blank">Boutique</a></li>
 	                          </ul>
 	                      </div>
+	                      {{ else if eq .Lang "en" }}
+	                      <span class="title">Site Map</span>
+	                      <div class="content">
+	                          <ul>
+	                              <li><a href="{{.Site.BaseURL}}en/franchises">Our Franchises</a></li>
+								                <li><a href="{{.Site.BaseURL}}en/become-a-franchisee">Become a Franchisee</a></li>
+								                <li><a href="{{.Site.BaseURL}}en/projects-development">Projects & Development</a></li>
+								                <li><a href="{{.Site.BaseURL}}en/history">Our Story</a></li>
+								                <li><a href="{{.Site.BaseURL}}en/contact">Contact</a></li>
+								                <li><a href="https://grblanchette.gestock.ca/" target="_blank">Store</a></li>
+	                          </ul>
+	                      </div>
+	                      {{ end }}
 	                      <!-- // content  -->
 	                      <ul id="social-nav">
 	                          {{with .Site.Data.settings.socials.facebookurl}}
@@ -66,7 +80,11 @@
 
 	              <div class="col-md-8 hidden-xs">
 	                  <div id="franchises-footer">
+	                  	{{ if eq .Lang "fr" }}
 	                      <span class="title">Visitez les sites Web respectifs de chacune des bannières</span>
+	                    {{ else if eq .Lang "en" }}
+	                    <span class="title">Visit each banner's respective websites</span>
+	                    {{ end }}
 	                      <div class="content">
 			                      <div class="row">
 			                      	{{ range $i, $e := first 4 (sort (where $.Site.Pages "Type" "franchises") ".Params.ordre" "asce") }}

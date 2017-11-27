@@ -42,7 +42,21 @@ defaultContentLanguageInSubdir = false
   angledQuotes = false
   latexDashes = true
 
-[permalinks]
+[Languages]
+[Languages.en]
+[Languages.en.permalinks]
+  singles = "/:slug/"
+  shaker = "/projects/shaker/:slug/"
+  grenouille = "/projects/la-ptite-grenouille/:slug/"
+  hola = "/projets/hola/:slug/"
+  vapo = "/projets/vaposhop/:slug/"
+  planete = "/projects/planete-nutrition/:slug/"
+  frits = "/projects/frits/:slug/"
+  chocolato = "/projects/chocolato/:slug/"
+  tartar = "/projects/tartar-station/:slug/"
+
+[Languages.fr]
+[Languages.fr.permalinks]
   singles = "/:slug/"
   shaker = "/projets/shaker/:slug/"
   grenouille = "/projets/la-ptite-grenouille/:slug/"
@@ -53,7 +67,3 @@ defaultContentLanguageInSubdir = false
   chocolato = "/projets/chocolato/:slug/"
   tartar = "/projets/tartar-station/:slug/"
 
-# [Languages.fr]
-# [Languages.fr.Taxonomies]
-# category = "categories"
-# createur = "createurs"

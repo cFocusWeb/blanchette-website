@@ -253,11 +253,13 @@
 						&.external-url {
 							border:1px solid #686868;
 							padding: 7px 10px 10px;
+							&:hover {
+								border-color: $green;
+							}
 						}
 					}
 					.cta-btn {
 						width:60px;
-						height: 30px;
 						border:1px solid #686868;
 						display: block;
 						margin:0px auto;
@@ -275,7 +277,7 @@
 						display: block;
 						padding-top: 30px;
 						font-size: 0.875em;
-						font-family: $font-sec;
+						font-family: $font-main;
 						color:$black;
 						a {
 							color:#969696;

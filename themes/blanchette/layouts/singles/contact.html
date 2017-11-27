@@ -8,7 +8,8 @@
   <!-- // inner  -->
   <div class="form-container">
   	<div class="container">
-			<form action="/" method="post" class="registration-form" netlify>
+      {{ if eq .Lang "fr" }}
+			<form action="/merci" method="post" class="registration-form" netlify name="contact-form">
 				<div id="form-wrapper">
 					<div class="row">
 						<div class="col-sm-12">
@@ -52,11 +53,58 @@
 					</div>
 				</div>
 			</form>
+      {{ else if eq .Lang "en" }}
+      <form action="/thank-you" method="post" class="registration-form" netlify name="contact-form-en">
+        <div id="form-wrapper">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="form-holder" id="form-start">
+                <div class="row">
+                  <div class="form-group col-sm-6 col-md-4">
+                    <input type="text" name="name" placeholder="Name*">
+                  </div>
+                  <div class="form-group col-sm-6 col-md-8">
+                    <input type="text" name="email" placeholder="Email address*">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-group col-sm-6 col-md-4">
+                    <input type="text" name="phone" placeholder="Phone number*">
+                  </div>
+                  <div class="form-group col-sm-6 col-md-8">
+                    <input type="text" name="subject" placeholder="Subject*" style="">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <input type="text" name="franchise" class="form-control not-required" placeholder="Franchise">
+                  </div>    
+                </div>
+                <div class="row file">
+                  <div class="col-sm-12">
+                    <div>
+                      <span>File</span> <input type="file" name="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <input type="submit" value="Send my message">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+      {{ end }}
   	</div>
   </div>
   <div class="container contact-info">
   	<div class="row">
   		<div class="col-sm-5 col-md-4 match">
+        {{ if eq .Lang "fr" }}
   			<h4>Service à la clientèle</h4>
   			<p>Bureau à Ste-Foy</p>
   			<a href="tel:+14186860069"><i class="fa fa-phone"></i>418-686-0069</a>
@@ -64,6 +112,15 @@
   			<p>Québec (Québec) G1V 4H2</p>
   			<p class="hours">Heures d'ouverture</p>
   			<p>Lundi au vendredi : 9h à 17h</br>Samedi et dimanche : fermé</p>
+        {{ else if eq .Lang "en" }}
+        <h4>Customer service</h4>
+        <p>Office in Ste-Foy</p>
+        <a href="tel:+14186860069"><i class="fa fa-phone"></i>418-686-0069</a>
+        <p class="address"><i class="fa fa-map-marker"></i>2360 Chemin Ste-Foy</p>
+        <p>Québec (Québec) G1V 4H2</p>
+        <p class="hours">Business hours</p>
+        <p>Monday to Friday : 9AM to 17PM</br>Saturday and Sunday : closed</p>
+        {{ end }}
 	  	</div>
 	  	<div class="col-sm-7 col-md-8 match">
 	  		<div id="contact-map"></div>

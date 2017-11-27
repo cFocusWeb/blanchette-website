@@ -16,7 +16,7 @@ resume:
   gridclass: planete
   carouselclass: 
 imagedesc: >-
-  
+  Planète Nutrition est la destination pour l'achat de suppléments dans un environnement sans jugement ! La bannière compte 7 succursales à ce jour.
 business: >-
   Planète Nutrition, c’est bien plus qu’un magasin de suppléments alimentaires. Avec ses prix compétitifs, sa marque privée de renom, son Épicerie Athlétique et son service à la clientèle hors pair, Planète Nutrition est en voie de devenir la plus grande chaîne de suppléments alimentaires jumelée à une épicerie athlétique du Québec et bientôt du Canada.  
 accentcolor: "#9bd700"
@@ -34,7 +34,9 @@ details:
   redevances: 0%
   pub: 0%
   royautes: 0%
-ctaimage: /img/franchises/planete-cta-banner.jpeg
+ctaimage: 
+  need: true
+  url: /img/franchises/planete-cta-banner.jpeg
 i18nlanguage: fr
 ordre: 1
 draft: false
@@ -46,7 +48,7 @@ video: hVyEqXZYcts
 
 ### Une popularité grandissante
 
-Planète Nutrition rivalise déjà avec les géants de l’industrie malgré son arrivée relativement nouvelle sur le marché. Avec ses 6 succursales au Québec, la bannière part à la conquête de marché, guidé par sa mission d’« Être reconnu comme le leader et la référence des magasins de suppléments alimentaires à travers le Canada, spécialisé dans les suppléments sportifs, la santé générale de l’homme et de la femme et des collations et repas nutritionnels santés. ». En ces lieux, une clientèle grandissante à la fois avide de résultats sur le plan sportif qu’à la recherche d’un excellent rapport qualité-prix trouve chaussure à son pied. 
+Planète Nutrition rivalise déjà avec les géants de l’industrie malgré son arrivée relativement nouvelle sur le marché. Avec ses 7 succursales au Québec, la bannière part à la conquête du marché, guidé par sa mission d’« Être reconnu comme le leader et la référence des magasins de suppléments alimentaires à travers le Canada, spécialisé dans les suppléments sportifs, la santé générale de l’homme et de la femme et des collations et repas nutritionnels santés. ». En ces lieux, une clientèle grandissante à la fois avide de résultats sur le plan sportif qu’à la recherche d’un excellent rapport qualité-prix trouve chaussure à son pied. 
 
 ### Ce qui différencie Planète Nutrition
 
@@ -61,14 +63,14 @@ Présentez une offre de services complète et différente avec votre propre lice
 ### Pourquoi choisir la bannière Planète Nutrition ?
 
 - Concept unique de magasin de suppléments alimentaires au look épuré et dynamique ;
-- Une vaste gamme de produits et accessoires rencontrant les normes et standards de qualité de Santé Canada ;
+- Vaste gamme de produits et accessoires rencontrant les normes et standards de qualité de Santé Canada ;
 - Ententes exclusives et concurrentielles avec plusieurs fournisseurs.
 
 ### Profil du futur licencié
 
 - Avoir un intérêt pour le milieu du sport et de la supplémentation ;
 - Avoir un tempérament de leader ;
-- Avoir de la facilité à communiquer facilement ;
+- Avoir de la facilité à communiquer ;
 - Être soucieux de la satisfaction des clients;
 - Être motivé et avoir une attitude positive ;
 - Démontrer un désir d’être impliqué l’opération du magasin est un atout important.

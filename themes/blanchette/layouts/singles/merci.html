@@ -1,5 +1,14 @@
 {{ define "main" }}
-<main class="main" id="merci">
-				{{ .Content}}
-</main>
+<div id="page-wrapper" class="thank-page">
+	<div class="container">
+		{{ .Content}}
+		{{ if eq .Lang "fr" }}
+		<a href="{{.Site.BaseURL}}" class="btn">Retour à l'accueil</a>
+		<a href="{{.Site.BaseURL}}franchises/" class="btn">Voir nos franchises</a>
+		{{ else if eq .Lang "en" }}
+		<a href="{{.Site.BaseURL}}en" class="btn">Back to home page</a>
+		<a href="{{.Site.BaseURL}}en/franchises/" class="btn">Our Franchises</a>
+		{{ end }}
+	</div>
+</div>
 {{ end }}

@@ -34,7 +34,9 @@ details:
   redevances: 9%
   pub: 3%
   royautes: 6%
-ctaimage: /img/franchises/chocolato-cta-banner.jpg
+ctaimage: 
+  need: true
+  url: /img/franchises/chocolato-cta-banner.jpg
 i18nlanguage: fr
 ordre: 1
 draft: false

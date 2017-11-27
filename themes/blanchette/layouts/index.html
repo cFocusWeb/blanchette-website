@@ -2,7 +2,7 @@
 <header id="mas-header">
             <!-- <div class="overlay"></div> -->
             
-            <script src="https://fast.wistia.com/embed/medias/y07r2kikm5.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;z-index:1"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_y07r2kikm5 videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+            <script src="https://fast.wistia.com/embed/medias/2n3h0ox8fh.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_2n3h0ox8fh videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
 
             <div id="logos-holder">
                 <div id="logos-slider">
@@ -35,7 +35,11 @@
             </div>
             <!-- // content  -->
             <div class="image-holder wow fadeIn" data-wow-duration="0.7s" data-wow-delay="0.4s" id="masonry-franchise">
-                <a href="#nothing">
+                {{ if eq .Lang "fr" }}
+                <a href="{{.Site.BaseURL}}franchises/shaker">
+                {{ else if eq .Lang "en" }}
+                <a href="{{.Site.BaseURL}}en/franchises/shaker">
+                {{ end }}
                     <img src="/img/misc/mosaic-shaker.jpg" alt="" class="img-responsive">
                     <div class="caption">
                         <img src="/img/logos/shaker-logo-white.svg" class="logo-hover" />
@@ -54,7 +58,11 @@
                     <div class="col-md-9 col-sm-12">
                         <div class="row no-gutter  first-gallery-row">
                             <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0.2s">
+                                {{ if eq .Lang "fr" }}
                                 <a href="{{.Site.BaseURL}}franchises/chocolato">
+                                {{ else if eq .Lang "en" }}
+                                <a href="{{.Site.BaseURL}}en/franchises/chocolato">
+                                {{ end }}
                                     <img src="/img/misc/mosaic-chocolato1.jpg" alt="" class="img-responsive">
                                     <div class="caption">
                                         <img src="/img/logos/chocolate-white.svg" />
@@ -64,7 +72,11 @@
                             </div>
                             <!-- // md 4  -->
                             <div class="col-md-8 col-sm-6 wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0.4s">
+                                {{ if eq .Lang "fr" }}
                                 <a href="{{.Site.BaseURL}}franchises/chocolato">
+                                {{ else if eq .Lang "en" }}
+                                <a href="{{.Site.BaseURL}}en/franchises/chocolato">
+                                {{ end }}
                                     <img src="/img/misc/mosaic-chocolato2.jpg" alt="" class="img-responsive">
                                     <div class="caption">
                                         <img src="/img/logos/chocolate-white.svg" />
@@ -77,7 +89,11 @@
                         <!-- // row  -->
                         <div class="row no-gutter sec-gallery-row">
                             <div class="col-md-8 col-sm-6 wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0.6s">
+                                {{ if eq .Lang "fr" }}
                                 <a href="{{.Site.BaseURL}}franchises/shaker">
+                                {{ else if eq .Lang "en" }}
+                                <a href="{{.Site.BaseURL}}en/franchises/shaker">
+                                {{ end }}
                                     <img src="/img/misc/gal5.jpg" alt="" class="img-responsive">
                                     <div class="caption">
                                         <img src="/img/logos/shaker-logo-white.svg" />
@@ -86,7 +102,11 @@
                                 </a>
                             </div>
                             <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0.8s">
+                                {{ if eq .Lang "fr" }}
                                 <a href="{{.Site.BaseURL}}franchises/la-ptite-grenouille">
+                                {{ else if eq .Lang "en" }}
+                                <a href="{{.Site.BaseURL}}en/franchises/the-little-frog">
+                                {{ end }}
                                     <img src="/img/misc/gal6.jpg" alt="" class="img-responsive">
                                     <div class="caption">
                                         <img src="/img/logos/ptiteGrenouille-white.svg" />
@@ -102,7 +122,11 @@
                     <div class="col-md-3 col-sm-12 wow fadeIn">
                        <div class="row no-gutter">
                            <div class="col-md-12 col-sm-6" data-wow-duration="0.4s" data-wow-delay="0.8s">
+                                {{ if eq .Lang "fr" }}
                                 <a href="{{.Site.BaseURL}}franchises/tartar-station">
+                                {{ else if eq .Lang "en" }}
+                                <a href="{{.Site.BaseURL}}en/franchises/tartar-station">
+                                {{ end }}
                                     <img src="/img/misc/gal3.jpg" alt="" class="img-responsive tall-image">
                                         <div class="caption">
                                         <img src="/img/logos/tartar-white-2.svg" />
@@ -112,7 +136,11 @@
                            </div>
                            <!-- // col  -->
                            <div class="col-md-12 col-sm-6 wow fadeIn" data-wow-duration="0.4s" data-wow-delay="1s">
+                                {{ if eq .Lang "fr" }}
                                 <a href="{{.Site.BaseURL}}franchises/frits">
+                                {{ else if eq .Lang "en" }}
+                                <a href="{{.Site.BaseURL}}en/franchises/frits">
+                                {{ end }}
                                     <img src="/img/misc/gal4.jpg" alt="" class="img-responsive small-image">
                                         <div class="caption">
                                             <img src="/img/logos/frits-white.svg" />
@@ -145,7 +173,7 @@
                             <p>{{.Params.resume.desc | markdownify }}</p>
                             <footer>
                                 <small><strong>Investissement :</strong> {{.Params.details.investissement}}</small>
-                                <a href="{{.Permalink}}">En savoir plus</a>
+                                <a href="{{.Permalink}}">{{ if eq .Lang "fr" }}En savoir plus{{ else if eq .Lang "en" }}More information{{end}}</a>
                             </footer>
                         </div>
                     </div>
@@ -155,14 +183,25 @@
 
                     <div class="col-md-4 col-sm-12 wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0.2s">
                         <div class="franchise-box">
+                            {{ if eq .Lang "fr" }}
                             <header>
-                                <h4>Franchise <br> a venir</h4>
+                                <h4>Franchise <br> à venir</h4>
                             </header>
                             <!-- // holder  -->
                             <p>Guidé par son désir d'innover, le Groupe Blanchette - Maître Franchiseur est toujours à la recherche d'opportunités d’affaires novatrices, et déploie de constants efforts afin de développer de nouvelles franchises.</p>
                             <footer>
                                 <a href="/historique">En savoir plus</a>
                             </footer>
+                            {{ else if eq .Lang "en" }}
+                            <header>
+                                <h4>Franchise <br> à venir</h4>
+                            </header>
+                            <!-- // holder  -->
+                            <p>Guidé par son désir d'innover, le Groupe Blanchette - Maître Franchiseur est toujours à la recherche d'opportunités d’affaires novatrices, et déploie de constants efforts afin de développer de nouvelles franchises.</p>
+                            <footer>
+                                <a href="/historique">En savoir plus</a>
+                            </footer>
+                            {{ end }}
                         </div>
                     </div>
                     <!-- // frnachise box  -->                                                                                                                                                             

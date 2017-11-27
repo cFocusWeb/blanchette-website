@@ -3,95 +3,50 @@
 
                 <header id="inner-header">
                     <div class="container">
+                        {{ if eq .Lang "fr" }}
                         <h2>FORMULAIRE DE DEMANDE ET PROCESSUS</h2>
                         <h3>Faites équipe avec des marques gagnantes !</h3>
+                        {{ else if eq .Lang "en" }}
+                        <h2>APPLICATION FORM AND PROCESS</h2>
+                        <h3>Be a part of one of our winning brand</h3>
+                        {{ end }}
                     </div>
                 </header>
                 <!-- // inner  -->
 
             <div class="container">
-                
+                {{ range .Params.steps}}
                 <div class="process-block">
                     <div class="process-box">
-                        <span>1</span>
+                        <span>{{.nb}}</span>
                         <div class="holder">
-                            <h4>Sélectionnez la ou les bannière(s) de votre choix</h4>
-                            <p>Choisissez un maximum de 2 bannières</p>
+                            <h4>{{.line1}}</h4>
+                            <p>{{.line2}}</p>
                         </div>
                         <!-- // holder  -->
                     </div>
                     <!-- // box  -->
                     <div class="clearfix"></div>
                 </div>
-                <!-- // process block  -->
-
-                <div class="process-block">
-                    <div class="process-box">
-                        <span>2</span>
-                        <div class="holder">
-                            <h4>Remplissez le formulaire ici-bas</h4>
-                            <p>Inscrivez les informations demandées dans les différents champs</p>
-                        </div>
-                        <!-- // holder  -->
-                    </div>
-                    <!-- // box  -->
-                    <div class="clearfix"></div>
-                </div>
-                <!-- // process block  -->      
-
-                <div class="process-block">
-                    <div class="process-box">
-                        <span>3</span>
-                        <div class="holder">
-                            <h4>Notre équipe analysera votre candidature</h4>
-                            <p>Seuls les candidats retenus seront contactés</p>
-                        </div>
-                        <!-- // holder  -->
-                    </div>
-                    <!-- // box  -->
-                    <div class="clearfix"></div>
-                </div>
-                <!-- // process block  -->    
-                
-                <div class="process-block">
-                    <div class="process-box">
-                        <span>4</span>
-                        <div class="holder">
-                            <h4>Premier contact</h4>
-                            <p>Par téléphone ou en personne, une première rencontre sera planifiée</p>
-                        </div>
-                        <!-- // holder  -->
-                    </div>
-                    <!-- // box  -->
-                    <div class="clearfix"></div>
-                </div>
-                <!-- // process block  -->     
-                
-                <div class="process-block">
-                    <div class="process-box">
-                        <span>5</span>
-                        <div class="holder">
-                            <h4>Début d’une nouvelle aventure!</h4>
-                            <p>Votre projet prend forme et le processus débute</p>
-                        </div>
-                        <!-- // holder  -->
-                    </div>
-                    <!-- // box  -->
-                    <div class="clearfix"></div>
-                </div>
-                <!-- // process block  -->    
+                <!-- // process block  --> 
+                {{ end }}
 
             </div>
             <!-- // container -->
 
-            <form action="/" class="registration-form" method="post">
+            <form action="/" class="registration-form" method="post" name="devenir-franchise">
 
             <div class="container">
                 <div class="process-content">
                     
                     <header>
+                        {{ if eq .Lang "fr" }}
                         <h4>Bannière(s) souhaitée(s)</h4>
                         <h5>Sélectionnez les bannières qui vous intéressent (maximum de 2 bannières).</h5>
+                        {{ else if eq .Lang "en" }}
+                        <h4>DESIRED BANNER(S)</h4>
+                        <h5>Select the banners of interest (maximum of 2 banners).</h5>
+                        {{ end }}
                     </header>
 
                     <div id="brand-logos">
@@ -111,18 +66,26 @@
                     <!-- // brand logos  -->
 
                     <header>
+                        {{ if eq .Lang "fr" }}
                         <h4>Renseignements personnels</h4>
+                        {{ else if eq .Lang "en" }}
+                        <h4>PERSONAL INFORMATION</h4>
+                        {{ end }}
                     </header>
 
                     <div id="form-wrapper">
                         <div class="row">
                             <div class="col-sm-12">
+                                {{ if eq .Lang "fr" }}
                                 <h4>Devenir Franchisé</h4>
+                                {{ else if eq .Lang "en" }}
+                                <h4>Become a Franchisee</h4>
+                                {{ end }}
 
                                 {{ .Content }}
   
                                 <div class="form-holder" id="form-start">
-
+                                {{ if eq .Lang "fr" }}
                                   <label for=""><i class="fa fa-user-circle-o" aria-hidden="true"></i> Nom complet</label>
                                   <input type="text" name="nom" class="form-control">
                                   <label for=""><i class="fa fa-phone" aria-hidden="true"></i> Téléphone</label>
@@ -139,6 +102,24 @@
                                   <label for=""><i class="fa fa-envelope-o" aria-hidden="true"></i> Courriel</label>
                                   <input type="email" name="email">
                                   <input type="submit" value="Envoyez >">
+                                {{ else if eq .Lang "en" }}
+                                  <label for=""><i class="fa fa-user-circle-o" aria-hidden="true"></i> Full name</label>
+                                  <input type="text" name="nom" class="form-control">
+                                  <label for=""><i class="fa fa-phone" aria-hidden="true"></i> Phone number</label>
+                                  <input type="tel" name="telephone" class="form-control">
+                                  <label for=""><i class="fa fa-map-marker" aria-hidden="true"></i> Province and region</label>
+                                  <div class="row">
+                                    <div class="form-group col-sm-6">
+                                      <input type="text" name="region" placeholder="Region">
+                                    </div>
+                                    <div class="form-group col-sm-6">
+                                      <input type="text" name="province" placeholder="Province">
+                                    </div>
+                                  </div>
+                                  <label for=""><i class="fa fa-envelope-o" aria-hidden="true"></i> Email address</label>
+                                  <input type="email" name="email">
+                                  <input type="submit" value="Send >">
+                                {{ end }}
 
                                 </div>
                                 <!-- // form holder  -->

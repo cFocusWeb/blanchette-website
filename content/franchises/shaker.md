@@ -31,7 +31,9 @@ details:
   redevances: 7%
   pub: 3%
   royautes: 4%
-ctaimage: /img/franchises/shaker-cta-banner.jpeg
+ctaimage: 
+  need: true
+  url: /img/franchises/shaker-cta-banner.jpeg
 i18nlanguage: fr
 ordre: 1
 draft: false

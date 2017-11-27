@@ -1,11 +1,17 @@
 ---
-title: Contact EN
+title: Contact
 description: >-
   This is a desc
 titre: Contact
-slug: en/contact
+slug: contact
 layout: contact
 image: null
 i18nlanguage: en
 draft: false
+map:
+  need: true
+  type: contact
 ---
+## We are listening
+
+If you have any questions, comments or suggestions about any of our banners, please complete the form below or call us. We will answer you with pleasure !

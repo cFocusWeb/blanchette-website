@@ -32,7 +32,9 @@ details:
   redevances: 0%
   pub: 0%
   royautes: 0%
-ctaimage: /img/franchises/grenouille-cta-banner.jpg
+ctaimage: 
+  need: true
+  url: /img/franchises/grenouille-cta-banner.jpg
 i18nlanguage: fr
 ordre: 1
 draft: false

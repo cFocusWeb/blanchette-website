@@ -4,8 +4,12 @@
 
                 <div id="bradcrumb-wrapper">
                     <ul>
-                        <li><a href="#">Nos franchises</a></li>
-                        <li><a href="#">{{.Params.resume.titre}}</a></li>
+                        {{ if eq .Lang "fr" }}
+                        <li><a href="{{ .Site.BaseURL}}franchises">Nos franchises</a></li>
+                        {{ else if eq .Lang "en" }}
+                        <li><a href="{{ .Site.BaseURL}}en/franchises">Our franchises</a></li>
+                        {{ end }}
+                        <li><a href="#nothing">{{.Params.resume.titre}}</a></li>
                     </ul>
                 </div>
                 <!-- // breadcrumb  -->
@@ -19,7 +23,15 @@
                             </header>
                             {{ with .Params.imagedesc}}
                             <div class="intro">
-                                <p>{{.}}{{if eq $.Params.identifiant "shaker"}}Ci-dessus, le SHAKER Gatineau ; le 7<sup style="vertical-align: super;margin-left: 3px;">e</sup> restaurant de la bannière.{{ end }}</p>
+                                <p>{{.}}
+                                    {{if eq $.Params.identifiant "shaker"}}
+                                    {{ if eq $.Lang "fr" }}
+                                    Ci-dessus, le SHAKER Gatineau ; le 7<sup style="vertical-align: super;margin-left: 3px;">e</sup> restaurant de la bannière.
+                                    {{ else if eq $.Lang "en" }}
+                                    Above : SHAKER Gatineau; the 7th restaurant of the banner.
+                                    {{ end }}
+                                    {{ end }}
+                                </p>
                             </div>
                             {{ end }}
                             <!-- // intro  -->
@@ -35,11 +47,18 @@
 
                     <div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1">
                         <aside id="side-details">
-                            
+                            {{ if eq .Lang "fr" }}
                             <a href="{{.Site.BaseURL}}devenir-franchise?franchise={{.Params.identifiant}}" class="form-dload">Formulaire de <span>demande d’informations</span> <i class="fa fa-chevron-right" aria-hidden="true"></i> </a>
+                            {{ else if eq .Lang "en" }}
+                            <a href="{{.Site.BaseURL}}en/become-a-franchisee?franchise={{.Params.identifiant}}" class="form-dload">Information <span>request form</span> <i class="fa fa-chevron-right" aria-hidden="true"></i> </a>
+                            {{ end }}
 
                             <div id="brand-holder">
+                                {{ if eq .Lang "fr" }}
                                 <a href="{{.Site.BaseURL}}devenir-franchise?franchise={{.Params.identifiant}}">
+                                {{ else if eq .Lang "en" }}
+                                <a href="{{.Site.BaseURL}}en/become-a-franchisee?franchise={{.Params.identifiant}}">
+                                {{ end }}
                                     <div class='{{ if .Params.whitebg }}white-bg{{ end }}' {{ if .Params.colorbg }}style="background-color: {{.Params.colorforbg}}"{{ else if .Params.whitebg}}style="border: 1px solid {{.Params.accentcolor}}"{{ end }}>
                                         {{ if .Params.colorbg }}
                                           {{ if .Params.colorlogo}}
@@ -58,13 +77,21 @@
                             <!-- // brand holder  -->
 
                             <div id="about-block-aside">
+                                {{ if eq .Lang "fr" }}
                                 <h6>L’entreprise</h6>
+                                {{ else if eq .Lang "en" }}
+                                <h6>The Company</h6>
+                                {{ end }}
                                 <p>{{.Params.business}}</p>
                             </div>
                             <!-- // about  -->
 
                             <div id="offer-details">
+                                {{ if eq .Lang "fr" }}
                                 <h6>Détails <span>de l’offre</span></h6>
+                                {{ else if eq .Lang "en" }}
+                                <h6>Offer <span>details</span></h6>
+                                {{ end }}
 
                                 <table width="100%">
                                     <tr>
@@ -72,40 +99,40 @@
                                         <td width="50%">{{.Params.details.type}}</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Mise de fonds</strong></td>
+                                        <td><strong>{{ if eq .Lang "fr" }}Mise de fonds{{ else if eq .Lang "en" }}Initial investment{{ end }}</strong></td>
                                         <td>{{.Params.details.misedefonds}}</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Frais de {{lower .Params.details.type}}</strong></td>
+                                        <td><strong>{{ if eq .Lang "fr" }}Frais de {{lower .Params.details.type}}{{ else if eq .Lang "en" }}{{ .Params.details.type}} fees{{ end }}</strong></td>
                                         <td>{{.Params.details.frais}}</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Investissement total estimé (avant taxes)</strong></td>
+                                        <td><strong>{{ if eq .Lang "fr" }}Investissement total estimé (avant taxes){{ else if eq .Lang "en" }}Investment total (before taxes){{ end }}</strong></td>
                                         <td>{{.Params.details.investissement}}</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Personne contact</strong></td>
+                                        <td><strong>{{ if eq .Lang "fr" }}Personne contact{{ else if eq .Lang "en" }}Contact{{ end }}</strong></td>
                                         <td>{{.Params.details.contact}}</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Année de fondation</strong></td>
+                                        <td><strong>{{ if eq .Lang "fr" }}Année de fondation{{ else if eq .Lang "en" }}Year founded{{ end }}</strong></td>
                                         <td>{{.Params.details.fondation}}</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Nombre de succursales</strong></td>
+                                        <td><strong>{{ if eq .Lang "fr" }}Nombre de succursales{{ else if eq .Lang "en" }}Number of locations{{ end }}</strong></td>
                                         <td>{{.Params.details.nbre}}</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Royautés</strong></td>
+                                        <td><strong>{{ if eq .Lang "fr" }}Royautés{{ else if eq .Lang "en" }}Royalties{{ end }}</strong></td>
                                         <td>{{.Params.details.royautes}}</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Frais publicitaires</strong></td>
+                                        <td><strong>{{ if eq .Lang "fr" }}Frais publicitaires{{ else if eq .Lang "en" }}Publicity fees{{ end }}</strong></td>
                                         <td>{{.Params.details.pub}}</td>
                                     </tr>
                                     {{ with .Params.details.autre }}
                                     <tr>
-                                        <td><strong>Autres informations</strong></td>
+                                        <td><strong>{{ if eq .Lang "fr" }}Autres informations{{ else if eq .Lang "en" }}Other informations{{ end }}</strong></td>
                                         <td>{{.}}</td>
                                     </tr>
                                     {{ end }}
@@ -114,10 +141,18 @@
                             </div>
                             <!-- // offer details  -->
 
+                            {{ if eq .Lang "fr" }}
                             <a href="{{.Site.BaseURL}}devenir-franchise?franchise={{.Params.identifiant}}" class="form-dload">Formulaire de <span>demande d’informations</span> <i class="fa fa-chevron-right" aria-hidden="true"></i> </a>
+                            {{ else if eq .Lang "en" }}
+                            <a href="{{.Site.BaseURL}}en/become-a-franchisee?franchise={{.Params.identifiant}}" class="form-dload">Information <span>request form</span> <i class="fa fa-chevron-right" aria-hidden="true"></i> </a>
+                            {{ end }}
 
                             <div id="video-block">
+                                {{ if eq .Lang "fr" }}
                                 <h6>Vidéo corporative</h6>
+                                {{ else if eq .Lang "en" }}
+                                <h6>Corporate video</h6>
+                                {{ end }}
                                 <div class="video-container">
                                     <iframe width="100%" src="https://www.youtube.com/embed/{{.Params.video}}?rel=0&amp;showinfo=0&autoplay=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                                 </div>
@@ -125,7 +160,11 @@
                             <!-- // video block  -->
 
                             <div id="site-block">
+                                {{ if eq .Lang "fr" }}
                                 <h6>Consultez le <span>site Web</span> :</h6>
+                                {{ else if eq .Lang "en" }}
+                                <h6>Visit our <span>website</span> :</h6>
+                                {{ end }}
                                 <p><a href="{{.Params.website}}" target="_blank">{{.Params.website}}</a></p>
                             </div>
                             <!-- // site  -->
@@ -140,11 +179,17 @@
             <!-- // container  -->
         </div> 
         <!-- pagewrapper  -->
-
+        {{ if .Params.ctaimage.need }}
         <div id="">
+            {{ if eq .Lang "fr" }}
             <a href="{{.Site.BaseURL}}devenir-franchise?franchise={{.Params.identifiant}}">
-                <img src="{{.Params.ctaimage}}" alt="Devenir franchise" style="display: block; width: 100%;">
+            {{ else if eq .Lang "en" }}
+            <a href="{{.Site.BaseURL}}en/become-a-franchisee?franchise={{.Params.identifiant}}">
+            {{ end }}
+                <img src="{{.Params.ctaimage.url}}" alt="Devenir franchise" style="display: block; width: 100%;">
             </a>
         </div>
         <!-- // bottom cta inner  -->
+        {{ else }}
+        {{ end }}
 {{ end }}

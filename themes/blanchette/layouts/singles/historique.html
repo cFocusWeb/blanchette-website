@@ -3,7 +3,11 @@
 
                 <header id="inner-header">
                     <div class="container">
+                        {{ if eq .Lang "fr" }}
                         <h2>NOTRE HISTOIRE</h2>
+                        {{ else if eq .Lang "en" }}
+                        <h2>OUR HISTORY</h2>
+                        {{ end }}
                     </div>
                 </header>
                 <!-- // inner  -->
@@ -35,13 +39,22 @@
 					{{ $mod3 := modBool $i 3}}
 					<div class="team-block row {{if $mod2}}{{else}}even{{end}}">
                         <div class="image-holder col-sm-6 {{if $mod2}}{{else}}col-sm-push-6{{end}}">
+                            {{ if eq $.Lang "fr" }}
                             <img src="/img/team/{{$e.photo}}" alt="{{$e.nom}}" class="img-responsive">
+                            {{ else if eq $.Lang "en" }}
+                            <img src="/img/team/{{$e.photo}}" alt="{{$e.name}}" class="img-responsive">
+                            {{ end }}
                         </div>
                         <!-- // image holder  -->
                         <div class="content col-sm-6 {{if $mod2}}{{else}}col-sm-pull-6{{end}}">
                             <div class="holder">
+                                {{ if eq $.Lang "fr" }}
                                 <h5>{{$e.nom}}</h5>
                                 <p>{{$e.description}}</p>
+                                {{ else if eq $.Lang "en" }}
+                                <h5>{{$e.name}}</h5>
+                                <p>{{$e.descriptionen}}</p>
+                                {{ end }}
                             </div>
                             <!-- // holder  -->
                         </div>
@@ -49,7 +62,7 @@
                         <div class="clearfix"></div>
                     </div>
                     <!-- // team block  -->
-									{{ end }}
+				{{ end }}
 
                 </div>
                 <!-- // team listing  -->
@@ -63,9 +76,15 @@
                         </div>
                         {{ range sort .Site.Data.equipe.shaker "ordre" "asce" }}
                         <div class="col-sm-6 match">
+                            {{ if eq $.Lang "fr" }}
                             <img src="/img/team/{{.photo}}" alt="{{.nom}}, {{.description}}" class="img-responsive">
                             <p class="title">{{.nom}} <a href="mailto:{{.email}}"><i class="fa fa-envelope"></i></a></p>
                             <p class="desc">{{.description}}</p>
+                            {{ else if eq $.Lang "en" }}
+                            <img src="/img/team/{{.photo}}" alt="{{.nom}}, {{.descriptionen}}" class="img-responsive">
+                            <p class="title">{{.nom}} <a href="mailto:{{.email}}"><i class="fa fa-envelope"></i></a></p>
+                            <p class="desc">{{.descriptionen}}</p>
+                            {{ end }}
                         </div>
                         {{ end }}
                     </div>
@@ -78,9 +97,15 @@
                         </div>
                         {{ range sort .Site.Data.equipe.chocolato "ordre" "asce" }}
                         <div class="col-sm-6 match">
+                            {{ if eq $.Lang "fr" }}
                             <img src="/img/team/{{.photo}}" alt="{{.nom}}, {{.description}}" class="img-responsive">
-                            <p class="title">{{.nom}}<a href="mailto:{{.email}}"><i class="fa fa-envelope"></i></a></p>
+                            <p class="title">{{.nom}} <a href="mailto:{{.email}}"><i class="fa fa-envelope"></i></a></p>
                             <p class="desc">{{.description}}</p>
+                            {{ else if eq $.Lang "en" }}
+                            <img src="/img/team/{{.photo}}" alt="{{.nom}}, {{.descriptionen}}" class="img-responsive">
+                            <p class="title">{{.nom}} <a href="mailto:{{.email}}"><i class="fa fa-envelope"></i></a></p>
+                            <p class="desc">{{.descriptionen}}</p>
+                            {{ end }}
                         </div>
                         {{ end }}
                     </div>
@@ -92,9 +117,15 @@
                         </div>
                         {{ range sort .Site.Data.equipe.grenouille "ordre" "asce" }}
                         <div class="col-sm-6 match">
+                            {{ if eq $.Lang "fr" }}
                             <img src="/img/team/{{.photo}}" alt="{{.nom}}, {{.description}}" class="img-responsive">
-                            <p class="title">{{.nom}}<a href="mailto:{{.email}}"><i class="fa fa-envelope"></i></a></p>
+                            <p class="title">{{.nom}} <a href="mailto:{{.email}}"><i class="fa fa-envelope"></i></a></p>
                             <p class="desc">{{.description}}</p>
+                            {{ else if eq $.Lang "en" }}
+                            <img src="/img/team/{{.photo}}" alt="{{.nom}}, {{.descriptionen}}" class="img-responsive">
+                            <p class="title">{{.nom}} <a href="mailto:{{.email}}"><i class="fa fa-envelope"></i></a></p>
+                            <p class="desc">{{.descriptionen}}</p>
+                            {{ end }}
                         </div>
                         {{ end }}
                     </div>
@@ -108,9 +139,15 @@
                         <div class="col-sm-6 match-big">
                         {{ range sort .Site.Data.equipe.tartar "ordre" "asce" }}
                         <div>
+                            {{ if eq $.Lang "fr" }}
                             <img src="/img/team/{{.photo}}" alt="{{.nom}}, {{.description}}" class="img-responsive">
-                            <p class="title">{{.nom}}<a href="mailto:{{.email}}"><i class="fa fa-envelope"></i></a></p>
+                            <p class="title">{{.nom}} <a href="mailto:{{.email}}"><i class="fa fa-envelope"></i></a></p>
                             <p class="desc">{{.description}}</p>
+                            {{ else if eq $.Lang "en" }}
+                            <img src="/img/team/{{.photo}}" alt="{{.nom}}, {{.descriptionen}}" class="img-responsive">
+                            <p class="title">{{.nom}} <a href="mailto:{{.email}}"><i class="fa fa-envelope"></i></a></p>
+                            <p class="desc">{{.descriptionen}}</p>
+                            {{ end }}
                         </div>
                         {{ end }}
                         </div>
@@ -123,9 +160,15 @@
                         </div>
                         {{ range sort .Site.Data.equipe.blancs "ordre" "asce" }}
                         <div class="col-sm-6 match">
+                            {{ if eq $.Lang "fr" }}
                             <img src="/img/team/{{.photo}}" alt="{{.nom}}, {{.description}}" class="img-responsive">
-                            <p class="title">{{.nom}}<a href="mailto:{{.email}}"><i class="fa fa-envelope"></i></a></p>
+                            <p class="title">{{.nom}} <a href="mailto:{{.email}}"><i class="fa fa-envelope"></i></a></p>
                             <p class="desc">{{.description}}</p>
+                            {{ else if eq $.Lang "en" }}
+                            <img src="/img/team/{{.photo}}" alt="{{.nom}}, {{.descriptionen}}" class="img-responsive">
+                            <p class="title">{{.nom}} <a href="mailto:{{.email}}"><i class="fa fa-envelope"></i></a></p>
+                            <p class="desc">{{.descriptionen}}</p>
+                            {{ end }}
                         </div>
                         {{ end }}
                     </div>

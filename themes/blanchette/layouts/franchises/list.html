@@ -13,7 +13,7 @@
                             <p>{{.Params.resume.desc | markdownify }}</p>
                             <footer>
                                 <small><strong>Investissement :</strong> {{.Params.details.investissement}}</small>
-                                <a href="{{.Permalink}}">En savoir plus</a>
+                                <a href="{{.Permalink}}">{{ if eq .Lang "fr" }}En savoir plus{{ else if eq .Lang "en" }}More information{{end}}</a>
                             </footer>
                         </div>
                     </div>
@@ -23,14 +23,25 @@
 
                     <div class="col-md-4 col-sm-12 wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0.2s">
                         <div class="franchise-box">
+                            {{ if eq .Lang "fr" }}
                             <header>
-                                <h4>Franchise <br> a venir</h4>
+                                <h4>Franchise <br> à venir</h4>
                             </header>
                             <!-- // holder  -->
                             <p>Guidé par son désir d'innover, le Groupe Blanchette - Maître Franchiseur est toujours à la recherche d'opportunités d’affaires novatrices, et déploie de constants efforts afin de développer de nouvelles franchises.</p>
                             <footer>
                                 <a href="/historique">En savoir plus</a>
                             </footer>
+                            {{ else if eq .Lang "en" }}
+                            <header>
+                                <h4>Franchise <br> à venir</h4>
+                            </header>
+                            <!-- // holder  -->
+                            <p>Guidé par son désir d'innover, le Groupe Blanchette - Maître Franchiseur est toujours à la recherche d'opportunités d’affaires novatrices, et déploie de constants efforts afin de développer de nouvelles franchises.</p>
+                            <footer>
+                                <a href="/historique">En savoir plus</a>
+                            </footer>
+                            {{ end }}
                         </div>
                     </div>
                     <!-- // frnachise box  -->                                                                                                                                                             

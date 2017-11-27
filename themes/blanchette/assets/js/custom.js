@@ -180,7 +180,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
 };
 // Preselect stuff depending on locaton and GET request
 $(function() {
-  if (location.pathname.indexOf('/devenir-franchise') == 0) {
+  if (location.pathname.indexOf('/devenir-franchise') == 0 || location.pathname.indexOf('/become-a-franchisee') == 0) {
     var franchise = getUrlParameter('franchise');
     if (franchise) {
       $('#'+franchise).toggleClass('choose-brand');
@@ -877,10 +877,17 @@ function initContactMap() {
   map.mapTypes.set('styled_map', styledMapType);
   map.setMapTypeId('styled_map');
 
+  var iconblanchette = {
+    url: "/img/logos/marker-blanchette.png", // url
+    scaledSize: new google.maps.Size(50, 67), // scaled size
+    origin: new google.maps.Point(0,0), // origin
+    anchor: new google.maps.Point(0, 0) // anchor
+  };
   marker = new google.maps.Marker({
       position: {lat: 46.786657, lng: -71.2822},
       map: map,
       animation: google.maps.Animation.DROP,
+      icon: iconblanchette
   });
 }
 // Form control
@@ -910,7 +917,7 @@ $('.registration-form').on('submit', function (e) {
 var videoReady = false;
 $(function() {
   window._wq = window._wq || [];
-  _wq.push({ id: "y07r2kikm5", onReady: function(video) {
+  _wq.push({ id: "2n3h0ox8fh", onReady: function(video) {
     videoReady = true;
   }});
 });
@@ -928,7 +935,7 @@ var videos = [
 
 function videoClick( i ){
   if (videoReady) {
-    Wistia.api("y07r2kikm5").time(videos[i][1]);
+    Wistia.api("2n3h0ox8fh").time(videos[i][1]);
   }
 }
 

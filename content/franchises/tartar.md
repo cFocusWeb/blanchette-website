@@ -33,7 +33,9 @@ details:
   redevances: 9%
   pub: 3%
   royautes: 6%
-ctaimage: /img/franchises/tartar-cta-banner.jpg
+ctaimage: 
+  need: true
+  url: /img/franchises/tartar-cta-banner.jpg
 i18nlanguage: fr
 ordre: 1
 draft: false
