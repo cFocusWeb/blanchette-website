@@ -19,9 +19,15 @@
 	    <div class="main-txt">
 	    	<h1>{{.Title}}</h1>
 	    	<p>{{ index $mymonths .Date.Month }} {{.Date.Year}}</p>
+	    	{{ if .Params.external.need }}
+	    	{{ .Summary }}
+	    </div>
+	    <a href="{{.Params.external.url}}" class="btn" target="_blank">Lire la suite dans {{.Params.external.presse}}</a>
+	    	{{ else }}
 	    	{{ .Content }}
 	    </div>
 	    <a href="{{.Site.BaseURL}}projets-developpement" class="btn">Retour aux articles</a>
+	    	{{ end }}
 	  </div>
 	  <div class="cross row">
 	  	<h6>Articles de la même bannière</h6>

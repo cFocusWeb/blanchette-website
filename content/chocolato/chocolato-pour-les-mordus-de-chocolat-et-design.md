@@ -10,6 +10,13 @@ external:
   presse: l'Infopresse
 occasion: false
 historique: true
+description: >-
+arrowc: white
+i18nlanguage: fr
+weight: 1
+draft: false
+activemenu: projets
+type: articles
 ---
 Hatem+D signe l’image de marque complète de Chocolato, une nouvelle crèmerie-tremperie de Québec.  L’agence avait comme mandat de créer l’univers complet de la marque, incluant le nom, l’architecture, le packaging, les menus, les enseignes et les meubles de la boutique. Elle devait respecter la mission de Chocolato: offrir aux passionnés de chocolat un endroit où déguster des produits inspirés de la qualité des chocolateries italiennes. 
 

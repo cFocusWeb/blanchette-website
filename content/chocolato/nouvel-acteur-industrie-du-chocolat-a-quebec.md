@@ -10,6 +10,13 @@ external:
   presse: "le Journal de Montréal"
 occasion: false
 historique: true
+description: >-
+arrowc: white
+i18nlanguage: fr
+weight: 1
+draft: false
+activemenu: projets
+type: articles
 ---
 L'industrie du chocolat comptera un nouvel acteur à Québec, avec l’ouverture prochaine de Chocolato — bar à chocolat et crème glacée, dans le secteur de Sainte-Foy.
 Située dans l’ancien Presse Café, sur le boulevard Versant Nord, la future «crèmerie-tremperie», qui ouvrira ses portes au mois d’août, sera également spécialisée en desserts chocolatés. «On veut aussi développer tous les côtés du chocolat, que ce soit les fondues, truffes, bonbons, brochettes de fruits, etc.», a indiqué le copropriétaire, André-François Blanchette. «On veut que ce soit l’endroit pour aller prendre le dessert après un souper. Il y aura des foyers extérieurs. On veut créer une ambiance chaleureuse, réconfortante», a indiqué le copropriétaire André-François Blanchette.

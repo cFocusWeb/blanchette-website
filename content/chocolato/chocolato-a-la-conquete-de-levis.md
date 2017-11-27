@@ -10,6 +10,13 @@ external:
   presse: "le Journal de Lévis"
 occasion: false
 historique: true
+description: >-
+arrowc: white
+i18nlanguage: fr
+weight: 1
+draft: false
+activemenu: projets
+type: articles
 ---
 Après les secteurs de Sainte-Foy et Lebourgneuf, le bar à chocolat et crème glacée Chocolato a officiellement ouvert ses portes hier sur la route du Président-Kennedy à Lévis.
 

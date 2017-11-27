@@ -19,7 +19,7 @@ business: >-
   VAPOSHOP est le leader incontesté en vente d’articles pour vapoteurs à Québec. Répondant à une demande grandissante pour un marché l’étant tout autant, leur inventaire impressionnant de produits distincts et de qualité comblera les attentes de tous types de consommateurs, tant les nouveaux utilisateurs que les plus initiés.   
 accentcolor: "#c5c3c4"
 whitebg: true
-website: https://www.vaposhop.fr/
+website: http://vaposhop.ca/
 details:
   type: Licence
   frais: 7500 $

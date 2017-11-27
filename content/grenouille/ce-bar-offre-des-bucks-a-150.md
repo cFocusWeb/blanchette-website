@@ -10,6 +10,13 @@ external:
   presse: "le Journal de Montréal"
 occasion: false
 historique: true
+description: >-
+arrowc: white
+i18nlanguage: fr
+weight: 1
+draft: false
+activemenu: projets
+type: articles
 ---
 Sortir dans les bars peut parfois être coûteux. Heureusement, une nouvelle adresse du boulevard Saint-Laurent offre à sa clientèle la chance de boire pas cher... Vraiment pas cher!
 Les mercredis soir, La P’tite Grenouille vend ses bucks de bière à 1,50$!
