@@ -1,5 +1,5 @@
 ---
-title: “Le restaurant-bar Shaker cible le Centre-du-Québec”
+title: "Le restaurant-bar Shaker cible le Centre-du-Québec"
 identifiant: shaker-cible-le-centre-du-quebec
 slug: shaker-cible-le-centre-du-quebec
 image: Shaker-cible-le-Centre-du-Quebec.jpg

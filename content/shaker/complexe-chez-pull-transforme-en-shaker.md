@@ -1,5 +1,5 @@
 ---
-title: “Le Complexe chez Pull sera transformé en Shaker”
+title: "Le Complexe chez Pull sera transformé en Shaker"
 identifiant: complexe-chez-pull-transforme-en-shaker
 slug: complexe-chez-pull-transforme-en-shaker
 image: Complexe-chez-Pull-transforme-en-Shaker.jpg

@@ -1,5 +1,5 @@
 ---
-title: “De nouvelles expériences gustatives au Shaker Lévis”
+title: "De nouvelles expériences gustatives au Shaker Lévis"
 identifiant: nouvelles-experiences-gustatives-shaker-levis
 slug: nouvelles-experiences-gustatives-shaker-levis
 image: Nouvelles-experiences-gustatives-Shaker-Levis.jpg

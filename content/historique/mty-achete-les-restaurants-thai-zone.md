@@ -1,5 +1,5 @@
 ---
-title: “MTY achète les restaurants Thaï Zone”
+title: "MTY achète les restaurants Thaï Zone"
 identifiant: mty-achete-les-restaurants-thai-zone
 slug: mty-achete-les-restaurants-thai-zone
 image: MTY-achete-les-restaurants-Thai-Zone.png

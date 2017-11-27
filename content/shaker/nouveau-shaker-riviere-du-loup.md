@@ -1,5 +1,5 @@
 ---
-title: “C’est parti pour le Shaker de Rivière-du-Loup”
+title: "C’est parti pour le Shaker de Rivière-du-Loup"
 identifiant: nouveau-shaker-riviere-du-loup
 slug: nouveau-shaker-riviere-du-loup
 image: Nouveau-Shaker-Riviere-du-Loup.jpg

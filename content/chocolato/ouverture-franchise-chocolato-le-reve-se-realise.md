@@ -1,5 +1,5 @@
 ---
-title: “Le rêve d'une « bibitte à sucre » se réalise avec l'ouverture de sa franchise Chocolato”
+title: "Le rêve d'une « bibitte à sucre » se réalise avec l'ouverture de sa franchise Chocolato"
 identifiant: ouverture-franchise-chocolato-le-reve-se-realise
 slug: ouverture-franchise-chocolato-le-reve-se-realise
 image: Ouverture-franchise-Chocolato-le-reve-se-realise.jpg

@@ -1,5 +1,5 @@
 ---
-title: “Une quatrième succursale pour le Shaker”
+title: "Une quatrième succursale pour le Shaker"
 identifiant: une-quatrieme-succursalle-pour-le-shaker
 slug: une-quatrieme-succursalle-pour-le-shaker
 image: Une-quatrieme-succursalle-pour-le-Shaker.jpg

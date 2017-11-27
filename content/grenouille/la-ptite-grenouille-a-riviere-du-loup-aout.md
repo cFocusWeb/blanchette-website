@@ -1,5 +1,5 @@
 ---
-title: “La P’tite Grenouille à Rivière-du-Loup dès août”
+title: "La P’tite Grenouille à Rivière-du-Loup dès août"
 identifiant: la-ptite-grenouille-a-riviere-du-loup-aout
 slug: la-ptite-grenouille-a-riviere-du-loup-aout
 image: La-Ptite-Grenouille-a-Riviere-du-Loup-aout.jpg

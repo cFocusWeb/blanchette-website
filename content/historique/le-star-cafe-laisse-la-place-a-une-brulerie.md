@@ -1,5 +1,5 @@
 ---
-title: “Le Star Café laisse la place à une brûlerie”
+title: "Le Star Café laisse la place à une brûlerie"
 identifiant: le-star-cafe-laisse-la-place-a-une-brulerie
 slug: le-star-cafe-laisse-la-place-a-une-brulerie
 image: Le-Star-Cafe-laisse-la-place-a-une-brulerie.jpg

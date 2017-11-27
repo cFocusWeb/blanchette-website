@@ -1,5 +1,5 @@
 ---
-title: “Une succursale du Shaker Cuisine & Mixologie à Lévis”
+title: "Une succursale du Shaker Cuisine & Mixologie à Lévis"
 identifiant: une-succursale-du-shaker-a-levis
 slug: une-succursale-du-shaker-a-levis
 image: Une-succursale-du-Shaker-a-Levis.jpg

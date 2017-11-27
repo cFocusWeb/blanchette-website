@@ -1,5 +1,5 @@
 ---
-title: “La P’tite Grenouille ouvre ses portes”
+title: "La P’tite Grenouille ouvre ses portes"
 identifiant: la-ptite-grenouille-ouvre-ses-portes
 slug: la-ptite-grenouille-ouvre-ses-portes
 image: La-ptite-grenouille-ouvre-ses-portes.jpg

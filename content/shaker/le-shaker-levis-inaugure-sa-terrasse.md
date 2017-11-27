@@ -1,5 +1,5 @@
 ---
-title: “Le Shaker Lévis inaugure sa terrasse”
+title: "Le Shaker Lévis inaugure sa terrasse"
 identifiant: le-shaker-levis-inaugure-sa-terrasse
 slug: le-shaker-levis-inaugure-sa-terrasse
 image: Le-Shaker-Levis-inaugure-sa-terrasse.jpg

@@ -1,5 +1,5 @@
 ---
-title: “Un nouvel acteur dans l’industrie du chocolat à Québec”
+title: "Un nouvel acteur dans l’industrie du chocolat à Québec"
 identifiant: nouvel-acteur-industrie-du-chocolat-a-quebec
 slug: nouvel-acteur-industrie-du-chocolat-a-quebec
 image: Nouvel-acteur-industrie-du-chocolat-a-Quebec.jpg

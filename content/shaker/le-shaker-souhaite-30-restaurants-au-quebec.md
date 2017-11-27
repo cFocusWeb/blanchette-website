@@ -1,5 +1,5 @@
 ---
-title: “Le propriétaire du Shaker souhaite ouvrir un total de 30 restaurants au Québec”
+title: "Le propriétaire du Shaker souhaite ouvrir un total de 30 restaurants au Québec"
 identifiant: Le-shaker-souhaite-30-restaurants-au-quebec
 slug: Le-shaker-souhaite-30-restaurants-au-quebec
 image: Le-Shaker-souhaite-30-restaurants-au-Quebec.jpg

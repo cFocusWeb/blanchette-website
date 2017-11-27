@@ -1,5 +1,5 @@
 ---
-title: “Une chic escapade gourmande à l’italienne”
+title: "Une chic escapade gourmande à l’italienne"
 identifiant: une-chic-escapade-gourmande-italienne
 slug: une-chic-escapade-gourmande-italienne
 image: Une-chic-escapade-gourmande-italienne.jpg

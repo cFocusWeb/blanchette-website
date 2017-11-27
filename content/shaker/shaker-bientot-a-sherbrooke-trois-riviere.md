@@ -1,5 +1,5 @@
 ---
-title: “Le Shaker bientôt à Sherbrooke et Trois-Rivières”
+title: "Le Shaker bientôt à Sherbrooke et Trois-Rivières"
 identifiant: shaker-bientot-a-sherbrooke-trois-riviere
 slug: shaker-bientot-a-sherbrooke-trois-riviere
 image: Shaker-bientot-a-Sherbrooke-Trois-Riviere.jpg 

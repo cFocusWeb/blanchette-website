@@ -1,5 +1,5 @@
 ---
-title: “Déjà 208 spectacles de prévus à la P’tite Grenouille Saint-Georges, qui ouvrira le mois prochain”
+title: "Déjà 208 spectacles de prévus à la P’tite Grenouille Saint-Georges, qui ouvrira le mois prochain"
 identifiant: 208-spectacles-prevus-ptite-grenouille-saint-georges
 slug: 208-spectacles-prevus-ptite-grenouille-saint-georges
 image: 208-spectacles-prevus-Ptite-Grenouille-Saint-George.jpg

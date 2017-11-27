@@ -1,5 +1,5 @@
 ---
-title: “Nouvelle vocation pour le Star Bar”
+title: "Nouvelle vocation pour le Star Bar"
 identifiant: nouvelle-vocation-pour-le-star-bar
 slug: nouvelle-vocation-pour-le-star-bar
 image: Nouvelle-vocation-pour-le-star-bar.jpg

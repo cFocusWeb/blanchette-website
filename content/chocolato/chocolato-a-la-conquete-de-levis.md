@@ -1,5 +1,5 @@
 ---
-title: “Chocolato à la conquête de Lévis”
+title: "Chocolato à la conquête de Lévis"
 identifiant: chocolato-a-la-conquete-de-levis
 slug: chocolato-a-la-conquete-de-levis
 image: Chocolato-a-la-conquete-de-Levis.jpg

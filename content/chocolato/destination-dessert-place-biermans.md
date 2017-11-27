@@ -1,5 +1,5 @@
 ---
-title: “Une « destination dessert» à la Place Biermans”
+title: "Une « destination dessert» à la Place Biermans"
 identifiant: destination-dessert-place-biermans
 slug: destination-dessert-place-biermans
 image: Destination-dessert-Place-Biermans.jpg

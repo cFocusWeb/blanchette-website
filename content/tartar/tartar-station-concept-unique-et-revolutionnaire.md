@@ -1,5 +1,5 @@
 ---
-title: “Tartar Station, « un concept unique et révolutionnaire »”
+title: "Tartar Station, « un concept unique et révolutionnaire »"
 identifiant: tartar-station-concept-unique-et-revolutionnaire
 slug: tartar-station-concept-unique-et-revolutionnaire
 image: Tartar-Station-concept-unique-et-revolutionnaire.jpg

@@ -1,5 +1,5 @@
 ---
-title: “Un Frit's Burgers & Poutine sur Seigneuriale”
+title: "Un Frit's Burgers & Poutine sur Seigneuriale"
 identifiant: frits-burger-poutine-sur-seigneuriale
 slug: frits-burger-poutine-sur-seigneuriale
 image: Frits-Burger-Poutine-sur-Seigneuriale.jpg

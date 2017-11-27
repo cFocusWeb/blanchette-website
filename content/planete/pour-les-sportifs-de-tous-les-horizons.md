@@ -1,5 +1,5 @@
 ---
-title: “Pour les sportifs de tous les horizons”
+title: "Pour les sportifs de tous les horizons"
 identifiant: pour-les-sportifs-de-tous-les-horizons
 slug: pour-les-sportifs-de-tous-les-horizons
 image: Pour-les-sportifs-de-tous-les-horizons.jpg
