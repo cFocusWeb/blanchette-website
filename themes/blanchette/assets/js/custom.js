@@ -151,7 +151,7 @@ $(function() {
     columnWidth: '.grid-sizer',
     percentPosition: true
   });
-  $('a[data-toggle=tab]').each(function () {
+  $('a[data-toggle=tab], #brands .tabbable .nav-tabs li a').each(function () {
     var $this = $(this);
 
     $this.on('shown.bs.tab', function () {
@@ -887,7 +887,7 @@ function initContactMap() {
 $('.registration-form input[type="text"],.registration-form input[type="tel"], .registration-form input[type="email"]').on('focus', function () {
     $(this).removeClass('input-error');
 });
-var chosenBrand
+var chosenBrand;
 $('.registration-form').on('submit', function (e) {
     chosenBrand = [];
     $('.choose-brand').each(function(e){
@@ -905,3 +905,55 @@ $('.registration-form').on('submit', function (e) {
       scrollTop: $('#form-start').offset().top
     }, 1000);
 });
+
+// video handler
+var videoReady = false;
+$(function() {
+  window._wq = window._wq || [];
+  _wq.push({ id: "y07r2kikm5", onReady: function(video) {
+    videoReady = true;
+  }});
+});
+
+var videos = [
+  ['shaker', 61],
+  ['chocolato', 108],
+  ['grenouille', 168],
+  ['tartar', 220],
+  ['frits', 258],
+  ['hola', 303],
+  ['planete', 346],
+  ['vapo', 390]
+];
+
+function videoClick( i ){
+  if (videoReady) {
+    Wistia.api("y07r2kikm5").time(videos[i][1]);
+  }
+}
+
+$('.logo-box .vid-click#shaker').click(function(){
+  videoClick(0);
+})
+$('.logo-box .vid-click#chocolato').click(function(){
+  videoClick(1);
+})
+$('.logo-box .vid-click#grenouille').click(function(){
+  videoClick(2);
+})
+$('.logo-box .vid-click#tartar').click(function(){
+  videoClick(3);
+})
+$('.logo-box .vid-click#frits').click(function(){
+  videoClick(4);
+})
+$('.logo-box .vid-click#hola').click(function(){
+  videoClick(5);
+})
+$('.logo-box .vid-click#planete').click(function(){
+  videoClick(6);
+})
+$('.logo-box .vid-click#vapo').click(function(){
+  videoClick(7);
+})
+

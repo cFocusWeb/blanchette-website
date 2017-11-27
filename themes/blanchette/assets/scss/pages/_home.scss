@@ -29,28 +29,28 @@
 	/* logos */
 	#logos-holder {
 		position: absolute;
-		bottom: 15px;
+		bottom: 0;
 		width: 96%;
 		@include centre(x);
 		z-index: 20;
 		@include small-lap {
-			bottom:15px;
+			bottom:0;
 		}
 		@include breakpoint(laptop) {
-			bottom:5px;
+			bottom:0;
 		}
 		@include breakpoint(tablet) {
-			bottom:15px;
+			bottom:0;
 		}
 		@include breakpoint(phone) {
-			bottom:15px;
+			bottom:0;
 			width: 100%;
 		}
 		#logos-slider {
 			.item {
 				.logo-box {
 					position: relative;
-					height: 200px;
+					height: 175px;
 					@include breakpoint(laptop) {
 						height: 150px;
 					}
@@ -493,7 +493,7 @@
 	}
 }
 img.tartar-logo {
-	padding: 20px
+	padding: 25px
 }
 
 /*=====  End of Frnachise Block  ======*/

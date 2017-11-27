@@ -40,7 +40,7 @@
 
                             <div id="brand-holder">
                                 <a href="{{.Site.BaseURL}}devenir-franchise?franchise={{.Params.identifiant}}">
-                                    <div class='{{ if .Params.whitebg }}white-bg{{ end }}' {{ if .Params.colorbg }}style="background-color: {{.Params.colorforbg}}"{{ end }}>
+                                    <div class='{{ if .Params.whitebg }}white-bg{{ end }}' {{ if .Params.colorbg }}style="background-color: {{.Params.colorforbg}}"{{ else if .Params.whitebg}}style="border: 1px solid {{.Params.accentcolor}}"{{ end }}>
                                         {{ if .Params.colorbg }}
                                           {{ if .Params.colorlogo}}
                                             <img class="svg" src="{{.Params.logoc}}" style="max-height: 240px" />
