@@ -9,6 +9,9 @@ image: null
 i18nlanguage: fr
 activemenu: projets
 draft: false
+map:
+  need: true
+  type: projets
 ---
 #### Tourné vers l’avenir
 

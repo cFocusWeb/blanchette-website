@@ -1,5 +1,74 @@
 {{ define "main" }}
-<main class="main" id="contact">
-
-</main>
+<div id="page-wrapper" class="contact-page">
+	<header id="inner-header">
+      <div class="container">
+          {{ .Content }}
+      </div>
+  </header>
+  <!-- // inner  -->
+  <div class="form-container">
+  	<div class="container">
+			<form action="/" method="post" class="registration-form" netlify>
+				<div id="form-wrapper">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="form-holder" id="form-start">
+								<div class="row">
+                  <div class="form-group col-sm-6 col-md-4">
+                    <input type="text" name="name" placeholder="Nom*">
+                  </div>
+                  <div class="form-group col-sm-6 col-md-8">
+                    <input type="text" name="email" placeholder="Courriel*">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-group col-sm-6 col-md-4">
+                    <input type="text" name="phone" placeholder="Téléphone*">
+                  </div>
+                  <div class="form-group col-sm-6 col-md-8">
+                    <input type="text" name="subject" placeholder="Sujet*" style="">
+                  </div>
+                </div>
+                <div class="row">
+                	<div class="col-sm-12">
+                		<input type="text" name="franchise" class="form-control not-required" placeholder="Franchise">
+                	</div>		
+                </div>
+                <div class="row file">
+                	<div class="col-sm-12">
+                		<div>
+                			<span>Fichier</span> <input type="file" name="file" class="form-control">
+                		</div>
+                	</div>
+                </div>
+                <div class="row">
+                	<div class="col-sm-12">
+                		<textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                		<input type="submit" value="Envoyer mon message">
+                	</div>
+                </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+  	</div>
+  </div>
+  <div class="container contact-info">
+  	<div class="row">
+  		<div class="col-sm-5 col-md-4 match">
+  			<h4>Service à la clientèle</h4>
+  			<p>Bureau à Ste-Foy</p>
+  			<a href="tel:+14186860069"><i class="fa fa-phone"></i>418-686-0069</a>
+  			<p class="address"><i class="fa fa-map-marker"></i>2360 Chemin Ste-Foy</p>
+  			<p>Québec (Québec) G1V 4H2</p>
+  			<p class="hours">Heures d'ouverture</p>
+  			<p>Lundi au vendredi: 9h à 17h</br>Samedi et dimanche: fermé</p>
+	  	</div>
+	  	<div class="col-sm-7 col-md-8 match">
+	  		<div id="contact-map"></div>
+	  	</div>
+  	</div>
+  </div>
+</div>
 {{ end }}

@@ -2,8 +2,20 @@
  --><!-- Include all compiled plugins and libraries -->
 <script src="/js/custom-dist.js"></script>   
 <script src="/js/jquery.vide.js"></script>
-{{ with .Site.Params.googleapikey }}
+{{ if eq .Params.map.type "projets"}}
+{{ with $.Site.Params.googleapikey }}
 <script async defer
     src="https://maps.googleapis.com/maps/api/js?key={{.}}&callback=initMap">
     </script>
+{{ end }}
+{{ else if eq .Params.map.type "contact"}}
+{{ with $.Site.Params.googleapikey }}
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key={{.}}&callback=initContactMap">
+    </script>
+{{ end }}
+{{ else }}
+<script>
+	console.log('{{.Params.map.type}}');
+</script>
 {{ end }}
