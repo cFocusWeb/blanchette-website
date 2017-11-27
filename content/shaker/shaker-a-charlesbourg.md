@@ -15,6 +15,7 @@ historique: true
 external:
   need: false
   link:
+occasion: false
 ---
 
 Charlesbourgeois, vos souhaits ont été entendus ! Le cinquième SHAKER Cuisine & Mixologie de la chaîne a choisi l’arrondissement du nord de la ville de Québec comme destination ! Ses portes se sont ouvertes en janvier dernier, à quelques heures de la fin des travaux ! Aménagé dans l'ancienne Cage aux Sports, le restaurant-bar vous offre une fois de plus l’ambiance chic et décontractée qui a fait sa renommée. Venez découvrir la variété des 12 tartares et profitez-en pour déguster un cocktail au passage. 240 places assises vous attendent, réservez la vôtre ! 

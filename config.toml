@@ -46,6 +46,12 @@ defaultContentLanguageInSubdir = false
   singles = "/:slug/"
   shaker = "/projets/shaker/:slug/"
   grenouille = "/projets/la-ptite-grenouille/:slug/"
+  hola = "/projets/hola/:slug/"
+  vapo = "/projets/vaposhop/:slug/"
+  planete = "/projets/planete-nutrition/:slug/"
+  frits = "/projets/frits/:slug/"
+  chocolato = "/projets/chocolato/:slug/"
+  tartar = "/projets/tartar-station/:slug/"
 
 # [Languages.fr]
 # [Languages.fr.Taxonomies]

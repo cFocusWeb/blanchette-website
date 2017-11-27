@@ -15,6 +15,7 @@ historique: true
 external:
   need: false
   link:
+occasion: false
 ---
 
 Au cours des dernières semaines, le septième restaurant de la bannière SHAKER Cuisine & Mixologie a ouvert ses portes à Gatineau, pour le plus grand plaisir des amateurs de tartares et cocktails de la région. 

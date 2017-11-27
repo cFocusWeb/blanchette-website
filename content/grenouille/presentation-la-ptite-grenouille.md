@@ -1,5 +1,5 @@
 ---
-title: "La P'tite Grenouille  - Présentation de la bannière"
+title: "La P'tite Grenouille - Présentation de la bannière"
 description: >-
 slug: presentation-la-ptite-grenouille
 identifiant: presentation-la-ptite-grenouille 
@@ -15,6 +15,7 @@ historique: true
 external:
   need: false
   link:
+occasion: false
 ---
 
 Avec les boîtes à chansons La P'tite Grenouille, le groupe amène l'expérience de style chansonnier à un plus large public, celle-ci étant auparavant réservée aux bars de plus petite superficie et à moins grand rayonnement. 

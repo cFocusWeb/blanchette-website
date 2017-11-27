@@ -5,6 +5,8 @@
 //@prepros-prepend libs/slick.min.js
 //@prepros-prepend jquery.matchHeight.js
 //@prepros-prepend wow.min.js
+//@prepros-prepend libs/imagesloaded.min.js
+//@prepros-prepend libs/masonry.min.js
 
 
 $(document).ready(function(){
@@ -139,10 +141,26 @@ $(window).scroll(function() {
 
 $(function() {
   $('#franchise-logos .franchise-box').matchHeight();
-  $('.article-listing .col-md-4').matchHeight();
+  // $('.article-listing .col-md-4').matchHeight();
   $('#team-listing .team-block .col-sm-6').matchHeight();
   $('#partner-listing .match').matchHeight();
   $('#partner-listing .match-big').matchHeight();
+  $('.grid').masonry({
+    itemSelector: '.grid-item', // use a separate class for itemSelector, other than .col-
+    columnWidth: '.grid-sizer',
+    percentPosition: true
+  });
+  $('a[data-toggle=tab]').each(function () {
+    var $this = $(this);
+
+    $this.on('shown.bs.tab', function () {
+      $('.grid').masonry({
+        itemSelector: '.grid-item', // use a separate class for itemSelector, other than .col-
+        columnWidth: '.grid-sizer',
+        percentPosition: true
+      });  
+    });
+  });
 });
 
 var getUrlParameter = function getUrlParameter(sParam) {
@@ -421,6 +439,7 @@ function initMap() {
   //Associate the styled map with the MapTypeId and set it to display.
   map.mapTypes.set('styled_map', styledMapType);
   map.setMapTypeId('styled_map');
+  var infowindow = new google.maps.InfoWindow();
 
   var iconshaker = {
     url: "/img/logos/marker-shaker.png", // url
@@ -430,22 +449,28 @@ function initMap() {
   };
 
   var mshaker = [
-      [-71.282483,46.786835],
-      [-71.1726944444444,46.7918888888889],
-      [-71.3799444444444,46.7519722222222],
-      [-71.2681111111111,46.8634444444444],
-      [-68.5256944444444,48.452],
-      [-69.5512222222222,47.8229444444444],
-      [-75.6969722222222,45.4760555555556],
-      [-70.6740555555556,46.1215277777778]
+      ['SHAKER Ste-Foy','2360 Chemin Ste-Foy',-71.282483,46.786835],
+      ['SHAKER Lévis','76 A Route du Président-Kennedy',-71.1726944444444,46.7918888888889],
+      ['SHAKER Cap-Rouge',"3695 rue de l'Hêtrière, St-Augustin-des-Desmaures",-71.3799444444444,46.7519722222222],
+      ['SHAKER Charlesbourg','8000 boulevard Henri-Bourassa, Québec',-71.2681111111111,46.8634444444444],
+      ['SHAKER Rimouski','45 rue St-Germain E, Rimouski',-68.5256944444444,48.452],
+      ['SHAKER RDL','95 rue des Cerisiers, Rivière-du-Loup',-69.5512222222222,47.8229444444444],
+      ['SHAKER Gatineau','1100 boulevard Maloney Ouest, Gatineau',-75.6969722222222,45.4760555555556],
+      ['SHAKER St-Georges','11655 B 1re Avenue, Saint-Georges de Beauce',-70.6740555555556,46.1215277777778]
   ];
   for (i = 0; i < mshaker.length; i++) {  
     marker = new google.maps.Marker({
-         position: { lat: mshaker[i][1], lng: mshaker[i][0]},
+         position: { lat: mshaker[i][3], lng: mshaker[i][2]},
          map: map,
          animation: google.maps.Animation.DROP,
          icon: iconshaker
     });
+    google.maps.event.addListener(marker, 'click', (function(marker, i) {
+      return function() {
+        infowindow.setContent(mshaker[i][0]+'</br>'+mshaker[i][1]);
+        infowindow.open(map, marker);
+      }
+    })(marker, i));
   }
   var iconchocolato = {
     url: "/img/logos/marker-chocolato.png", // url
@@ -454,26 +479,32 @@ function initMap() {
     anchor: new google.maps.Point(0, 0) // anchor
   };
   var mchocolato = [
-      [-71.2877222222222,46.7915833333333],
-      [-71.1665277777778,46.7923888888889],
-      [-71.3001111111111,46.8297777777778],
-      [-75.6969722222222,45.4760555555556],
-      [-71.2846666666667,46.7702222222222],
-      [-71.2123611111111,46.8131388888889],
-      [-71.3266666666667,46.8414444444444],
-      [-73.44225,46.0364444444444],
-      [-71.2480277777778,46.8430833333333],
-      [-71.281991,46.786573],
-      [-73.4715833333333,45.4717777777778],
-      [-72.7199166666667,46.5749166666667]
+      ['Chocolato Ste-Foy','2327 boulevard Versant-Nord, Québec',-71.2877222222222,46.7915833333333],
+      ['Chocolato Lévis','95 route du Président-Kennedy, Lévis',-71.1665277777778,46.7923888888889],
+      ['Chocolato Galerie de la Capitale','5401 boulevard des Galeries, Québec',-71.3001111111111,46.8297777777778],
+      ['Chocolato Promenades Gatineau','1100 boulevard Maloney Ouest, Gatineau',-75.6969722222222,45.4760555555556],
+      ['Chocolato Laurier Québec','2700 boulevard Laurier, Québec',-71.2846666666667,46.7702222222222],
+      ['Chocolato Rue St-Jean','1015 rue St-Jean, Québec',-71.2123611111111,46.8131388888889],
+      ['Chocolato Chauveau','2293 Avenue Chauveau, Québec',-71.3266666666667,46.8414444444444],
+      ['Chocolato Joliette','515 rue St-Charles-Borromée Nord, Joliette',-73.44225,46.0364444444444],
+      ['Chocolato Charlesbourg','4250 1re Avenue, Québec',-71.2480277777778,46.8430833333333],
+      ['Chocolato Pyramide','2360 chemin Ste-Foy, Québec',-71.281991,46.786573],
+      ['Chocolato Mail Champlain','2151 Boul. Lapinière, Brossard',-73.4715833333333,45.4717777777778],
+      ['Chocolato Shawinigan','1553, boul. Hubert-Biermans, Shawinigan',-72.7199166666667,46.5749166666667]
   ];
   for (i = 0; i < mchocolato.length; i++) {  
     marker = new google.maps.Marker({
-         position: { lat: mchocolato[i][1], lng: mchocolato[i][0]},
+         position: { lat: mchocolato[i][3], lng: mchocolato[i][2]},
          map: map,
          animation: google.maps.Animation.DROP,
          icon: iconchocolato
     });
+    google.maps.event.addListener(marker, 'click', (function(marker, i) {
+      return function() {
+        infowindow.setContent(mchocolato[i][0]+'</br>'+mchocolato[i][1]);
+        infowindow.open(map, marker);
+      }
+    })(marker, i));
   }
   var iconfritz = {
     url: "/img/logos/marker-fritz.png", // url
@@ -482,16 +513,22 @@ function initMap() {
     anchor: new google.maps.Point(0, 0) // anchor
   };
   var mfritz = [
-      [-71.282210,46.786520],
-      [-71.1967777777778,46.8753333333333]
+      ["Frit's Ste-Foy",'2360 Chemin Ste-Foy, Québec',-71.282210,46.786520],
+      ["Frit's Beauport",'228 rue Seigneuriale, Québec',-71.1967777777778,46.8753333333333]
   ];
   for (i = 0; i < mfritz.length; i++) {  
     marker = new google.maps.Marker({
-         position: { lat: mfritz[i][1], lng: mfritz[i][0]},
+         position: { lat: mfritz[i][3], lng: mfritz[i][2]},
          map: map,
          animation: google.maps.Animation.DROP,
          icon: iconfritz
     });
+    google.maps.event.addListener(marker, 'click', (function(marker, i) {
+      return function() {
+        infowindow.setContent(mfritz[i][0]+'</br>'+mfritz[i][1]);
+        infowindow.open(map, marker);
+      }
+    })(marker, i));
   }
   var icontartar = {
     url: "/img/logos/marker-tartar.png", // url
@@ -500,15 +537,21 @@ function initMap() {
     anchor: new google.maps.Point(0, 0) // anchor
   };
   var mtartar = [
-      [-71.282043,46.786598]
+      ['Tartar Station Ste-Foy','2360 Chemin Ste-Foy, Québec',-71.282043,46.786598]
   ];
   for (i = 0; i < mtartar.length; i++) {  
     marker = new google.maps.Marker({
-         position: { lat: mtartar[i][1], lng: mtartar[i][0]},
+         position: { lat: mtartar[i][3], lng: mtartar[i][2]},
          map: map,
          animation: google.maps.Animation.DROP,
          icon: icontartar
     });
+    google.maps.event.addListener(marker, 'click', (function(marker, i) {
+      return function() {
+        infowindow.setContent(mtartar[i][0]+'</br>'+mtartar[i][1]);
+        infowindow.open(map, marker);
+      }
+    })(marker, i));
   }
   var iconhola = {
     url: "/img/logos/marker-hola.png", // url
@@ -517,15 +560,21 @@ function initMap() {
     anchor: new google.maps.Point(0, 0) // anchor
   };
   var mhola = [
-      [-71.2822,46.786657]
+      ['Hola Ste-Foy','2360 Chemin Ste-Foy, Québec',-71.2822,46.786657]
   ];
   for (i = 0; i < mhola.length; i++) {  
     marker = new google.maps.Marker({
-         position: { lat: mhola[i][1], lng: mhola[i][0]},
+         position: { lat: mhola[i][3], lng: mhola[i][2]},
          map: map,
          animation: google.maps.Animation.DROP,
          icon: iconhola
     });
+    google.maps.event.addListener(marker, 'click', (function(marker, i) {
+      return function() {
+        infowindow.setContent(mhola[i][0]+'</br>'+mhola[i][1]);
+        infowindow.open(map, marker);
+      }
+    })(marker, i));
   }
   var iconvapo = {
     url: "/img/logos/marker-vapo.png", // url
@@ -534,17 +583,23 @@ function initMap() {
     anchor: new google.maps.Point(0, 0) // anchor
   };
   var mvapo = [
-      [-71.31975,46.7710277777778],
-      [-71.2681111111111,46.8634444444444],
-      [-71.1819444444445,46.7991111111111]
+      ['Vaposhop Ste-Foy','3820 Chemin Ste-Foy, Québec',-71.31975,46.7710277777778],
+      ['Vaposhop Charlesbourg','8000 boulevard Henri-Bourrassa, Québec',-71.2681111111111,46.8634444444444],
+      ['Vaposhop Lévis','1 route du Président-Kennedy, Lévis',-71.1819444444445,46.7991111111111]
   ];
   for (i = 0; i < mvapo.length; i++) {  
     marker = new google.maps.Marker({
-         position: { lat: mvapo[i][1], lng: mvapo[i][0]},
+         position: { lat: mvapo[i][3], lng: mvapo[i][2]},
          map: map,
          animation: google.maps.Animation.DROP,
          icon: iconvapo
     });
+    google.maps.event.addListener(marker, 'click', (function(marker, i) {
+      return function() {
+        infowindow.setContent(mvapo[i][0]+'</br>'+mvapo[i][1]);
+        infowindow.open(map, marker);
+      }
+    })(marker, i));
   }
   var icongrenouille = {
     url: "/img/logos/marker-grenouille.png", // url
@@ -553,30 +608,36 @@ function initMap() {
     anchor: new google.maps.Point(0, 0) // anchor
   };
   var mgrenouille = [
-      [-71.2883611111111,46.7904722222222],
-      [-73.7118888888889,45.5775],
-      [-71.1665277777778,46.7923888888889],
-      [-71.8886388888889,45.3990277777778],
-      [-73.4397777777778,46.0233888888889],
-      [-73.5699722222222,45.5128888888889],
-      [-71.0540833333333,48.4274722222222],
-      [-68.5326944444444,48.4497777777778],
-      [-66.3793611111111,50.2013055555556],
-      [-71.2508611111111,46.1235833333333],
-      [-72.5418888888889,46.3421388888889],
-      [-68.2587777777778,49.1916388888889],
-      [-69.5348055555556,47.8306666666667],
-      [-71.956,46.0565833333333],
-      [-72.6476388888889,45.3344444444444],
-      [-70.6741111111111,46.1215]
+      ["La P'tite Grenouille Ste-Foy",'2376 rue Galvani, Québec',-71.2883611111111,46.7904722222222],
+      ["La P'tite Grenouille Laval",'443 boulevard Saint-Martin Ouest, Laval',-73.7118888888889,45.5775],
+      ["La P'tite Grenouille Lévis",'95 route du Président-Kennedy, Lévis',-71.1665277777778,46.7923888888889],
+      ["La P'tite Grenouille Sherbrooke",'154 rue Wellington Sud, Sherbrooke',-71.8886388888889,45.3990277777778],
+      ["La P'tite Grenouille Joliette",'521 rue Notre-Dame, Joliette',-73.4397777777778,46.0233888888889],
+      ["La P'tite Grenouille Montréal",'3435 boulevard St-Laurent, Montréal',-73.5699722222222,45.5128888888889],
+      ["La P'tite Grenouille Chicoutimi","455 rue de l'Hôtel Dieu, Chicoutimi",-71.0540833333333,48.4274722222222],
+      ["La P'tite Grenouille Rimouski",'100 rue St-Germain Ouest, Rimouski',-68.5326944444444,48.4497777777778],
+      ["La P'tite Grenouille Sept-Îles",'247 avenue Brochu, Sept-îles',-66.3793611111111,50.2013055555556],
+      ["La P'tite Grenouille Thetford Mines",'3625 boulevard Frontenac Est, Robertsonville',-71.2508611111111,46.1235833333333],
+      ["La P'tite Grenouille Trois-Rivières",'282 rue des Forges, Trois-Rivières',-72.5418888888889,46.3421388888889],
+      ["La P'tite Grenouille Baie Comeau",'888 rue des Puyjalon, Baie Comeau',-68.2587777777778,49.1916388888889],
+      ["La P'tite Grenouille Rivière-du-Loup",'403 rue Lafontaine, Rivière-du-Loup',-69.5348055555556,47.8306666666667],
+      ["La P'tite Grenouille Victoriaville",'123 rue Notre-Dame Est, Victoriaville',-71.956,46.0565833333333],
+      ["La P'tite Grenouille Bromont",'8 boulevard de Bromont, Bromont',-72.6476388888889,45.3344444444444],
+      ["La P'tite Grenouille St-Georges",'11620 1re Avenue Saint-Georges de Beauce',-70.6741111111111,46.1215]
   ];
   for (i = 0; i < mgrenouille.length; i++) {  
     marker = new google.maps.Marker({
-         position: { lat: mgrenouille[i][1], lng: mgrenouille[i][0]},
+         position: { lat: mgrenouille[i][3], lng: mgrenouille[i][2]},
          map: map,
          animation: google.maps.Animation.DROP,
          icon: icongrenouille
     });
+    google.maps.event.addListener(marker, 'click', (function(marker, i) {
+      return function() {
+        infowindow.setContent(mgrenouille[i][0]+'</br>'+mgrenouille[i][1]);
+        infowindow.open(map, marker);
+      }
+    })(marker, i));
   }
   var iconplanete = {
     url: "/img/logos/marker-planete.png", // url
@@ -585,20 +646,26 @@ function initMap() {
     anchor: new google.maps.Point(0, 0) // anchor
   };
   var mplanete = [
-      [-71.2728333333333,46.83525],
-      [-71.2658055555556,46.7228611111111],
-      [-71.3794722222222,46.7517777777778],
-      [-68.5069722222222,48.4606944444444],
-      [-73.2962777777778,45.3544166666667],
-      [-73.2076666666667,45.5648055555556]
+      ['Planète Nutrition Québec - Entrepôt Bouvier','670 rue Bouvier, Québec',-71.2728333333333,46.83525],
+      ['Planète Nutrition Québec - Lévis/Charny','8035 avenue des Églises, Charny',-71.2658055555556,46.7228611111111],
+      ['Planète Nutrition Québec - Cap-Rouge/St-Augustin',"3695 rue de l'Hêtriėre, Cap-Rouge",-71.3794722222222,46.7517777777778],
+      ['Planète Nutrition Rimouski','217 rue Léonidas Sud, Rimouski',-68.5069722222222,48.4606944444444],
+      ['Planète Nutrition Saint-Jean-sur-Richelieu','274 Boul Saint-Luc, Saint-Jean-sur-Richelieu',-73.2962777777778,45.3544166666667],
+      ['Planète Nutrition Beloeil','281 rue Duvernay - 102, Beloeil',-73.2076666666667,45.5648055555556]
   ];
   for (i = 0; i < mplanete.length; i++) {  
     marker = new google.maps.Marker({
-         position: { lat: mplanete[i][1], lng: mplanete[i][0]},
+         position: { lat: mplanete[i][3], lng: mplanete[i][2]},
          map: map,
          animation: google.maps.Animation.DROP,
          icon: iconplanete
     });
+    google.maps.event.addListener(marker, 'click', (function(marker, i) {
+      return function() {
+        infowindow.setContent(mplanete[i][0]+'</br>'+mplanete[i][1]);
+        infowindow.open(map, marker);
+      }
+    })(marker, i));
   }
 }
 // Form control

@@ -167,6 +167,11 @@
 			li {
 				display: inline-block;
 				width: 12.5%;
+				@include breakpoint(phone) {
+					width: 100%;
+					text-align: center;
+					display: block;
+				}
 				a {
 					display: inline-block;
 					img {
@@ -207,6 +212,7 @@
 					height: 320px;
 					object-fit: cover;
 					width: 100%;
+					margin: auto;
 					@include breakpoint(tablet) {
 						height: 250px;
 					}
@@ -239,6 +245,12 @@
 					padding-top: 35px;
 					padding-bottom: 10px;
 					text-align: center;
+					a {
+						color: black;
+						&:hover {
+							color: $green;
+						}
+					}
 					.cta-btn {
 						width:60px;
 						height: 30px;
@@ -271,7 +283,7 @@
 		}
 		.article-listing {
 			.col-md-4 {
-				&:nth-child(2) {
+				&:nth-child(3n) {
 					.article-box {
 						.image-holder {
 							img {
@@ -285,7 +297,7 @@
 				}
 			}
 			.col-md-4 {
-				&:nth-child(3) {
+				&:nth-child(3n-1) {
 					.article-box {
 						.image-holder {
 							img {
@@ -299,7 +311,7 @@
 				}
 			}	
 			.col-md-4 {
-				&:nth-child(4) {
+				&:nth-child(3n+1) {
 					.article-box {
 						.image-holder {
 							img {
@@ -312,55 +324,25 @@
 					}
 				}
 			}	
-			.col-md-4 {
-				&:nth-child(5) {
-					margin-top: -160px;
-					@include breakpoint(laptop) {
-						margin-top: -150px;
-					}
-					@include breakpoint(tablet) {
-						margin-top: 0px;
-					}
-					@include breakpoint(phone) {
-						margin-top: 0px;
-					}
-					.article-box {
-						.image-holder {
-							img {
-								height: 520px;
-								@include breakpoint(tablet) {
-									height: 250px;
-								}
-							}
-						}
-					}
-				}
-			}	
-			.col-md-4 {
-				&:nth-child(6) {
-					margin-top: -80px;
-					@include breakpoint(tablet) {
-						margin-top: 0px;
-					}
-					@include breakpoint(phone) {
-						margin-top: 0px;
-					}
-					.article-box {
-						.image-holder {
-							img {
-								height: 270px;
-								@include breakpoint(tablet) {
-									height: 250px;
-								}
-							}
-						}
-					}
-				}
-			}									
 		}
 	}
 }
 #map {
 	height: 400px;
+}
+// Give the tabs something to sit on
+.nav-tabs {
+  > li {
+    // Active state, and its :hover to override normal :hover
+    &.active > a {
+      &,
+      &:hover,
+      &:focus {
+        @include breakpoint(phone) {
+          border-bottom-color: $nav-tabs-active-link-hover-border-color;
+        }
+      }
+    }
+  }
 }
 /*=====  End of Projects  ======*/

@@ -15,6 +15,7 @@ historique: true
 external:
   need: false
   link:
+occasion: false
 ---
 
 Ce n’est plus un secret pour « les gens de la place »: St-Georges est maintenant l’hôte du 8e restaurant-bar SHAKER ! 
