@@ -38,6 +38,7 @@ ordre: 1
 draft: false
 activemenu: franchise
 ordre: 7
+video: eOwgoBJebJo
 ---
 ## VAPOSHOP – Survol de la bannière
 

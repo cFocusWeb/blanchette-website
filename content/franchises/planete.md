@@ -40,6 +40,7 @@ ordre: 1
 draft: false
 activemenu: franchise
 ordre: 8
+video: hVyEqXZYcts
 ---
 ## Planète Nutrition – Survol de la bannière
 

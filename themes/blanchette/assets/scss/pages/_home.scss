@@ -3,21 +3,20 @@
 ====================================*/
 
 #mas-header {
-	height:100vh;
 	background:#000;
 	background-size:cover;
 	font-size: 16px;
 	position: relative;
-	padding-top: 124px;
+	padding-top: 114px;
 	overflow: hidden;
 	@include small-lap {
-		padding-top: 105px;
+		padding-top: 95px;
 	}
 	@include breakpoint(laptop) {
-		padding-top: 105px;
+		padding-top: 95px;
 	}
 	@include breakpoint(tablet) {
-		padding-top: 105px;
+		padding-top: 95px;
 	}
 	@include breakpoint(phone) {
 		padding-top: 100px;
@@ -30,7 +29,7 @@
 	/* logos */
 	#logos-holder {
 		position: absolute;
-		bottom:30px;
+		bottom: 15px;
 		width: 96%;
 		@include centre(x);
 		z-index: 20;

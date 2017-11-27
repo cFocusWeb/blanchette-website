@@ -64,6 +64,7 @@ coupdecoeur:
     Premier dans la catégorie « Choix des juges », burger bœuf et canard
   couleur: "183, 147, 0, 0.2"
 ordre: 1
+video: zwEe7XGCTOI
 ---
 ## SHAKER Cuisine & Mixologie – Survol de la bannière
 

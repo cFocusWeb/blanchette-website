@@ -4,18 +4,18 @@
 
 #main-bar {
 	background:$gray;
-	height:84px;
+	height:74px;
 	font-size: 16px;
 	@include small-lap {
-		height: 70px;
+		height: 60px;
 	}
 	@include breakpoint(laptop) {
-		height: 70px;
+		height: 60px;
 		font-size: 15px;
 	}
 	@include breakpoint(tablet) {
 		font-size: 14px;
-		height: 70px;
+		height: 60px;
 	}
 	@include breakpoint(phone) {
 		height: 60px;
@@ -23,7 +23,7 @@
 	/* brand */
 	.navbar-brand {
 		img {
-			max-width: 56px;
+			max-width: 50px;
 			@include breakpoint(phone) {
 				max-width: 50px;
 			}
@@ -81,20 +81,20 @@
 						padding-right: 0px;
 						font-size: 1.125em;
 						position: relative;
-						height: 84px;
-						line-height: 84px;		
+						height: 74px;
+						line-height: 74px;		
 						padding:0px;	
 						@include small-lap {
-							height: 70px;
-							line-height: 70px;
+							height: 60px;
+							line-height: 60px;
 						}			
 						@include breakpoint(laptop) {
-							height: 70px;
-							line-height: 70px;
+							height: 60px;
+							line-height: 60px;
 						}
 						@include breakpoint(tablet) {
-							height: 70px;
-							line-height: 70px;
+							height: 60px;
+							line-height: 60px;
 						}
 						&:after {
 							display: block;
@@ -116,20 +116,20 @@
 			}
 			.navbar-header {
 				.navbar-brand {
-					height: 84px;
-					line-height: 84px;		
+					height: 74px;
+					line-height: 74px;		
 					padding:0px;	
 					@include small-lap {
-						height: 70px;
-						line-height: 70px;
+						height: 60px;
+						line-height: 60px;
 					}			
 					@include breakpoint(laptop) {
-						height: 70px;
-						line-height: 70px;
+						height: 60px;
+						line-height: 60px;
 					}
 					@include breakpoint(tablet) {
-						height: 70px;
-						line-height: 70px;
+						height: 60px;
+						line-height: 60px;
 					}
 				}
 			}

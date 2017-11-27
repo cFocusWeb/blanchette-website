@@ -38,6 +38,7 @@ ordre: 1
 draft: false
 activemenu: franchise
 ordre: 5
+video: I471h2cLgBI
 ---
 ## Frit’s Burgers & Poutines – Survol de la bannière
 

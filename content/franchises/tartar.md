@@ -45,6 +45,7 @@ coupdecoeur:
     Première place dans la catégorie « Meilleur rapport qualité prix » pour le poke bol « Mini Pokebol Hawaïen au tartare double saumon & yogourt »
   couleur: "250, 82, 0, 0.2"
 ordre: 4
+video: K6K6AZN6LZc
 ---
 ## TARTAR Station – Survol de la bannière
 

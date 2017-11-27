@@ -40,6 +40,7 @@ ordre: 1
 draft: false
 activemenu: franchise
 ordre: 2
+video: 1qWZ5377huA
 ---
 ## Chocolato – Survol de la bannière
 

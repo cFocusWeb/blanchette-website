@@ -30,62 +30,62 @@ shaker:
     nom: "Luc Beaumont"
     ordre: 1
     photo: 06-shaker-luc.jpg
-    email: 
+    email: "lucbeaumont@shakercuisineetmixologie.com"
   - description: >-
       Copropriétaire, directeur des opérations et constructions
     nom: "Frederick Forcier"
     ordre: 2
     photo: 07-shaker-fred.jpg
-    email: 
+    email: "frederickforcier@shakercuisineetmixologie.com"
   - description: >-
       Copropriétaire, directeur des opérations et formateur
     nom: "Jean-David Forcier"
     ordre: 3
     photo: 08-shaker-jean-david.jpg
-    email: 
+    email: "jdforcier@shakercuisineetmixologie.com"
 chocolato:
   - description: >-
       Associé
     nom: "Guyaume Arsenault"
     ordre: 4
     photo: 09-fritz-guyaume.jpg
-    email: 
+    email: "ga@groupeblanchette.com"
 grenouille:
   - description: >-
       Copropriétaire et directeur général
     nom: "Jérôme Landry"
     ordre: 5
     photo: 10-grenouille-jerome.jpg
-    email: 
+    email: "froggerjay@hotmail.com"
 tartar:
   - description: >-
       Copropriétaire
     nom: "Pierre-Antoine Morency"
     ordre: 7
     photo: 12-tartar-pierre-antoine.jpg
-    email: 
+    email: "tartarstation@gmail.com"
   - description: >-
       Copropriétaire
     nom: "Jean-Félix Bureau"
     ordre: 8
     photo: 11-tartar-felix.jpg
-    email: 
+    email: "tartarstation@gmail.com"
 blancs:
   - description: >-
       Directeur du développement des affaires
     nom: "Hugo Laperrière"
     ordre: 9
     photo: 14-blanchette-hugol.jpg
-    email: 
+    email: "hl@groupeblanchette.com"
   - description: >-
       Directrice marketing
     nom: "Catherine Roman"
     ordre: 10
     photo: 15-blanchette-catherine.jpg
-    email: 
+    email: "cr@groupeblanchette.com"
   - description: >-
       Contrôleur, CPA CMA
     nom: "Hugo Morrissette"
     ordre: 11
     photo: 13-blanchette-hugom.jpg
-    email: 
+    email: "hm@groupeblanchette.com"
