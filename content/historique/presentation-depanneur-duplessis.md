@@ -4,7 +4,7 @@ description: >-
 slug: presentation-depanneur-duplessis
 identifiant: presentation-depanneur-duplessis 
 image: presentation-depanneur-duplessis.jpg
-arrowc: black
+arrowc: white
 i18nlanguage: fr
 weight: 1
 draft: false

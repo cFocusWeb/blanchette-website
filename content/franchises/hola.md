@@ -9,7 +9,7 @@ logoc: "/img/logos/hola.svg"
 logow: "/img/logos/hola-white-2.svg"
 mainimage: /img/franchises/hola-franchise.jpg
 resume:
-  titre: Hola
+  titre: HOLA Grill Mexicain
   desc: >-
     Qualité et saveurs sont au rendez-vous au comptoir de restauration rapide **HOLA Grill Mexicain**. On y propose une cuisine mexicaine axée sur la fraîcheur des aliments, pour des repas santé et sur le pouce. Les possibilités sont infinies pour créer un repas sur mesure, au goût du client ; sur place, pour emporter ou en livraison.   
   investissement: "360 000$"

@@ -80,6 +80,6 @@ Faites partie de la révolution chocolatée en ouvrant votre propre franchise Ch
 ### Autres détails
 
 - Local d'une dimension de 1 500 à 2 000 pi2 ;
-- Possibilité de s'établir tant dans les centres-commerciaux que dans un local indépendant. 
+- Possibilité de s'établir tant dans les centres commerciaux que dans un local indépendant. 
 
 

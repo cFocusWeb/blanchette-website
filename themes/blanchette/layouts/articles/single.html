@@ -5,9 +5,15 @@
 	<div class="container">
 		<div id="bradcrumb-wrapper">
         <ul>
+        	{{ if eq .Lang "fr" }}
             <li><a href='{{.Site.BaseURL}}projets-developpement'>PROJETS & DÉVELOPPEMENT</a></li>
             <li><a href="{{.Site.BaseURL}}projets-developpement?article={{.Section}}">{{- partial "site/article-adj.html" . -}}</a></li>
             <li>{{.Title}}</li>
+          {{ else if eq .Lang "en" }}
+          	<li><a href='{{.Site.BaseURL}}en/projects-development'>PROJECTS & DEVELOPMENT</a></li>
+            <li><a href="{{.Site.BaseURL}}en/projects-development?article={{.Section}}">{{- partial "site/article-adj.html" . -}}</a></li>
+            <li>{{.Title}}</li>
+          {{ end }}
         </ul>
     </div>
     <div class="content">
@@ -18,19 +24,28 @@
 	    </div>
 	    <div class="main-txt">
 	    	<h1>{{.Title}}</h1>
-	    	<p>{{ index $mymonths .Date.Month }} {{.Date.Year}}</p>
+	    	<p>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}}</p>
 	    	{{ if .Params.external.need }}
 	    	{{ .Summary }}
 	    </div>
-	    <a href="{{.Params.external.url}}" class="btn" target="_blank">Lire la suite dans {{.Params.external.presse}}</a>
+	    <a href="{{.Params.external.url}}" class="btn" target="_blank">{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
 	    	{{ else }}
 	    	{{ .Content }}
 	    </div>
+	    {{ if eq $.Lang "fr" }}
 	    <a href="{{.Site.BaseURL}}projets-developpement" class="btn">Retour aux articles</a>
-	    	{{ end }}
+	    {{ else if eq $.Lang "en" }}
+	    <a href="{{.Site.BaseURL}}en/projects-development" class="btn">Back to our articles</a>
+	    {{ end }}
+	    {{ end }}
 	  </div>
 	  <div class="cross row">
+	  	{{ if eq .Lang "fr" }}
 	  	<h6>Articles de la même bannière</h6>
+	  	{{ else if eq .Lang "en" }}
+	  	<h6>Articles of the same banner</h6>
+	  	{{ end }}
+
 	  	{{ $filteredPosts := where (where .Site.RegularPages "Section" .Section) ".Params.identifiant" "!=" .Params.identifiant }}
 	  	{{ $randomPosts := shuffle $filteredPosts | first 4 }}
 	  	{{ range $randomPosts }}
@@ -38,7 +53,7 @@
 	  		<a href="{{.Permalink}}">
 		  		<img src="/img/quart/articles/{{.Params.image}}" alt="">
 		  		<p class="title">{{ .Title }}</p>
-		  		<p class="date">{{ index $mymonths .Date.Month }} {{.Date.Year}}</p>
+		  		<p class="date">{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}}</p>
 	  		</a>
 	  	</div>
 			{{ end }}

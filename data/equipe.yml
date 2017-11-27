@@ -8,7 +8,7 @@ blanchette:
     ordre: 1
     photo: 01-blanchette-vincent.jpg
   - description: >-
-      Membre fondateur du groupe, André-François chapeaute toutes les principales opérations, décisions et tous les grands mouvements du groupe. Il s’implique particulièrement dans l’aspect financier du groupe, manipulant avec aisance budgets et investissements. Son esprit rationnel le rend la personne tout indiquée pour veiller à la gestion des procédés opérationnels et au management pour l’ensemble des bannières. 
+      Membre fondateur du groupe, André-François chapeaute toutes les principales opérations, décisions et tous les grands mouvements du groupe. Il s’implique particulièrement dans l’aspect financier du groupe, manipulant avec aisance budgets et investissements. Son esprit rationnel fait de lui la personne tout indiquée pour veiller à la gestion des procédés opérationnels et au management pour l’ensemble des bannières. 
     descriptionen: >-
       At the helm of the company since the beginning, André-François oversees principal operations, decisions and major moves in the group. He is particularly involved in the financial aspects of the group, comfortably managing budgets and investments. His rational thinking makes him the best person to oversee operational procedures and the management of all banners. 
     nom: "André-François Blanchette, copropriétaire"
@@ -20,7 +20,7 @@ blanchette:
     descriptionen: >-
       Simon specializes in the real estate and construction aspects of the group. His indispensable work in terms of renovations, plans and specifications, as well as the maintenance plans for all banners makes him a considerable asset in any franchising and licensing process.
     nom: "Simon Blanchette, copropriétaire"
-    name: "André-François Blanchette, Co-owner"
+    name: "Simon Blanchette, Co-owner"
     ordre: 3
     photo: 03-blanchette-simon.jpg
   - description: >-
@@ -28,7 +28,7 @@ blanchette:
     descriptionen: >-
       David has taken La P’tite Grenouille under his swing. The choice of location, operations management, assistance in the opening process, marketing and relations with franchisees are only a few of his principal responsibilities.
     nom: "David Blanchette, copropriétaire"
-    name: "André-François Blanchette, Co-owner"
+    name: "David Blanchette, Co-owner"
     ordre: 4
     photo: 04-blanchette-david.jpg
   - description: >-
@@ -36,7 +36,7 @@ blanchette:
     descriptionen: >-
       Kimpton sees to the image of the group’s largest banner, that is, SHAKER Kitchen & Mixology restaurant-bars. He actively participates in the research and development for the menu, operations management of the franchisor, market tests, events and marketing.
     nom: "Kimpton Blanchette, copropriétaire"
-    name: "André-François Blanchette, Co-owner"
+    name: "Kimpton Blanchette, Co-owner"
     ordre: 5
     photo: 05-blanchette-kimpton.jpg
 shaker:

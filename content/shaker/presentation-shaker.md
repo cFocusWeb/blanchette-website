@@ -1,5 +1,5 @@
 ---
-title: "SHAKER Cuisine & Mixologie  - Présentation de la bannière"
+title: "SHAKER Cuisine & Mixologie - Présentation de la bannière"
 description: >-
 slug: presentation-shaker
 identifiant: presentation-shaker 

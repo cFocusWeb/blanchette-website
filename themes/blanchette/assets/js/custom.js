@@ -925,11 +925,11 @@ $(function() {
 var videos = [
   ['shaker', 61],
   ['chocolato', 108],
-  ['grenouille', 168],
-  ['tartar', 220],
-  ['frits', 258],
+  ['grenouille', 169],
+  ['tartar', 222],
+  ['frits', 259],
   ['hola', 303],
-  ['planete', 346],
+  ['planete', 348],
   ['vapo', 390]
 ];
 

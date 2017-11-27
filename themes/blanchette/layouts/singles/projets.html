@@ -4,8 +4,13 @@
 
                 <header id="inner-header">
                     <div class="container">
+                      {{ if eq .Lang "fr" }}
                         <h2>Projets & développement</h2>
-                        <h3>Pour ne rien manquer des projets...</h3>
+                        <h3>Pour ne rien manquer des projets</h3>
+                      {{ else if eq .Lang "en" }}
+                        <h2>Projects & Development</h2>
+                        <h3>To miss nothing of the projects</h3>
+                      {{ end }}
                     </div>
                 </header>
                 <!-- // inner  -->
@@ -25,12 +30,19 @@
                   <div class="container">
 
                     <ul class="nav nav-tabs primary-tabs" role="tablist">
-                        
+                        {{ if eq .Lang "fr" }}
                         <li role="presentation" class="active"><a href="#tous" aria-controls="home" role="tab" data-toggle="tab"><h6>Tous</h6></a><span>filtrer par:</span></li>
                         <li role="presentation" ><a href="#brands" aria-controls="home" role="tab" data-toggle="tab"><small>Bannière</small></a></li>
                         <li role="presentation"><a href="#history" aria-controls="profile" role="tab" data-toggle="tab"><small>Historique du groupe</small></a></li>
                         <li role="presentation"><a href="#occasions" aria-controls="messages" role="tab" data-toggle="tab"><small>Occasion d’affaires</small></a></li>
-                      </ul>
+                        {{ else if eq .Lang "en" }}
+                        <li role="presentation" class="active"><a href="#tous" aria-controls="home" role="tab" data-toggle="tab"><h6>All</h6></a><span>filter by:</span></li>
+                        <li role="presentation" ><a href="#brands" aria-controls="home" role="tab" data-toggle="tab"><small>Banner</small></a></li>
+                        <li role="presentation"><a href="#history" aria-controls="profile" role="tab" data-toggle="tab"><small>Group history </small></a></li>
+                        <li role="presentation"><a href="#occasions" aria-controls="messages" role="tab" data-toggle="tab"><small>Business Opportunity</small></a></li>
+                        {{ end }}
+
+                    </ul>
 
                   </div>
                   <!-- // container  -->
@@ -64,8 +76,8 @@
                                               <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Params.external.url}}" class="external-url" target="_blank" >La suite dans {{.Params.external.presse}}</a>
-                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                                  <a href="{{.Params.external.url}}" class="external-url" target="_blank" >{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
                                           <!-- // content  -->
@@ -85,8 +97,8 @@
                                               <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Permalink}}" class="cta-btn">PLUS</a>
-                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}PLUS{{ else if eq .Lang "en" }}MORE{{end}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
                                           <!-- // content  -->
@@ -139,8 +151,8 @@
                                               <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Params.external.url}}" class="external-url" target="_blank" >La suite dans {{.Params.external.presse}}</a>
-                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                                  <a href="{{.Params.external.url}}" class="external-url" target="_blank" >{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
                                           <!-- // content  -->
@@ -160,8 +172,8 @@
                                               <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Permalink}}" class="cta-btn">PLUS</a>
-                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}PLUS{{ else if eq .Lang "en" }}MORE{{end}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
                                           <!-- // content  -->
@@ -197,8 +209,8 @@
                                               <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Params.external.url}}" class="external-url" target="_blank" >La suite dans {{.Params.external.presse}}</a>
-                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                                  <a href="{{.Params.external.url}}" class="external-url" target="_blank" >{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
                                           <!-- // content  -->
@@ -218,8 +230,8 @@
                                               <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Permalink}}" class="cta-btn">PLUS</a>
-                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}PLUS{{ else if eq .Lang "en" }}MORE{{end}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
                                           <!-- // content  -->
@@ -256,8 +268,8 @@
                                               <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Params.external.url}}" class="external-url" target="_blank" >La suite dans {{.Params.external.presse}}</a>
-                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                                  <a href="{{.Params.external.url}}" class="external-url" target="_blank" >{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
                                           <!-- // content  -->
@@ -277,8 +289,8 @@
                                               <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Permalink}}" class="cta-btn">PLUS</a>
-                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}PLUS{{ else if eq .Lang "en" }}MORE{{end}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
                                           <!-- // content  -->
@@ -315,8 +327,8 @@
                                               <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Params.external.url}}" class="external-url" target="_blank" >La suite dans {{.Params.external.presse}}</a>
-                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                                  <a href="{{.Params.external.url}}" class="external-url" target="_blank" >{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
                                           <!-- // content  -->
@@ -336,8 +348,8 @@
                                               <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Permalink}}" class="cta-btn">PLUS</a>
-                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}PLUS{{ else if eq .Lang "en" }}MORE{{end}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
                                           <!-- // content  -->
@@ -374,8 +386,8 @@
                                               <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Params.external.url}}" class="external-url" target="_blank" >La suite dans {{.Params.external.presse}}</a>
-                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                                  <a href="{{.Params.external.url}}" class="external-url" target="_blank" >{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
                                           <!-- // content  -->
@@ -395,8 +407,8 @@
                                               <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Permalink}}" class="cta-btn">PLUS</a>
-                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}PLUS{{ else if eq .Lang "en" }}MORE{{end}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
                                           <!-- // content  -->
@@ -433,8 +445,8 @@
                                               <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Params.external.url}}" class="external-url" target="_blank" >La suite dans {{.Params.external.presse}}</a>
-                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                                  <a href="{{.Params.external.url}}" class="external-url" target="_blank" >{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
                                           <!-- // content  -->
@@ -454,8 +466,8 @@
                                               <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Permalink}}" class="cta-btn">PLUS</a>
-                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}PLUS{{ else if eq .Lang "en" }}MORE{{end}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
                                           <!-- // content  -->
@@ -492,8 +504,8 @@
                                               <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Params.external.url}}" class="external-url" target="_blank" >La suite dans {{.Params.external.presse}}</a>
-                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                                  <a href="{{.Params.external.url}}" class="external-url" target="_blank" >{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
                                           <!-- // content  -->
@@ -513,8 +525,8 @@
                                               <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Permalink}}" class="cta-btn">PLUS</a>
-                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}PLUS{{ else if eq .Lang "en" }}MORE{{end}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
                                           <!-- // content  -->
@@ -551,8 +563,8 @@
                                               <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Params.external.url}}" class="external-url" target="_blank" >La suite dans {{.Params.external.presse}}</a>
-                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                                  <a href="{{.Params.external.url}}" class="external-url" target="_blank" >{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
                                           <!-- // content  -->
@@ -572,8 +584,8 @@
                                               <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Permalink}}" class="cta-btn">PLUS</a>
-                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}PLUS{{ else if eq .Lang "en" }}MORE{{end}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
                                           <!-- // content  -->
@@ -620,8 +632,8 @@
                                               <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Params.external.url}}" class="external-url" target="_blank" >La suite dans {{.Params.external.presse}}</a>
-                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                                  <a href="{{.Params.external.url}}" class="external-url" target="_blank" >{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
                                           <!-- // content  -->
@@ -641,8 +653,8 @@
                                               <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Permalink}}" class="cta-btn">PLUS</a>
-                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}PLUS{{ else if eq .Lang "en" }}MORE{{end}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
                                           <!-- // content  -->
@@ -684,8 +696,8 @@
                                               <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Params.external.url}}" class="external-url" target="_blank" >La suite dans {{.Params.external.presse}}</a>
-                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                                  <a href="{{.Params.external.url}}" class="external-url" target="_blank" >{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
                                           <!-- // content  -->
@@ -705,8 +717,8 @@
                                               <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Permalink}}" class="cta-btn">PLUS</a>
-                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}PLUS{{ else if eq .Lang "en" }}MORE{{end}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
                                           <!-- // content  -->

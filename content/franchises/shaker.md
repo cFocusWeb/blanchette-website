@@ -72,7 +72,7 @@ video: zwEe7XGCTOI
 
 ### Une histoire à succès
 
-Dès ses débuts en avril 2015, la bannière SHAKER Cuisine & Mixologie s’est imposée comme un modèle à suivre par son concept unique conviant une clientèle de plus variées à une expérience culinaire distincte et créative, dans une ambiance branchée. 
+Dès ses débuts en avril 2015, la bannière SHAKER Cuisine & Mixologie s’est imposée comme un modèle à suivre par son concept unique conviant une clientèle des plus variée à une expérience culinaire distincte et créative, dans une ambiance branchée. 
 
 Une impressionnante carte de cocktails créatifs, une large sélection de tartares et burgers gourmets ainsi que de nombreuses promotions sur les plats et alcools ne sont que quelques-unes des raisons qui rendent ces restaurants-bars si populaires à travers la province.   
 

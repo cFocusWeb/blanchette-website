@@ -3,6 +3,276 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/projects/shaker/shaker-en-beauce/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/projets/shaker/shaker-en-beauce/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/projects/shaker/shaker-en-beauce/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/projects/shaker/septieme-shaker/</loc>
+    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/projets/shaker/septieme-shaker/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/projects/shaker/septieme-shaker/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/projects/tartar-station/presentation-tartar-station/</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/projets/tartar-station/presentation-tartar-station/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/projects/tartar-station/presentation-tartar-station/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/projects/shaker/shaker-a-charlesbourg/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/projets/shaker/shaker-a-charlesbourg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/projects/shaker/shaker-a-charlesbourg/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/projects/shaker/bienvenue-au-shaker-levis/</loc>
+    <lastmod>2016-12-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/projets/shaker/bienvenue-au-shaker-levis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/projects/shaker/bienvenue-au-shaker-levis/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/projects/shaker/shaker-au-bas-saint-laurent/</loc>
+    <lastmod>2016-12-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/projets/shaker/shaker-au-bas-saint-laurent/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/projects/shaker/shaker-au-bas-saint-laurent/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/projects/shaker/deuxieme-shaker-au-cap-rouge/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/projets/shaker/deuxieme-shaker-au-cap-rouge/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/projects/shaker/deuxieme-shaker-au-cap-rouge/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/projects/chocolato/presentation-chocolato/</loc>
+    <lastmod>2015-08-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/projets/chocolato/presentation-chocolato/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/projects/chocolato/presentation-chocolato/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/projects/planete-nutrition/presentation-planete-nutrition/</loc>
+    <lastmod>2015-05-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/projets/planete-nutrition/presentation-planete-nutrition/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/projects/planete-nutrition/presentation-planete-nutrition/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/projects/shaker/nouveau-venu-parmi-les-restaurants-bars-de-quebec/</loc>
+    <lastmod>2015-04-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/projets/shaker/nouveau-venu-parmi-les-restaurants-bars-de-quebec/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/projects/shaker/nouveau-venu-parmi-les-restaurants-bars-de-quebec/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/projects/shaker/presentation-shaker/</loc>
+    <lastmod>2015-04-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/projets/shaker/presentation-shaker/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/projects/shaker/presentation-shaker/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/projets/hola/presentation-hola/</loc>
+    <lastmod>2015-02-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/projets/hola/presentation-hola/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/projets/hola/presentation-hola/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/projets/vaposhop/presentation-vaposhop/</loc>
+    <lastmod>2014-02-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/projets/vaposhop/presentation-vaposhop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/projets/vaposhop/presentation-vaposhop/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/projects/frits/presentation-frits/</loc>
+    <lastmod>2011-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/projets/frits/presentation-frits/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/projects/frits/presentation-frits/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/projects/la-ptite-grenouille/presentation-la-ptite-grenouille/</loc>
+    <lastmod>2005-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/projets/la-ptite-grenouille/presentation-la-ptite-grenouille/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/projects/la-ptite-grenouille/presentation-la-ptite-grenouille/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/historique/presentation-star-bar/</loc>
+    <lastmod>2004-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/historique/presentation-star-bar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/historique/presentation-star-bar/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/historique/presentation-star-cafe/</loc>
+    <lastmod>2001-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/historique/presentation-star-cafe/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/historique/presentation-star-cafe/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/historique/presentation-depanneur-duplessis/</loc>
+    <lastmod>1996-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/historique/presentation-depanneur-duplessis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/historique/presentation-depanneur-duplessis/"
+                />
+  </url>
+  
+  <url>
     <loc>http://blanchette-cfocus.netlify.com/en/become-a-franchisee/</loc>
     <xhtml:link
                 rel="alternate"
@@ -42,6 +312,22 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://blanchette-cfocus.netlify.com/en/franchises/chocolato/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/chocolato/</loc>
+    <lastmod>2015-08-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/chocolato/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/chocolato/"
                 />
   </url>
   
@@ -88,6 +374,54 @@
   </url>
   
   <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/frits/</loc>
+    <lastmod>2011-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/frits/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/frits/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/grenouille/</loc>
+    <lastmod>2005-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/grenouille/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/grenouille/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/historique/</loc>
+    <lastmod>2004-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/historique/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/historique/"
+                />
+  </url>
+  
+  <url>
     <loc>http://blanchette-cfocus.netlify.com/en/history/</loc>
     <xhtml:link
                 rel="alternate"
@@ -116,6 +450,22 @@
   </url>
   
   <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/hola/</loc>
+    <lastmod>2015-02-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/hola/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/hola/"
+                />
+  </url>
+  
+  <url>
     <loc>http://blanchette-cfocus.netlify.com/en/thank-you/</loc>
     <xhtml:link
                 rel="alternate"
@@ -126,6 +476,22 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://blanchette-cfocus.netlify.com/en/thank-you/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/planete/</loc>
+    <lastmod>2015-05-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/planete/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/planete/"
                 />
   </url>
   
@@ -168,6 +534,22 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://blanchette-cfocus.netlify.com/en/franchises/shaker/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/shaker/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/shaker/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/shaker/"
                 />
   </url>
   
@@ -216,6 +598,22 @@
   </url>
   
   <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/tartar/</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/tartar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/tartar/"
+                />
+  </url>
+  
+  <url>
     <loc>http://blanchette-cfocus.netlify.com/en/franchises/the-little-frog/</loc>
     <xhtml:link
                 rel="alternate"
@@ -231,6 +629,7 @@
   
   <url>
     <loc>http://blanchette-cfocus.netlify.com/en/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -240,6 +639,22 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://blanchette-cfocus.netlify.com/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://blanchette-cfocus.netlify.com/en/vapo/</loc>
+    <lastmod>2014-02-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://blanchette-cfocus.netlify.com/vapo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://blanchette-cfocus.netlify.com/en/vapo/"
                 />
   </url>
   
