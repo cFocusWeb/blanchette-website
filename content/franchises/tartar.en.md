@@ -44,7 +44,7 @@ coupdecoeur:
   texte: >-
     ### TARTAR Station's "good moves"
 
-    **Concours culinaire _La semaine Manger cru 2017_** ;</br>
+    **Culinary competition _La semaine Manger cru 2017_** ;</br>
     First place in the "Best Quality/Price Ratio" category for the "Hawaiian two-salmon & yogurt tartare mini pokebowl" poke bowl
   couleur: "250, 82, 0, 0.2"
 ordre: 4

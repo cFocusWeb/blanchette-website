@@ -42,27 +42,27 @@ coupdecoeur:
   texte: >-
     ### SHAKER Kitchen & Mixology's "good moves"
 
-    **Concours culinaire _La semaine Manger cru 2017_** ;</br>
+    **Culinary competition _La semaine Manger cru 2017_** ;</br>
     First place in the « Best taste »  category, for the « L'albacore asiatique »  tartare
 
 
-    **Concours de mixologie _MADE WITH LOVE 2017_** ;</br>
+    **Mixology competition _MADE WITH LOVE 2017_** ;</br>
     First place in the « Public's Choice » category, fo the « Trappeur » cocktail
 
 
-    **Concours culinaire _Grilled cheese festival 2017_** ;</br>
+    **Culinary competition _Grilled cheese festival 2017_** ;</br>
     First place in the « Favorite of the public» category, for the « Le P'TIT BAVEUX »  grilled cheese
 
 
-    **Concours de mixologie _MADE WITH LOVE 2016_** ;</br>
+    **Mixology competition _MADE WITH LOVE 2016_** ;</br>
     First place in the « Favorite of the public » category, for the « LE SHAMAN » cocktail
 
 
-    **Concours de mixologie _MADE WITH LOVE 2015_** ;</br>
+    **Mixology competition _MADE WITH LOVE 2015_** ;</br>
     First place in the « Favorite of the public » category, for the « MADE WITH LOVE » cocktail
 
 
-    **Concours culinaire _Le Burger Week 2015_** ;</br>
+    **Culinary competition _Le Burger Week 2015_** ;</br>
     First place in the « Selection of judges » category, for the Beef & Duck burger
 
   couleur: "183, 147, 0, 0.2"

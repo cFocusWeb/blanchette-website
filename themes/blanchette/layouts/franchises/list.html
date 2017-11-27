@@ -1,7 +1,13 @@
 {{ define "main" }}
 <div id="franchise-logos" style="margin-top: 50px;">
+
             <div class="container">
-               <div class="row no-gutter">
+                {{ if eq .Lang "fr" }}
+                <h1 style="margin-bottom: 20px">Nos franchises</h1>
+                {{ else if eq .Lang "en" }}
+                <h1 style="margin-bottom: 20px">Our franchises</h1>
+                {{ end }}
+                <div class="row no-gutter">
                     {{ range $i, $e := (sort (where $.Site.Pages "Type" "franchises") ".Params.ordre" "asce") }}
                     {{ if .Params.mainimage }}
                     <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0.2s">
