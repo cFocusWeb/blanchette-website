@@ -3,26 +3,24 @@
 ====================================*/
 
 #mas-header {
-	height:750px;
+	height:100vh;
 	background:#000;
 	background-size:cover;
 	font-size: 16px;
 	position: relative;
-	margin-top: 124px;
+	padding-top: 124px;
+	overflow: hidden;
 	@include small-lap {
-		margin-top: 105px;
-		height: 620px;
+		padding-top: 105px;
 	}
 	@include breakpoint(laptop) {
-		margin-top: 105px;
-		height: 600px;
+		padding-top: 105px;
 	}
 	@include breakpoint(tablet) {
-		margin-top: 105px;
+		padding-top: 105px;
 	}
 	@include breakpoint(phone) {
-		margin-top: 100px;
-		height: 450px;
+		padding-top: 100px;
 	}
 	.overlay {
 		@extend .dark-overlay;
@@ -90,17 +88,17 @@
 
 .video-holder {
 	width:100%;
-	height:750px;
+	height:100%;
 	z-index:1;	
-	@include small-lap {
-		height: 620px;
-	}
-	@include breakpoint(laptop) {
-		height: 600px;
-	}
-	@include breakpoint(phone) {
-		height: 450px;
-	}
+	// @include small-lap {
+	// 	height: 620px;
+	// }
+	// @include breakpoint(laptop) {
+	// 	height: 600px;
+	// }
+	// @include breakpoint(phone) {
+	// 	height: 450px;
+	// }
 }
 
 /*=====  End of Video  ======*/
@@ -324,9 +322,9 @@
 		}
 	}
 	.tall-image {
-		height: 570px;
+		height: 620px;
 		@include small-lap {
-			height: 520px;
+			height: 570px;
 		}
 		@include breakpoint(laptop) {
 			height: 520px;
@@ -339,9 +337,9 @@
 		}
 	}
 	.small-image {
-		height: 380px;
+		height: 330px;
 		@include small-lap {
-			height: 330px;
+			height: 280px;
 		}
 		@include breakpoint(laptop) {
 			height: 230px;

@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.groupeblanchette.com/projets/shaker/shaker-en-beauce/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.groupeblanchette.com/projets/shaker/septieme-shaker/</loc>
+    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.groupeblanchette.com/projets/shaker/shaker-a-charlesbourg/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.groupeblanchette.com/projets/la-ptite-grenouille/la-ptite-grenouille-a-sherbrooke/</loc>
+    <lastmod>2014-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.groupeblanchette.com/projets/la-ptite-grenouille/presentation-la-ptite-grenouille/</loc>
+    <lastmod>2005-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.groupeblanchette.com/categories/</loc>
     <priority>0</priority>
   </url>
@@ -64,10 +89,6 @@
   </url>
   
   <url>
-    <loc>https://www.groupeblanchette.com/articles/shaker-en-beauce/</loc>
-  </url>
-  
-  <url>
     <loc>https://www.groupeblanchette.com/franchises/shaker/</loc>
   </url>
   
@@ -91,10 +112,21 @@
   
   <url>
     <loc>https://www.groupeblanchette.com/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.groupeblanchette.com/articles/</loc>
+    <loc>https://www.groupeblanchette.com/grenouille/</loc>
+    <lastmod>2014-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.groupeblanchette.com/occasion/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.groupeblanchette.com/shaker/</loc>
+    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>

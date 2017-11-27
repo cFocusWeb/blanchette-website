@@ -44,6 +44,8 @@ defaultContentLanguageInSubdir = false
 
 [permalinks]
   singles = "/:slug/"
+  shaker = "/projets/shaker/:slug/"
+  grenouille = "/projets/la-ptite-grenouille/:slug/"
 
 # [Languages.fr]
 # [Languages.fr.Taxonomies]

@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ $mymonths := $.Site.Data.mois.mois }}
 <div id="page-wrapper" class="projects-page">
 
                 <header id="inner-header">
@@ -46,131 +47,29 @@
 
                             <div class="article-listing">
 
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="article-box">
-                                        <div class="image-holder">
-                                            <a href="#">
-                                                <img src="/img/misc/article1.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <!-- // image holder  -->
-                                        <div class="content">
-                                            <h3><a href="#">Chocolato :</br> pour se sucrer le bec à la Place Biermans</a></h3>
-                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit...</p>
-                                            <footer>
-                                                <a href="#" class="cta-btn">PLUS</a>
-                                                <small>20 octobre 2017 / <a href="#">0 commentaire</a></small>
-                                            </footer>
-                                        </div>
-                                        <!-- // content  -->
-                                    </div>
-                                </div>
-                                <!-- // article  -->
+                                {{ range where .Site.RegularPages "Type" "articles"}}
 
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="article-box">
-                                        <div class="image-holder">
-                                            <a href="#">
-                                                <img src="/img/misc/article3.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <!-- // image holder  -->
-                                        <div class="content">
-                                            <h3><a href="#">Frit’s burger & Poutine :</br> La meilleure poutine au monde débarque  à beauport</a></h3>
-                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
-                                            <footer>
-                                                <a href="#" class="cta-btn">PLUS</a>
-                                                <small>20 octobre 2017 / <a href="#">0 commentaire</a></small>
-                                            </footer>
-                                        </div>
-                                        <!-- // content  -->
-                                    </div>
-                                </div>
-                                <!-- // article  -->
-
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="article-box">
-                                        <div class="image-holder">
-                                            <a href="#">
-                                                <img src="/img/misc/article4.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <!-- // image holder  -->
-                                        <div class="content">
-                                            <h3><a href="#">SHAKER Cuisine & mixologie :</br> SHAKER ST-GEORGES : L’EXPÉRIENCE SHAKER S’AMÈNE EN BEAUCE ! </a></h3>
-                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit...</p>
-                                            <footer>
-                                                <a href="#" class="cta-btn">PLUS</a>
-                                                <small>20 octobre 2017 / <a href="#">0 commentaire</a></small>
-                                            </footer>
-                                        </div>
-                                        <!-- // content  -->
-                                    </div>
-                                </div>
-                                <!-- // article  -->    
-
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="article-box">
-                                        <div class="image-holder">
-                                            <a href="#">
-                                                <img src="/img/misc/article5.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <!-- // image holder  -->
-                                        <div class="content">
-                                            <h3><a href="#">Chocolato :</br> pour se sucrer le bec à la Place Biermans</a></h3>
-                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit...</p>
-                                            <footer>
-                                                <a href="#" class="cta-btn">PLUS</a>
-                                                <small>20 octobre 2017 / <a href="#">0 commentaire</a></small>
-                                            </footer>
-                                        </div>
-                                        <!-- // content  -->
-                                    </div>
-                                </div>
-                                <!-- // article  -->
-
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="article-box">
-                                        <div class="image-holder">
-                                            <a href="#">
-                                                <img src="/img/misc/article2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <!-- // image holder  -->
-                                        <div class="content">
-                                            <h3><a href="#">Frit’s burger & Poutine :</br> La meilleure poutine au monde débarque  à beauport</a></h3>
-                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
-                                            <footer>
-                                                <a href="#" class="cta-btn">PLUS</a>
-                                                <small>20 octobre 2017 / <a href="#">0 commentaire</a></small>
-                                            </footer>
-                                        </div>
-                                        <!-- // content  -->
-                                    </div>
-                                </div>
-                                <!-- // article  -->
-
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="article-box">
-                                        <div class="image-holder">
-                                            <a href="#">
-                                                <img src="/img/misc/article1.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <!-- // image holder  -->
-                                        <div class="content">
-                                            <h3><a href="#">SHAKER Cuisine & mixologie :</br> SHAKER ST-GEORGES : L’EXPÉRIENCE SHAKER S’AMÈNE EN BEAUCE ! </a></h3>
-                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit...</p>
-                                            <footer>
-                                                <a href="#" class="cta-btn">PLUS</a>
-                                                <small>20 octobre 2017 / <a href="#">0 commentaire</a></small>
-                                            </footer>
-                                        </div>
-                                        <!-- // content  -->
-                                    </div>
-                                </div>
-                                <!-- // article  -->      
+                                  <div class="col-md-4 col-sm-6">
+                                      <div class="article-box">
+                                          <div class="image-holder">
+                                              <a href="{{.Permalink}}">
+                                                  <img src="/img/quart/articles/{{.Params.image}}" alt="" class="img-responsive">
+                                              </a>
+                                          </div>
+                                          <!-- // image holder  -->
+                                          <div class="content">
+                                              <h3><a href="{{.Permalink}}">{{.Title}}</a></h3>
+                                              <p>{{ .Summary }}</p>
+                                              <footer>
+                                                  <a href="{{.Permalink}}" class="cta-btn">PLUS</a>
+                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                              </footer>
+                                          </div>
+                                          <!-- // content  -->
+                                      </div>
+                                  </div>
+                                  <!-- // article  -->
+                                  {{ end }}     
 
                             </div>
                             <!-- // listing   -->
@@ -199,132 +98,29 @@
                             <div class="tab-pane fade active in" id="shaker">
                                 
                               <div class="article-listing">
+                                {{ range where .Site.RegularPages "Section" "shaker"}}
 
                                   <div class="col-md-4 col-sm-6">
                                       <div class="article-box">
                                           <div class="image-holder">
-                                              <a href="#">
-                                                  <img src="/img/misc/article1.jpg" alt="" class="img-responsive">
+                                              <a href="{{.Permalink}}">
+                                                  <img src="/img/quart/articles/{{.Params.image}}" alt="" class="img-responsive">
                                               </a>
                                           </div>
                                           <!-- // image holder  -->
                                           <div class="content">
-                                              <h3><a href="#">Chocolato :</br> pour se sucrer le bec à la Place Biermans</a></h3>
-                                              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit...</p>
+                                              <h3><a href="{{.Permalink}}">{{.Title}}</a></h3>
+                                              <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="#" class="cta-btn">PLUS</a>
-                                                  <small>20 octobre 2017 / <a href="#">0 commentaire</a></small>
+                                                  <a href="{{.Permalink}}" class="cta-btn">PLUS</a>
+                                                  <small>{{ index $mymonths .Date.Month }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
                                           <!-- // content  -->
                                       </div>
                                   </div>
                                   <!-- // article  -->
-
-                                  <div class="col-md-4 col-sm-6">
-                                      <div class="article-box">
-                                          <div class="image-holder">
-                                              <a href="#">
-                                                  <img src="/img/misc/article3.jpg" alt="" class="img-responsive">
-                                              </a>
-                                          </div>
-                                          <!-- // image holder  -->
-                                          <div class="content">
-                                              <h3><a href="#">Frit’s burger & Poutine :</br> La meilleure poutine au monde débarque  à beauport</a></h3>
-                                              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
-                                              <footer>
-                                                  <a href="#" class="cta-btn">PLUS</a>
-                                                  <small>20 octobre 2017 / <a href="#">0 commentaire</a></small>
-                                              </footer>
-                                          </div>
-                                          <!-- // content  -->
-                                      </div>
-                                  </div>
-                                  <!-- // article  -->
-
-                                  <div class="col-md-4 col-sm-6">
-                                      <div class="article-box">
-                                          <div class="image-holder">
-                                              <a href="#">
-                                                  <img src="/img/misc/article4.jpg" alt="" class="img-responsive">
-                                              </a>
-                                          </div>
-                                          <!-- // image holder  -->
-                                          <div class="content">
-                                              <h3><a href="#">SHAKER Cuisine & mixologie :</br> SHAKER ST-GEORGES : L’EXPÉRIENCE SHAKER S’AMÈNE EN BEAUCE ! </a></h3>
-                                              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit...</p>
-                                              <footer>
-                                                  <a href="#" class="cta-btn">PLUS</a>
-                                                  <small>20 octobre 2017 / <a href="#">0 commentaire</a></small>
-                                              </footer>
-                                          </div>
-                                          <!-- // content  -->
-                                      </div>
-                                  </div>
-                                  <!-- // article  -->    
-
-                                  <div class="col-md-4 col-sm-6">
-                                      <div class="article-box">
-                                          <div class="image-holder">
-                                              <a href="#">
-                                                  <img src="/img/misc/article5.jpg" alt="" class="img-responsive">
-                                              </a>
-                                          </div>
-                                          <!-- // image holder  -->
-                                          <div class="content">
-                                              <h3><a href="#">Chocolato :</br> pour se sucrer le bec à la Place Biermans</a></h3>
-                                              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit...</p>
-                                              <footer>
-                                                  <a href="#" class="cta-btn">PLUS</a>
-                                                  <small>20 octobre 2017 / <a href="#">0 commentaire</a></small>
-                                              </footer>
-                                          </div>
-                                          <!-- // content  -->
-                                      </div>
-                                  </div>
-                                  <!-- // article  -->
-
-                                  <div class="col-md-4 col-sm-6">
-                                      <div class="article-box">
-                                          <div class="image-holder">
-                                              <a href="#">
-                                                  <img src="/img/misc/article2.jpg" alt="" class="img-responsive">
-                                              </a>
-                                          </div>
-                                          <!-- // image holder  -->
-                                          <div class="content">
-                                              <h3><a href="#">Frit’s burger & Poutine :</br> La meilleure poutine au monde débarque  à beauport</a></h3>
-                                              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
-                                              <footer>
-                                                  <a href="#" class="cta-btn">PLUS</a>
-                                                  <small>20 octobre 2017 / <a href="#">0 commentaire</a></small>
-                                              </footer>
-                                          </div>
-                                          <!-- // content  -->
-                                      </div>
-                                  </div>
-                                  <!-- // article  -->
-
-                                  <div class="col-md-4 col-sm-6">
-                                      <div class="article-box">
-                                          <div class="image-holder">
-                                              <a href="#">
-                                                  <img src="/img/misc/article1.jpg" alt="" class="img-responsive">
-                                              </a>
-                                          </div>
-                                          <!-- // image holder  -->
-                                          <div class="content">
-                                              <h3><a href="#">SHAKER Cuisine & mixologie :</br> SHAKER ST-GEORGES : L’EXPÉRIENCE SHAKER S’AMÈNE EN BEAUCE ! </a></h3>
-                                              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit...</p>
-                                              <footer>
-                                                  <a href="#" class="cta-btn">PLUS</a>
-                                                  <small>20 octobre 2017 / <a href="#">0 commentaire</a></small>
-                                              </footer>
-                                          </div>
-                                          <!-- // content  -->
-                                      </div>
-                                  </div>
-                                  <!-- // article  -->      
+                                  {{ end }}
 
                               </div>
                               <!-- // listing   -->

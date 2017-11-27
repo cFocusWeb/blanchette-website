@@ -5,12 +5,22 @@
 			@include breakpoint(phone) {
 				display: none;
 			}
-			ul li a {
-				font-size: 1em;
+			ul li {
+				display: inline-block;
+			    font-family: "helveticabold";
+			    color: #000;
+			    padding-right: 15px;
+				a {
+					font-size: 1em;
+				}
 			}
 		}
 		.main-img {
 			position: relative;
+			min-height: 80vh;
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
 			img {
 				width: 100%;
 				margin-top: 20px;
@@ -42,7 +52,9 @@
 					font-size: 1.7em;
 				}
 				p {
-					margin-bottom: 20px;
+					font-size: 1.063em;
+    				margin-bottom: 20px;
+    				line-height: 1.5;
 					color: #616161;
 				}
 			}
@@ -83,11 +95,11 @@
 				font-family: $font-sec;
 				margin-bottom: 15px;
 				margin-top: 15px;
-				font-size: 1.5em;
+				font-size: 1.3em;
 				color: #616161;
 			}
 			p.date {
-
+				color: $black;
 			}
 		}	
 	}

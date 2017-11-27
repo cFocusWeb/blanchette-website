@@ -1,23 +1,21 @@
 ---
 title: "SHAKER Saint-Georges: L'expérience SHAKER s'amène en Beauce"
 description: >-
-  This is a desc
 slug: shaker-en-beauce
 identifiant: shaker-en-beauce 
-image: /img/articles/shaker-en-beauce.jpg
-resume:
-  btitre: 
-  note: 
-  titre: 
+image: shaker-en-beauce.jpg
+arrowc: white
 i18nlanguage: fr
-ordre: 1
+weight: 1
 draft: false
 activemenu: projets
+type: articles
+date: 2017-08-01
+historique: true
+external:
+  need: false
+  link:
 ---
-
-# SHAKER Saint-Georges: L'expérience SHAKER s'amène en Beauce
-
-Août 2017
 
 Ce n’est plus un secret pour « les gens de la place »: St-Georges est maintenant l’hôte du 8e restaurant-bar SHAKER ! 
 

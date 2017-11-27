@@ -54,7 +54,7 @@
 	}
 	#history {
 		h6 {
-			font-size: 1.3em;
+			font-size: 1.063em;
 			color:$black;
 			font-family: $font-sec;
 			margin: 25px 0px
@@ -70,8 +70,8 @@
 			line-height: 3em;
 		}
 		p {
-			font-size: 1.250em;
 			line-height: 1.5;
+    		font-size: 1.063em;
 			margin-bottom: 25px;
 		}
 	}
@@ -104,6 +104,14 @@
 	}
 	.row {
 		padding: 20px 0px;
+		&.even {
+			position: relative;
+		}
+		&:not(.even) {
+			.content {
+				padding-left: 7%;
+			}
+		}
 		.content {
 			@include breakpoint(phone) {
 				padding: 20px 15px;
@@ -117,6 +125,14 @@
 			p {
 				line-height: 1.5;
 				font-size: 1.063em;
+			}
+		}
+		.image-holder {
+			img {
+				max-width: 107%;
+				@include breakpoint(phone) {
+					max-width: 100%;
+				}
 			}
 		}
 		.col-sm-pull-6 {
@@ -133,9 +149,20 @@
 		  -webkit-align-items: flex-end;
 		      -ms-flex-align: end;
 		          align-items: flex-end; /* bottom */
+			&.content {
+				padding-right: 7%;
+				@include breakpoint(phone) {
+					padding-right: 15px
+				}
+			}
 		}
-		&.even {
-			position: relative;
+		.col-sm-push-6 {
+			img {
+				margin-left: -7%;
+				@include breakpoint(phone) {
+					margin-left: 0;
+				}
+			}
 		}
 	}
 		
@@ -182,6 +209,10 @@
 			p.title {
 				font-family: $font-sec;
 				margin: 20px 0;
+				i {
+					margin-left: 20px;
+					color: black;
+				}
 			}
 			p.desc {
 

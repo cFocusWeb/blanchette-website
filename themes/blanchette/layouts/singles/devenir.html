@@ -84,7 +84,7 @@
             </div>
             <!-- // container -->
 
-             <form action="">
+            <form action="/" class="registration-form" method="post">
 
             <div class="container">
                 <div class="process-content">
@@ -95,55 +95,16 @@
                     </header>
 
                     <div id="brand-logos">
-                          <div class="row">
+                        <div class="row">
+                            {{ range $i, $e := (sort (where $.Site.Pages "Type" "franchises") ".Params.ordre" "asce") }}
+                            {{ if .Params.mainimage }}
                               <div class="col-sm-3">
-                                  <div class="logo-box">
-                                      <a href="javascript:;"><img class="svg" src="/img/logos/shaker.svg" /></a>
+                                  <div class="logo-box" id="{{.Params.identifiant}}">
+                                      <a href="javascript:;"><img class="svg" src="{{.Params.logoc}}" /></a>
                                   </div>
                               </div>
-                              <!-- // logo box  -->
-                              <div class="col-sm-3">
-                                  <div class="logo-box">
-                                      <a href="javascript:;"><img class="svg" src="/img/logos/chocolate.svg" /></a>
-                                  </div>
-                              </div>
-                              <!-- // logo box  -->
-                              <div class="col-sm-3">
-                                  <div class="logo-box">
-                                      <a href="javascript:;"><img class="svg" src="/img/logos/ptiteGrenouille.svg" /></a>
-                                  </div>
-                              </div>
-                              <!-- // logo box  -->
-                              <div class="col-sm-3">
-                                  <div class="logo-box">
-                                      <a href="javascript:;"><img class="svg" src="/img/logos/tartar.svg" /></a>
-                                  </div>
-                              </div>
-                              <!-- // logo box  -->  
-                               <div class="col-sm-3">
-                                  <div class="logo-box">
-                                      <a href="javascript:;"><img class="svg" src="/img/logos/frits.svg" /></a>
-                                  </div>
-                              </div>
-                              <!-- // logo box  -->
-                              <div class="col-sm-3">
-                                  <div class="logo-box">
-                                      <a href="javascript:;"><img class="svg" src="/img/logos/hola.svg" /></a>
-                                  </div>
-                              </div>
-                              <!-- // logo box  -->
-                              <div class="col-sm-3">
-                                  <div class="logo-box">
-                                      <a href="javascript:;"><img class="svg planete" src="/img/logos/planette.svg" /></a>
-                                  </div>
-                              </div>
-                              <!-- // logo box  -->
-                              <div class="col-sm-3">
-                                  <div class="logo-box">
-                                      <a href="javascript:;"><img class="svg" src="/img/logos/vapshop.svg" /></a>
-                                  </div>
-                              </div>
-                              <!-- // logo box  -->                                                                                                                   
+                            {{ end }}
+                            {{ end }}
                         </div>
                         <!-- // row  -->                         
                     </div>
@@ -157,17 +118,24 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <h4>Devenir Franchise</h4>
+
+                                {{ .Content }}
   
-                                <div class="form-holder">
+                                <div class="form-holder" id="form-start">
 
                                   <label for=""><i class="fa fa-user-circle-o" aria-hidden="true"></i> Nom complet</label>
-                                  <input type="text" name="nom">
+                                  <input type="text" name="nom" class="form-control">
                                   <label for=""><i class="fa fa-phone" aria-hidden="true"></i> Téléphone</label>
-                                  <input type="tel" name="tel">
+                                  <input type="tel" name="telephone" class="form-control">
                                   <label for=""><i class="fa fa-map-marker" aria-hidden="true"></i> Province et région</label>
-                                  <select name="region" id="">
-                                      <option value="">Canada</option>
-                                  </select>
+                                  <div class="row">
+                                    <div class="form-group col-sm-6">
+                                      <input type="text" name="region" placeholder="Région">
+                                    </div>
+                                    <div class="form-group col-sm-6">
+                                      <input type="text" name="province" placeholder="Province">
+                                    </div>
+                                  </div>
                                   <label for=""><i class="fa fa-envelope-o" aria-hidden="true"></i> Courriel</label>
                                   <input type="email" name="email">
                                   <input type="submit" value="Envoyez >">

@@ -1,3 +1,4 @@
+//@prepros-prepend libs/jquery-1.12.0.min.js
 //@prepros-prepend libs/bootstrap.min.js
 //@prepros-prepend easing.js
 //@prepros-prepend libs/jquery-ui.min.js
@@ -144,6 +145,34 @@ $(function() {
   $('#partner-listing .match-big').matchHeight();
 });
 
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+        }
+    }
+};
+// Preselect stuff depending on locaton and GET request
+$(function() {
+  if (location.pathname.indexOf('/devenir-franchise') == 0) {
+    var franchise = getUrlParameter('franchise');
+    if (franchise) {
+      $('#'+franchise).toggleClass('choose-brand');
+      $('html, body').animate({
+        scrollTop: $('#'+franchise).offset().top - 120
+      }, 1000);
+      return false;
+    }
+  }
+});
+
 // Menu
 $('.menu-btn a').click(function(){
     $('.main-menu-sidebar').addClass("menu-active");
@@ -163,8 +192,24 @@ $("ul.nav-tabs a").click(function (e) {
 });
 
 //logo box 
+var brand = true;
 $('.process-content #brand-logos .logo-box').click(function(){
-    $(this).toggleClass('choose-brand');
+    if (brand) {
+      brand = false
+      var brand1 = $('.brand-1');
+      var brand2 = $('.brand-2');
+      $(this).toggleClass('choose-brand');
+      if (brand2) {
+        brand1.toggleClass('brand-1').toggleClass('choose-brand');
+        brand2.toggleClass('brand-2').toggleClass('brand-1');
+        $(this).toggleClass('brand-2')
+      } else if (brand1) {
+        $(this).toggleClass('brand-2');
+      } else {
+        $(this).toggleClass('brand-1');
+      }
+      brand = true;
+    } else {}
 });
 
 // Google maps 
@@ -556,3 +601,25 @@ function initMap() {
     });
   }
 }
+// Form control
+$('.registration-form input[type="text"],.registration-form input[type="tel"], .registration-form input[type="email"]').on('focus', function () {
+    $(this).removeClass('input-error');
+});
+var chosenBrand
+$('.registration-form').on('submit', function (e) {
+    chosenBrand = [];
+    $('.choose-brand').each(function(e){
+      chosenBrand.push($(this).attr('id'));
+    })
+    $(this).find('input[type="text"]:not(.not-required),input[type="email"]:not(.not-required),input[type="tel"]:not(.not-required)').each(function () {
+        if ($(this).val() == "") {
+            e.preventDefault();
+            $(this).addClass('input-error');
+        } else {
+            $(this).removeClass('input-error');
+        }
+    });
+    $('html, body').animate({
+      scrollTop: $('#form-start').offset().top
+    }, 1000);
+});
