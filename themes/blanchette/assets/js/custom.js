@@ -189,6 +189,16 @@ $(function() {
       }, 1000);
       return false;
     }
+  } else if (location.pathname.indexOf('/projets-developpements') == 0 || location.pathname.indexOf('/en/projects-development') == 0) {
+    var franchise = getUrlParameter('franchise');
+    if (franchise) {
+      $('.primary-tabs a[href="#brands"]').tab('show');
+      $('.tabbable .brands-tabs a[href="#' + franchise + '"]').tab('show');
+      $('html, body').animate({
+        scrollTop: $('ul.nav.primary-tabs').offset().top - 120
+      }, 1000);
+      return false;
+    }
   }
 });
 
@@ -896,7 +906,6 @@ $('.registration-form input[type="text"],.registration-form input[type="tel"], .
 });
 var chosenBrand;
 $('.registration-form').on('submit', function (e) {
-    e.preventDefault();
     chosenBrand = [];
     $('.choose-brand').each(function(e){
       chosenBrand.push($(this).attr('id'));
@@ -913,7 +922,7 @@ $('.registration-form').on('submit', function (e) {
     $('html, body').animate({
       scrollTop: $('#form-start').offset().top
     }, 1000);
-    
+
 });
 
 // video handler
