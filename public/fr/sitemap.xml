@@ -463,6 +463,20 @@
   </url>
   
   <url>
+    <loc>https://www.groupeblanchette.com/franchises/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.groupeblanchette.com/en/franchises/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.groupeblanchette.com/franchises/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.groupeblanchette.com/categories/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -576,34 +590,6 @@
   </url>
   
   <url>
-    <loc>https://www.groupeblanchette.com/franchises/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.groupeblanchette.com/en/franchises/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.groupeblanchette.com/franchises/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.groupeblanchette.com/historique/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.groupeblanchette.com/en/history/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.groupeblanchette.com/historique/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.groupeblanchette.com/franchises/la-ptite-grenouille/</loc>
     <xhtml:link
                 rel="alternate"
@@ -642,6 +628,20 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://www.groupeblanchette.com/merci/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.groupeblanchette.com/historique/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.groupeblanchette.com/en/history/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.groupeblanchette.com/historique/"
                 />
   </url>
   

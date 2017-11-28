@@ -1,5 +1,5 @@
 ---
-title: "VAPOSHOP - Présentation de la bannière"
+title: "Présentation de la bannière"
 description: >-
 slug: presentation-vaposhop
 identifiant: presentation-vaposhop 

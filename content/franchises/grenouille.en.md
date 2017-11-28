@@ -5,7 +5,7 @@ description: >-
 slug: the-little-frog
 identifiant: grenouille
 image: "/img/franchises/grenouille-license.jpg"
-logoc: "/img/logos/ptiteGrenouille.svg"
+logoc: "/img/logos/ptiteGrenouille-en.svg"
 logow: "/img/logos/ptiteGrenouille-white.svg"
 mainimage: /img/franchises/grenouille-license.jpg
 resume:

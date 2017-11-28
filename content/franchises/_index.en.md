@@ -1,7 +1,7 @@
 ---
-title: Franchises
+title: Buy a franchise – Master Franchisor
 description: >-
-  This is a desc
+  The Groupe Blanchette – Master Franchisor is one of the largest franchise broker groups in Québec, offering truly innovative restaurant and entertainment concepts.
 titre: Franchises
 image: null
 i18nlanguage: fr

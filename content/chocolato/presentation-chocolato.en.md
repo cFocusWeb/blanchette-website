@@ -1,5 +1,5 @@
 ---
-title: "Chocolato – Banner presentation"
+title: "Banner presentation"
 description: >-
 slug: presentation-chocolato
 identifiant: presentation-chocolato 

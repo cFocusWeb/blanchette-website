@@ -1,5 +1,5 @@
 ---
-title: "Planète Nutrition – Banner presentation"
+title: "Banner presentation"
 description: >-
 slug: presentation-planete-nutrition
 identifiant: presentation-planete-nutrition 

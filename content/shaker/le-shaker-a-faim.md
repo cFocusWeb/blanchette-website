@@ -1,5 +1,5 @@
 ---
-title: "Le Shaker a faim!"
+title: "Le Shaker a faim !"
 identifiant: le-shaker-a-faim
 slug: le-shaker-a-faim
 image: Le-Shaker-a-faim.jpg

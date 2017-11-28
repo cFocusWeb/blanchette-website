@@ -14,4 +14,4 @@ map:
 ---
 # We are listening
 
-If you have any questions, comments or suggestions about any of our banners, please complete the form below or call us. We will answer you with pleasure !
+If you have any questions, comments or suggestions about any of our banners, please complete the form below or call us. We will answer you with pleasure!

@@ -1,5 +1,5 @@
 ---
-title: "L’expérience SHAKER se déploie jusque…dans le Bas-Saint-Laurent"
+title: "L’expérience SHAKER se déploie jusque… dans le Bas-Saint-Laurent"
 description: >-
 slug: shaker-au-bas-saint-laurent
 identifiant: shaker-au-bas-saint-laurent 

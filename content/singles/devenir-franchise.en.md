@@ -42,7 +42,7 @@ Before opening, the future franchisee will benefit from the assistance of the fr
 - Preparing the business plan;
 - Developing the organizational personnel structure; 
 - Developing purchase and inventory management tools;
-- Theory and practice training for operators, managers and key employees of the future franchise; 
+- Theory and practice training for operators, managers and key employees of the future franchise. 
 
 Following the opening, the franchisor will provide continued support regarding the following aspects: 
 

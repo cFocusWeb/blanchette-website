@@ -1,5 +1,5 @@
 ---
-title: "HOLA Grill Mexicain - Présentation de la bannière"
+title: "Présentation de la bannière"
 description: >-
 slug: presentation-hola
 identifiant: presentation-hola 

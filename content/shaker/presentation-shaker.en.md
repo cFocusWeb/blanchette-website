@@ -1,5 +1,5 @@
 ---
-title: "SHAKER Kitchen & Mixology – Banner presentation"
+title: "Banner presentation"
 description: >-
 slug: presentation-shaker
 identifiant: presentation-shaker 

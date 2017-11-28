@@ -1,5 +1,5 @@
 ---
-title: "La P'tite Grenouille - Présentation de la bannière"
+title: "Présentation de la bannière"
 description: >-
 slug: presentation-la-ptite-grenouille
 identifiant: presentation-la-ptite-grenouille 

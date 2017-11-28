@@ -42,7 +42,7 @@
                 {{ end }}
                     <img src="/img/misc/mosaic-shaker.jpg" alt="" class="img-responsive">
                     <div class="caption">
-                        <img src="/img/logos/shaker-logo-white.svg" class="logo-hover" />
+                        <img src='/img/logos/shaker-logo-white{{ if eq $.Lang "en" }}-en{{end}}.svg' class="logo-hover" />
                     </div>
                     <!-- // capt  -->
                 </a>
@@ -96,7 +96,7 @@
                                 {{ end }}
                                     <img src="/img/misc/gal5.jpg" alt="" class="img-responsive">
                                     <div class="caption">
-                                        <img src="/img/logos/shaker-logo-white.svg" />
+                                        <img src='/img/logos/shaker-logo-white{{ if eq $.Lang "en" }}-en{{end}}.svg' />
                                     </div>
                                     <!-- // capt  -->
                                 </a>

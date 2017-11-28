@@ -1,5 +1,5 @@
 ---
-title: "SHAKER Saint-Georges: L'expérience SHAKER s'amène en Beauce"
+title: "SHAKER Saint-Georges : L'expérience SHAKER s'amène en Beauce"
 description: >-
 slug: shaker-en-beauce
 identifiant: shaker-en-beauce 

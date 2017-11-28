@@ -47,6 +47,15 @@
 			width: 100%;
 		}
 		#logos-slider {
+			opacity: 0;
+			-webkit-transition: 0.5s opacity;
+			-moz-transition: 0.5s opacity;
+			-ms-transition: 0.5s opacity;
+			-o-transition: 0.5s opacity;
+			transition: 0.5s opacity;
+			&.slick-initialized {
+				opacity: 1;
+			}
 			.item {
 				.logo-box {
 					position: relative;

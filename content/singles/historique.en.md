@@ -1,5 +1,5 @@
 ---
-title: History - Master Franchisor
+title: Our Story - Master Franchisor
 description: >-
   The Groupe Blanchette – Master Franchisor is one of the largest franchise broker groups in Québec, offering truly innovative restaurant and entertainment concepts.
 titre: History
@@ -9,8 +9,8 @@ image: null
 i18nlanguage: en
 draft: false
 teamimage: history-en.png
-imagedesc: "The Blanchettes, together at the first SHAKER Kitchen & Mixology restaurant: a project signaling the beginning of a new era. It's in their office adjacent to the restaurant that they meet each day and collaborate to further their common projects."
-imageordre: "From left to right : Vincent, André-François, Kimpton, Simon and David"
+imagedesc: "The Blanchette, together at the first SHAKER Kitchen & Mixology restaurant: a project signaling the beginning of a new era. It's in their office adjacent to the restaurant that they meet each day and collaborate to further their common projects."
+imageordre: "From left to right: Vincent, André-François, Kimpton, Simon and David"
 partnerdesc1: >-
   With the expansion of the group, the Blanchette family surrounds itself with the best to ensure they reach their goals.
 partnerdesc2: Discover their trusted associates and experts! 
@@ -31,8 +31,8 @@ A year later, Simon, Vincent’s brother, comes to lend a hand in the family pro
 
 ###### A close-knit team 
 
-Still today, the Blanchettes' greatest wealth remains working and collaborating together every day. They sit around a large table, in their communal office, and discuss and debate ideas always striving to raise the group to new heights.
+Still today, the Blanchettes' greatest wealth remains working and collaborating together every day. They sit around a large table, in their communal office, and discuss and debate ideas always striving to raise the group to new heights. 
 
-With time, each member has organically made certain projects and responsibilities their own. Like chain links, each Blanchette’s work is closely intertwined and indispensable to the others.
+With time, each member has organically made certain projects and responsibilities their own. Like chain links, each Blanchette’s work is closely intertwined and indispensable to the others. 
 
 Discover their specialities! 

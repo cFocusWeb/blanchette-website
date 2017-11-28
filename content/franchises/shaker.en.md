@@ -5,8 +5,8 @@ description: >-
 slug: shaker
 identifiant: shaker
 image: "/img/franchises/shaker-franchise.jpg"
-logoc: "/img/logos/shaker.svg"
-logow: "/img/logos/shaker-logo-white.svg"
+logoc: "/img/logos/shaker-en.svg"
+logow: "/img/logos/shaker-logo-white-en.svg"
 mainimage: /img/franchises/shaker-franchise.jpg
 resume:
   titre: SHAKER Kitchen & Mixology

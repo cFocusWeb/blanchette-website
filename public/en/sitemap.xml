@@ -302,6 +302,20 @@
   </url>
   
   <url>
+    <loc>https://www.groupeblanchette.com/en/franchises/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.groupeblanchette.com/franchises/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.groupeblanchette.com/en/franchises/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.groupeblanchette.com/en/categories/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -357,20 +371,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.groupeblanchette.com/en/contact/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.groupeblanchette.com/en/franchises/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.groupeblanchette.com/franchises/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.groupeblanchette.com/en/franchises/"
                 />
   </url>
   
@@ -451,20 +451,6 @@
   </url>
   
   <url>
-    <loc>https://www.groupeblanchette.com/en/history/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.groupeblanchette.com/historique/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.groupeblanchette.com/en/history/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.groupeblanchette.com/en/hola/</loc>
     <lastmod>2015-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -491,6 +477,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.groupeblanchette.com/en/thank-you/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.groupeblanchette.com/en/history/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.groupeblanchette.com/historique/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.groupeblanchette.com/en/history/"
                 />
   </url>
   

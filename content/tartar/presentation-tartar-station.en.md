@@ -1,5 +1,5 @@
 ---
-title: "TARTAR Station - Présentation de la bannière"
+title: "Présentation de la bannière"
 description: >-
 slug: presentation-tartar-station
 identifiant: presentation-tartar-station 

@@ -1,5 +1,5 @@
 ---
-title: "VAPOSHOP - Banner presentation"
+title: "Banner presentation"
 description: >-
 slug: presentation-vaposhop
 identifiant: presentation-vaposhop 

@@ -4,7 +4,12 @@
 	<meta name="description" content="{{if .Summary }}{{ .Summary }}{{ else }}{{ .Site.Data.settings.sitedescription }}{{ end }}" />
 	<title>{{.Title}}</title>
 {{ else }}
+{{ if eq .Lang "fr" }}
 <meta name="description" content="{{ if .IsHome }}{{ .Site.Data.settings.sitedescription }}{{ else if .Description }}{{ .Description }}{{ else }}{{ .Site.Data.settings.sitedescription }}{{ end }}" />
 <title>{{if .IsHome}}{{.Site.Data.settings.sitetitle}}{{ else }}{{.Title}}{{if .Site.Data.settings.titleautocompletion}} | {{.Site.Title}}{{end}}{{end}}</title>
+{{ else if eq .Lang "en" }}
+<meta name="description" content="{{ if .IsHome }}{{ .Site.Data.settings.sitedescriptionen }}{{ else if .Description }}{{ .Description }}{{ else }}{{ .Site.Data.settings.sitedescriptionen }}{{ end }}" />
+<title>{{if .IsHome}}{{.Site.Data.settings.sitetitleen}}{{ else }}{{.Title}}{{if .Site.Data.settings.titleautocompletion}} | {{.Site.Title}}{{end}}{{end}}</title>
+{{ end }}
 {{ end }}
 

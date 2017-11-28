@@ -40,10 +40,18 @@
 	    {{ end }}
 	  </div>
 	  <div class="cross row">
-	  	{{ if eq .Lang "fr" }}
-	  	<h6>Articles de la même bannière</h6>
-	  	{{ else if eq .Lang "en" }}
-	  	<h6>Articles of the same banner</h6>
+	  	{{ if eq "Type" "historique"}}
+				{{ if eq .Lang "fr" }}
+		  	<h6>Articles sur notre histoire</h6>
+		  	{{ else if eq .Lang "en" }}
+		  	<h6>More about our story</h6>
+		  	{{ end }}
+	  	{{ else }}
+		  	{{ if eq .Lang "fr" }}
+		  	<h6>Articles de la même bannière</h6>
+		  	{{ else if eq .Lang "en" }}
+		  	<h6>Articles of the same banner</h6>
+		  	{{ end }}
 	  	{{ end }}
 
 	  	{{ $filteredPosts := where (where .Site.RegularPages "Section" .Section) ".Params.identifiant" "!=" .Params.identifiant }}

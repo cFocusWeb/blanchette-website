@@ -1,5 +1,5 @@
 ---
-title: "Frit's Burgers & Poutines – Banner presentation"
+title: "Banner presentation"
 description: >-
 slug: presentation-frits
 identifiant: presentation-frits 
