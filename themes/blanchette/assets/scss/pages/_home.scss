@@ -45,6 +45,7 @@
 		@include breakpoint(phone) {
 			bottom:0;
 			width: 100%;
+			display: none;
 		}
 		#logos-slider {
 			opacity: 0;

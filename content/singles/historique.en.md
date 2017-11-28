@@ -8,7 +8,7 @@ layout: historique
 image: null
 i18nlanguage: en
 draft: false
-teamimage: history-en.png
+teamimage: history-en.jpg
 imagedesc: "The Blanchette, together at the first SHAKER Kitchen & Mixology restaurant: a project signaling the beginning of a new era. It's in their office adjacent to the restaurant that they meet each day and collaborate to further their common projects."
 imageordre: "From left to right: Vincent, André-François, Kimpton, Simon and David"
 partnerdesc1: >-
