@@ -1,4 +1,4 @@
-baseURL = "http://blanchette-cfocus.netlify.com/"
+baseURL = "https://www.groupeblanchette.com/"
 DefaultContentLanguage = "fr"
 title = "Groupe Blanchette"
 theme = "blanchette"

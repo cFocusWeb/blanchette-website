@@ -189,11 +189,11 @@ $(function() {
       }, 1000);
       return false;
     }
-  } else if (location.pathname.indexOf('/projets-developpements') == 0 || location.pathname.indexOf('/en/projects-development') == 0) {
-    var franchise = getUrlParameter('franchise');
-    if (franchise) {
+  } else if (location.pathname.indexOf('/projets-developpement') == 0 || location.pathname.indexOf('/en/projects-development') == 0) {
+    var article = getUrlParameter('article');
+    if (article) {
       $('.primary-tabs a[href="#brands"]').tab('show');
-      $('.tabbable .brands-tabs a[href="#' + franchise + '"]').tab('show');
+      $('.tabbable .brands-tabs a[href="#' + article + '"]').tab('show');
       $('html, body').animate({
         scrollTop: $('ul.nav.primary-tabs').offset().top - 120
       }, 1000);

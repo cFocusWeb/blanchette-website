@@ -33,8 +33,11 @@
 
             </div>
             <!-- // container -->
-
-            <form action="/" class="registration-form" method="post" name="devenir-franchise" netlify>
+            {{ if eq .Lang "fr" }}
+            <form action="/merci" class="registration-form" method="post" name="devenir-franchise" netlify>
+            {{ else if eq .Lang "en" }}
+            <form action="/en/thank-you" class="registration-form" method="post" name="devenir-franchise-en" netlify>
+            {{ end }}
 
             <div class="container">
                 <div class="process-content">
@@ -101,7 +104,7 @@
                                   </div>
                                   <label for=""><i class="fa fa-envelope-o" aria-hidden="true"></i> Courriel</label>
                                   <input type="email" name="email">
-                                  <input type="hidden" id="chosenbrands">
+                                  <input type="hidden" id="chosenbrands" name="franchises">
                                   <input type="submit" value="Envoyez >">
                                 {{ else if eq .Lang "en" }}
                                   <label for=""><i class="fa fa-user-circle-o" aria-hidden="true"></i> Full name</label>
@@ -119,7 +122,7 @@
                                   </div>
                                   <label for=""><i class="fa fa-envelope-o" aria-hidden="true"></i> Email address</label>
                                   <input type="email" name="email">
-                                  <input type="hidden" id="chosenbrands">
+                                  <input type="hidden" id="chosenbrands" name="franchises">
                                   <input type="submit" value="Send >">
                                 {{ end }}
 
