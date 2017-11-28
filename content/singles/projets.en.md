@@ -17,7 +17,7 @@ map:
 
 In constant renewal, Groupe Blanchette – Master Franchisor grows with time, and its banner portfolio grows equally.
 
-At the time this is being written, Groupe Blanchette – Master Franchisor has: 10 SHAKER Kitchen & Mixology restaurant-bars, 12 Chocolato chocolate and ice cream bars, 17 La P’tite Grenouille live show bars, 2 TARTAR Station counter, 2 Frit’s Burgers & Poutines restaurants, one Mexican cuisine HOLA Mexican Grill, 7 Planète Nutrition stores and 3 VAPOSHOP locations. 
+At the time this is being written, Groupe Blanchette – Master Franchisor has: 10 SHAKER Kitchen & Mixology restaurant-bars, 12 Chocolato chocolate and ice cream bars, 17 Little Frog live show bars, 2 TARTAR Station counter, 2 Frit’s Burgers & Poutines restaurants, one Mexican cuisine HOLA Mexican Grill, 7 Planète Nutrition stores and 3 VAPOSHOP locations. 
 
 Groupe Blanchette – Master Franchisor is in constant development and never lets up on efforts to expand. In this section, will you learn more about the past, present and future of the group.
 

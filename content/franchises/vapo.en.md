@@ -25,9 +25,9 @@ whitebg: true
 website: http://vaposhop.ca/
 details:
   type: Licence
-  frais: 7500 $
-  investissement: from 47 500 $ 
-  misedefonds: from 40 000 $
+  frais: $7500
+  investissement: from $47 500 
+  misedefonds: from $40 000
   contact: Pierre-Antoine Morency
   fondation: 2014
   nbre: 3

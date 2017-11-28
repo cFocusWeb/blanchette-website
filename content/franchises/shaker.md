@@ -29,7 +29,7 @@ details:
   misedefonds: à partir de 190 000 $
   contact: Luc Beaumont
   fondation: 2015
-  nbre: 9
+  nbre: 10
   redevances: 7%
   pub: 3%
   royautes: 4%

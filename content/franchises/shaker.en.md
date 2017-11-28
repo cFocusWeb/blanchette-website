@@ -24,12 +24,12 @@ accentcolor: "#b89217"
 website: https://www.shakercuisineetmixologie.com/
 details:
   type: Franchise
-  frais: 30 000 $
-  investissement: from 640 000 $ 
-  misedefonds: from 190 000 $
+  frais: $30 000
+  investissement: from $640 000 
+  misedefonds: from $190 000
   contact: Luc Beaumont
   fondation: 2015
-  nbre: 9
+  nbre: 10
   redevances: 7%
   pub: 3%
   royautes: 4%

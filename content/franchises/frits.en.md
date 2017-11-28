@@ -28,9 +28,9 @@ whitebg: true
 website: https://www.fritsburgerspoutines.com/
 details:
   type: Franchise
-  frais: 30 000 $
-  investissement: from 360 000 $ 
-  misedefonds: from 65 000 $
+  frais: $30 000
+  investissement: from $360 000 
+  misedefonds: from $65 000
   contact: Hugo Laperrière
   fondation: 2011
   nbre: 2

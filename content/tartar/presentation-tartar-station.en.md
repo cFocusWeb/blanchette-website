@@ -5,7 +5,7 @@ slug: presentation-tartar-station
 identifiant: presentation-tartar-station 
 image: presentation-tartar-station.jpg
 arrowc: black
-i18nlanguage: fr
+i18nlanguage: en
 weight: 1
 draft: false
 activemenu: projets
@@ -16,8 +16,5 @@ external:
   need: false
   link:
 ---
-Le tout premier comptoir de restauration rapide spécialisé en tartares, tatakis et poke bols ouvre ses portes en 2017 à La Pyramide à Ste-Foy. Le projet du groupe et de deux de ses associés, Pierre-Antoine Morency et Jean-Félix Bureau, suscite un grand engouement des amateurs de cuisine santé et savoureuse. 
-
-Son concept unique, se vivant sur place, pour emporter ou en livraison, ainsi que son système de commande en ligne et de bornes de commande répond à la demande d'une clientèle plus que jamais axée sur les nouvelles technologies. 
-
-Suite au succès du premier TARTAR Station, l'équipe prévoit deux autres ouvertures au cours des prochains mois. 
+The very first fast service counter specializing in tartares, tatakis and poke bowls opens in 2017 at La Pyramide mall in Sainte-Foy. The group’s project with two associates, Pierre-Antoine Morency and Jean-Félix Bureau, garners immediate interest from fans of tasty, healthy cuisine. Its unique concept, enabling to live the experience on site, to-go and on delivery, along with its online order system and interactive ordering terminals adapts to a customer base that is more than ever enamored with new technologies.
+Following the success of the first TARTAR Station, the team plans to open two other locations in the coming months. 

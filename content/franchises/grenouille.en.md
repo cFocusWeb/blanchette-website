@@ -25,9 +25,9 @@ whitebg: true
 website: https://www.laptitegrenouille.ca/
 details:
   type: Licence
-  frais: 0 $
-  investissement: from 100 000 $ 
-  misedefonds: from 100 000 $
+  frais: $0
+  investissement: from $100 000 
+  misedefonds: from $100 000
   contact: Jérôme Landry
   fondation: 2005
   nbre: 17

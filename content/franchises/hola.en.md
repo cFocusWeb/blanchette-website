@@ -30,9 +30,9 @@ colorforbg: "#dd1000"
 website: https://www.holagrill.ca/
 details:
   type: Franchise
-  frais: 30 000 $
-  investissement: from 360 000 $ 
-  misedefonds: from 65 000 $
+  frais: $30 000
+  investissement: from $360 000 
+  misedefonds: from $65 000
   contact: Hugo Laperrière
   fondation: 2015
   nbre: 1

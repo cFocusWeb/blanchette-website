@@ -28,9 +28,9 @@ whitebg: true
 website: https://tartarstation.com/
 details:
   type: Franchise
-  frais: 30 000 $
-  investissement: from 400 000 $ 
-  misedefonds: from 140 000 $
+  frais: $30 000
+  investissement: from $400 000 
+  misedefonds: from $140 000
   contact: Pierre-Antoine Morency
   fondation: 2017
   nbre: 2
