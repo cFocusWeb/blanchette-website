@@ -71,7 +71,7 @@
                     <div class="row">
                         <div class="col-sm-6 match logo">
                             <div class="holder">
-                                <img src="/img/logos/shaker-reverse.svg" alt="">
+                                <img src='/img/logos/shaker-reverse{{ if eq $.Lang "en" }}-en{{end}}.svg' alt="">
                             </div>
                         </div>
                         {{ range sort .Site.Data.equipe.shaker "ordre" "asce" }}

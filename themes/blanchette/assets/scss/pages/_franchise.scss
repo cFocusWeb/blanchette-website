@@ -147,6 +147,9 @@
 				left:5px;
 				top:2px;
 				@include animate-fade;
+				@include breakpoint(phone) {
+					display: none !important;
+				}
 			}
 		}
 		#brand-holder {

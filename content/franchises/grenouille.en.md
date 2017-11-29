@@ -6,7 +6,7 @@ slug: the-little-frog
 identifiant: grenouille
 image: "/img/franchises/grenouille-license.jpg"
 logoc: "/img/logos/ptiteGrenouille-en.svg"
-logow: "/img/logos/ptiteGrenouille-white.svg"
+logow: "/img/logos/ptiteGrenouille-white-en.svg"
 mainimage: /img/franchises/grenouille-license.jpg
 resume:
   titre: The Little Frog

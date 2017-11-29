@@ -56,7 +56,7 @@
 
             <div id="lang-bar-mobile">
               {{ range .Translations }}
-               <a href="{{.Permalink}}">{{.Lang}}</a>
+               <a href="{{.Permalink}}">{{ upper .Lang}}</a>
               {{ end }}
             </div>
         
@@ -112,7 +112,7 @@
                 <!-- // socials  -->
                 <ul id="lang-nav">
                   {{ range .Translations }}
-                   <li><a href="{{.Permalink}}">{{.Lang}}</a></li>
+                   <li><a href="{{.Permalink}}">{{ upper .Lang}}</a></li>
                   {{ end }}
                 </ul>
                 <!-- // language  -->

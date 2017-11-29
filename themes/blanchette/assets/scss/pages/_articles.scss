@@ -101,6 +101,11 @@
 			p.date {
 				color: $black;
 			}
+			.col-sm-4 {
+				@include breakpoint(phone) {
+					padding-bottom: 20px;
+				}
+			}
 		}	
 	}
 } 
