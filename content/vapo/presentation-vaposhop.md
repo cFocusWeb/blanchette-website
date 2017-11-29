@@ -1,5 +1,5 @@
 ---
-title: "Présentation de la bannière"
+title: "VAPOSHOP - Présentation de la bannière"
 description: >-
 slug: presentation-vaposhop
 identifiant: presentation-vaposhop 
@@ -15,6 +15,8 @@ historique: true
 external:
   need: false
   link:
+list:
+  title: Présentation de la bannière
 ---
 
 Un projet ambitieux du groupe et de deux associés, Pierre-Antoine Morency et Jean-Félix Bureau, VAPOSHOP est d'abord lancé en tant que ligne de produits liquides pour cigarettes électroniques. 

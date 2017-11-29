@@ -1,5 +1,5 @@
 ---
-title: "Présentation de la bannière"
+title: "SHAKER Cuisine & Mixologie - Présentation de la bannière"
 description: >-
 slug: presentation-shaker
 identifiant: presentation-shaker 
@@ -16,6 +16,8 @@ external:
   need: false
   link:
 occasion: false
+list:
+  title: Présentation de la bannière
 ---
 
 En 2015, le groupe actualise le STAR BAR et présente le SHAKER Cuisine & Mixologie : un restaurant-bar au décor industriel chic. Une cuisine actuelle, des cocktails créatifs et une ambiance festive inimitable font de ces restaurants-bars l'endroit parfait pour dîners d'affaires, soupers tendance et sorties nocturnes. 

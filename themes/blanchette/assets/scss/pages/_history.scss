@@ -68,6 +68,11 @@
 			color: white;
 			background-color: #393939;
 			line-height: 3em;
+			@include breakpoint(phone) {
+				line-height: 1.5;
+				background-color: white;
+				color: black;
+			}
 		}
 		p {
 			line-height: 1.5;

@@ -1,5 +1,5 @@
 ---
-title: "Banner presentation"
+title: "Planète Nutrition - Banner presentation"
 description: >-
 slug: presentation-planete-nutrition
 identifiant: presentation-planete-nutrition 
@@ -16,6 +16,8 @@ external:
   need: false
   link:
 occasion: false
+list:
+  title: Banner presentation
 ---
 
 Planète Nutrition, a food supplement store offering a wide variety of complementary products, is launched in 2015 by the group and an associate, William Déry.

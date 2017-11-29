@@ -228,47 +228,63 @@
   </url>
   
   <url>
-    <loc>https://www.groupeblanchette.com/en/historique/presentation-star-bar/</loc>
+    <loc>https://www.groupeblanchette.com/en/autres/presentation-star-bar/</loc>
     <lastmod>2004-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.groupeblanchette.com/historique/presentation-star-bar/"
+                href="https://www.groupeblanchette.com/autres/presentation-star-bar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.groupeblanchette.com/en/historique/presentation-star-bar/"
+                href="https://www.groupeblanchette.com/en/autres/presentation-star-bar/"
                 />
   </url>
   
   <url>
-    <loc>https://www.groupeblanchette.com/en/historique/presentation-star-cafe/</loc>
+    <loc>https://www.groupeblanchette.com/en/autres/presentation-star-cafe/</loc>
     <lastmod>2001-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.groupeblanchette.com/historique/presentation-star-cafe/"
+                href="https://www.groupeblanchette.com/autres/presentation-star-cafe/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.groupeblanchette.com/en/historique/presentation-star-cafe/"
+                href="https://www.groupeblanchette.com/en/autres/presentation-star-cafe/"
                 />
   </url>
   
   <url>
-    <loc>https://www.groupeblanchette.com/en/historique/presentation-depanneur-duplessis/</loc>
+    <loc>https://www.groupeblanchette.com/en/autres/presentation-depanneur-duplessis/</loc>
     <lastmod>1996-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.groupeblanchette.com/historique/presentation-depanneur-duplessis/"
+                href="https://www.groupeblanchette.com/autres/presentation-depanneur-duplessis/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.groupeblanchette.com/en/historique/presentation-depanneur-duplessis/"
+                href="https://www.groupeblanchette.com/en/autres/presentation-depanneur-duplessis/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.groupeblanchette.com/en/autres/</loc>
+    <lastmod>2004-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.groupeblanchette.com/autres/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.groupeblanchette.com/en/autres/"
                 />
   </url>
   
@@ -431,22 +447,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.groupeblanchette.com/en/franchises/hola/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.groupeblanchette.com/en/historique/</loc>
-    <lastmod>2004-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.groupeblanchette.com/historique/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.groupeblanchette.com/en/historique/"
                 />
   </url>
   

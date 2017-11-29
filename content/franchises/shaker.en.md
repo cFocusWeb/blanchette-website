@@ -44,28 +44,28 @@ coupdecoeur:
   texte: >-
     ### SHAKER Kitchen & Mixology's "good moves"
 
-    **Culinary competition _La semaine Manger cru 2017_** ;</br>
-    First place in the « Best taste »  category, for the « L'albacore asiatique »  tartare
+    **Culinary competition _La semaine Manger cru 2017_**;</br>
+    First place in the " Best taste "  category, for the " L’ALBACORE ASIATIQUE "  tartare
 
 
-    **Mixology competition _MADE WITH LOVE 2017_** ;</br>
-    First place in the « Public's Choice » category, fo the « Trappeur » cocktail
+    **Mixology competition _MADE WITH LOVE 2017_**;</br>
+    First place in the " Public's Choice " category, fo the " BIG APPLE " cocktail
 
 
-    **Culinary competition _Grilled cheese festival 2017_** ;</br>
-    First place in the « Favorite of the public» category, for the « Le P'TIT BAVEUX »  grilled cheese
+    **Culinary competition _Grilled cheese festival 2017_**;</br>
+    First place in the " Favorite of the public" category, for the " Le P'TIT BAVEUX "  grilled cheese
 
 
-    **Mixology competition _MADE WITH LOVE 2016_** ;</br>
-    First place in the « Favorite of the public » category, for the « LE SHAMAN » cocktail
+    **Mixology competition _MADE WITH LOVE 2016_**;</br>
+    First place in the " Favorite of the public " category, for the " LE SHAMAN " cocktail
 
 
-    **Mixology competition _MADE WITH LOVE 2015_** ;</br>
-    First place in the « Favorite of the public » category, for the « MADE WITH LOVE » cocktail
+    **Mixology competition _MADE WITH LOVE 2015_**;</br>
+    First place in the " Favorite of the public " category, for the " MADE WITH LOVE " cocktail
 
 
-    **Culinary competition _Le Burger Week 2015_** ;</br>
-    First place in the « Selection of judges » category, for the Beef & Duck burger
+    **Culinary competition _Le Burger Week 2015_**;</br>
+    First place in the " Selection of judges " category, for the Beef & Duck burger
 
   couleur: "183, 147, 0, 0.2"
 ordre: 1

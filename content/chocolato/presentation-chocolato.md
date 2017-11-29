@@ -1,5 +1,5 @@
 ---
-title: "Présentation de la bannière"
+title: "Chocolato - Présentation de la bannière"
 description: >-
 slug: presentation-chocolato
 identifiant: presentation-chocolato 
@@ -16,6 +16,8 @@ external:
   need: false
   link:
 occasion: false
+list:
+  title: Présentation de la bannière
 ---
 C’est par véritable passion pour le chocolat que Chocolato est fondé en août 2015 par le groupe et un de ses associés Guyaume Arsenault. Guidés par l'envie d’offrir une expérience à la croisée entre bar laitier et chocolaterie inspirée des plus prestigieuses chocolateries italiennes, une première succursale ouvre ses portes à Sainte-Foy.
 

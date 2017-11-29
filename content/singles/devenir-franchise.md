@@ -42,7 +42,7 @@ Avant l’ouverture, le futur franchisé bénéficiera de l’assistance du fran
 - Préparation du plan d’affaires ;
 - Élaboration de la structure organisationnelle du personnel ; 
 - Élaboration des outils de gestion des achats et des inventaires ;
-- Formations théoriques et pratiques pour les opérateurs, gérants et principaux employés de la future franchise ; 
+- Formations théoriques et pratiques pour les opérateurs, gérants et principaux employés de la future franchise.
 
 Après l’ouverture, le franchiseur offrira un soutien en continu par rapport aux aspects suivants :
 

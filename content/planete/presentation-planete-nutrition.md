@@ -1,5 +1,5 @@
 ---
-title: "Présentation de la bannière"
+title: "Planète Nutrition - Présentation de la bannière"
 description: >-
 slug: presentation-planete-nutrition
 identifiant: presentation-planete-nutrition 
@@ -16,6 +16,8 @@ external:
   need: false
   link:
 occasion: false
+list:
+  title: Présentation de la bannière
 ---
 
 Planète Nutrition, un magasin de suppléments offrant de nombreux produits complémentaires, est lancé en 2015 par le groupe et un associé, William Déry. 

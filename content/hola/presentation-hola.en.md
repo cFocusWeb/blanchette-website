@@ -1,5 +1,5 @@
 ---
-title: "Banner presentation"
+title: "HOLA Mexican Grill - Banner presentation"
 description: >-
 slug: presentation-hola
 identifiant: presentation-hola 

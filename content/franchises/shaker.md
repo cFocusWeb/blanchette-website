@@ -45,11 +45,11 @@ coupdecoeur:
     ### Les « bons coups » de SHAKER Cuisine & Mixologie
 
     **Concours culinaire _La semaine Manger cru 2017_** ;</br>
-    Premier dans la catégorie « Meilleur goût », tartare « L'albacore asiatique »
+    Premier dans la catégorie « Meilleur goût », tartare « L’ALBACORE ASIATIQUE »
 
 
     **Concours de mixologie _MADE WITH LOVE 2017_** ;</br>
-    Premier dans la catégorie « Choix du public », cocktail « Trappeur »
+    Premier dans la catégorie « Choix du public », cocktail « BIG APPLE »
 
 
     **Concours culinaire _Grilled cheese festival 2017_** ;</br>

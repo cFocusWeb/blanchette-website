@@ -1,5 +1,5 @@
 ---
-title: "Banner presentation"
+title: "SHAKER Kitchen & Mixology - Banner presentation"
 description: >-
 slug: presentation-shaker
 identifiant: presentation-shaker 
@@ -16,6 +16,8 @@ external:
   need: false
   link:
 occasion: false
+list:
+  title: Banner presentation
 ---
 
 In 2015, the group updates the STAR BAR and presents SHAKER Kitchen & Mixology: a restaurant-bar with a chic industrial décor. On-trend cuisine, creative cocktails and an undeniable festive atmosphere make these restaurant-bars the perfect venue for business meals, trendy dinners and nights on the town.

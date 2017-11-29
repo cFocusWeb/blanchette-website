@@ -16,7 +16,7 @@
 	{{ else if eq .Section "vapo"}}
 	VAPOSHOP
 	{{ else }}
-	Historique
+	{{ with .Params.list.pretitle }}{{.}}{{ end }}
 	{{ end }}
 {{ else if eq .Lang "en" }}
 	{{ if eq .Section "shaker"}}
@@ -36,6 +36,6 @@
 	{{ else if eq .Section "vapo"}}
 	VAPOSHOP
 	{{ else }}
-	Story
+	{{ with .Params.list.pretitle }}{{.}}{{ end }}
 	{{ end }}
 {{ end }}

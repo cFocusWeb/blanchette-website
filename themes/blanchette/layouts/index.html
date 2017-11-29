@@ -171,10 +171,17 @@
                             </div>
                             <!-- // holder  -->
                             <p>{{.Params.resume.desc | markdownify }}</p>
+                            {{ if eq $.Lang "fr" }}
                             <footer>
-                                <small><strong>Investissement :</strong> {{.Params.details.investissement}}</small>
-                                <a href="{{.Permalink}}">{{ if eq .Lang "fr" }}En savoir plus{{ else if eq .Lang "en" }}More information{{end}}</a>
+                                <small><strong>Investissement:</strong> {{.Params.details.investissement}}</small>
+                                <a href="{{.Permalink}}">En savoir plus</a>
                             </footer>
+                            {{ else if eq $.Lang "en" }}
+                            <footer>
+                                <small><strong>Investment:</strong> {{.Params.details.investissement}}</small>
+                                <a href="{{.Permalink}}">More information</a>
+                            </footer>
+                            {{ end }}
                         </div>
                     </div>
                     <!-- // frnachise box  -->
@@ -194,7 +201,7 @@
                             </footer>
                             {{ else if eq .Lang "en" }}
                             <header>
-                                <h3>More franchises <br> to come</h4>
+                                <h2>More franchises <br> to come</h2>
                             </header>
                             <!-- // holder  -->
                             <p>Guided by his desire to innovate, the Group Blanchette - Master Franchisor is always seeking for unique business opportunities and rolls out constant efforts in order to to develop new franchises.</p>

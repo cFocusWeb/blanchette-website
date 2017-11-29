@@ -1,5 +1,5 @@
 ---
-title: "Banner presentation"
+title: "TARTAR Station - Présentation de la bannière"
 description: >-
 slug: presentation-tartar-station
 identifiant: presentation-tartar-station 
@@ -15,7 +15,8 @@ historique: true
 external:
   need: false
   link:
-removetitle:  true
+list:
+  title: Présentation de la bannière
 ---
 Le tout premier comptoir de restauration rapide spécialisé en tartares, tatakis et poke bols ouvre ses portes en 2017 à La Pyramide à Ste-Foy. Le projet du groupe et de deux de ses associés, Pierre-Antoine Morency et Jean-Félix Bureau, suscite un grand engouement des amateurs de cuisine santé et savoureuse. 
 

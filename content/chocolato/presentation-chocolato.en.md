@@ -1,5 +1,5 @@
 ---
-title: "Banner presentation"
+title: "Chocolato - Banner presentation"
 description: >-
 slug: presentation-chocolato
 identifiant: presentation-chocolato 
@@ -16,6 +16,8 @@ external:
   need: false
   link:
 occasion: false
+list:
+  title: Banner presentation
 ---
 A true passion project led by love of chocolate, Chocolato is founded in 2015 by the group and an associate, Guyaume Arsenault. With the desire to offer an experience that is at the crossroads between a dairy bar and a chocolate shop inspired by the most prestigious Italian chocolate shops, a first location opens in Sainte-Foy. 
 

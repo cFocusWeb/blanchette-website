@@ -11,9 +11,9 @@ mainimage: /img/franchises/planete-license.jpg
 resume:
   titre: Planète Nutrition
   desc: >-
-    ### Planète Nutrition
+    ### Planète Nutrition 
 
-    , is so much more than a food supplement store. Competitive pricing, its renowned private label, athletic grocery and unmatched customer service, Planète Nutrition is on the way to becoming the largest food supplement chain also offering athletic grocery in Québec, and soon, in Canada.  
+    is so much more than a food supplement store. Competitive pricing, its renowned private label, athletic grocery and unmatched customer service, Planète Nutrition is on the way to becoming the largest food supplement chain also offering athletic grocery in Québec, and soon, in Canada.  
   investissement: "90 500$"
   gridclass: planete
   carouselclass: 

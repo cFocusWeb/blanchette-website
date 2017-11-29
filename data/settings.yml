@@ -28,4 +28,5 @@ sitetitleen: "Buy a franchise – Master Franchisor"
 defaultsocialimage: "/img/logos/logo-share.jpg"
 removefromexternalsearch: false
 titleautocompletion: true
+occasion: true
   

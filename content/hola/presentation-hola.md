@@ -1,5 +1,5 @@
 ---
-title: "Présentation de la bannière"
+title: "HOLA Grill Mexicain - Présentation de la bannière"
 description: >-
 slug: presentation-hola
 identifiant: presentation-hola 
@@ -16,6 +16,8 @@ external:
   need: false
   link:
 occasion: false
+list:
+  title: Présentation de la bannière
 ---
 
 En 2015, le groupe diversifie son offre avec HOLA Grill Mexicain, un comptoir de restauration rapide présentant avec une cuisine fraîche et sur mesure. Situé dans La Pyramide à Ste-Foy, le restaurant attire autant les amateurs de nourriture mexicaine que les adeptes de repas santé. 

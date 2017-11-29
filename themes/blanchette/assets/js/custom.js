@@ -450,13 +450,21 @@ function initMap() {
   map.mapTypes.set('styled_map', styledMapType);
   map.setMapTypeId('styled_map');
   var infowindow = new google.maps.InfoWindow();
-
-  var iconshaker = {
-    url: "/img/logos/marker-shaker.png", // url
-    scaledSize: new google.maps.Size(50, 67), // scaled size
-    origin: new google.maps.Point(0,0), // origin
-    anchor: new google.maps.Point(0, 0) // anchor
-  };
+  if (location.pathname.indexOf('/en/projects-development') == 0) {
+    var iconshaker = {
+      url: "/img/logos/marker-shaker-en.png", // url
+      scaledSize: new google.maps.Size(50, 67), // scaled size
+      origin: new google.maps.Point(0,0), // origin
+      anchor: new google.maps.Point(0, 0) // anchor
+    };
+  } else {
+    var iconshaker = {
+      url: "/img/logos/marker-shaker.png", // url
+      scaledSize: new google.maps.Size(50, 67), // scaled size
+      origin: new google.maps.Point(0,0), // origin
+      anchor: new google.maps.Point(0, 0) // anchor
+    };
+  }
 
   var mshaker = [
       ['SHAKER Ste-Foy','2360 Chemin Ste-Foy',-71.282483,46.786835],
@@ -611,12 +619,21 @@ function initMap() {
       }
     })(marker, i));
   }
-  var icongrenouille = {
-    url: "/img/logos/marker-grenouille.png", // url
-    scaledSize: new google.maps.Size(50, 67), // scaled size
-    origin: new google.maps.Point(0,0), // origin
-    anchor: new google.maps.Point(0, 0) // anchor
-  };
+  if (location.pathname.indexOf('/en/projects-development') == 0) {
+    var icongrenouille = {
+      url: "/img/logos/marker-grenouille-en.png", // url
+      scaledSize: new google.maps.Size(100, 134), // scaled size
+      origin: new google.maps.Point(0,0), // origin
+      anchor: new google.maps.Point(0, 0) // anchor
+    };
+  } else {
+    var icongrenouille = {
+      url: "/img/logos/marker-grenouille.png", // url
+      scaledSize: new google.maps.Size(50, 67), // scaled size
+      origin: new google.maps.Point(0,0), // origin
+      anchor: new google.maps.Point(0, 0) // anchor
+    };
+  }
   var mgrenouille = [
       ["La P'tite Grenouille Ste-Foy",'2376 rue Galvani, Québec',-71.2883611111111,46.7904722222222],
       ["La P'tite Grenouille Laval",'443 boulevard Saint-Martin Ouest, Laval',-73.7118888888889,45.5775],
@@ -975,4 +992,34 @@ $('.logo-box .vid-click#planete').click(function(){
 $('.logo-box .vid-click#vapo').click(function(){
   videoClick(7);
 })
+
+$(function() {
+    $('#province').change(function(){
+        $("#select_alberta").hide();
+        $("#select_colombie_britannique").hide();
+        $("#select_manitoba").hide();
+        $("#select_ontario").hide();
+        $("#select_quebec").hide();
+        $("#select_saskatchewan").hide();
+
+        if(this.value=="alberta"){
+            $("#select_alberta").fadeIn("fast");
+        }                                                                                               
+        if(this.value=="colombie-britannique"){                                                 
+            $("#select_colombie_britannique").fadeIn("fast");
+        }                                                                                                                               
+        if(this.value=="manitoba"){                                                 
+            $("#select_manitoba").fadeIn("fast");       
+        }                       
+        if(this.value=="ontario"){                                              
+            $("#select_ontario").fadeIn("fast");    
+        }               
+        if(this.value=="quebec"){                                           
+            $("#select_quebec").fadeIn("fast");     
+        }                   
+        if(this.value=="saskatchewan"){                                         
+            $("#select_saskatchewan").fadeIn("fast");
+        }   
+    });
+});
 

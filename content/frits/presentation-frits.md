@@ -1,5 +1,5 @@
 ---
-title: "Présentation de la bannière"
+title: "Frit's Burgers & Poutines - Présentation de la bannière"
 description: >-
 slug: presentation-frits
 identifiant: presentation-frits 
@@ -16,6 +16,8 @@ external:
   need: false
   link:
 occasion: false
+list:
+  title: Présentation de la bannière
 ---
 
 En 2011, le groupe et un de leurs associés, Guyaume Arsenault, se lancent dans une toute nouvelle aventure avec le Frit's Burgers & Poutines. Les amateurs de bonne bouffe y retrouvent burgers de luxe, poutines éclatées et autres classiques du fast food réinventés.

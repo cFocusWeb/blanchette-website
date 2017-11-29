@@ -73,7 +73,7 @@
                                           </div>
                                           <!-- // image holder  -->
                                           <div class="content">
-                                              <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
+                                              <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
                                                   <a href="{{.Params.external.url}}" class="external-url" target="_blank" >{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
@@ -94,10 +94,10 @@
                                           </div>
                                           <!-- // image holder  -->
                                           <div class="content">
-                                              <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
+                                              <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}PLUS{{ else if eq .Lang "en" }}MORE{{end}}</a>
+                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}LIRE PLUS{{ else if eq .Lang "en" }}READ MORE{{end}}</a>
                                                   <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
@@ -128,6 +128,7 @@
                             <li><a href="#hola"><img class="svg" src="/img/logos/hola.svg" /></a></li>
                             <li><a href="#vapo"><img class="svg" src="/img/logos/vapshop.svg" /></a></li>
                             <li><a href="#planete"><img class="svg" src="/img/logos/planette.svg" /></a></li>
+                            <li><a href="#autres" class="tab-autres">AUTRES</a></li>
                         </ul>
                         <!-- // nav  -->
                         <div class="tab-content inner-tabs">
@@ -148,7 +149,7 @@
                                           </div>
                                           <!-- // image holder  -->
                                           <div class="content">
-                                              <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
+                                              <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
                                                   <a href="{{.Params.external.url}}" class="external-url" target="_blank" >{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
@@ -169,10 +170,10 @@
                                           </div>
                                           <!-- // image holder  -->
                                           <div class="content">
-                                              <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
+                                              <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}PLUS{{ else if eq .Lang "en" }}MORE{{end}}</a>
+                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}LIRE PLUS{{ else if eq .Lang "en" }}READ MORE{{end}}</a>
                                                   <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
@@ -206,7 +207,7 @@
                                           </div>
                                           <!-- // image holder  -->
                                           <div class="content">
-                                              <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
+                                              <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
                                                   <a href="{{.Params.external.url}}" class="external-url" target="_blank" >{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
@@ -227,10 +228,10 @@
                                           </div>
                                           <!-- // image holder  -->
                                           <div class="content">
-                                              <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
+                                              <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}PLUS{{ else if eq .Lang "en" }}MORE{{end}}</a>
+                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}LIRE PLUS{{ else if eq .Lang "en" }}READ MORE{{end}}</a>
                                                   <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
@@ -265,7 +266,7 @@
                                           </div>
                                           <!-- // image holder  -->
                                           <div class="content">
-                                              <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
+                                              <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
                                                   <a href="{{.Params.external.url}}" class="external-url" target="_blank" >{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
@@ -286,10 +287,10 @@
                                           </div>
                                           <!-- // image holder  -->
                                           <div class="content">
-                                              <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
+                                              <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}PLUS{{ else if eq .Lang "en" }}MORE{{end}}</a>
+                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}LIRE PLUS{{ else if eq .Lang "en" }}READ MORE{{end}}</a>
                                                   <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
@@ -324,7 +325,7 @@
                                           </div>
                                           <!-- // image holder  -->
                                           <div class="content">
-                                              <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
+                                              <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
                                                   <a href="{{.Params.external.url}}" class="external-url" target="_blank" >{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
@@ -345,10 +346,10 @@
                                           </div>
                                           <!-- // image holder  -->
                                           <div class="content">
-                                              <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
+                                              <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}PLUS{{ else if eq .Lang "en" }}MORE{{end}}</a>
+                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}LIRE PLUS{{ else if eq .Lang "en" }}READ MORE{{end}}</a>
                                                   <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
@@ -383,7 +384,7 @@
                                           </div>
                                           <!-- // image holder  -->
                                           <div class="content">
-                                              <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
+                                              <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
                                                   <a href="{{.Params.external.url}}" class="external-url" target="_blank" >{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
@@ -404,10 +405,10 @@
                                           </div>
                                           <!-- // image holder  -->
                                           <div class="content">
-                                              <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
+                                              <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}PLUS{{ else if eq .Lang "en" }}MORE{{end}}</a>
+                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}LIRE PLUS{{ else if eq .Lang "en" }}READ MORE{{end}}</a>
                                                   <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
@@ -442,7 +443,7 @@
                                           </div>
                                           <!-- // image holder  -->
                                           <div class="content">
-                                              <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
+                                              <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
                                                   <a href="{{.Params.external.url}}" class="external-url" target="_blank" >{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
@@ -463,10 +464,10 @@
                                           </div>
                                           <!-- // image holder  -->
                                           <div class="content">
-                                              <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
+                                              <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}PLUS{{ else if eq .Lang "en" }}MORE{{end}}</a>
+                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}LIRE PLUS{{ else if eq .Lang "en" }}READ MORE{{end}}</a>
                                                   <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
@@ -501,7 +502,7 @@
                                           </div>
                                           <!-- // image holder  -->
                                           <div class="content">
-                                              <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
+                                              <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
                                                   <a href="{{.Params.external.url}}" class="external-url" target="_blank" >{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
@@ -522,10 +523,10 @@
                                           </div>
                                           <!-- // image holder  -->
                                           <div class="content">
-                                              <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
+                                              <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}PLUS{{ else if eq .Lang "en" }}MORE{{end}}</a>
+                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}LIRE PLUS{{ else if eq .Lang "en" }}READ MORE{{end}}</a>
                                                   <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
@@ -560,7 +561,7 @@
                                           </div>
                                           <!-- // image holder  -->
                                           <div class="content">
-                                              <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
+                                              <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
                                                   <a href="{{.Params.external.url}}" class="external-url" target="_blank" >{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
@@ -581,10 +582,68 @@
                                           </div>
                                           <!-- // image holder  -->
                                           <div class="content">
-                                              <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
+                                              <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}PLUS{{ else if eq .Lang "en" }}MORE{{end}}</a>
+                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}LIRE PLUS{{ else if eq .Lang "en" }}READ MORE{{end}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                              </footer>
+                                          </div>
+                                          <!-- // content  -->
+                                      </div>
+                                  </div>
+                                  <!-- // article  -->
+                                  {{ end }}
+                                {{ end }}    
+
+                              </div>
+                              <!-- // listing   -->
+
+                            </div>
+                            <!-- // vapo  --> 
+
+                            <div class="tab-pane fade " id="autres">
+                                
+                              <div class="article-listing grid">
+                                <!-- add sizing element for columnWidth -->
+                                <div class="grid-sizer col-md-4 col-sm-6"></div>
+
+                                {{ range where .Site.RegularPages "Section" "autres"}}
+                                  {{ if .Params.external.need }}
+                                  <div class="grid-item col-md-4 col-sm-6">
+                                      <div class="article-box">
+                                          <div class="image-holder">
+                                              <a href="{{.Params.external.url}}" class="external-url" target="_blank">
+                                                  <img src="/img/quart/articles/{{.Params.image}}" alt="" class="img-responsive">
+                                              </a>
+                                          </div>
+                                          <!-- // image holder  -->
+                                          <div class="content">
+                                              <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
+                                              <p>{{ .Summary }}</p>
+                                              <footer>
+                                                  <a href="{{.Params.external.url}}" class="external-url" target="_blank" >{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
+                                                  <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
+                                              </footer>
+                                          </div>
+                                          <!-- // content  -->
+                                      </div>
+                                  </div>
+                                  <!-- // article  -->
+                                  {{ else}}
+                                  <div class="grid-item col-md-4 col-sm-6">
+                                      <div class="article-box">
+                                          <div class="image-holder">
+                                              <a href="{{.Permalink}}">
+                                                  <img src="/img/quart/articles/{{.Params.image}}" alt="" class="img-responsive">
+                                              </a>
+                                          </div>
+                                          <!-- // image holder  -->
+                                          <div class="content">
+                                              <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
+                                              <p>{{ .Summary }}</p>
+                                              <footer>
+                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}LIRE PLUS{{ else if eq .Lang "en" }}READ MORE{{end}}</a>
                                                   <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
@@ -629,7 +688,7 @@
                                           </div>
                                           <!-- // image holder  -->
                                           <div class="content">
-                                              <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
+                                              <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
                                                   <a href="{{.Params.external.url}}" class="external-url" target="_blank" >{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
@@ -650,10 +709,10 @@
                                           </div>
                                           <!-- // image holder  -->
                                           <div class="content">
-                                              <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
+                                              <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}PLUS{{ else if eq .Lang "en" }}MORE{{end}}</a>
+                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}LIRE PLUS{{ else if eq .Lang "en" }}READ MORE{{end}}</a>
                                                   <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
@@ -681,7 +740,7 @@
                               <!-- add sizing element for columnWidth -->
                                 <div class="grid-sizer col-md-4 col-sm-6"></div>
 
-                                {{ range where .Site.RegularPages "Section" "shaker"}}
+                                {{ range where .Site.RegularPages "Section" "articles"}}
                                 {{ if .Params.occasion }}
                                   {{ if .Params.external.need }}
                                   <div class="grid-item col-md-4 col-sm-6">
@@ -693,7 +752,7 @@
                                           </div>
                                           <!-- // image holder  -->
                                           <div class="content">
-                                              <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
+                                              <h3><a href="{{.Params.external.url}}" class="external-url" target="_blank">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
                                                   <a href="{{.Params.external.url}}" class="external-url" target="_blank" >{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
@@ -704,7 +763,7 @@
                                       </div>
                                   </div>
                                   <!-- // article  -->
-                                  {{ else}}
+                                  {{ else }}
                                   <div class="grid-item col-md-4 col-sm-6">
                                       <div class="article-box">
                                           <div class="image-holder">
@@ -714,10 +773,10 @@
                                           </div>
                                           <!-- // image holder  -->
                                           <div class="content">
-                                              <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}} :</br>{{.Title}}</a></h3>
+                                              <h3><a href="{{.Permalink}}">{{- partial "site/article-adj.html" . -}}:</br>{{if .Params.list.title}}{{.Params.list.title}}{{else}}{{.Title}}{{end}}</a></h3>
                                               <p>{{ .Summary }}</p>
                                               <footer>
-                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}PLUS{{ else if eq .Lang "en" }}MORE{{end}}</a>
+                                                  <a href="{{.Permalink}}" class="cta-btn">{{ if eq .Lang "fr" }}LIRE PLUS{{ else if eq .Lang "en" }}READ MORE{{end}}</a>
                                                   <small>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}} <!-- / <a href="#">0 commentaire</a> --></small>
                                               </footer>
                                           </div>
@@ -727,11 +786,19 @@
                                   <!-- // article  -->
                                   {{ end }}
                                 {{ end }}
-                                {{ end }}      
+                                {{ end }}
 
                             </div>
                             <!-- // listing   -->
-
+                            {{ if .Site.Data.settings.occasion }}
+                                <div class="col-sm-12 texte-occasion">
+                                  {{ if eq .Lang "fr" }}
+                                  <p>Vous avez un projet à proposer au Groupe Blanchette ? Remplissez le formulaire <a href="{{.Site.BaseURL}}devenir-franchise">Devenir franchisé</a> pour soumettre votre idée.</br>Au plaisir !</p>
+                                  {{ else if eq .Lang "en" }}
+                                  <p>You want to suggest a project to the Groupe Blanchette ? Fill out the form <a href="{{.Site.BaseURL}}en/become-a-franchisee">Become a franchisee</a> to send us your idea.</br>We look forward to hearing from you! !</p>
+                                  {{ end }}
+                                </div>
+                                {{ end }} 
                         </div>
                         <!-- // row  -->
 
