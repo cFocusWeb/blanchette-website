@@ -1,41 +1,41 @@
-{{ if eq .Lang "fr" }}
-	{{ if eq .Section "shaker"}}
+{{- if eq .Lang "fr" -}}
+	{{ if eq .Section "shaker" }}
 	SHAKER Cuisine & Mixologie
-	{{ else if eq .Section "grenouille"}}
+	{{ else if eq .Section "grenouille" }}
 	La P'tite Grenouille
-	{{ else if eq .Section "chocolato"}}
+	{{ else if eq .Section "chocolato" }}
 	Chocolato
-	{{ else if eq .Section "frits"}}
+	{{ else if eq .Section "frits" }}
 	Frit's Burgers & Poutines
-	{{ else if eq .Section "tartar"}}
+	{{ else if eq .Section "tartar" }}
 	TARTAR Station
-	{{ else if eq .Section "hola"}}
+	{{ else if eq .Section "hola" }}
 	HOLA Grill Mexicain
-	{{ else if eq .Section "planete"}}
+	{{ else if eq .Section "planete" }}
 	Planète Nutrition
-	{{ else if eq .Section "vapo"}}
+	{{ else if eq .Section "vapo" }}
 	VAPOSHOP
 	{{ else }}
 	{{ with .Params.list.pretitle }}{{.}}{{ end }}
 	{{ end }}
-{{ else if eq .Lang "en" }}
-	{{ if eq .Section "shaker"}}
+{{- else if eq .Lang "en" -}}
+	{{- if eq .Section "shaker" }}
 	SHAKER Kitchen & Mixology
-	{{ else if eq .Section "grenouille"}}
+	{{- else if eq .Section "grenouille" -}}
 	The Little Frog
-	{{ else if eq .Section "chocolato"}}
+	{{- else if eq .Section "chocolato" -}}
 	Chocolato
-	{{ else if eq .Section "frits"}}
+	{{- else if eq .Section "frits" -}}
 	Frit's Burgers & Poutines
-	{{ else if eq .Section "tartar"}}
+	{{- else if eq .Section "tartar" -}}
 	TARTAR Station
-	{{ else if eq .Section "hola"}}
+	{{- else if eq .Section "hola" -}}
 	HOLA Mexican Grill
-	{{ else if eq .Section "planete"}}
+	{{- else if eq .Section "planete" -}}
 	Planète Nutrition
-	{{ else if eq .Section "vapo"}}
+	{{- else if eq .Section "vapo" -}}
 	VAPOSHOP
-	{{ else }}
-	{{ with .Params.list.pretitle }}{{.}}{{ end }}
-	{{ end }}
-{{ end }}
+	{{- else -}}
+	{{- with .Params.list.pretitle -}}{{- . -}}{{- end -}}
+	{{- end -}}
+{{- end -}}

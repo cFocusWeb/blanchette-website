@@ -25,6 +25,6 @@ C'est avec ce projet que l'aventure débute en 1996. Guidés par des idées de g
 
 Y mettant toutes leurs économies et leur temps, les deux entrepreneurs travaillent d'arrache-pied pour lui donner un second souffle. Ils opèrent le commerce, s'occupent des livraisons et des rénovations conjointement. Avec l'arrivée graduelle d'autres membres de la famille en renfort, leurs efforts communs finissent par porter fruit. 
 
-Encore aujourd'hui, le groupe reste propriétaire de l'établissement de Ste-Foy qui roule toujours à bon train. 
+En 2017, le groupe décide de revendre l'établissement pour se concentrer sur ses autres bannières. 
 
  

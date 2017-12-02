@@ -19,6 +19,7 @@ resume:
   investissement: "360 000$"
   gridclass: fritz
   carouselclass: 
+  gridholder: mediumlogo
 imagedesc: >-
   Frit's Burgers & Poutines est la destination pour les amateurs de fast food ! Ci-dessus : le 2e Frit's Burgers & Poutines, situé à Beauport.
 business: >-
@@ -51,7 +52,7 @@ video: I471h2cLgBI
 
 ### L’histoire de Frit’s Burgers & Poutines
 
-Six ans après l'ouverture du premier restaurant Frit's situé au cœur du quartier de Sainte-Foy à Québec, la bannière se décuple en proposant des franchises, permettant à la frénésie de Frit's Burgers & Poutines de se répandre à plus grande échelle. 
+Six ans après l'ouverture du premier restaurant Frit's situé au cœur du quartier de Ste-Foy à Québec, la bannière se décuple en proposant des franchises, permettant à la frénésie de Frit's Burgers & Poutines de se répandre à plus grande échelle. 
 
 Depuis ses débuts, la bannière Frit's Burgers & Poutines s'est illustrée sur la scène gourmande du Québec en participant à de nombreuses compétitions mettant au défi l'inventivité des plats sous différents thèmes proposés : La Poutine Week, Québec Bacon Fest, Le Burger Week et La semaine Végé, pour ne nommer que celles-ci. Les plats proposés suscitèrent un grand engouement du public, répandant la fièvre du Frit's à une vitesse incontrôlable. 
 

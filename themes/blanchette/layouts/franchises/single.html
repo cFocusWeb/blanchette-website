@@ -19,10 +19,15 @@
                     <div class="col-md-7 col-sm-6">
                         <div id="main-content">
                             <header>
-                                <img src="{{.Params.mainimage}}" alt="" class="img-responsive">
+                                <img src="{{.Params.mainimage}}" alt="" class="img-responsive hidden-sm hidden-xs">
+                                <div id="video-block" class="hidden-md hidden-lg">
+                                    <div class="video-container">
+                                        <iframe width="100%" src="https://www.youtube.com/embed/{{.Params.video}}?rel=0&amp;showinfo=0&autoplay=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                    </div>
+                                </div>
                             </header>
                             {{ with .Params.imagedesc}}
-                            <div class="intro">
+                            <div class="intro hidden-sm hidden-xs">
                                 <p>{{.}}
                                     {{if eq $.Params.identifiant "shaker"}}
                                     {{ if eq $.Lang "fr" }}
@@ -147,7 +152,7 @@
                             <a href="{{.Site.BaseURL}}en/become-a-franchisee?franchise={{.Params.identifiant}}" class="form-dload">Information <span>request form</span> <i class="fa fa-chevron-right" aria-hidden="true"></i> </a>
                             {{ end }}
 
-                            <div id="video-block">
+                            <div id="video-block" class="hidden-sm hidden-xs">
                                 {{ if eq .Lang "fr" }}
                                 <h6>Vidéo corporative</h6>
                                 {{ else if eq .Lang "en" }}

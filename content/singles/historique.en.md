@@ -31,8 +31,8 @@ A year later, Simon, Vincent’s brother, comes to lend a hand in the family pro
 
 ###### A close-knit team 
 
-Still today, the Blanchettes' greatest wealth remains working and collaborating together every day. They sit around a large table, in their communal office, and discuss and debate ideas always striving to raise the group to new heights. 
+Still today, the Blanchette's greatest wealth remains working and collaborating together every day.They sit around a large table, in their communal office, and discuss and debate ideas always striving to raise the group to new heights. 
 
-With time, each member has organically made certain projects and responsibilities their own. Like chain links, each Blanchette’s work is closely intertwined and indispensable to the others. 
+With time, each member has organically made certain responsibilities their own. Like chain links, each Blanchette’s work is closely intertwined and indispensable to the others. 
 
-Discover their specialities! 
+Discover their specialities!

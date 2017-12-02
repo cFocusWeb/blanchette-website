@@ -166,19 +166,19 @@
                     {{ if .Params.mainimage }}
                     <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0.2s">
                         <div class="franchise-box">
-                            <div class="image-holder">
+                            <div class="image-holder {{with .Params.resume.gridholder}}{{.}}{{end}}">
                                 <a href="{{.Permalink}}"><img class="svg {{with .Params.resume.gridclass}}{{.}}{{end}}" src="{{.Params.logoc}}" /></a>
                             </div>
                             <!-- // holder  -->
                             <p>{{.Params.resume.desc | markdownify }}</p>
                             {{ if eq $.Lang "fr" }}
                             <footer>
-                                <small><strong>Investissement:</strong> {{.Params.details.investissement}}</small>
+                                <small><strong>À ce jour :</strong> {{.Params.details.nbre}} {{ if eq .Params.details.nbre 1 }}succursale{{ else }}succursales{{ end }}</small>
                                 <a href="{{.Permalink}}">En savoir plus</a>
                             </footer>
                             {{ else if eq $.Lang "en" }}
                             <footer>
-                                <small><strong>Investment:</strong> {{.Params.details.investissement}}</small>
+                                <small><strong>To this day:</strong> {{.Params.details.nbre}} {{ if eq .Params.details.nbre 1 }}location{{ else }}locations{{ end }}</small>
                                 <a href="{{.Permalink}}">More information</a>
                             </footer>
                             {{ end }}

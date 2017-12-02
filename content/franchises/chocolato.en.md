@@ -18,6 +18,7 @@ resume:
     is positioned as one of the top players in its field of activity, with the largest variety of chocolate dipping choices. Its 4-season concept offering a very diverse product selection, to be enjoyed on site or to-go, makes Chocolato THE destination for fans of sweets.   
   investissement: "255 000 $"
   extraclass:
+  gridholder: thinlogo
 imagedesc: >-
   Chocolato is the dessert destination in all seasons! Above: the first Chocolato store, located in Ste-Foy. 
 business: >-

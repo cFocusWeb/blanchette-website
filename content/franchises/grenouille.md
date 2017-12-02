@@ -18,6 +18,7 @@ resume:
     composent la plus grande chaîne de bars de style chansonnier au Québec, et bientôt au Canada. Prestations de musiciens et d’humoristes, soirées thématiques, ambiance festive et alléchants spéciaux sur l’alcool ne sont que quelques-unes des raisons qui rendent le concept si populaire. 
   investissement: "170 000 $"
   extraclass: 
+  gridholder: thinlogo
 imagedesc: >-
   Les boîtes à chansons La P'tite Grenouille : pour fêter comme dans le bon vieux temps ! Ci-dessus : La P'tite Grenouille de Lévis.
 business: >-

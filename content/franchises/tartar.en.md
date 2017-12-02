@@ -19,6 +19,7 @@ resume:
   investissement: "400 000$"
   gridclass: 
   carouselclass: tartar-logo 
+  gridholder: mediumlogo
 imagedesc: >-
   TARTAR Station: for tasty and on-the-go meals! Above: the first counter of the banner, located in Ste-foy.
 business: >-

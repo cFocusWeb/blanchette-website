@@ -19,12 +19,12 @@
                             <p>{{.Params.resume.desc | markdownify }}</p>
                             {{ if eq $.Lang "fr" }}
                             <footer>
-                                <small><strong>Investissement:</strong> {{.Params.details.investissement}}</small>
+                                <small><strong>À ce jour :</strong> {{.Params.details.nbre}} {{ if eq .Params.details.nbre 1 }}succursale{{ else }}succursales{{ end }}</small>
                                 <a href="{{.Permalink}}">En savoir plus</a>
                             </footer>
                             {{ else if eq $.Lang "en" }}
                             <footer>
-                                <small><strong>Investment:</strong> {{.Params.details.investissement}}</small>
+                                <small><strong>To this day:</strong> {{.Params.details.nbre}} {{ if eq .Params.details.nbre 1 }}location{{ else }}locations{{ end }}</small>
                                 <a href="{{.Permalink}}">More information</a>
                             </footer>
                             {{ end }}

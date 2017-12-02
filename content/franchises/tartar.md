@@ -19,6 +19,7 @@ resume:
   investissement: "400 000$"
   gridclass: 
   carouselclass: tartar-logo 
+  gridholder: mediumlogo
 imagedesc: >-
   TARTAR Station : pour des repas savoureux et sur le pouce ! Ci-dessus : le premier comptoir de la bannière, situé à Ste-foy.
 business: >-

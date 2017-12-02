@@ -115,6 +115,9 @@
 		&:not(.even) {
 			.content {
 				padding-left: 7%;
+				@include breakpoint(phone) {
+					padding-left: 15px;
+				}
 			}
 		}
 		.content {
@@ -126,6 +129,7 @@
 				color:$black;
 				font-family: $font-sec;
 				margin-bottom: 10px;
+				line-height: 1.5;
 			}
 			p {
 				line-height: 1.5;
@@ -184,6 +188,10 @@
 		line-height: 1.6em;
 		padding: 0.7em;
 		margin-top: 35px;
+		@include breakpoint(phone) {
+			margin-top: 5px;
+			margin-bottom: 5px;
+		}
 	}
 	.row {
 		border-bottom: 1px solid #d2d2d2;
@@ -201,15 +209,22 @@
 					top: inherit;
 					left: inherit;
 					transform: inherit;
-					width: 100%
+					width: 100%;
 				}
 				img {
 					width: 100%;
+					@include breakpoint(phone) {
+						width: 70%;
+					}
 				}
 			}
 		}
 		.col-sm-6 {
 			padding: 40px;
+			@include breakpoint(phone) {
+				padding: 0 15px;
+				margin-bottom: 20px;
+			}
 			p.title {
 				font-family: $font-sec;
 				margin: 20px 0 10px;
@@ -219,18 +234,74 @@
 				}
 			}
 			p.desc {
-
+				line-height: 1.5;
+    			font-size: 1em;
+			}
+			&.logo {
+				.holder {
+					@include breakpoint(phone) {
+						padding: 30px 0 10px;
+					}
+					img {
+						&.frits-history {
+							width: 80%; 
+							margin-top: 30px;
+							@include breakpoint(phone) {
+								margin-top: 0;
+							}
+						}
+					}
+					&.blanchette {
+						width: 80%;
+						@include breakpoint(phone) {
+							width: 95%;
+						}
+					}
+					&.chocfrits {
+						img {
+							@include breakpoint(phone) {
+								width: 44%;
+								&:nth-child(1) {
+									padding-right: 5%
+								}
+								&:nth-child(2) {
+									padding-left: 5%;
+								}
+							}
+						}
+					}
+					&.shaker {
+						@include breakpoint(phone) {
+							padding: 0;
+							margin-bottom: -20px;
+						}
+					}
+				}
 			}
 		}
 		.col-sm-6.match-big {
 			div {
 				margin-bottom: 40px;
+				@include breakpoint(phone) {
+					margin-bottom: 0
+				}
 			}
 			&.logo {
 				.holder {
 					img {
 						width: 60%;
 						margin-top: 20px;
+						@include breakpoint(phone) {
+							width: 44%;
+							display: inline;
+							margin: 0;
+							&:nth-child(1) {
+								padding-right: 5%
+							}
+							&:nth-child(2) {
+								padding-left: 5%;
+							}
+						}
 					}
 				}
 			}

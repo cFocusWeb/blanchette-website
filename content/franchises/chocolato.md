@@ -18,6 +18,7 @@ resume:
     se positionne comme l’un des plus gros joueurs dans son domaine d’activités, présentant la plus grande variété de trempages chocolatés. Avec un concept 4 saisons doté d’une offre de produits des plus diversifiée, à déguster sur place ou pour emporter, Chocolato se veut la destination par excellence des amateurs de sucré.  
   investissement: "255 000 $"
   extraclass:
+  gridholder: thinlogo
 imagedesc: >-
   Chocolato est la destination dessert en toutes saisons ! Ci-dessus : la première succursale Chocolato, située à Ste-Foy.
 business: >-

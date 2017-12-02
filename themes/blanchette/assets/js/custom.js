@@ -220,6 +220,10 @@ $("ul.nav-tabs a").click(function (e) {
   $(this).tab('show');
 });
 
+$("li.closing a").click(function(e) {
+  $('.primary-tabs a[href="#tous"]').tab('show');
+})
+
 //logo box 
 var brand = true;
 $('.process-content #brand-logos .logo-box').click(function(){

@@ -137,10 +137,15 @@
 		padding:35px;
 		margin-top: 70px;
 		color:$white;
+		@include breakpoint(phone) {
+			margin-top: 0;
+			padding: 15px 30px 20px;
+		}
 		h4 {
 			font-family: $font-sec;
 			font-size: 1.063em;
 			text-transform: uppercase;
+			line-height: 1.5;
 		}
 		h5 {
 			margin-top: 20px;
@@ -238,6 +243,13 @@
 		
 		.form-holder {
 			margin-top: 50px;
+			.select-row {
+				select {
+					border:2px solid #e8e2e1;
+					padding: 10px;
+					margin-top: 10px;
+				}
+			}
 		}
 		label {
 			display: block;

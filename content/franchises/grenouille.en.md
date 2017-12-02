@@ -16,6 +16,7 @@ resume:
     live music & party house bar is the largest chain of its kind in Québec, and soon, in Canada. Live music and stand-up acts, theme nights, a festive atmosphere and irresistible specials on alcohol are only a some of the reasons it has become such a popular choice for a fun evening.  
   investissement: "170 000 $"
   extraclass: 
+  gridholder: thinlogo
 imagedesc: >-
   The Little Frog: to celebrate like in the good old days! Above: The Little Frog of Lévis.
 business: >-
