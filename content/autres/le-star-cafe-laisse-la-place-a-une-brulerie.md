@@ -19,6 +19,7 @@ activemenu: projets
 type: articles
 list:
   pretitle: Star Café
+autres: true
 ---
 Le Star Café, situé sur le chemin Sainte-Foy au coin de l'autoroute Robert-Bourassa, a fermé ses portes mardi à minuit pour laisser place à une nouvelle brûlerie, de la même trempe que les Brûleries Saint-Roch, Limoilou et Saint-Jean. Les propriétaires du restaurant - le groupe Blanchette, également à la tête de ThaïZone, Saladshop, Frit's, La P'tite Grenouille, Star Bar et Star Club - planifiaient cette transaction depuis plusieurs mois déjà. Pour Hugues Brouillette, gérant de l'endroit pratiquement depuis son ouverture, il y a 10 ans, la nouvelle n'est pas sans lui faire de pincement au coeur. Mais comme la plupart des employés, il sera replacé dans l'un ou l'autre des établissements appartenant à ses patrons.
 

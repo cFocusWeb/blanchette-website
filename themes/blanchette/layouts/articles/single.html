@@ -40,11 +40,11 @@
 	    {{ end }}
 	  </div>
 	  <div class="cross row">
-	  	{{ if eq "Type" "historique"}}
+	  	{{ if ".Params.autres" }}
 				{{ if eq .Lang "fr" }}
-		  	<h6>Articles sur notre histoire</h6>
+		  	<h6>Articles sur l’histoire du groupe</h6>
 		  	{{ else if eq .Lang "en" }}
-		  	<h6>More about our story</h6>
+		  	<h6>Articles about our story</h6>
 		  	{{ end }}
 	  	{{ else }}
 		  	{{ if eq .Lang "fr" }}

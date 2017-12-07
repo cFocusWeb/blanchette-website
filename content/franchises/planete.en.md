@@ -17,6 +17,7 @@ resume:
   investissement: "90 500$"
   gridclass: planete
   carouselclass: 
+  gridholder: thinlogo
 imagedesc: >-
   Planet Nutrition is the destination for the purchase of supplements in a non-judgmental environment! The banner has 7 branches to date.
 business: >-

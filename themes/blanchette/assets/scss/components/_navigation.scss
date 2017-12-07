@@ -76,7 +76,8 @@
 						display: inline-block;
 						vertical-align: middle;
 						color:$white;
-						font-family: $font-sec;
+						font-family: $font-main;
+						font-weight: 700;
 						padding-left: 0px;
 						padding-right: 0px;
 						font-size: 1.125em;
@@ -152,7 +153,8 @@
 					text-align: center;
 					width: 100%;
 					color:$black;
-					font-family: $font-sec;
+					font-family: $font-main;
+					font-weight: 700;
 					opacity: 0;
 					@include animate-fade;
 					i {
@@ -348,7 +350,8 @@
 			padding-top: 20px;
 			a {
 				color:$green;
-				font-family: $font-sec;
+				font-family: $font-main;
+				font-weight: 700;
 			}
 		}
 	}

@@ -16,6 +16,7 @@ resume:
     se présente comme la seule chaîne de restaurants-bars spécialisée en cocktails, tartares et burgers gourmets. C’est dans un décor de style industriel chic que sa clientèle de tous âges abonde, du dîner à la fin de soirée, pour « Vivre l’expérience SHAKER », au gré d’alléchantes promotions hebdomadaires. 
   investissement: "640 000 $"
   carouselclass: big-nav
+  gridholder: shakermarg
 imagedesc: >-
   SHAKER Cuisine & Mixologie : l’endroit parfait pour dîners d’affaires, soupers tendance et sorties nocturnes. 
 business: >-

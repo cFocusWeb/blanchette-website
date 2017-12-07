@@ -16,6 +16,7 @@ external:
   need: false
   link:
 occasion: false
+autres: true
 list:
   pretitle: Dépanneur Dulessis
   title: Présentation de la bannière

@@ -51,7 +51,8 @@
 		h6 {
 			display: inline-block;
 			text-transform: uppercase;
-			font-family: $font-sec;
+			font-family: $font-main;
+			font-weight: 700;
 			color:$white;
 			font-size: 1.500em;
 			@include animate-fade;

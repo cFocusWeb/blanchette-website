@@ -39,7 +39,8 @@
 			font-size: 1.250em;
 			line-height: 1.5;
 			color:$black;
-			font-family: $font-sec;
+			font-family: $font-main;
+			font-weight: 700;
 			font-style: italic;
 			@include breakpoint(laptop) {
 				margin-bottom: 50px;
@@ -56,13 +57,15 @@
 		h6 {
 			font-size: 1.063em;
 			color:$black;
-			font-family: $font-sec;
+			font-family: $font-main;
+			font-weight: 700;
 			margin: 25px 0px
 		}
 		h5 {
 			font-size: 1.5em;
 			color:$black;
-			font-family: $font-sec;
+			font-family: $font-main;
+			font-weight: 700;
 			text-align: center;
 			margin-bottom: 35px;
 			color: white;
@@ -127,7 +130,8 @@
 			h5 {
 				font-size: 1.063em;
 				color:$black;
-				font-family: $font-sec;
+				font-family: $font-main;
+				font-weight: 700;
 				margin-bottom: 10px;
 				line-height: 1.5;
 			}
@@ -180,7 +184,8 @@
 	p.header {
 		font-size: 1.2em;
 		color:$black;
-		font-family: $font-sec;
+		font-family: $font-main;
+		font-weight: 700;
 		text-align: center;
 		margin-bottom: 35px;
 		color: white;
@@ -226,7 +231,8 @@
 				margin-bottom: 20px;
 			}
 			p.title {
-				font-family: $font-sec;
+				font-family: $font-main;
+				font-weight: 700;
 				margin: 20px 0 10px;
 				i {
 					margin-left: 20px;

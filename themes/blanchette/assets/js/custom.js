@@ -626,7 +626,7 @@ function initMap() {
   if (location.pathname.indexOf('/en/projects-development') == 0) {
     var icongrenouille = {
       url: "/img/logos/marker-grenouille-en.png", // url
-      scaledSize: new google.maps.Size(100, 134), // scaled size
+      scaledSize: new google.maps.Size(50, 67), // scaled size
       origin: new google.maps.Point(0,0), // origin
       anchor: new google.maps.Point(0, 0) // anchor
     };

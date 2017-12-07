@@ -17,6 +17,7 @@ resume:
   investissement: "90 500$"
   gridclass: planete
   carouselclass: 
+  gridholder: thinlogo
 imagedesc: >-
   Planète Nutrition est la destination pour l'achat de suppléments dans un environnement sans jugement ! La bannière compte 7 succursales à ce jour.
 business: >-

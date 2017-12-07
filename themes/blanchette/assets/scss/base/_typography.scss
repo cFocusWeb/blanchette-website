@@ -6,7 +6,7 @@
 @include font-face('bebasreg', '../fonts/BebasNeueRegular');
 @include font-face('helvetica', '../fonts/Helvetica');
 @include font-face('helveticabold', '../fonts/Helvetica-Bold');
-@import url('https://fonts.googleapis.com/css?family=Arimo');
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700');
 
 
 /*=====  End of Fonts  ======*/
@@ -15,7 +15,7 @@
 =            Define Var for Fonts            =
 ============================================*/
 
-$font-main: 'helvetica';
+$font-main: 'Arimo';
 $font-heading:'bebasbold';
 $font-sec: 'helveticabold';
 
@@ -54,7 +54,8 @@ a {
 }
 
 strong {
-  font-family: $font-sec;
+  font-family: $font-main;
+  font-weight: 700;
 }
 /*=====  End of Body Styles  ======*/
 

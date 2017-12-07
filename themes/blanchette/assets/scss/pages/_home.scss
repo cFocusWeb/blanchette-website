@@ -437,6 +437,9 @@
 		header {
 			height: 210px;
 			position: relative;
+			@include breakpoint(phone) {
+				height: 140px;
+			}
 			h3, h2 {
 				font-size: 2.3em;
 				color:$black;
@@ -455,7 +458,12 @@
 			}
 			&.mediumlogo {
 				@include breakpoint(phone) {
-					height: 190px;
+					height: 195px;
+				}
+			}
+			&.shakermarg {
+				@include breakpoint(phone) {
+					margin-top: -30px;
 				}
 			}
 			img {
@@ -477,7 +485,8 @@
 			display: inline;
 		}
 		h3 {
-			font-family: $font-sec;
+			font-family: $font-main;
+			font-weight: 700;
 		    display: inline;
 		    font-size: 1.1em;
 		}
@@ -489,7 +498,8 @@
 				font-size: 1.125em;
 				color:#8e8e8e;
 				strong {
-					font-family: $font-sec;
+					font-family: $font-main;
+					font-weight: 700;
 					color:$black;
 					@include breakpoint(phone) {
 						display: block;
@@ -508,10 +518,19 @@
 				border:2px solid $black;
 				font-size: 0.875em;
 				color:$black;
-				font-family: $font-sec;
+				font-family: $font-main;
+				font-weight: 700;
 				&:hover {
 					background:$black;
 					color:$white;
+				}
+			}
+			&.different-box {
+				a {
+					margin-top: 50px;
+					@include breakpoint(phone) {
+						margin-top: 0;
+					}
 				}
 			}
 		}
@@ -542,7 +561,8 @@ img.tartar-logo {
 	    -o-transition: 0.4s background-color;
 	    transition: 0.4s background-color;
 	    text-transform: uppercase;
-	    font-family: "helveticabold";
+	    font-family: $font-main;
+	    font-weight: 700;
 	    margin-right: 30px;
 	    &:hover {
 	    	background-color: $green;

@@ -46,7 +46,8 @@
 	    	.main-txt {
 				text-align: left;
 				h1 {
-					font-family: $font-sec;
+					font-family: $font-main;
+					font-weight: 700;
 					margin-bottom: 5px;
 					margin-top: 40px;
 					font-size: 1.7em;
@@ -71,7 +72,8 @@
 			    -o-transition: 0.4s background-color;
 			    transition: 0.4s background-color;
 			    text-transform: uppercase;
-			    font-family: $font-sec;
+			    font-family: $font-main;
+			    font-weight: 700;
 			    &:hover {
 			    	// color: white;
 			    	// background-color: $green;
@@ -85,18 +87,21 @@
 				margin-top: 20px;
 			}
 			h6 {
-				font-family: $font-sec;
+				font-family: $font-main;
+				font-weight: 700;
 				margin-bottom: 15px;
 				margin-top: 40px;
 				font-size: 1.5em;
 				padding-left: 15px;
 			}
 			p.title {
-				font-family: $font-sec;
+				font-family: $font-main;
+				font-weight: 700;
 				margin-bottom: 15px;
 				margin-top: 15px;
-				font-size: 1.3em;
+				font-size: 1.063em;
 				color: #616161;
+				line-height: 1.2;
 			}
 			p.date {
 				color: $black;

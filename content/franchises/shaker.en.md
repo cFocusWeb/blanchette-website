@@ -16,6 +16,7 @@ resume:
     is the only restaurant-bar chain specialized in cocktails, tartares and gourmet burgers. Its chic industrial décor welcomes customers of all ages, from lunch to late nights, to "Live the SHAKER experience", and enjoy great weekly promotions. 
   investissement: "640 000 $"
   carouselclass: big-nav
+  gridholder: shakermarg
 imagedesc: >-
   SHAKER Kitchen & Mixology: the perfect venue for business lunches, trendy dinners or a night out.  
 business: >-

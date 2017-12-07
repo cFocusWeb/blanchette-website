@@ -34,19 +34,22 @@
 			p {
 				font-size: 1.250em;
 				line-height: 1.4;
-				font-family: $font-sec;
+				font-family: $font-main;
+				font-weight: 700;
 				font-style: italic;
 				margin-bottom: 0;
 			}
 		}
 		h2 {
 			color:$black;
-			font-family: $font-sec;
+			font-family: $font-main;
+			font-weight: 700;
 			font-size: 1.375em;
 			margin-bottom: 20px;
 		}
 		h3 {
-			font-family: $font-sec;
+			font-family: $font-main;
+			font-weight: 700;
 			color:#b99134;
 			font-size: 1.063em;
 			margin: 15px 0;
@@ -60,7 +63,8 @@
 		h4 {
 			color:$black;
 			font-size: 1.375em;
-			font-family: $font-sec;
+			font-family: $font-main;
+			font-weight: 700;
 			margin-bottom: 20px;
 			margin-top: 40px;
 		}
@@ -125,7 +129,8 @@
 			background:$black;
 			display: block;
 			margin-bottom: 25px;
-			font-family: $font-sec;
+			font-family: $font-main;
+			font-weight: 700;
 			font-size: 1.063em;
 			@include breakpoint(laptop) {
 				font-size: 0.875em;
@@ -178,7 +183,8 @@
 			margin-bottom: 25px;
 			h6 {
 				color:$black;
-				font-family: $font-sec;
+				font-family: $font-main;
+				font-weight: 700;
 				font-size: 1.250em;
 				margin-bottom: 5px;
 			}
@@ -216,7 +222,8 @@
 			}
 			h6 {
 				font-size: 1.250em;
-				font-family: $font-sec;
+				font-family: $font-main;
+				font-weight: 700;
 				color:$black;
 				margin-bottom: 30px;
 				@include breakpoint(tablet) {
@@ -233,7 +240,8 @@
 				width: 100%;
 				font-size: 0.913em;
 				strong {
-					font-family: $font-sec;
+					font-family: $font-main;
+					font-weight: 700;
 				}
 				td {
 					padding:10px;
@@ -263,7 +271,8 @@
 			}
 			h6 {
 				color:$black;
-				font-family: $font-sec;
+				font-family: $font-main;
+				font-weight: 700;
 				font-size: 1.250em;
 				margin-bottom: 15px;
 			}
@@ -275,7 +284,8 @@
 			border-top:1px solid #b2b2b2;
 			h6 {
 				color:$black;
-				font-family: $font-sec;
+				font-family: $font-main;
+				font-weight: 700;
 				font-size: 1.250em;
 				margin-bottom: 15px;
 			}
@@ -310,7 +320,11 @@
 .franchises-list {
 	h1 {
 		margin-bottom: 20px;
-		font-family: $font-sec;
+		font-family: $font-main;
+		font-weight: 700;
+		@include breakpoint(phone) {
+			margin-bottom: 40px;
+		}
 	}
 }
 

@@ -17,6 +17,7 @@ weight: 1
 draft: false
 activemenu: projets
 type: articles
+autres: true
 list:
   pretitle: Thaï Zone
 ---
