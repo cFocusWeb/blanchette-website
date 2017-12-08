@@ -29,18 +29,18 @@
 	/* logos */
 	#logos-holder {
 		position: absolute;
-		bottom: 0;
+		bottom: 10px;
 		width: 96%;
 		@include centre(x);
 		z-index: 20;
 		@include small-lap {
-			bottom:0;
+			bottom: 10px;
 		}
 		@include breakpoint(laptop) {
-			bottom:0;
+			bottom: 10px;
 		}
 		@include breakpoint(tablet) {
-			bottom:0;
+			bottom: 10px;
 		}
 		@include breakpoint(phone) {
 			bottom:0;
@@ -54,6 +54,18 @@
 			-ms-transition: 0.5s opacity;
 			-o-transition: 0.5s opacity;
 			transition: 0.5s opacity;
+			@include breakpoint(desktop-lg) {
+				height: 225px;
+			}
+			@include breakpoint(laptop) {
+				height: 150px;
+			}
+			@include breakpoint(tablet) {
+				height: 150px;
+			}
+			@include breakpoint(phone) {
+				height: 150px;
+			}
 			&.slick-initialized {
 				opacity: 1;
 			}
@@ -61,6 +73,7 @@
 				.logo-box {
 					position: relative;
 					height: 175px;
+					max-height: 100%;
 					@include breakpoint(desktop-lg) {
 						height: 225px;
 					}
@@ -76,6 +89,21 @@
 					img {
 						@include centre(both);
 						max-width: 80%;
+						max-height: 90%;
+					}
+					a  {
+						&#vapo {
+							img {
+								max-width: 90%;
+								max-height: 100%;
+							}
+						}
+						&#tartar {
+							img {
+								max-width: 60%;
+								max-height: 70%;
+							}
+						}
 					}
 				}
 			}
@@ -113,6 +141,8 @@
 #about-block {
 	height:500px;
 	font-size: 16px;
+	background:$dark;
+	color:$white;
 	@include small-lap {
 		font-size: 15px;
 		height: 450px;
@@ -128,13 +158,9 @@
 		font-size: 14px;
 		height: auto;
 	}
-	.content-holder {
+	.container {
 		position: relative;
-		float: left;
-		width: 50%;
 		height: 100%;
-		background:$dark;
-		color:$white;
 		@include breakpoint(tablet) {
 			width: 100%;
 			height: auto;
@@ -148,20 +174,19 @@
 		.content {
 			@include centre(both);
 			text-align: center;
-			padding:60px;
+			padding: 60px;
 			width: 100%;
-			max-width: 700px;
 			@include breakpoint(laptop) {
 				padding:40px;
 			}
 			@include breakpoint(tablet) {
 				@include clear-pos;
-				padding:50px;
+				padding: 50px;
 				max-width: 100%;
 			}
 			@include breakpoint(phone) {
 				@include clear-pos;
-				padding:15px;
+				padding: 15px;
 				max-width: 100%;
 				padding-top: 30px;
 				padding-bottom: 30px;
@@ -175,6 +200,15 @@
 				font-size: 1.063em;
 				margin-top: 25px;
 				line-height: 1.5;
+				&:last-child {
+					margin-top: 35px;
+				}
+			}
+			a {
+				background: black;
+			    padding: 12px 20px;
+			    color: white;
+			    border-radius: 5px;
 			}
 		}
 	}
@@ -182,6 +216,15 @@
 		float: right;
 		width: 50%;
 		height: 100%;
+		&.premier {
+			float: left;
+			@include breakpoint(tablet) {
+				float: none;
+			}
+			@include breakpoint(phone) {
+				float: none;
+			}
+		}
 		@include breakpoint(tablet) {
 			height: 400px;
 			width: 100%;
@@ -216,6 +259,15 @@
 =========================================*/
 
 #masonry-franchise {
+	.col-md-4 {
+		height: 500px;
+		@include breakpoint(tablet) {
+			height: 400px;
+		}
+		@include breakpoint(phone) {
+			height: 300px;
+		}
+	}
 	.first-gallery-row {
 		height: 400px;
 		@include small-lap {
@@ -291,10 +343,15 @@
 		position: relative;
 		overflow: hidden;
 		.caption {
-			@include centre(both);
 			text-align: center;
 			z-index: 50;
-			width: 100%;
+			width: 75px;
+			position: absolute;
+			left: 20px;
+			bottom: 20px;
+			@include breakpoint(phone) {
+				display: none;
+			}
 			img {
 				max-width: 270px;
 				opacity: 0;
@@ -313,45 +370,25 @@
 			}
 		}
 		&:hover {
-			img.img-responsive {
-    			filter: grayscale(100%) brightness(40%);
-    			transform: scale(1.1);
-			}
 			.caption {
 				img {
 					opacity: 1;
 				}
 			}
 		}
-	}
-	.tall-image {
-		height: 620px;
-		@include small-lap {
-			height: 570px;
-		}
-		@include breakpoint(laptop) {
-			height: 520px;
-		}
-		@include breakpoint(tablet) {
-			height: 350px;
-		}
-		@include breakpoint(phone) {
-			height: 300px;
-		}
-	}
-	.small-image {
-		height: 330px;
-		@include small-lap {
-			height: 280px;
-		}
-		@include breakpoint(laptop) {
-			height: 230px;
-		}
-		@include breakpoint(tablet) {
-			height: 350px;
-		}
-		@include breakpoint(phone) {
-			height: 300px;
+		.mosaic-slider {
+			div {
+				background-size: cover;
+				background-repeat: no-repeat;
+				width: 100%;
+				height: 500px;
+				@include breakpoint(tablet) {
+					height: 400px;
+				}
+				@include breakpoint(phone) {
+					height: 300px;
+				}
+			}
 		}
 	}
 }

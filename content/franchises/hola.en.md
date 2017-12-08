@@ -17,7 +17,7 @@ resume:
 
     fast service counter. Mexican cuisine based on the freshest ingredients, for healthy, on the go meals. The possibilities and combinations are unlimited for the creation of a made-to-measure meal, tailored to the customer’s tastes; be it on location, for take-out or delivery.    
   investissement: "360 000$"
-  extraclass: 
+  carouselclass: hola-logo
   gridholder: mediumlogo
 imagedesc: >-
   HOLA Mexican Grill, for healthy meals on the run! Above: the HOLA Mexican Grill counter located at La Pyramide in Ste-Foy.

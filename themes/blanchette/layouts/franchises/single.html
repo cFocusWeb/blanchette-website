@@ -19,26 +19,12 @@
                     <div class="col-md-7 col-sm-6">
                         <div id="main-content">
                             <header>
-                                <img src="{{.Params.mainimage}}" alt="" class="img-responsive hidden-sm hidden-xs">
-                                <div id="video-block" class="hidden-md hidden-lg">
+                                <div id="video-block" class="">
                                     <div class="video-container">
                                         <iframe width="100%" src="https://www.youtube.com/embed/{{.Params.video}}?rel=0&amp;showinfo=0&autoplay=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </header>
-                            {{ with .Params.imagedesc}}
-                            <div class="intro hidden-sm hidden-xs">
-                                <p>{{.}}
-                                    {{if eq $.Params.identifiant "shaker"}}
-                                    {{ if eq $.Lang "fr" }}
-                                    Ci-dessus : le SHAKER Gatineau ; le 7<sup style="vertical-align: super;margin-left: 3px;">e</sup> restaurant de la bannière.
-                                    {{ else if eq $.Lang "en" }}
-                                    Above: SHAKER Gatineau; the 7th restaurant of the banner.
-                                    {{ end }}
-                                    {{ end }}
-                                </p>
-                            </div>
-                            {{ end }}
                             <!-- // intro  -->
                             {{ .Content }}
                             {{ with .Params.coupdecoeur}}
@@ -151,18 +137,6 @@
                             {{ else if eq .Lang "en" }}
                             <a href="{{.Site.BaseURL}}en/become-a-franchisee?franchise={{.Params.identifiant}}" class="form-dload">Information <span>request form</span> <i class="fa fa-chevron-right" aria-hidden="true"></i> </a>
                             {{ end }}
-
-                            <div id="video-block" class="hidden-sm hidden-xs">
-                                {{ if eq .Lang "fr" }}
-                                <h6>Vidéo corporative</h6>
-                                {{ else if eq .Lang "en" }}
-                                <h6>Corporate video</h6>
-                                {{ end }}
-                                <div class="video-container">
-                                    <iframe width="100%" src="https://www.youtube.com/embed/{{.Params.video}}?rel=0&amp;showinfo=0&autoplay=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                                </div>
-                            </div>
-                            <!-- // video block  -->
 
                             <div id="site-block">
                                 {{ if eq .Lang "fr" }}

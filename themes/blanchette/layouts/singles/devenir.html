@@ -58,7 +58,7 @@
                             {{ if .Params.mainimage }}
                               <div class="col-sm-3">
                                   <div class="logo-box" id="{{.Params.identifiant}}">
-                                      <a href="javascript:;"><img class="svg" src="{{.Params.logoc}}" /></a>
+                                      <a href="javascript:;"><img class="svg {{with .Params.resume.gridclass}}{{.}}{{end}}" src="{{.Params.logoc}}" /></a>
                                   </div>
                               </div>
                             {{ end }}

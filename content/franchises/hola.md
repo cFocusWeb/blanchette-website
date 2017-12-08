@@ -17,7 +17,7 @@ resume:
 
     On y propose une cuisine mexicaine axée sur la fraîcheur des aliments, pour des repas santé et sur le pouce. Les possibilités sont infinies pour créer un repas sur mesure, au goût du client ; sur place, pour emporter ou en livraison.   
   investissement: "360 000$"
-  extraclass: 
+  carouselclass: hola-logo
   gridholder: mediumlogo
 imagedesc: >-
   HOLA Grill Mexicain, pour une cuisine saine et sur le pouce ! Ci-dessus : le comptoir HOLA Grill Mexicain situé à La Pyramide à Ste-Foy.

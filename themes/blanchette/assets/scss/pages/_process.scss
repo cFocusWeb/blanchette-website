@@ -169,6 +169,9 @@
 			border:1px solid transparent;
 			border-radius:9px;
 			margin-bottom: 10px;
+			@include breakpoint(phone) {
+				height: 150px;
+			}
 			&:before {
 				@include font-ico;
 				content:'\f058';
@@ -195,6 +198,16 @@
 				width: 60%;
 				&:not(.planete) {
 					max-height: 120px;
+				}
+				&.planete {
+					@include breakpoint(phone) {
+						max-height: 140px;
+					}
+				}
+				&.fritz {
+					@include breakpoint(phone) {
+						max-height: 95px;
+					}
 				}
 				@include breakpoint(laptop) {
 					width: 70%;
