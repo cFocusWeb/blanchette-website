@@ -477,6 +477,11 @@
 			@include breakpoint(phone) {
 				height: 140px;
 			}
+			&.en {
+				@include breakpoint(phone) {
+					height: 165px;
+				}
+			}
 			h3, h2 {
 				font-size: 2.3em;
 				color:$black;

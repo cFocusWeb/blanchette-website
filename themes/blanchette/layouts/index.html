@@ -235,7 +235,7 @@
                                 <a href="{{.Site.BaseURL}}historique">En savoir plus</a>
                             </footer>
                             {{ else if eq .Lang "en" }}
-                            <header>
+                            <header class='{{ if eq $.Lang "en" }}en{{end}}'>
                                 <h2>More franchises <br> to come</h2>
                             </header>
                             <!-- // holder  -->
