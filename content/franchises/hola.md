@@ -49,6 +49,8 @@ draft: false
 activemenu: franchise
 ordre: 6
 video: qYkzN_5R1X4
+locations:
+  - Ste-Foy
 ---
 ## HOLA Grill Mexicain – Survol de la bannière
 

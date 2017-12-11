@@ -259,22 +259,22 @@
 		}
 		/* video block */
 		#video-block {
-			margin-top: 50px;
-			@include breakpoint(laptop) {
-				margin-top: 30px;
-			}
-			@include breakpoint(tablet) {
-				margin-top: 30px;
-			}
-			@include breakpoint(phone) {
-				margin-top: 30px;
-			}
+		    margin-top: 30px;
+		    padding-top: 25px;
+		    border-top: 1px solid #b2b2b2;
 			h6 {
 				color:$black;
 				font-family: $font-main;
 				font-weight: 700;
 				font-size: 1.250em;
 				margin-bottom: 15px;
+			}
+			ul {
+				li {
+					line-height: 1.5;
+					font-size: 1.063em;
+					opacity: 0.6;
+				}
 			}
 		}
 		/* site block */

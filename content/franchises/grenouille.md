@@ -46,6 +46,22 @@ draft: false
 activemenu: franchise
 ordre: 3
 video: r-92rtBzKrk
+locations:
+  - Ste-Foy
+  - Laval
+  - Lévis
+  - Sherbrooke
+  - Montréal
+  - Chicoutimi
+  - Rimouski
+  - Sept-Îles
+  - Thetford Mines
+  - Trois-Rivières
+  - Baie Comeau
+  - Rivière-du-Loup
+  - Bromont
+  - Saint-Georges de Beauce
+  - Drummondville
 ---
 ## La P'tite Grenouille – Survol de la bannière
 

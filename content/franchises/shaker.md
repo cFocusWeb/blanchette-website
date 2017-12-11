@@ -70,6 +70,17 @@ coupdecoeur:
   couleur: "183, 147, 0, 0.2"
 ordre: 1
 video: zwEe7XGCTOI
+locations:
+  - Ste-Foy
+  - Lévis
+  - Cap-Rouge
+  - Charlesbourg
+  - Rimouski
+  - Rivière-du-Loup
+  - Gatineau
+  - Saint-Georges de Beauce
+  - Trois-Rivières
+  - Sherbrooke
 ---
 ## SHAKER Cuisine & Mixologie – Survol de la bannière
 

@@ -26,7 +26,7 @@
 	    	<h1>{{.Title}}</h1>
 	    	<p>{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}}</p>
 	    	{{ if .Params.external.need }}
-	    	{{ .Summary }}
+	    	<p>{{ .Summary }}</p>
 	    </div>
 	    <a href="{{.Params.external.url}}" class="btn" target="_blank">{{ if eq .Lang "fr" }}La suite dans {{ else if eq .Lang "en" }}Read more in {{end}}{{.Params.external.presse}}</a>
 	    	{{ else }}

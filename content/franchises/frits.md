@@ -47,6 +47,9 @@ draft: false
 activemenu: franchise
 ordre: 5
 video: I471h2cLgBI
+locations:
+  - Ste-Foy
+  - Beauport
 ---
 ## Frit’s Burgers & Poutines – Survol de la bannière
 

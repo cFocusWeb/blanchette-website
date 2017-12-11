@@ -165,7 +165,7 @@ $(".mosaic-slider").slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 1500,
+  autoplaySpeed: 750,
   speed: 0,
   fade: true,
   cssEase: 'linear'  
@@ -194,8 +194,8 @@ $(window).scroll(function() {
 });
 
 $(function() {
+  $('[data-toggle="tooltip"]').tooltip();
   $('#franchise-logos .franchise-box').matchHeight();
-  // $('.article-listing .col-md-4').matchHeight();
   $('#team-listing .team-block .col-sm-6').matchHeight();
   $('#partner-listing .match').matchHeight();
   $('.contact-info .match').matchHeight();
@@ -582,26 +582,26 @@ function initMap() {
       }
     })(marker, i));
   }
-  var iconfritz = {
-    url: "/img/logos/marker-fritz.png", // url
+  var iconfrits = {
+    url: "/img/logos/marker-frits.png", // url
     scaledSize: new google.maps.Size(50, 67), // scaled size
     origin: new google.maps.Point(0,0), // origin
     anchor: new google.maps.Point(0, 0) // anchor
   };
-  var mfritz = [
+  var mfrits = [
       ["Frit's Ste-Foy",'2360 Chemin Ste-Foy, Québec',-71.282210,46.786520],
       ["Frit's Beauport",'228 rue Seigneuriale, Québec',-71.1967777777778,46.8753333333333]
   ];
-  for (i = 0; i < mfritz.length; i++) {  
+  for (i = 0; i < mfrits.length; i++) {  
     marker = new google.maps.Marker({
-         position: { lat: mfritz[i][3], lng: mfritz[i][2]},
+         position: { lat: mfrits[i][3], lng: mfrits[i][2]},
          map: map,
          animation: google.maps.Animation.DROP,
-         icon: iconfritz
+         icon: iconfrits
     });
     google.maps.event.addListener(marker, 'click', (function(marker, i) {
       return function() {
-        infowindow.setContent(mfritz[i][0]+'</br>'+mfritz[i][1]);
+        infowindow.setContent(mfrits[i][0]+'</br>'+mfrits[i][1]);
         infowindow.open(map, marker);
       }
     })(marker, i));

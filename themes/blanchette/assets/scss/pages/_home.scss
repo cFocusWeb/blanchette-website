@@ -160,7 +160,7 @@
 	}
 	.container {
 		position: relative;
-		height: 100%;
+		height: 350px;
 		@include breakpoint(tablet) {
 			width: 100%;
 			height: auto;
@@ -349,6 +349,7 @@
 			position: absolute;
 			left: 20px;
 			bottom: 20px;
+			display: none;
 			@include breakpoint(phone) {
 				display: none;
 			}
@@ -575,6 +576,117 @@
 					}
 				}
 			}
+			.tooltip {
+			    position: relative;
+			    display: inline-block;
+			    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+			    @include breakpoint(phone) {
+			    	border-bottom: none;
+			    	display: block;
+			    }
+			    /* Tooltip text */
+				.tooltiptext {
+				    visibility: hidden;
+				    width: 40vw;
+				    background-color: white;
+				    color: black;
+				    text-align: center;
+				    padding: 15px;
+				    border: 1px solid black;
+				 
+				    /* Position the tooltip text - see examples below! */
+				    position: absolute;
+				    z-index: 5;
+				    bottom: 160%;
+				    left: 50%; 
+				    margin-left: -20vw; /* Use half of the width (120/2 = 60), to center the tooltip */
+				    @include breakpoint(phone) {
+				    	display: none !important;
+				    }
+				    @include breakpoint(desktop-lg) {
+				    	width: 30vw;
+				    	margin-left: -15vw;
+				    }
+				    &:before {
+					    content: " ";
+					    position: absolute;
+					    top: 100%; /* At the bottom of the tooltip */
+					    left: 50%;
+					    margin-left: -5px;
+					    border-width: 5px;
+					    border-style: solid;
+					    border-color: black transparent transparent transparent;
+					}
+				    &:after {
+				    	content: " ";
+					    position: absolute;
+					    top: 100%; /* At the bottom of the tooltip */
+					    left: 50%;
+					    margin-top: -1px;
+					    margin-left: -5px;
+					    border-width: 5px;
+					    border-style: solid;
+					    border-color: white transparent transparent transparent;  
+					}
+					&.unique {
+						width: 185px;
+						margin-left: -92.5px;
+					}
+					div.box {
+					  // Hide superfluous border
+					  	overflow: hidden;
+					  	background-color: white;
+					}
+					ul {
+					  	display: -webkit-box;
+					    display: -webkit-flex;
+					    display: -ms-flexbox;
+					    display: flex;
+					    -webkit-flex-wrap: wrap;
+					        -ms-flex-wrap: wrap;
+					            flex-wrap: wrap;
+					  
+					  	// Hide superfluous border
+					  	margin: 0 -4px -4px 0;
+					  
+					  	list-style: none;
+					  	padding: 0;
+					  	li {
+							-webkit-box-flex: 1;
+						    -webkit-flex: 1 0 125px;
+						        -ms-flex: 1 0 125px;
+						            flex: 1 0 125px;
+							border-right: 1px solid #d2d2d2;
+							border-bottom: 1px solid #d2d2d2;
+							background-color: white;
+							padding: 15px;
+							width: 0;
+
+							&:empty {
+							height: 0;
+							border: none;
+							};
+
+							strong {
+								text-transform: uppercase;
+							}
+						}
+					}
+
+					*,
+					:before,
+					:after {
+					  	box-sizing: border-box;
+					}
+				}
+			}
+			&:hover {
+				.tooltip {
+					.tooltiptext {
+					    visibility: visible;
+					}
+				}
+			}
 		}
 	}
 }
@@ -613,4 +725,7 @@ img.tartar-logo {
 	    }
 	}
 }
+
+
+
 /*=====  End of Frnachise Block  ======*/

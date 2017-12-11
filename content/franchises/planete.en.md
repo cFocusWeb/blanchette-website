@@ -46,6 +46,14 @@ draft: false
 activemenu: franchise
 ordre: 8
 video: hVyEqXZYcts
+locations:
+  - Québec (Bouvier)
+  - Cap-Rouge
+  - Lévis
+  - Rimouski
+  - St-Jean-sur-Richelieu
+  - Belœil
+  - St-Georges
 ---
 ## Planète Nutrition – Overview of the Banner 
 

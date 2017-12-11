@@ -48,6 +48,12 @@ draft: false
 activemenu: franchise
 ordre: 2
 video: 1qWZ5377huA
+locations:
+  - Québec (Ste-Foy, Galeries de la Capitale, Laurier Québec, rue St-Jean, Chauveau, Charlesbourg, Pyramide )
+  - Lévis
+  - Gatineau
+  - Brossard
+  - Shawinigan
 ---
 ## Chocolato – Survol de la bannière
 

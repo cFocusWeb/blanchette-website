@@ -54,6 +54,9 @@ coupdecoeur:
   couleur: "250, 82, 0, 0.2"
 ordre: 4
 video: K6K6AZN6LZc
+locations:
+  - Ste-Foy
+  - Charlesbourg
 ---
 ## TARTAR Station – Survol de la bannière
 

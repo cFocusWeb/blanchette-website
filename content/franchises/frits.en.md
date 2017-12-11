@@ -47,8 +47,11 @@ draft: false
 activemenu: franchise
 ordre: 5
 video: I471h2cLgBI
+locations:
+  - Ste-Foy
+  - Beauport
 ---
-## Frit’s Burgers & Poutines– Overview of the Banner 
+## Frit’s Burgers & Poutines – Overview of the Banner 
 
 ### The Frit’s Burgers & Poutines story
 

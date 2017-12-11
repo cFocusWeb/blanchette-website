@@ -43,6 +43,10 @@ draft: false
 activemenu: franchise
 ordre: 7
 video: eOwgoBJebJo
+locations:
+  - Ste-Foy
+  - Charlesbourg
+  - Lévis
 ---
 ## VAPOSHOP – Survol de la bannière
 
