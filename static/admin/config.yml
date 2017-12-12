@@ -10,6 +10,7 @@ public_folder: "" # The src attribute for uploaded media will begin with
 publish_mode: editorial_workflow
 
 collections:
+### AUTRES
   - name: "articles-autres-fr" # Used in routes, e.g. /admin/collections/blog
     label: "Articles - Autres - FR" # Used in the UI
     folder: "content/autres" # The path to the folder where the documents are stored
@@ -23,7 +24,7 @@ collections:
     fields:
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
-      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-autres-en", searchFields: ["identifiant","titre"], valueField: "identifiant"}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-autres-en", searchFields: ["identifiant","title"], valueField: "identifiant"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
       - label: "Lieu de l'article" 
@@ -32,16 +33,18 @@ collections:
         fields:
           - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
           - {label: "Lien", name: "url", widget: "string", required: false}
-          - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false}
       - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
       - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
       - label: "Couleur des flèches sur l'image principale"
         name: "arrowc"
-        widget: "select"
-        options:
-          - { label: "Blanc", value: "white" }
-          - { label: "Noir", value: "black" }
-          - { label: "Vert", value: "#62d54c" }
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
       - label: "Apparence de l'article sur la page Projets" 
         name: "list" 
         widget: "object" 
@@ -57,7 +60,7 @@ collections:
   - name: "articles-autres-en" # Used in routes, e.g. /admin/collections/blog
     label: "Articles - Autres - EN" # Used in the UI
     folder: "content/autres" # The path to the folder where the documents are stored
-    slug: "{{identifiant}}"
+    slug: "{{identifiant}}.{{i18nlanguage}}"
     editor:
       preview: false
     create: true # Allow users to create new documents in this collection
@@ -67,7 +70,54 @@ collections:
     fields:
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
-      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-autres-fr", searchFields: ["identifiant","titre"], valueField: "identifiant"}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-autres-fr", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false }
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "true"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+  
+#### SHAKER
+  - name: "articles-shaker-fr" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Shaker - FR" # Used in the UI
+    folder: "content/shaker" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "fr"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-shaker-en", searchFields: ["identifiant","title"], valueField: "identifiant"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
       - label: "Lieu de l'article" 
@@ -81,11 +131,59 @@ collections:
       - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
       - label: "Couleur des flèches sur l'image principale"
         name: "arrowc"
-        widget: "select"
-        options:
-          - { label: "Blanc", value: "white" }
-          - { label: "Noir", value: "black" }
-          - { label: "Vert", value: "#62d54c" }
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+
+  - name: "articles-shaker-en" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Shaker - EN" # Used in the UI
+    folder: "content/shaker" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}.{{i18nlanguage}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "en"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-shaker-fr", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
       - label: "Apparence de l'article sur la page Projets" 
         name: "list" 
         widget: "object" 
@@ -94,37 +192,1397 @@ collections:
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
       - {label: "Type", name: "type", widget: "hidden", default: "articles"}
       - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
-      - {label: "Autres", name: "autres", widget: "hidden", default: "true"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+### LA P'TITE GRENOUILLE
+  - name: "articles-grenouille-fr" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - La P'tite Grenouille - FR" # Used in the UI
+    folder: "content/grenouille" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "fr"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-grenouille-en", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false}
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
 
-  # - name: "settings"
-  #   label: "Settings"
-  #   editor:
-  #     preview: false
-  #   files:
-  #     - name: "informations"
-  #       label: "Informations sur l'entreprise"
-  #       file: "data/settings.yml"
-  #       description: "Modification des informations sur l'entreprise"
-  #       fields:
-  #         - name: socials
-  #           label: Réseaux sociaux
-  #           widget: object
-  #           description: "Si le champ est vide, l'icône n'apparaitra pas."
-  #           create: false
-  #           fields:
-  #             - {label: "Facebook", name: "facebookurl", widget: "string", required: false}
-  #             - {label: "Twitter", name: "twitterurl", widget: "string", required: false}
-  #             - {label: "Youtube", name: "youtubeurl", widget: "string", required: false}
-  #             - {label: "LinkedIn", name: "linkedinurl", widget: "string", required: false}
-  #         - {label: "Numéro de téléphone", name: "phone", widget: "string"}
-  #         - {label: "Numéro de téléphone, version web", name: "mphone", widget: "string", description: "Gardez le même format"}
-  #         - {label: "Courriel", name: "email", widget: "string"}
-  #         - {label: "Titre de la page d'accueil", name: "sitetitle", widget: "string"}
-  #         - {label: "Description par défaut du site", name: "sitedescription", widget: "string", description: "Utilisez moins de 160 caractères", required: false}
-  #         - {label: "Image par défaut pour les réseaux sociaux", name: "defaultsocialimage", widget: "image", required: false}
-  #         - {label: "Retirer des moteurs de recherche", name: "removefromexternalsearch", widget: "boolean", required: false, default: false}
+  - name: "articles-grenouille-en" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Little Frog - EN" # Used in the UI
+    folder: "content/grenouille" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}.{{i18nlanguage}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "en"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-grenouille-fr", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false }
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+  
+#### CHOCOLATO
+  - name: "articles-chocolato-fr" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Chocolato - FR" # Used in the UI
+    folder: "content/chocolato" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "fr"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-chocolato-en", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+
+  - name: "articles-chocolato-en" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Chocolato - EN" # Used in the UI
+    folder: "content/chocolato" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}.{{i18nlanguage}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "en"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-chocolato-fr", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+### FRITS
+  - name: "articles-frits-fr" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Frit's - FR" # Used in the UI
+    folder: "content/frits" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "fr"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-frits-en", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false}
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+
+  - name: "articles-frits-en" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Frit's - EN" # Used in the UI
+    folder: "content/frits" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}.{{i18nlanguage}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "en"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-frits-fr", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false }
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+  
+#### HOLA
+  - name: "articles-hola-fr" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Hola - FR" # Used in the UI
+    folder: "content/hola" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "fr"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-hola-en", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+
+  - name: "articles-hola-en" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Hola - EN" # Used in the UI
+    folder: "content/hola" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}.{{i18nlanguage}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "en"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-hola-fr", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+### PLANÈTE NUTRITION
+  - name: "articles-planete-fr" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Planète - FR" # Used in the UI
+    folder: "content/planete" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "fr"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-planete-en", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false}
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+
+  - name: "articles-planete-en" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Planète - EN" # Used in the UI
+    folder: "content/planete" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}.{{i18nlanguage}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "en"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-planete-fr", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false }
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+  
+#### TARTAR STATION
+  - name: "articles-tartar-fr" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Tartar - FR" # Used in the UI
+    folder: "content/tartar" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "fr"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-tartar-en", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+
+  - name: "articles-tartar-en" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Tartar - EN" # Used in the UI
+    folder: "content/tartar" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}.{{i18nlanguage}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "en"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-tartar-fr", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+### VAPOSHOP
+  - name: "articles-vapo-fr" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Vaposhop - FR" # Used in the UI
+    folder: "content/vapo" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "fr"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-vapo-en", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false}
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+
+  - name: "articles-vapo-en" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Vaposhop - EN" # Used in the UI
+    folder: "content/vapo" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}.{{i18nlanguage}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "en"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-vapo-fr", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false }
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+  
+#### SHAKER
+  - name: "articles-shaker-fr" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Shaker - FR" # Used in the UI
+    folder: "content/shaker" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "fr"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-shaker-en", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+
+  - name: "articles-shaker-en" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Shaker - EN" # Used in the UI
+    folder: "content/shaker" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}.{{i18nlanguage}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "en"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-shaker-fr", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+### AUTRES
+  - name: "articles-autres-fr" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Autres - FR" # Used in the UI
+    folder: "content/autres" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "fr"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-autres-en", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false}
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+
+  - name: "articles-autres-en" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Autres - EN" # Used in the UI
+    folder: "content/autres" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}.{{i18nlanguage}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "en"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-autres-fr", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false }
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+  
+#### SHAKER
+  - name: "articles-shaker-fr" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Shaker - FR" # Used in the UI
+    folder: "content/shaker" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "fr"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-shaker-en", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+
+  - name: "articles-shaker-en" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Shaker - EN" # Used in the UI
+    folder: "content/shaker" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}.{{i18nlanguage}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "en"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-shaker-fr", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+### AUTRES
+  - name: "articles-autres-fr" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Autres - FR" # Used in the UI
+    folder: "content/autres" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "fr"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-autres-en", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false}
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+
+  - name: "articles-autres-en" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Autres - EN" # Used in the UI
+    folder: "content/autres" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}.{{i18nlanguage}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "en"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-autres-fr", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false }
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+  
+#### SHAKER
+  - name: "articles-shaker-fr" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Shaker - FR" # Used in the UI
+    folder: "content/shaker" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "fr"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-shaker-en", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+
+  - name: "articles-shaker-en" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Shaker - EN" # Used in the UI
+    folder: "content/shaker" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}.{{i18nlanguage}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "en"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-shaker-fr", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+### AUTRES
+  - name: "articles-autres-fr" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Autres - FR" # Used in the UI
+    folder: "content/autres" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "fr"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-autres-en", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false}
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+
+  - name: "articles-autres-en" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Autres - EN" # Used in the UI
+    folder: "content/autres" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}.{{i18nlanguage}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "en"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-autres-fr", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false }
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+  
+#### SHAKER
+  - name: "articles-shaker-fr" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Shaker - FR" # Used in the UI
+    folder: "content/shaker" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "fr"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-shaker-en", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+
+  - name: "articles-shaker-en" # Used in routes, e.g. /admin/collections/blog
+    label: "Articles - Shaker - EN" # Used in the UI
+    folder: "content/shaker" # The path to the folder where the documents are stored
+    slug: "{{identifiant}}.{{i18nlanguage}}"
+    editor:
+      preview: false
+    create: true # Allow users to create new documents in this collection
+    filter: 
+      field: "i18nlanguage"
+      value: "en"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "slug", widget: "string", default: "ceci-est-un-example", pattern: ["^[a-z0-9]+(?:-[a-z0-9/]+)*$", "Svp utilisez le format ceci-est-un-test"]}
+      - {label: "Identifiant", name: "identifiant", default: "04-exemple-article", pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Svp utilisez le format 04-exemple-article"], widget: "relation", collection: "articles-shaker-fr", searchFields: ["identifiant","title"], valueField: "identifiant"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Date de publication", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Lieu de l'article" 
+        name: "external" 
+        widget: "object" 
+        fields:
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Lien", name: "url", widget: "string", required: false}
+          - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
+      - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
+      - {label: "Est-il dans la catégorie historique?", name: "historique", widget: "boolean", required: false, default: true}
+      - label: "Couleur des flèches sur l'image principale"
+        name: "arrowc"
+        widget: "string"
+        default: "white"
+        # widget: "select"
+        # options:
+        #   - { label: "Blanc", value: "white" }
+        #   - { label: "Noir", value: "black" }
+        #   - { label: "Vert", value: "#62d54c" }
+      - label: "Apparence de l'article sur la page Projets" 
+        name: "list" 
+        widget: "object" 
+        fields:
+          - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+      - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
+      - {label: "Type", name: "type", widget: "hidden", default: "articles"}
+      - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
+### SETTINGS
+  - name: "settings"
+    label: "Settings"
+    editor:
+      preview: false
+    files:
+      - name: "succursales"
+        label: "Succursales"
+        file: "data/locations.yml"
+        description: "Modification des succursales des branches"
+        fields:
+          - name: shaker
+            label: Shaker
+            widget: list
+            create: true
+            fields:
+              - {label: "Nom", name: "name", widget: "string"}
+              - {label: "Adresse", name: "loc", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "string"}
+              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Ville", name: "city", widget: "string"}
+          - name: chocolato
+            label: Chocolato
+            widget: list
+            create: true
+            fields:
+              - {label: "Nom", name: "name", widget: "string"}
+              - {label: "Adresse", name: "loc", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "string"}
+              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Ville", name: "city", widget: "string"}
+          - name: frits
+            label: "Frit's"
+            widget: list
+            create: true
+            fields:
+              - {label: "Nom", name: "name", widget: "string"}
+              - {label: "Adresse", name: "loc", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "string"}
+              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Ville", name: "city", widget: "string"}
+          - name: tartar
+            label: TARTAR station
+            widget: list
+            create: true
+            fields:
+
+              - {label: "Nom", name: "name", widget: "string"}
+              - {label: "Adresse", name: "loc", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "string"}
+              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Ville", name: "city", widget: "string"}
+          - name: hola
+            label: Hola
+            widget: list
+            create: true
+            fields:
+              - {label: "Nom", name: "name", widget: "string"}
+              - {label: "Adresse", name: "loc", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "string"}
+              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Ville", name: "city", widget: "string"}
+          - name: vapo
+            label: "Vaposhop"
+            widget: list
+            create: true
+            fields:
+              - {label: "Nom", name: "name", widget: "string"}
+              - {label: "Adresse", name: "loc", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "string"}
+              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Ville", name: "city", widget: "string"}
+          - name: grenouille
+            label: Grenouille
+            widget: list
+            create: true
+            fields:
+
+              - {label: "Nom", name: "name", widget: "string"}
+              - {label: "Adresse", name: "loc", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "string"}
+              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Ville", name: "city", widget: "string"}
+          - name: planete
+            label: "Planète Nutrition"
+            widget: list
+            create: true
+            fields:
+              - {label: "Nom", name: "name", widget: "string"}
+              - {label: "Adresse", name: "loc", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "string"}
+              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Ville", name: "city", widget: "string"}
   #     - name: "equipe"
   #       label: "Membres de l'équipe"
   #       file: "data/equipe.yml"

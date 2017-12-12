@@ -11,7 +11,7 @@ external:
 occasion: false
 historique: true
 description: >-
-arrowc: white
+arrowc: 
 i18nlanguage: fr
 weight: 1
 draft: false

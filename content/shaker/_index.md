@@ -1,9 +1,7 @@
 ---
-title: This is a title
+title: Shaker
 description: >-
-  This is a desc
 image: 
-i18nlanguage: fr
 draft: false
 noindex: true
 ---

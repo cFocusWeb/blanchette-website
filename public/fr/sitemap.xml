@@ -660,6 +660,21 @@
   </url>
   
   <url>
+    <loc>https://www.groupeblanchette.com/shaker/</loc>
+    <lastmod>2017-11-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.groupeblanchette.com/en/shaker/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.groupeblanchette.com/shaker/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.groupeblanchette.com/singles/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -776,21 +791,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://www.groupeblanchette.com/planete/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.groupeblanchette.com/shaker/</loc>
-    <lastmod>2017-11-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.groupeblanchette.com/en/shaker/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.groupeblanchette.com/shaker/"
                 />
   </url>
   
