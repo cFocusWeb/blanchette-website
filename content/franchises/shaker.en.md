@@ -22,7 +22,7 @@ imagedesc: >-
 business: >-
   SHAKER Kitchen & Mixology is the only restaurant-bar chain specialized in cocktails, tartares and gourmet burgers. Its chic industrial décor welcomes customers of all ages, from lunch to late nights, to "Live the SHAKER experience", and enjoy great weekly promotions.
 accentcolor: "#b89217"
-website: https://www.shakercuisineetmixologie.com/
+website: https://www.shakerkitchenandmixology.com/
 details:
   type: Franchise
   frais: $30 000

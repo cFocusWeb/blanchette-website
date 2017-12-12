@@ -52,14 +52,13 @@ locations:
 
 ### First a line of products 
 
-In 2014, the group and two young entrepreneurs establish VAPOSHOP and venture into the market of liquid products for electronic cigarettes. Their line of products soon becomes very popular and is distributed at 10 locations throughout Québec. 
+In 2014, the group and two young entrepreneurs establish VAPOSHOP and venture into the market of vaping liquid products. Their line of products soon becomes very popular and is distributed at 65 locations throughout Québec.  
 
 ### Opening locations
 
-After developing an initial expertise in vaping products, the team behind VAPOSHOP decides to launch a chain of shops of the same name. They open a store in Sainte-Foy in 2014, sell a Lévis franchise and then open a second corporate location in Charlesbourg in 2017.
+After developing an initial expertise in vaping products, the team behind VAPOSHOP decides to launch a chain of shops of the same name. They open a store in Ste-Foy in 2014, sell a Lévis franchise and then open a second corporate location in Charlesbourg in 2017.
 
-The concept has quickly evolved to allow VAPOSHOP to become a leader wherever their businesses are in activity. Owning and producing their own line of liquid products for electronic cigarettes gives them an undeniable competitive edge.
-
+The concept has quickly evolved to allow VAPOSHOP to become a leader wherever their businesses are in activity. Owning and producing their own line of vaping liquid products gives them an undeniable competitive edge.
 
 #### Business Opportunity 
 

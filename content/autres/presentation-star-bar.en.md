@@ -23,7 +23,7 @@ list:
 ---
 
 A variation of the STAR CAFÉ, the STAR BAR, opens in 2004, to offer a restaurant-bar experience.
-Its strategic location in Sainte-Foy’s La Pyramide mall made this spot a must for business meals as for festives outings and… team projects! Many former students will remember the irresistible specials on pitchers and unforgettable theme nights. 
+Its strategic location in Ste-Foy’s La Pyramide mall made this spot a must for business meals as for festives outings and… team projects! Many former students will remember the irresistible specials on pitchers and unforgettable theme nights. 
 
 A few years later, the group added the STAR CLUB to the existing bar for an enhanced offer. A dance floor leading to many fun, upbeat evenings made it a favorite.
 

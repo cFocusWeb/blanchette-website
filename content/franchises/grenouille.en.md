@@ -23,7 +23,7 @@ business: >-
   The Little Frog live music & party house bar is the largest chain of its kind in Québec, and soon, in Canada. Live music and stand-up acts, theme nights, a festive atmosphere and irresistible specials on alcohol are only a some of the reasons it has become such a popular choice for a fun evening.  
 accentcolor: "#53ab01"
 whitebg: true
-website: https://www.laptitegrenouille.ca/
+website: https://www.laptitegrenouille.ca/en/
 details:
   type: Licence
   frais: $0
@@ -31,7 +31,7 @@ details:
   misedefonds: from $100 000
   contact: Jérôme Landry
   fondation: 2005
-  nbre: 17
+  nbre: 16
   redevances: 0%
   pub: 0%
   royautes: 0%

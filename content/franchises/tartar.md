@@ -1,7 +1,7 @@
 ---
 title: Franchise TARTAR Station - Restauration
 description: >-
-  Comptoir de restauration rapide se spécialisant dans les tartares, tatakis et poke bols. Pour des amateurs de repas santé et sur le pouce.
+  Comptoir de restauration rapide se spécialisant dans les tartares et poke bols. Pour des amateurs de repas santé et sur le pouce.
 slug: tartar-station
 identifiant: tartar
 image: "/img/franchises/tartar-franchise.jpg"
@@ -11,7 +11,7 @@ mainimage: /img/franchises/tartar-franchise.jpg
 resume:
   titre: TARTAR Station
   desc: >-
-    Le comptoir de restauration rapide se spécialisant dans les tartares, tatakis et poke bols s’est rapidement taillé une place de choix dans le cœur des amateurs de repas santé et sur le pouce. À l’affût des dernières tendances, 
+    Le comptoir de restauration rapide se spécialisant dans les tartares et poke bols s’est rapidement taillé une place de choix dans le cœur des amateurs de repas santé et sur le pouce. À l’affût des dernières tendances, 
 
     ### TARTAR Station 
 
@@ -23,7 +23,7 @@ resume:
 imagedesc: >-
   TARTAR Station : pour des repas savoureux et sur le pouce ! Ci-dessus : le premier comptoir de la bannière, situé à Ste-foy.
 business: >-
-  Le comptoir de restauration rapide se spécialisant dans les tartares, tatakis et poke bols s’est rapidement taillé une place de choix dans le cœur des amateurs de repas santé et sur le pouce. À l’affût des dernières tendances, TARTAR Station propose des recettes savoureuses à déguster sur place, pour emporter ou en livraison ; sans compromis sur la qualité et le goût. 
+  Le comptoir de restauration rapide se spécialisant dans les tartares et poke bols s’est rapidement taillé une place de choix dans le cœur des amateurs de repas santé et sur le pouce. À l’affût des dernières tendances, TARTAR Station propose des recettes savoureuses à déguster sur place, pour emporter ou en livraison ; sans compromis sur la qualité et le goût. 
 accentcolor: "#fa5200"
 whitebg: true
 website: https://tartarstation.com/

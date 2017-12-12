@@ -19,7 +19,7 @@ occasion: false
 ---
 The Pyramide is now home to a new tartare and cocktail concept  
 
-A fresh new wind comes to Sainte-Foy: SHAKER Kitchen & Mixology! In the former location of the mythical STAR BAR, the industrial chic styled restaurant-bar welcomes food lovers for daytime as well as nightime dining to discover a singular experience.   
+A fresh new wind comes to Ste-Foy: SHAKER Kitchen & Mixology! In the former location of the mythical STAR BAR, the industrial chic styled restaurant-bar welcomes food lovers for daytime as well as nightime dining to discover a singular experience.   
 
 Mixology has a starring role with a choice of some fifty cocktails including a dozen original creations. All these drinks are served in very on-trend Mason-style jars, in a choice of 2 and 4 oz alcoholic drinks. A selection or sweet or sour cocktails, for your enjoyment. 
 

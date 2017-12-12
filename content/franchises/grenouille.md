@@ -33,7 +33,7 @@ details:
   misedefonds: à partir de 100 000 $
   contact: Jérôme Landry
   fondation: 2005
-  nbre: 17
+  nbre: 16
   redevances: 0%
   pub: 0%
   royautes: 0%

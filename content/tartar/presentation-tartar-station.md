@@ -18,7 +18,7 @@ external:
 list:
   title: Présentation de la bannière
 ---
-Le tout premier comptoir de restauration rapide spécialisé en tartares, tatakis et poke bols ouvre ses portes en 2017 à La Pyramide à Ste-Foy. Le projet du groupe et de deux de ses associés, Pierre-Antoine Morency et Jean-Félix Bureau, suscite un grand engouement des amateurs de cuisine santé et savoureuse. 
+Le tout premier comptoir de restauration rapide spécialisé en tartares et poke bols ouvre ses portes en 2017 à La Pyramide à Ste-Foy. Le projet du groupe et de deux de ses associés, Pierre-Antoine Morency et Jean-Félix Bureau, suscite un grand engouement des amateurs de cuisine santé et savoureuse. 
 
 Son concept unique, se vivant sur place, pour emporter ou en livraison, ainsi que son système de commande en ligne et de bornes de commande répond à la demande d'une clientèle plus que jamais axée sur les nouvelles technologies. 
 

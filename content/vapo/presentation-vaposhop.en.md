@@ -19,5 +19,5 @@ list:
   title: Banner presentation
 ---
 
-An ambitious project for the group and two of its associates, Pierre-Antoine Morency et Jean-Félix Bureau, VAPOSHOP is first launched as a line of liquid products for electronic cigarettes. Distributed in many Québec convenience stores, the brand becomes a great success, bringing its founders to open their own locations. In 2014, the first VAPOSHOP is born in Sainte-Foy, followed by one in Lévis and one in Charlesbourg in 2017.
+An ambitious project for the group and two of its associates, Pierre-Antoine Morency et Jean-Félix Bureau, VAPOSHOP is first launched as a line of vaping liquid products. Distributed in many Québec convenience stores, the brand becomes a great success, bringing its founders to open their own locations. In 2014, the first VAPOSHOP is born in Ste-Foy, followed by one in Lévis and one in Charlesbourg in 2017.
 

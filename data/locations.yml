@@ -1,11 +1,11 @@
 shaker:
   - name: SHAKER Ste-Foy
-    loc: 2360 Chemin Ste-Foy
+    loc: 2360, ch. Ste-Foy, Québec
     lng: -71.282483
     lat: 46.786835
     city: Ste-Foy
   - name: SHAKER Lévis
-    loc: 76 A Route du Président-Kennedy
+    loc: 76 A Route du Président-Kennedy, Lévis
     lng: -71.1726944444444
     lat: 46.7918888888889
     city: Lévis
@@ -15,7 +15,7 @@ shaker:
     lat: 46.7519722222222
     city: Cap-Rouge
   - name: SHAKER Charlesbourg
-    loc: 8000 boulevard Henri-Bourassa, Québec
+    loc: 8000 boul. Henri-Bourassa, Québec
     lng: -71.2681111111111
     lat: 46.8634444444444
     city: Québec
@@ -30,18 +30,28 @@ shaker:
     lat: 47.8229444444444
     city: Rivière-du-Loup
   - name: SHAKER Gatineau
-    loc: 1100 boulevard Maloney Ouest, Gatineau
+    loc: 1100 boul. Maloney Ouest, Gatineau
     lng: -75.6969722222222
     lat: 45.4760555555556
     city: Gatineau
   - name: SHAKER St-Georges
-    loc: 11655 B 1re Avenue, Saint-Georges de Beauce
+    loc: 11655 B 1re Avenue, St-Georges
     lng: -70.6740555555556
     lat: 46.1215277777778
-    city: Saint-Georges
+    city: St-Georges
+  - name: SHAKER Trois-Rivières
+    loc: 4225, boul. des Forges, Trois-Rivières
+    lng: -72.5916245
+    lat: 46.3563635
+    city: Trois-Rivières
+  - name: SHAKER Sherbrooke
+    loc: 3050, boul. de Portland, Sherbrooke
+    lng: -71.955227
+    lat: 45.4032052
+    city: Sherbrooke
 chocolato:
   - name: Chocolato Ste-Foy
-    loc: 2327 boulevard Versant-Nord, Québec
+    loc: 2327 boul. Versant-Nord, Québec
     lng: -71.2877222222222
     lat: 46.7915833333333
     city: Ste-Foy
@@ -51,17 +61,17 @@ chocolato:
     lat: 46.7923888888889
     city: Lévis
   - name: Chocolato Galerie de la Capitale
-    loc: 5401 boulevard des Galeries, Québec
+    loc: 5401 boul. des Galeries, Québec
     lng: -71.3001111111111
     lat: 46.8297777777778
     city: Québec
   - name: Chocolato Promenades Gatineau
-    loc: 1100 boulevard Maloney Ouest, Gatineau
+    loc: 1100 boul. Maloney Ouest, Gatineau
     lng: -75.6969722222222
     lat: 45.4760555555556
     city: Gatineau
   - name: Chocolato Laurier Québec
-    loc: 2700 boulevard Laurier, Québec
+    loc: 2700 boul. Laurier, Québec
     lng: -71.2846666666667
     lat: 46.7702222222222
     city: Québec
@@ -71,7 +81,7 @@ chocolato:
     lat: 46.8131388888889
     city: Québec
   - name: Chocolato Chauveau
-    loc: 2293 Avenue Chauveau, Québec
+    loc: 2293 av. Chauveau, Québec
     lng: -71.3266666666667
     lat: 46.8414444444444
     city: Québec
@@ -91,7 +101,7 @@ chocolato:
     lat: 46.786573
     city: Ste-Foy
   - name: Chocolato Mail Champlain
-    loc: 2151 Boul. Lapinière, Brossard
+    loc: 2151 boul. Lapinière, Brossard
     lng: -73.4715833333333
     lat: 45.4717777777778
     city: Brossard
@@ -112,11 +122,16 @@ frits:
     lat: 46.8753333333333
     city: Québec
 tartar:
-  - name: Tartar Station Ste-Foy
+  - name: TARTAR Station Ste-Foy
     loc: 2360 Chemin Ste-Foy, Québec
     lng: -71.282043
     lat: 46.786598
     city: Ste-Foy
+  - name: TARTAR Station Charlesbourg
+    loc: 11001 boul. Henri-Bourassa, Ville de Québec
+    lng: -71.2806344
+    lat: 46.870911
+    city: Québec
 hola:
   - name: Hola Ste-Foy
     loc: 2360 Chemin Ste-Foy, Québec
@@ -130,7 +145,7 @@ vapo:
     lat: 46.7710277777778
     city: Ste-Foy
   - name: Vaposhop Charlesbourg
-    loc: 8000 boulevard Henri-Bourrassa, Québec
+    loc: 8000 boul. Henri-Bourrassa, Québec
     lng: -71.2681111111111
     lat: 46.8634444444444
     city: Québec
@@ -146,7 +161,7 @@ grenouille:
     lat: 46.7904722222222
     city: Ste-Foy
   - name: La P'tite Grenouille Laval
-    loc: 443 boulevard Saint-Martin Ouest, Laval
+    loc: 443 boul. Saint-Martin Ouest, Laval
     lng: -73.7118888888889
     lat: 45.5775
     city: Laval
@@ -160,13 +175,8 @@ grenouille:
     lng: -71.8886388888889
     lat: 45.3990277777778
     city: Sherbrooke
-  - name: La P'tite Grenouille Joliette
-    loc: 521 rue Notre-Dame, Joliette
-    lng: -73.4397777777778
-    lat: 46.0233888888889
-    city: Joliette
   - name: La P'tite Grenouille Montréal
-    loc: 3435 boulevard St-Laurent, Montréal
+    loc: 3435 boul. St-Laurent, Montréal
     lng: -73.5699722222222
     lat: 45.5128888888889
     city: Montréal
@@ -181,12 +191,12 @@ grenouille:
     lat: 48.4497777777778
     city: Rimouski
   - name: La P'tite Grenouille Sept-Îles
-    loc: 247 avenue Brochu, Sept-îles
+    loc: 247 av. Brochu, Sept-îles
     lng: -66.3793611111111
     lat: 50.2013055555556
     city: Sept-Îles
   - name: La P'tite Grenouille Thetford Mines
-    loc: 3625 boulevard Frontenac Est, Robertsonville
+    loc: 3625 boul. Frontenac Est, Robertsonville
     lng: -71.2508611111111
     lat: 46.1235833333333
     city: Thetford Mines
@@ -205,13 +215,8 @@ grenouille:
     lng: -69.5348055555556
     lat: 47.8306666666667
     city: Rivière-du-Loup
-  - name: La P'tite Grenouille Victoriaville
-    loc: 123 rue Notre-Dame Est, Victoriaville
-    lng: -71.956
-    lat: 46.0565833333333
-    city: Victoriaville
   - name: La P'tite Grenouille Bromont
-    loc: 8 boulevard de Bromont, Bromont
+    loc: 8 boul. de Bromont, Bromont
     lng: -72.6476388888889
     lat: 45.3344444444444
     city: Bromont
@@ -220,34 +225,49 @@ grenouille:
     lng: -70.6741111111111
     lat: 46.1215
     city: Saint-Georges
+  - name: La P'tite Grenouille Drummondville
+    loc: 124, rue Cockburn, Drummondville
+    lng: -72.4927944
+    lat: 45.885401
+    city: Drummondville
+  - name: La P'tite Grnouille Mont-Laurier
+    loc: 400 rue du Pont, Mont-Laurier
+    lng: -75.5006709
+    lat: 46.5506788
+    city: Mont-Laurier
 planete:
-  - name: Planète Nutrition Québec - Entrepôt Bouvier
+  - name: Planète Nutrition - Entrepôt Bouvier
     loc: 670 rue Bouvier, Québec
     lng: -71.2728333333333
     lat: 46.83525
     city: Québec
-  - name: Planète Nutrition Québec - Lévis/Charny
-    loc: 8035 avenue des Églises, Charny
+  - name: Planète Nutrition - Lévis/Charny
+    loc: 8035 av. des Églises, Charny
     lng: -71.2658055555556
     lat: 46.7228611111111
     city: Lévis/Charny
-  - name: Planète Nutrition Québec - Cap-Rouge/St-Augustin
+  - name: Planète Nutrition - Cap-Rouge/St-Augustin
     loc: 3695 rue de l'Hêtriėre, Cap-Rouge
     lng: -71.3794722222222
     lat: 46.7517777777778
     city: Cap-Rouge
-  - name: Planète Nutrition Rimouski
+  - name: Planète Nutrition - Rimouski
     loc: 217 rue Léonidas Sud, Rimouski
     lng: -68.5069722222222
     lat: 48.4606944444444
     city: Rimouski
-  - name: Planète Nutrition Saint-Jean-sur-Richelieu
+  - name: Planète Nutrition - Saint-Jean-sur-Richelieu
     loc: 274 Boul Saint-Luc, Saint-Jean-sur-Richelieu
     lng: -73.2962777777778
     lat: 45.3544166666667
     city: Saint-Jean-sur-Richelieu
-  - name: Planète Nutrition Beloeil
+  - name: Planète Nutrition - Beloeil
     loc: 281 rue Duvernay - 102, Beloeil
     lng: -73.2076666666667
     lat: 45.5648055555556
     city: Beloeil
+  - name: Planète Nutrition - Saint-Georges de Beauce
+    loc: 9725 5e Avenue Saint-Georges, QC G5Y 2B3
+    lng: -70.6897364
+    lat: 46.1302662
+    city: St-Georges

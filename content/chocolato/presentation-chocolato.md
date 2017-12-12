@@ -19,7 +19,7 @@ occasion: false
 list:
   title: Présentation de la bannière
 ---
-C’est par véritable passion pour le chocolat que Chocolato est fondé en août 2015 par le groupe et un de ses associés Guyaume Arsenault. Guidés par l'envie d’offrir une expérience à la croisée entre bar laitier et chocolaterie inspirée des plus prestigieuses chocolateries italiennes, une première succursale ouvre ses portes à Sainte-Foy.
+C’est par véritable passion pour le chocolat que Chocolato est fondé en août 2015 par le groupe et un de ses associés Guyaume Arsenault. Guidés par l'envie d’offrir une expérience à la croisée entre bar laitier et chocolaterie inspirée des plus prestigieuses chocolateries italiennes, une première succursale ouvre ses portes à Ste-Foy.
 
 Des ingrédients purs et de qualité forment la base et l’inspiration des produits Chocolato. En plus d’avoir en permanence 20 choix de trempages chocolatés, Chocolato fut un réel pionnier en offrant l’expérience de crèmerie-tremperie à longueur d’année. 
 

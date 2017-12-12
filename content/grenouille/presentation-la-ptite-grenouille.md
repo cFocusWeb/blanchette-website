@@ -24,4 +24,4 @@ Avec les boîtes à chansons La P'tite Grenouille, le groupe amène l'expérienc
 
 La P'tite Grenouille propose un concept simple et éprouvé : des prestations de musiciens ou d'humoristes, de nombreux spéciaux sur l'alcool et des soirées thématiques festives. Depuis ses tout débuts en 2005, les amateurs de party "comme dans le bon vieux temps" s'y donnent rendez-vous pour chanter à tue-tête de bons vieux hits.
 
-Avec maintenant 18 succursales à travers la province, La P'tite Grenouille continue son expansion et avec toujours autant de succès. 
+Avec maintenant 16 succursales à travers la province, La P'tite Grenouille continue son expansion et avec toujours autant de succès. 

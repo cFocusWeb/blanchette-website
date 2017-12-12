@@ -19,7 +19,7 @@ occasion: false
 list:
   title: Banner presentation
 ---
-A true passion project led by love of chocolate, Chocolato is founded in 2015 by the group and an associate, Guyaume Arsenault. With the desire to offer an experience that is at the crossroads between a dairy bar and a chocolate shop inspired by the most prestigious Italian chocolate shops, a first location opens in Sainte-Foy. 
+A true passion project led by love of chocolate, Chocolato is founded in 2015 by the group and an associate, Guyaume Arsenault. With the desire to offer an experience that is at the crossroads between a dairy bar and a chocolate shop inspired by the most prestigious Italian chocolate shops, a first location opens in Ste-Foy. 
 
 The purest, best quality ingredients are the basis and inspiration for Chocolato’s products. In addition to 20 choices of chocolate dippings, Chocolato was truly a pioneering force in offering the dipped ice-cream experience year-round.
 

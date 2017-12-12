@@ -47,6 +47,9 @@
 			width: 100%;
 			display: none;
 		}
+		@media only screen and (min-width : 2200px) {
+			bottom: 50px;
+		}
 		#logos-slider {
 			opacity: 0;
 			-webkit-transition: 0.5s opacity;
@@ -54,54 +57,65 @@
 			-ms-transition: 0.5s opacity;
 			-o-transition: 0.5s opacity;
 			transition: 0.5s opacity;
-			@include breakpoint(desktop-lg) {
-				height: 225px;
-			}
-			@include breakpoint(laptop) {
-				height: 150px;
-			}
-			@include breakpoint(tablet) {
-				height: 150px;
-			}
-			@include breakpoint(phone) {
-				height: 150px;
-			}
+			height: 125px;
+			// @include breakpoint(desktop-lg) {
+			// 	height: 225px;
+			// }
+			// @include breakpoint(laptop) {
+			// 	height: 150px;
+			// }
+			// @include breakpoint(tablet) {
+			// 	height: 150px;
+			// }
+			// @include breakpoint(phone) {
+			// 	height: 150px;
+			// }
 			&.slick-initialized {
 				opacity: 1;
 			}
 			.item {
 				.logo-box {
 					position: relative;
-					height: 175px;
+					height: 125px;
 					max-height: 100%;
-					@include breakpoint(desktop-lg) {
-						height: 225px;
-					}
-					@include breakpoint(laptop) {
-						height: 150px;
-					}
-					@include breakpoint(tablet) {
-						height: 150px;
-					}
-					@include breakpoint(phone) {
-						height: 150px;
-					}
+					// @include breakpoint(desktop-lg) {
+					// 	height: 225px;
+					// }
+					// @include breakpoint(laptop) {
+					// 	height: 150px;
+					// }
+					// @include breakpoint(tablet) {
+					// 	height: 150px;
+					// }
+					// @include breakpoint(phone) {
+					// 	height: 150px;
+					// }
 					img {
 						@include centre(both);
-						max-width: 80%;
-						max-height: 90%;
+						max-width: 60%;
+						max-height: 72px;
+						@media only screen and (min-width : 2200px) {
+							max-height: 110px;
+						}
 					}
 					a  {
-						&#vapo {
+						&#vapo, &#planete {
 							img {
-								max-width: 90%;
-								max-height: 100%;
+								max-height: 90px;
+								@media only screen and (min-width : 2200px) {
+									max-height: 130px;
+								}
 							}
 						}
 						&#tartar {
 							img {
-								max-width: 60%;
-								max-height: 70%;
+								max-height: 65px;
+								@include breakpoint(laptop) {
+									max-height: 60px;
+								}
+								@media only screen and (min-width : 2200px) {
+									max-height: 90px;
+								}
 							}
 						}
 					}
@@ -139,13 +153,13 @@
 ===================================*/
 
 #about-block {
-	height:500px;
+	height:auto;
 	font-size: 16px;
 	background:$dark;
 	color:$white;
 	@include small-lap {
 		font-size: 15px;
-		height: 450px;
+		height: auto;
 	}
 	@include breakpoint(laptop) {
 		font-size: 14px;
@@ -226,27 +240,27 @@
 			}
 		}
 		@include breakpoint(tablet) {
-			height: 400px;
+			height: 57.2vw;
 			width: 100%;
 			float: none;
 		}
 		@include breakpoint(phone) {
-			height: 300px;
+			height: 57.2vw;
 			width: 100%;
 			float: none;
 		}
 		img:not(.logo-hover) {
 			width: 100%;
-			height: 500px;
+			height: 28.6vw;
 			object-fit: cover;
 			@include small-lap {
-				height: 450px;
+				height: 28.6vw;
 			}
 			@include breakpoint(tablet) {
-				height: 400px;
+				height: 57.2vw;
 			}
 			@include breakpoint(phone) {
-				height: 300px;
+				height: 57.2vw;
 			}
 		}
 	}
@@ -260,78 +274,78 @@
 
 #masonry-franchise {
 	.col-md-4 {
-		height: 500px;
+		height: 30.3vw;
 		@include breakpoint(tablet) {
-			height: 400px;
+			height: 46vw;
 		}
 		@include breakpoint(phone) {
-			height: 300px;
+			height: 91.9vw;
 		}
 	}
-	.first-gallery-row {
-		height: 400px;
-		@include small-lap {
-			height: 350px;
-		}
-		@include breakpoint(laptop) {
-			height: 300px;
-		}
-		@include breakpoint(tablet) {
-			height: 350px;
-		}
-		@include breakpoint(phone) {
-			height: 300px;
-		}
-		img.img-responsive {
-			height: 400px;
-			object-fit: cover;
-			width: 100%;
-			@include small-lap {
-				height: 350px;
-			}
-			@include breakpoint(laptop) {
-				height: 300px;
-			}
-			@include breakpoint(tablet) {
-				height: 350px;
-			}
-			@include breakpoint(phone) {
-				height: 300px;
-			}
-		}
-	}
-	.sec-gallery-row {
-		height: 550px;
-		@include small-lap {
-			height: 500px;
-		}
-		@include breakpoint(laptop) {
-			height: 450px;
-		}
-		@include breakpoint(tablet) {
-			height: 350px;
-		}
-		@include breakpoint(phone) {
-			height: 300px;
-		}
-		img.img-responsive {
-			height: 550px;
-			object-fit: cover;
-			width: 100%;
-			@include small-lap {
-				height: 500px;
-			}
-			@include breakpoint(laptop) {
-				height: 450px;
-			}
-			@include breakpoint(tablet) {
-				height: 350px;
-			}
-			@include breakpoint(phone) {
-				height: 300px;
-			}
-		}		
-	}
+	// .first-gallery-row {
+	// 	height: 400px;
+	// 	@include small-lap {
+	// 		height: 350px;
+	// 	}
+	// 	@include breakpoint(laptop) {
+	// 		height: 300px;
+	// 	}
+	// 	@include breakpoint(tablet) {
+	// 		height: 350px;
+	// 	}
+	// 	@include breakpoint(phone) {
+	// 		height: 300px;
+	// 	}
+	// 	img.img-responsive {
+	// 		height: 400px;
+	// 		object-fit: cover;
+	// 		width: 100%;
+	// 		@include small-lap {
+	// 			height: 350px;
+	// 		}
+	// 		@include breakpoint(laptop) {
+	// 			height: 300px;
+	// 		}
+	// 		@include breakpoint(tablet) {
+	// 			height: 350px;
+	// 		}
+	// 		@include breakpoint(phone) {
+	// 			height: 300px;
+	// 		}
+	// 	}
+	// }
+	// .sec-gallery-row {
+	// 	height: 30.3vw;
+	// 	@include small-lap {
+	// 		height: 30.3vw;
+	// 	}
+	// 	@include breakpoint(laptop) {
+	// 		height: 30.3vw;
+	// 	}
+	// 	@include breakpoint(tablet) {
+	// 		height: 46vw;
+	// 	}
+	// 	@include breakpoint(phone) {
+	// 		height: 91.9vw;
+	// 	}
+	// 	img.img-responsive {
+	// 		height: 30.3vw;
+	// 		object-fit: cover;
+	// 		width: 100%;
+	// 		@include small-lap {
+	// 			height: 30.3vw;
+	// 		}
+	// 		@include breakpoint(laptop) {
+	// 			height: 30.3vw;
+	// 		}
+	// 		@include breakpoint(tablet) {
+	// 			height: 46vw;
+	// 		}
+	// 		@include breakpoint(phone) {
+	// 			height: 91.9vw;
+	// 		}
+	// 	}		
+	// }
 	img {
 		width: 100%;
 		object-fit: cover;
@@ -382,12 +396,28 @@
 				background-size: cover;
 				background-repeat: no-repeat;
 				width: 100%;
-				height: 500px;
+				height: 30.3vw;
 				@include breakpoint(tablet) {
-					height: 400px;
+					height: 46vw;
 				}
 				@include breakpoint(phone) {
-					height: 300px;
+					height: 91.9vw;
+				}
+			}
+		}
+	}
+	&.half-masonry {
+		.mosaic-slider {
+			div {
+				background-size: cover;
+				background-repeat: no-repeat;
+				width: 100%;
+				height: 28.6vw;
+				@include breakpoint(tablet) {
+					height: 57.2vw;
+				}
+				@include breakpoint(phone) {
+					height: 57.2vw;
 				}
 			}
 		}

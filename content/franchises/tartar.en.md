@@ -1,7 +1,7 @@
 ---
 title: TARTAR Station Franchise - Restauration
 description: >-
-  This fast service counter specializing in tartares, tatakis and poke bowls is your stop for healthy and go meals.
+  This fast service counter specializing in tartares and poke bowls is your stop for healthy and go meals.
 slug: tartar-station
 identifiant: tartar
 image: "/img/franchises/tartar-franchise.jpg"
@@ -11,7 +11,7 @@ mainimage: /img/franchises/tartar-franchise.jpg
 resume:
   titre: TARTAR Station
   desc: >-
-    This fast service counter specializing in tartares, tatakis and poke bowls has quickly become a favorite among amateurs of healthy, on the go meals. At the forefront of the latest food trends, 
+    This fast service counter specializing in tartares and poke bowls has quickly become a favorite among amateurs of healthy, on the go meals. At the forefront of the latest food trends, 
 
     ### TARTAR Station 
 
@@ -23,7 +23,7 @@ resume:
 imagedesc: >-
   TARTAR Station: for tasty and on-the-go meals! Above: the first counter of the banner, located in Ste-foy.
 business: >-
-  This fast service counter specializing in tartares, tatakis and poke bowls has quickly become a favorite among amateurs of healthy, on the go meals. At the forefront of the latest food trends, TARTAR Station offers delicious recipes to be enjoyed on site, as take-out or delivery; without compromising quality or taste in any way. 
+  This fast service counter specializing in tartares and poke bowls has quickly become a favorite among amateurs of healthy, on the go meals. At the forefront of the latest food trends, TARTAR Station offers delicious recipes to be enjoyed on site, as take-out or delivery; without compromising quality or taste in any way. 
 accentcolor: "#fa5200"
 whitebg: true
 website: https://tartarstation.com/
@@ -62,9 +62,10 @@ locations:
 
 ### A success story
 
-TARTAR Station was born in 2017, and is already an operational location, with a second one planned to open also this year. 
+Two years after the general outline of the TARTAR Station project, the first restaurant was born in February 2017. The two young entrepreneurs at the base of the concept join forces with the expertise of Groupe Blanchette - Master Franchisor to achieve their purpose, and create the first fast food chain specializing in tartares and poke bowls, serving its dishes on the spot, as well as for take-out and delivery.
 
-Starting out as an idea, the concept becomes a reality two years after the first image came into the mind of the two entrepreneurs: create the first chain of "fast food" style restaurants specialized in tartares and poke bowls, serving these dishes on location, but also, to-go and on delivery. In order to reach its objective, the twosome originating the concept joins forces with the Groupe Blanchette – Master Franchisor’s expertise, making their big dream a reality. A few months later, TARTAR Station rounds out its offer by adding an exclusive line of cold infused teas to their restaurant, LT teas.
+As soon as the first branch opened, TARTAR Station was very successful, prompting the team to open a second one in the following months.
+
 
 ### TARTAR 2.0
 
@@ -88,7 +89,7 @@ Stand out from the rest by opening your own TARTAR Station counter!
 
 - Be comfortable working with the public; 
 - Be stimulated by new challenges;
-- Have an interest in raw food cuisine (tartares, tatakis, etc.);
+- Have an interest in raw food cuisine;
 - Having experience in a restaurant or in the operations of an establishment in that field is an asset.
 
 ### Other details
