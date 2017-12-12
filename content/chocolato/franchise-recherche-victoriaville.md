@@ -1,6 +1,6 @@
 ---
 title: Franchisé recherché à Victoriaville
-slug: ceci-est-un-test
+slug: franchise-recherche-victoriaville
 identifiant: franchise-recherche-victoriaville
 image: /img/articles/franchise-recherche-victoriaville_.jpg
 date: '2017-12-12'
