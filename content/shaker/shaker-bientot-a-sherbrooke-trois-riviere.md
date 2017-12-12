@@ -2,7 +2,7 @@
 title: "Le Shaker bientôt à Sherbrooke et Trois-Rivières"
 identifiant: shaker-bientot-a-sherbrooke-trois-riviere
 slug: shaker-bientot-a-sherbrooke-trois-riviere
-image: Shaker-bientot-a-Sherbrooke-Trois-Riviere.jpg 
+image: /img/articles/Shaker-bientot-a-Sherbrooke-Trois-Riviere.jpg 
 date: 2017-11-22
 external:
   need: true

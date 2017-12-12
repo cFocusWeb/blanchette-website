@@ -3,7 +3,7 @@ title: "L’art de la cuisine et de la mixologie s’invite à Charlesbourg !"
 description: >-
 slug: shaker-a-charlesbourg
 identifiant: shaker-a-charlesbourg 
-image: shaker-a-charlesbourg.jpg
+image: /img/articles/shaker-a-charlesbourg.jpg
 arrowc: white
 i18nlanguage: fr
 weight: 1

@@ -3,7 +3,7 @@ title: "STAR CAFÉ - Présentation de la bannière"
 description: >-
 slug: presentation-star-cafe
 identifiant: presentation-star-cafe 
-image: presentation-star-cafe.jpg
+image: /img/articles/presentation-star-cafe.jpg
 arrowc: black
 i18nlanguage: fr
 weight: 1

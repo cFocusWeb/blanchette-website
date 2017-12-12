@@ -2,7 +2,7 @@
 title: "Pour les sportifs de tous les horizons"
 identifiant: pour-les-sportifs-de-tous-les-horizons
 slug: pour-les-sportifs-de-tous-les-horizons
-image: Pour-les-sportifs-de-tous-les-horizons.jpg
+image: /img/articles/Pour-les-sportifs-de-tous-les-horizons.jpg
 date: 2016-09-23
 external:
   need: true

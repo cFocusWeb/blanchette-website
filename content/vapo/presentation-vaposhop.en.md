@@ -3,7 +3,7 @@ title: "VAPOSHOP - Banner presentation"
 description: >-
 slug: presentation-vaposhop
 identifiant: presentation-vaposhop 
-image: presentation-vaposhop.jpg
+image: /img/articles/presentation-vaposhop.jpg
 arrowc: black
 i18nlanguage: en
 weight: 1

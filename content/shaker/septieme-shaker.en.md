@@ -3,7 +3,7 @@ title: "And here’s 7: The SHAKER family is still growing!"
 description: >-
 slug: septieme-shaker
 identifiant: septieme-shaker 
-image: septieme-shaker.jpg
+image: /img/articles/septieme-shaker.jpg
 arrowc: white
 i18nlanguage: en
 weight: 1

@@ -2,7 +2,7 @@
 title: "Une quatrième succursale pour le Shaker"
 identifiant: une-quatrieme-succursalle-pour-le-shaker
 slug: une-quatrieme-succursalle-pour-le-shaker
-image: Une-quatrieme-succursalle-pour-le-Shaker.jpg
+image: /img/articles/Une-quatrieme-succursalle-pour-le-Shaker.jpg
 date: 2016-08-15
 external:
   need: true

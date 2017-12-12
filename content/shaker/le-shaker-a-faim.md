@@ -2,7 +2,7 @@
 title: "Le Shaker a faim !"
 identifiant: le-shaker-a-faim
 slug: le-shaker-a-faim
-image: Le-Shaker-a-faim.jpg
+image: /img/articles/Le-Shaker-a-faim.jpg
 date: 2016-08-31
 external:
   need: true

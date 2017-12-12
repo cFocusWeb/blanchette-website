@@ -3,7 +3,7 @@ title: "Little Frog - Banner presentation"
 description: >-
 slug: presentation-la-ptite-grenouille
 identifiant: presentation-la-ptite-grenouille 
-image: presentation-la-ptite-grenouille-en.jpg
+image: /img/articles/presentation-la-ptite-grenouille-en.jpg
 arrowc: black
 i18nlanguage: en
 weight: 1

@@ -3,7 +3,7 @@ title: "La P'tite Grenouille s'installe à Sherbrooke"
 description: >-
 slug: la-ptite-grenouille-a-sherbrooke
 identifiant: la-ptite-grenouille-a-sherbrooke 
-image: la-ptite-grenouille-a-sherbrooke.jpg
+image: /img/articles/la-ptite-grenouille-a-sherbrooke.jpg
 arrowc: white
 i18nlanguage: fr
 weight: 1

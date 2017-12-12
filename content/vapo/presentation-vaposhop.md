@@ -3,7 +3,7 @@ title: "VAPOSHOP - Présentation de la bannière"
 description: >-
 slug: presentation-vaposhop
 identifiant: presentation-vaposhop 
-image: presentation-vaposhop.jpg
+image: /img/articles/presentation-vaposhop.jpg
 arrowc: black
 i18nlanguage: fr
 weight: 1

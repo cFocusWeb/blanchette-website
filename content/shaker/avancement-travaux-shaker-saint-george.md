@@ -2,7 +2,7 @@
 title: "Bilan de l'avancement des travaux au nouveau restaurant Shaker de Saint-Georges"
 identifiant: avancement-travaux-shaker-saint-george
 slug: avancement-travaux-shaker-saint-george
-image: Avancement-travaux-Shaker-Saint-George.jpg
+image: /img/articles/Avancement-travaux-Shaker-Saint-George.jpg
 date: 2017-05-15
 external: 
   need: true

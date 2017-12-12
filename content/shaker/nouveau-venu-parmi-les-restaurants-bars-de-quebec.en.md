@@ -3,7 +3,7 @@ title: "A newcomer to the Québec City restaurant-bar scene! "
 description: >-
 slug: nouveau-venu-parmi-les-restaurants-bars-de-quebec
 identifiant: nouveau-venu-parmi-les-restaurants-bars-de-quebec 
-image: nouveau-venu-parmi-les-restaurants-bars-de-quebec.jpg
+image: /img/articles/nouveau-venu-parmi-les-restaurants-bars-de-quebec.jpg
 arrowc: white
 i18nlanguage: en
 weight: 1

@@ -2,7 +2,7 @@
 title: "Une succursale du Shaker Cuisine & Mixologie à Lévis"
 identifiant: une-succursale-du-shaker-a-levis
 slug: une-succursale-du-shaker-a-levis
-image: Une-succursale-du-Shaker-a-Levis.jpg
+image: /img/articles/Une-succursale-du-Shaker-a-Levis.jpg
 date: 2016-03-08
 external:
   need: true

@@ -2,7 +2,7 @@
 title: "Le propriétaire du Shaker souhaite ouvrir un total de 30 restaurants au Québec"
 identifiant: Le-shaker-souhaite-30-restaurants-au-quebec
 slug: Le-shaker-souhaite-30-restaurants-au-quebec
-image: Le-Shaker-souhaite-30-restaurants-au-Quebec.jpg
+image: /img/articles/Le-Shaker-souhaite-30-restaurants-au-Quebec.jpg
 date: 2017-03-22
 external:
   need: true

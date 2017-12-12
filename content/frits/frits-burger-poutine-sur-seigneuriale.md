@@ -2,7 +2,7 @@
 title: "Un Frit's Burgers & Poutine sur Seigneuriale"
 identifiant: frits-burger-poutine-sur-seigneuriale
 slug: frits-burger-poutine-sur-seigneuriale
-image: Frits-Burger-Poutine-sur-Seigneuriale.jpg
+image: /img/articles/Frits-Burger-Poutine-sur-Seigneuriale.jpg
 date: 2017-08-31
 external:
   need: true

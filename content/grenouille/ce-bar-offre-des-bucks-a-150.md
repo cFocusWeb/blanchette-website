@@ -2,7 +2,7 @@
 title: "Ce bar offre des bucks de bière à seulement 1,50$"
 identifiant: ce-bar-offre-des-bucks-a-150
 slug: ce-bar-offre-des-bucks-a-150
-image: Ce-bar-offre-des-bucks-a-150.jpg
+image: /img/articles/Ce-bar-offre-des-bucks-a-150.jpg
 date: 2016-10-11
 external:
   need: true

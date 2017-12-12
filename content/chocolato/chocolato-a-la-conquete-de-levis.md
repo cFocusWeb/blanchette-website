@@ -2,7 +2,7 @@
 title: "Chocolato à la conquête de Lévis"
 identifiant: chocolato-a-la-conquete-de-levis
 slug: chocolato-a-la-conquete-de-levis
-image: Chocolato-a-la-conquete-de-Levis.jpg
+image: /img/articles/Chocolato-a-la-conquete-de-Levis.jpg
 date: 2016-12-08
 external:
   need: true

@@ -2,7 +2,7 @@
 title: "Une « destination dessert» à la Place Biermans"
 identifiant: destination-dessert-place-biermans
 slug: destination-dessert-place-biermans
-image: Destination-dessert-Place-Biermans.jpg
+image: /img/articles/Destination-dessert-Place-Biermans.jpg
 date: 2017-03-07
 external:
   need: true

@@ -3,7 +3,7 @@ title: "HOLA Grill Mexicain - Présentation de la bannière"
 description: >-
 slug: presentation-hola
 identifiant: presentation-hola 
-image: presentation-hola.jpg
+image: /img/articles/presentation-hola.jpg
 arrowc: black
 i18nlanguage: fr
 weight: 1

@@ -2,7 +2,7 @@
 title: "Le bistro Portofino ouvre ses portes au cœur de Sainte-Foy"
 identifiant: portofino-ouvre-ses-portes-au-coeur-de-sainte-foy
 slug: portofino-ouvre-ses-portes-au-coeur-de-sainte-foy
-image: Portofino-ouvre-ses-portes-au-couer-de-Sainte-Foy.jpg
+image: /img/articles/Portofino-ouvre-ses-portes-au-couer-de-Sainte-Foy.jpg
 date: 2013-10-14
 external:
   need: true

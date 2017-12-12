@@ -2,7 +2,7 @@
 title: "Nouvelle vocation pour le Star Bar"
 identifiant: nouvelle-vocation-pour-le-star-bar
 slug: nouvelle-vocation-pour-le-star-bar
-image: Nouvelle-vocation-pour-le-star-bar.jpg
+image: /img/articles/Nouvelle-vocation-pour-le-star-bar.jpg
 date: 2014-12-18
 external:
   need: true

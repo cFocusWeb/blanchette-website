@@ -2,7 +2,7 @@
 title: "Shaker Charlesbourg : Et de cinq !"
 identifiant: shaker-charlesbourg-et-de-cinq
 slug: shaker-charlesbourg-et-de-cinq
-image: Shaker-Charlesbourg-et-de-cinq.jpg
+image: /img/articles/Shaker-Charlesbourg-et-de-cinq.jpg
 date: 2017-02-23
 external:
   need: true

@@ -3,7 +3,7 @@ title: "Et de sept : la famille SHAKER s’agrandit de nouveau !"
 description: >-
 slug: septieme-shaker
 identifiant: septieme-shaker 
-image: septieme-shaker.jpg
+image: /img/articles/septieme-shaker.jpg
 arrowc: white
 i18nlanguage: fr
 weight: 1

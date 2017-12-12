@@ -3,7 +3,7 @@ title: "SHAKER Kitchen & Mixology - Banner presentation"
 description: >-
 slug: presentation-shaker
 identifiant: presentation-shaker 
-image: presentation-shaker-en.jpg
+image: /img/articles/presentation-shaker-en.jpg
 arrowc: black
 i18nlanguage: en
 weight: 1

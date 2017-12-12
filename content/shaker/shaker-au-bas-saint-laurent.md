@@ -3,7 +3,7 @@ title: "L’expérience SHAKER se déploie jusque… dans le Bas-Saint-Laurent"
 description: >-
 slug: shaker-au-bas-saint-laurent
 identifiant: shaker-au-bas-saint-laurent 
-image: shaker-au-bas-saint-laurent.jpg
+image: /img/articles/shaker-au-bas-saint-laurent.jpg
 arrowc: white
 i18nlanguage: fr
 weight: 1

@@ -2,7 +2,7 @@
 title: "La P’tite Grenouille à Rivière-du-Loup dès août"
 identifiant: la-ptite-grenouille-a-riviere-du-loup-aout
 slug: la-ptite-grenouille-a-riviere-du-loup-aout
-image: La-Ptite-Grenouille-a-Riviere-du-Loup-aout.jpg
+image: /img/articles/La-Ptite-Grenouille-a-Riviere-du-Loup-aout.jpg
 date: 2016-05-13
 external:
   need: true

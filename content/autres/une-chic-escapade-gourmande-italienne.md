@@ -2,7 +2,7 @@
 title: "Une chic escapade gourmande à l’italienne"
 identifiant: une-chic-escapade-gourmande-italienne
 slug: une-chic-escapade-gourmande-italienne
-image: Une-chic-escapade-gourmande-italienne.jpg
+image: /img/articles/Une-chic-escapade-gourmande-italienne.jpg
 date: 2014-05-30
 external:
   need: true

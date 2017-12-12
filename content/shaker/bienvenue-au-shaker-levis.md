@@ -3,7 +3,7 @@ title: "Le concept du SHAKER traverse les ponts : bienvenue au SHAKER Lévis !"
 description: >-
 slug: bienvenue-au-shaker-levis
 identifiant: bienvenue-au-shaker-levis 
-image: bienvenue-au-shaker-levis.jpg
+image: /img/articles/bienvenue-au-shaker-levis.jpg
 arrowc: white
 i18nlanguage: fr
 weight: 1

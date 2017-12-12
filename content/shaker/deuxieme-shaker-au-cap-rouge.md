@@ -3,7 +3,7 @@ title: "Un deuxième dans la famille : accueillez le SHAKER Cap-Rouge ! "
 description: >-
 slug: deuxieme-shaker-au-cap-rouge
 identifiant: deuxieme-shaker-au-cap-rouge 
-image: deuxieme-shaker-au-cap-rouge.jpg
+image: /img/articles/deuxieme-shaker-au-cap-rouge.jpg
 arrowc: white
 i18nlanguage: fr
 weight: 1

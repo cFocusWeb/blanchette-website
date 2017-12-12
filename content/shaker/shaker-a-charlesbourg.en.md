@@ -3,7 +3,7 @@ title: "The Art of Cuisine & Mixology takes root in Charlesbourg !"
 description: >-
 slug: shaker-a-charlesbourg
 identifiant: shaker-a-charlesbourg 
-image: shaker-a-charlesbourg.jpg
+image: /img/articles/shaker-a-charlesbourg.jpg
 arrowc: white
 i18nlanguage: en
 weight: 1

@@ -2,7 +2,7 @@
 title: "Entre crèmerie, brûlerie et chocolaterie !"
 identifiant: entre-cremerie-brulerie-et-chocolaterie
 slug: entre-cremerie-brulerie-et-chocolaterie
-image: Entre-cremerie-brulerie-et-chocolaterie.jpg
+image: /img/articles/Entre-cremerie-brulerie-et-chocolaterie.jpg
 date: 2015-10-20
 external:
   need: true

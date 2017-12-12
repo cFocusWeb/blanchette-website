@@ -2,7 +2,7 @@
 title: "Chocolato : pour se sucrer le bec à la Place Biermans"
 identifiant: chocolato-sucrer-le-bec-place-biermans
 slug: chocolato-sucrer-le-bec-place-biermans
-image: Chocolato-sucrer-le-bec-Place-Biermans.jpg
+image: /img/articles/Chocolato-sucrer-le-bec-Place-Biermans.jpg
 date: 2017-10-20
 external:
   need: true

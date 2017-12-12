@@ -3,7 +3,7 @@ title: "STAR BAR – Banner presentation"
 description: >-
 slug: presentation-star-bar
 identifiant: presentation-star-bar 
-image: presentation-star-bar-2.jpg
+image: /img/articles/presentation-star-bar-2.jpg
 arrowc: black
 i18nlanguage: en
 weight: 1

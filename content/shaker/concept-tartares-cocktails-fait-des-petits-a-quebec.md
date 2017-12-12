@@ -2,7 +2,7 @@
 title: "Le concept « tartares et cocktails » fait des petits à Québec"
 identifiant: concept-tartares-cocktails-fait-des-petits-a-quebec
 slug: concept-tartares-cocktails-fait-des-petits-a-quebec
-image: concept-tartares-cocktails-fait-des-petits-a-Quebec.jpg
+image: /img/articles/concept-tartares-cocktails-fait-des-petits-a-Quebec.jpg
 date: 2015-02-08
 external:
   need: true

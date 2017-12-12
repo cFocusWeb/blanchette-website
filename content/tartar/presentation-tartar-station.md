@@ -3,7 +3,7 @@ title: "TARTAR Station - Présentation de la bannière"
 description: >-
 slug: presentation-tartar-station
 identifiant: presentation-tartar-station 
-image: presentation-tartar-station.jpg
+image: /img/articles/presentation-tartar-station.jpg
 arrowc: black
 i18nlanguage: fr
 weight: 1

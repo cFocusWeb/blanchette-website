@@ -3,7 +3,7 @@ title: "SHAKER Cuisine & Mixologie - Présentation de la bannière"
 description: >-
 slug: presentation-shaker
 identifiant: presentation-shaker 
-image: presentation-shaker.jpg
+image: /img/articles/presentation-shaker.jpg
 arrowc: black
 i18nlanguage: fr
 weight: 1

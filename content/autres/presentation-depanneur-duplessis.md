@@ -3,7 +3,7 @@ title: "Dépanneur Duplessis - Présentation de la bannière"
 description: >-
 slug: presentation-depanneur-duplessis
 identifiant: presentation-depanneur-duplessis 
-image: presentation-depanneur-duplessis.jpg
+image: /img/articles/presentation-depanneur-duplessis.jpg
 arrowc: white
 i18nlanguage: fr
 weight: 1

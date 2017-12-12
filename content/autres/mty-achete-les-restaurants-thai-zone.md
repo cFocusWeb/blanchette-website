@@ -2,7 +2,7 @@
 title: "MTY achète les restaurants Thaï Zone"
 identifiant: mty-achete-les-restaurants-thai-zone
 slug: mty-achete-les-restaurants-thai-zone
-image: MTY-achete-les-restaurants-Thai-Zone.png
+image: /img/articles/MTY-achete-les-restaurants-Thai-Zone.png
 date: 2013-08-13
 external:
   need: true

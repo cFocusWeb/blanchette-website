@@ -16,6 +16,9 @@ const imagethumb = 80;
 gulp.task("clean-image", function(){
   return del([
     'themes/blanchette/static/img/**/*',
+    'themes/blanchette/static/quart/img/**/*',
+    'themes/blanchette/static/half/img/**/*',
+    'themes/blanchette/static/thumb/img/**/*',
     // we don't want to clean this file though so we negate the pattern
     '!themes/blanchette/static/img/ico',
     '!themes/blanchette/static/img/ico/*',
@@ -29,11 +32,11 @@ gulp.task("image-resize", () => {
     .pipe(imageresize({ width: imagefull }))
     .pipe(gulp.dest("themes/blanchette/static/img"))
     .pipe(imageresize({ width: imagehalf }))
-    .pipe(gulp.dest("themes/blanchette/static/img/half"))
+    .pipe(gulp.dest("themes/blanchette/static/half/img"))
     .pipe(imageresize({ width: imagequart }))
-    .pipe(gulp.dest("themes/blanchette/static/img/quart"))
+    .pipe(gulp.dest("themes/blanchette/static/quart/img"))
     .pipe(imageresize({ width: imagethumb }))
-    .pipe(gulp.dest("themes/blanchette/static/img/thumb"));
+    .pipe(gulp.dest("themes/blanchette/static/thumb/img"));
 });
 
 // hugo production call

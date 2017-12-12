@@ -2,7 +2,7 @@
 title: "C’est parti pour le Shaker de Rivière-du-Loup"
 identifiant: nouveau-shaker-riviere-du-loup
 slug: nouveau-shaker-riviere-du-loup
-image: Nouveau-Shaker-Riviere-du-Loup.jpg
+image: /img/articles/Nouveau-Shaker-Riviere-du-Loup.jpg
 date: 2017-04-04
 external:
   need: true

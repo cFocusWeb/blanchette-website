@@ -2,7 +2,7 @@
 title: "Le Complexe chez Pull sera transformé en Shaker"
 identifiant: complexe-chez-pull-transforme-en-shaker
 slug: complexe-chez-pull-transforme-en-shaker
-image: Complexe-chez-Pull-transforme-en-Shaker.jpg
+image: /img/articles/Complexe-chez-Pull-transforme-en-Shaker.jpg
 date: 2016-09-08
 external:
   need: true

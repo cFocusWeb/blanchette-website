@@ -3,7 +3,7 @@ title: "Un nouveau venu parmi les restaurants-bars de la Ville de Québec !"
 description: >-
 slug: nouveau-venu-parmi-les-restaurants-bars-de-quebec
 identifiant: nouveau-venu-parmi-les-restaurants-bars-de-quebec 
-image: nouveau-venu-parmi-les-restaurants-bars-de-quebec.jpg
+image: /img/articles/nouveau-venu-parmi-les-restaurants-bars-de-quebec.jpg
 arrowc: white
 i18nlanguage: fr
 weight: 1

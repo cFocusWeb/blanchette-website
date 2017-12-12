@@ -3,7 +3,7 @@ title: "Frit's Burgers & Poutines - Banner presentation"
 description: >-
 slug: presentation-frits
 identifiant: presentation-frits 
-image: presentation-frits.jpg
+image: /img/articles/presentation-frits.jpg
 arrowc: black
 i18nlanguage: en
 weight: 1

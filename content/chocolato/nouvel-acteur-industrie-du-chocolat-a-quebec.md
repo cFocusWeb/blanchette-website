@@ -2,7 +2,7 @@
 title: "Un nouvel acteur dans l’industrie du chocolat à Québec"
 identifiant: nouvel-acteur-industrie-du-chocolat-a-quebec
 slug: nouvel-acteur-industrie-du-chocolat-a-quebec
-image: Nouvel-acteur-industrie-du-chocolat-a-Quebec.png
+image: /img/articles/Nouvel-acteur-industrie-du-chocolat-a-Quebec.png
 date: 2015-06-28
 external:
   need: true

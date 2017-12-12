@@ -2,7 +2,7 @@
 title: "La P’tite Grenouille ouvrira en avril au centre-ville de Saint-Georges"
 identifiant: la-ptite-grenouille-ouverture-saint-georges
 slug: la-ptite-grenouille-ouverture-saint-georges
-image: La-Ptite-Grenouille-ouverture-Saint-Georges.jpg
+image: /img/articles/La-Ptite-Grenouille-ouverture-Saint-Georges.jpg
 date: 2017-03-16
 external:
   need: true

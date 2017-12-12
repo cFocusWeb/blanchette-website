@@ -2,7 +2,7 @@
 title: "De nouvelles expériences gustatives au Shaker Lévis"
 identifiant: nouvelles-experiences-gustatives-shaker-levis
 slug: nouvelles-experiences-gustatives-shaker-levis
-image: Nouvelles-experiences-gustatives-Shaker-Levis.jpg
+image: /img/articles/Nouvelles-experiences-gustatives-Shaker-Levis.jpg
 date: 2016-10-01
 external:
   need: true

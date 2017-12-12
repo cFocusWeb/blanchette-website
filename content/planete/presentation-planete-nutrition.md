@@ -3,7 +3,7 @@ title: "Planète Nutrition - Présentation de la bannière"
 description: >-
 slug: presentation-planete-nutrition
 identifiant: presentation-planete-nutrition 
-image: presentation-planete-nutrition.jpg
+image: /img/articles/presentation-planete-nutrition.jpg
 arrowc: black
 i18nlanguage: fr
 weight: 1

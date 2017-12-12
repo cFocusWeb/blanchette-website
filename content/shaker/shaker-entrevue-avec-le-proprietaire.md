@@ -2,7 +2,7 @@
 title: "Shaker Cuisine & Mixologie : entrevue avec le propriétaire"
 identifiant: shaker-entrevue-avec-le-proprietaire
 slug: shaker-entrevue-avec-le-proprietaire
-image: Shaker-entrevue-avec-le-proprietaire.jpg
+image: /img/articles/Shaker-entrevue-avec-le-proprietaire.jpg
 date: 2016-11-23
 external:
   need: true

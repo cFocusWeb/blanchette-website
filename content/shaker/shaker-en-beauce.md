@@ -3,7 +3,7 @@ title: "SHAKER Saint-Georges : L'expérience SHAKER s'amène en Beauce"
 description: >-
 slug: shaker-en-beauce
 identifiant: shaker-en-beauce 
-image: shaker-en-beauce.jpg
+image: /img/articles/shaker-en-beauce.jpg
 arrowc: white
 i18nlanguage: fr
 weight: 1

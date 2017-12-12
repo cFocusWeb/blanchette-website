@@ -3,7 +3,7 @@ title: "Chocolato - Présentation de la bannière"
 description: >-
 slug: presentation-chocolato
 identifiant: presentation-chocolato 
-image: presentation-chocolato.jpg
+image: /img/articles/presentation-chocolato.jpg
 arrowc: black
 i18nlanguage: fr
 weight: 1

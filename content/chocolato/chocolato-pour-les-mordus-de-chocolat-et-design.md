@@ -2,7 +2,7 @@
 title: "Chocolato : pour les mordus de chocolat et de design"
 identifiant: chocolato-pour-les-mordus-de-chocolat-et-design
 slug: chocolato-pour-les-mordus-de-chocolat-et-design
-image: Chocolato-pour-les-mordus-de-chocolat-et-design.jpg
+image: /img/articles/Chocolato-pour-les-mordus-de-chocolat-et-design.jpg
 date: 2015-10-09
 external:
   need: true

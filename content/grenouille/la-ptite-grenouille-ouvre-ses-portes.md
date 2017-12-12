@@ -2,7 +2,7 @@
 title: "La P’tite Grenouille ouvre ses portes"
 identifiant: la-ptite-grenouille-ouvre-ses-portes
 slug: la-ptite-grenouille-ouvre-ses-portes
-image: La-ptite-grenouille-ouvre-ses-portes.jpg
+image: /img/articles/La-ptite-grenouille-ouvre-ses-portes.jpg
 date: 2016-03-10
 external:
   need: true

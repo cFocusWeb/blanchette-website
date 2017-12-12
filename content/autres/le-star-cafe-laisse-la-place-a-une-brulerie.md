@@ -2,7 +2,7 @@
 title: "Le Star Café laisse la place à une brûlerie"
 identifiant: le-star-cafe-laisse-la-place-a-une-brulerie
 slug: le-star-cafe-laisse-la-place-a-une-brulerie
-image: Le-Star-Cafe-laisse-la-place-a-une-brulerie.jpg
+image: /img/articles/Le-Star-Cafe-laisse-la-place-a-une-brulerie.jpg
 date: 2012-08-22
 external:
   need: true

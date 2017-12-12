@@ -1,6 +1,6 @@
 /*CSS for admin panel*/
 
-.cms__AppHeader__appBar,
-.cms__FindBar__root {
-	background-color: #62d54c;
+.nc-collectionPage-container .nc-collectionPage-sidebar {
+	overflow: auto;
+	height: 100%;
 }

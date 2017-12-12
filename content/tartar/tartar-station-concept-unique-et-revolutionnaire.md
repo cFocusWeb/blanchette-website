@@ -2,7 +2,7 @@
 title: "« Un concept unique et révolutionnaire »"
 identifiant: tartar-station-concept-unique-et-revolutionnaire
 slug: tartar-station-concept-unique-et-revolutionnaire
-image: Tartar-Station-concept-unique-et-revolutionnaire.jpg
+image: /img/articles/Tartar-Station-concept-unique-et-revolutionnaire.jpg
 date: 2017-03-31
 external:
   need: true
