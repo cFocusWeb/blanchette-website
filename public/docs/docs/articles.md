@@ -6,29 +6,23 @@ N'oubliez pas le Flow de travail décrit dans l'Introduction ;)
 
 ## Modification et ajout
 
-Pour modifier ou ajouter à vos mieux-comprendre:
+Pour modifier ou ajouter à vos Articles:
 
-1. Cliquez sur le menu
-2. Cliquez sur mieux-comprendre
+1. Cliquez sur la catégorie correspondante à l'article dans le menu à gauche
 
 ### Notez bien
 
-- Cette section est vraiment pour les différents mieux-comprendre que vous offrez.
-- Le formattage du menu et de la page mieux-comprendre se fera automatiquement, basé sur les informations retrouvées ici
-
 ### Les champs
 
-- *Titre SEO* : Titre de la page web, indexé par Google. *non-visible*
-- *Description SEO* : Description de la page web, indexé par Google. *non-visible*. Vous avez le droit à 155 caractères. Veuillez vous référer à la section sur le référencement pour plus d'information.
-- *Lien* : La portion de lien de la page web qui sera après le http://www.cliniquetandem.ca ou http://www.cliniquetandem.ca. Il peut contenir seulement des chiffes, lettres et tirets. C'est très important de le choisir intelligement, pour le référencement. 
+- *Titre* : Ceci est le titre de l'article, que tout le monde pourra voir dans la liste et sur la page d'un article individuel. Il est officiellement votre H1 (voir la portion sur le référencement).
+- *Lien* : La portion de lien de la page web qui sera après le https://www.groupeblanchette.com. Il peut contenir seulement des chiffes, lettres et tirets. C'est très important de le choisir intelligement, pour le référencement. 
 
 ```hint|directive
-Exemple en français: "ceci-est-un-exemple" donnera http://www.cliniquetandem.ca/ceci-est-un-example
-Exemple en anglais: "this-is-my-example" donnera http://www.cliniquetandem.ca/en/this-is-my-example
+Exemple en français: "ceci-est-un-exemple" donnera https://www.groupeblanchette.com/ceci-est-un-example
+Exemple en anglais: "this-is-my-example" donnera https://www.groupeblanchette.com/en/this-is-my-example
 ```
 
-- *Identifiant* : Nous en avons discuté dans l'introduction. C'est l'identifiant unique de ce mieux-comprendre, qui doit être le même dans toutes les langues traduites. Il peut contenir seulement des chiffes, lettres et tirets.
-- *Titre* : Ceci est le titre du mieux-comprendre, que tout le monde pourra voir dans la liste et sur la page d'un mieux-comprendre individuel. Il est officiellement votre H1 (voir la portion sur le référencement).
+- *Identifiant* : Nous en avons discuté dans l'introduction. C'est l'identifiant unique de cet article, qui doit être le même dans toutes les langues traduites. Il peut contenir seulement des chiffes, lettres et tirets.
 - *Image*: Choisissez votre image dans votre ordinateur. Je vous conseille de changer le nom du fichier de l'image pour le même que celui de l'identifiant, ce sera plus facile à retrouver. Cette fonctionnalité sera améliorée avec le temps :) **AUCUN ESPACE, CARACTÈRE SPÉCIAUX OU ACCENT DANS LE NOM DU FICHIER**
 
 ```hint|directive
@@ -38,8 +32,11 @@ Exemple de nom de fichier: 04-example-article.jpg, soigne-vos-pieds.jpg, les-pod
 ```hint|warning
 *Mauvais exemple de nom de fichier*: soigné vos pieds.jpg, cryospôdiatrie.jpg
 ```
-
-- *Rendre le mieux-comprendre invisible* : Par défaut, il est inactif. Le rendre actif fera en sorte que la fiche de ce mieux-comprendre ne sera pas considérée au moment de rebâtir le site. Donc, on ne verra pas ce mieux-comprendre nul part.
+- *Date de publication* : L'heure n'importe pas, mais choisissez bien le jour quand même svp.
+- *Lieu de l'article* : Il faut l'activer si l'article provient d'un lien externe, et aussi ajouter le lien complet. De plus, svp indiquer le nom du journal, avec le déterminant devant. Par exemple, **le Journal de Québec**, **le Soleil**, etc
+- *Couleur des flèches sur l'image principale*: Utiliser *white* ou *black*.
+- *Apparence de l'article sur la page Projets*: Pour des cas particuliers, pour l'instant vous pouvez laisser vide, ça ne devrait pas être un champ obligatoire
+- *Rendre l'article invisible* : Par défaut, il est inactif. Le rendre actif fera en sorte que la fiche de cet article ne sera pas considérée au moment de rebâtir le site. Donc, on ne verra pas cet article nul part.
 
 ### Texte
 

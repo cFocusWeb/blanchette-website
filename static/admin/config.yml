@@ -51,11 +51,12 @@ collections:
         required: false 
         fields:
           - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+          - {label: "Titre alternatif sur la page de l'article", name: "title", widget: "string", required: false}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
       - {label: "Type", name: "type", widget: "hidden", default: "articles"}
       - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
       - {label: "Weight", name: "weight", widget: "hidden", default: "1"}
-      - {label: "Autres", name: "autres", widget: "hidden", default: "true"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "oui"}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
 
@@ -99,11 +100,12 @@ collections:
         required: false 
         fields:
           - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+          - {label: "Titre alternatif sur la page de l'article", name: "title", widget: "string", required: false}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
       - {label: "Type", name: "type", widget: "hidden", default: "articles"}
       - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
       - {label: "Weight", name: "weight", widget: "hidden", default: "1"}
-      - {label: "Autres", name: "autres", widget: "hidden", default: "true"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "oui"}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
   
@@ -148,11 +150,12 @@ collections:
         required: false 
         fields:
           - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+          - {label: "Titre alternatif sur la page de l'article", name: "title", widget: "string", required: false}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
       - {label: "Type", name: "type", widget: "hidden", default: "articles"}
       - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
       - {label: "Weight", name: "weight", widget: "hidden", default: "1"}
-      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "non"}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
 
@@ -196,11 +199,12 @@ collections:
         required: false 
         fields:
           - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+          - {label: "Titre alternatif sur la page de l'article", name: "title", widget: "string", required: false}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
       - {label: "Type", name: "type", widget: "hidden", default: "articles"}
       - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
       - {label: "Weight", name: "weight", widget: "hidden", default: "1"}
-      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "non"}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
 ### LA P'TITE GRENOUILLE
@@ -244,11 +248,12 @@ collections:
         required: false 
         fields:
           - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+          - {label: "Titre alternatif sur la page de l'article", name: "title", widget: "string", required: false}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
       - {label: "Type", name: "type", widget: "hidden", default: "articles"}
       - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
       - {label: "Weight", name: "weight", widget: "hidden", default: "1"}
-      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "non"}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
 
@@ -292,11 +297,12 @@ collections:
         required: false 
         fields:
           - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+          - {label: "Titre alternatif sur la page de l'article", name: "title", widget: "string", required: false}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
       - {label: "Type", name: "type", widget: "hidden", default: "articles"}
       - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
       - {label: "Weight", name: "weight", widget: "hidden", default: "1"}
-      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "non"}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
   
@@ -341,11 +347,12 @@ collections:
         required: false 
         fields:
           - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+          - {label: "Titre alternatif sur la page de l'article", name: "title", widget: "string", required: false}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
       - {label: "Type", name: "type", widget: "hidden", default: "articles"}
       - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
       - {label: "Weight", name: "weight", widget: "hidden", default: "1"}
-      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "non"}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
 
@@ -389,11 +396,12 @@ collections:
         required: false 
         fields:
           - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+          - {label: "Titre alternatif sur la page de l'article", name: "title", widget: "string", required: false}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
       - {label: "Type", name: "type", widget: "hidden", default: "articles"}
       - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
       - {label: "Weight", name: "weight", widget: "hidden", default: "1"}
-      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "non"}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
 ### FRITS
@@ -437,11 +445,12 @@ collections:
         required: false 
         fields:
           - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+          - {label: "Titre alternatif sur la page de l'article", name: "title", widget: "string", required: false}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
       - {label: "Type", name: "type", widget: "hidden", default: "articles"}
       - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
       - {label: "Weight", name: "weight", widget: "hidden", default: "1"}
-      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "non"}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
 
@@ -485,11 +494,12 @@ collections:
         required: false 
         fields:
           - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+          - {label: "Titre alternatif sur la page de l'article", name: "title", widget: "string", required: false}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
       - {label: "Type", name: "type", widget: "hidden", default: "articles"}
       - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
       - {label: "Weight", name: "weight", widget: "hidden", default: "1"}
-      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "non"}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
   
@@ -534,11 +544,12 @@ collections:
         required: false 
         fields:
           - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+          - {label: "Titre alternatif sur la page de l'article", name: "title", widget: "string", required: false}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
       - {label: "Type", name: "type", widget: "hidden", default: "articles"}
       - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
       - {label: "Weight", name: "weight", widget: "hidden", default: "1"}
-      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "non"}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
 
@@ -582,11 +593,12 @@ collections:
         required: false 
         fields:
           - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+          - {label: "Titre alternatif sur la page de l'article", name: "title", widget: "string", required: false}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
       - {label: "Type", name: "type", widget: "hidden", default: "articles"}
       - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
       - {label: "Weight", name: "weight", widget: "hidden", default: "1"}
-      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "non"}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
 ### PLANÈTE NUTRITION
@@ -630,11 +642,12 @@ collections:
         required: false 
         fields:
           - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+          - {label: "Titre alternatif sur la page de l'article", name: "title", widget: "string", required: false}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
       - {label: "Type", name: "type", widget: "hidden", default: "articles"}
       - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
       - {label: "Weight", name: "weight", widget: "hidden", default: "1"}
-      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "non"}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
 
@@ -678,11 +691,12 @@ collections:
         required: false 
         fields:
           - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+          - {label: "Titre alternatif sur la page de l'article", name: "title", widget: "string", required: false}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
       - {label: "Type", name: "type", widget: "hidden", default: "articles"}
       - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
       - {label: "Weight", name: "weight", widget: "hidden", default: "1"}
-      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "non"}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
   
@@ -727,11 +741,12 @@ collections:
         required: false 
         fields:
           - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+          - {label: "Titre alternatif sur la page de l'article", name: "title", widget: "string", required: false}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
       - {label: "Type", name: "type", widget: "hidden", default: "articles"}
       - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
       - {label: "Weight", name: "weight", widget: "hidden", default: "1"}
-      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "non"}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
 
@@ -775,11 +790,12 @@ collections:
         required: false 
         fields:
           - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+          - {label: "Titre alternatif sur la page de l'article", name: "title", widget: "string", required: false}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
       - {label: "Type", name: "type", widget: "hidden", default: "articles"}
       - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
       - {label: "Weight", name: "weight", widget: "hidden", default: "1"}
-      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "non"}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
 ### VAPOSHOP
@@ -823,11 +839,12 @@ collections:
         required: false 
         fields:
           - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+          - {label: "Titre alternatif sur la page de l'article", name: "title", widget: "string", required: false}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "fr"}
       - {label: "Type", name: "type", widget: "hidden", default: "articles"}
       - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
       - {label: "Weight", name: "weight", widget: "hidden", default: "1"}
-      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "non"}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false}
 
@@ -871,11 +888,12 @@ collections:
         required: false 
         fields:
           - {label: "Portion avant le titre", name: "pretitle", widget: "string", required: false}
+          - {label: "Titre alternatif sur la page de l'article", name: "title", widget: "string", required: false}
       - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: "en"}
       - {label: "Type", name: "type", widget: "hidden", default: "articles"}
       - {label: "Menu", name: "activemenu", widget: "hidden", default: "projets"}
       - {label: "Weight", name: "weight", widget: "hidden", default: "1"}
-      - {label: "Autres", name: "autres", widget: "hidden", default: "false"}
+      - {label: "Autres", name: "autres", widget: "hidden", default: "non"}
       - {label: "Texte", name: "body", widget: "markdown"}
       - {label: "Rendre l'article invisible?", name: "draft", widget: "boolean", required: false, default: false} 
 ### SETTINGS

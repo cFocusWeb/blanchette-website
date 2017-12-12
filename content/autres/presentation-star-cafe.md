@@ -16,7 +16,7 @@ external:
   need: false
   link:
 occasion: false
-autres: true
+autres: oui
 list:
   pretitle: Star Café
   title: Présentation de la bannière

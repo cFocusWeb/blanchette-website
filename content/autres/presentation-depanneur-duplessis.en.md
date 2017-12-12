@@ -16,7 +16,7 @@ external:
   need: false
   link:
 occasion: false
-autres: true
+autres: oui
 list:
   pretitle: Dépanneur Dulessis
   title: Banner presentation

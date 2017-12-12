@@ -10,11 +10,14 @@ Pour créer ou modifer des membres de l'équipe:
 
 1. Cliquez sur le menu
 2. Cliquez sur Settings
-3. Cliquez sur Membres de l'équipe
+3. Cliquez sur Succursales
 
 ### Les champs
 
-- *Nom et titre* : Obligatoire
-- *Description* : La description apparaitra lorsqu'on passe le curseur sur l'image. Ne pas dépasser 540 caractères. Obligatoire.
-- *Ordre* : Les membres sont classés en ordre croissant. Si vous ajoutez un nouveau membre, soyez sur de bien modifier l'ordre des gens après lui pour que tout fonctionne. Obligatoire
-- *Image* : L'image est obligatoire. Il faut respecter une proportion de 2:3, tout en gardant une largeur minimale de 800px (ce qui donnerait 800px par 1200px). Les images originale faisait 1131px par 1700px.
+**Pour le moment, ça ne modifie que la grille de la page d'accueil.** Vous pouvez déjà y faire les modifications, ce sera utilisé partout! Tous les champs sont obligatoires.
+
+- *Nom* : Obligatoire
+- *Addresse* : Obligatoire
+- *Longitude* : Utiliser le format décimal. Devrait être entre 70 et 80. Mettre le plus de chiffes après la virgule possible :)
+- *Latitude* : Utiliser le format décimal. Devrait être entre 42 et 50. Mettre le plus de chiffes après la virgule possible :)
+- *Ville* : Pour le titre d'un carreau sur la page d'accueil

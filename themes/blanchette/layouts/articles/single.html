@@ -51,7 +51,7 @@
 	    {{ end }}
 	  </div>
 	  <div class="cross row">
-	  	{{ if ".Params.autres" }}
+	  	{{ if eq ".Params.autres" "oui" }}
 				{{ if eq .Lang "fr" }}
 		  	<h6>Articles sur l’histoire du groupe</h6>
 		  	{{ else if eq .Lang "en" }}
