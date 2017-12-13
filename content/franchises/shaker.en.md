@@ -73,10 +73,10 @@ ordre: 1
 video: zwEe7XGCTOI
 locations:
   - Ste-Foy
-  - Lévis
   - Cap-Rouge
-  - Charlesbourg
+  - Lévis
   - Rimouski
+  - Charlesbourg
   - Rivière-du-Loup
   - Gatineau
   - Saint-Georges de Beauce

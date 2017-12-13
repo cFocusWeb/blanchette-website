@@ -24,66 +24,19 @@
                 <!-- // intro  -->
             </div>
             <div class="container-fluid">
-                <img src="/img/misc/{{.Params.teamimage}}" alt="" class="img-responsive">
+                <!-- <img src="/img/misc/{{.Params.teamimage}}" alt="" class="img-responsive"> -->
 
-
-                <!-- <section class="timeline">
+                <section class="timeline">
                   <ol>
-                    <li>
+                    {{ range $i, $e := .Params.timeline}}
+                    <li class="{{ if or (eq $i 1) (eq $i 4)}}timeopen{{ end }}">
                       <div>
-                        <time>1996</time> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                        <time>{{$e.date1}}{{ with $e.date2}}-<br>{{.}}{{end}}</time>
+                        <a href="javascript:void(0)" class="open-timeline"><img src="{{$e.logo}}" alt=""></a>
+                        <p class="text">{{$e.text}}</p>
                       </div>
                     </li>
-                    <li>
-                      <div>
-                        <time>2001</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <time>2004</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <time>2005</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <time>2007</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <time>2009</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <time>2011</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <time>2013</time> Aenean condimentum odio a bibendum rhoncus. Ut mauris felis, volutpat eget porta faucibus, euismod quis ante.
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <time>2014</time> Vestibulum porttitor lorem sed pharetra dignissim. Nulla maximus, dui a tristique iaculis, quam dolor convallis enim, non dignissim ligula ipsum a turpis.
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <time>2015</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <time>2017</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-                      </div>
-                    </li>
+                    {{ end }}
                     <li></li>
                   </ol>
                   
@@ -95,7 +48,22 @@
                       <img src="/img/ico/arrow-right-green.svg" alt="next timeline arrow">
                     </button>
                   </div>
-                </section> -->
+                </section>
+
+                <section class="wrapup">
+                    {{ if eq .Lang "fr" }}
+                    <h5>À ce jour...</h5>
+                    {{ else if eq .Lang "en" }}
+                    <h5>To this day...</h5>
+                    {{ end }}
+                    <div class="box">
+                        <ul>
+                            {{ range .Params.wrapup }}
+                            <li><p>{{.nbre}}</p><br><span>{{.ligne1}}</span><br><span class="small">{{.ligne2}}</span></li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </section>
 
 
             </div>

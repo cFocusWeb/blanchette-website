@@ -70,7 +70,7 @@
 	  	{{ range $randomPosts }}
 	  	<div class="col-md-3 col-sm-4 text-left">
 	  		<a href="{{.Permalink}}">
-		  		<img src="/quart{{.Params.image}}" alt="">
+	  			<div class="bg-image" style="background-image: url('/half{{.Params.image}}')"></div>
 		  		<p class="title">{{ .Title }}</p>
 		  		<p class="date">{{ if eq $.Lang "fr" }}{{ index $mymonths .Date.Month }}{{ else if eq $.Lang "en" }}{{.Date.Month}}{{ end }} {{.Date.Year}}</p>
 	  		</a>

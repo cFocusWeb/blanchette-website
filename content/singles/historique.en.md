@@ -15,6 +15,108 @@ partnerdesc1: >-
   With the expansion of the group, the Blanchette family surrounds itself with the best to ensure they reach their goals.
 partnerdesc2: Discover their trusted associates and experts! 
 activemenu: historique
+timeline:
+  - logo: /thumb/img/misc/dep.png
+    date1: 1996
+    date2: 2017
+    text: >-
+      This is the project where the adventure begins. Two of the five Blanchette men buy a bankrupt convenience store and are eventually joined by two other members of the family. In 2017, the group decides to sell the business to focus on its other banners.
+  - logo: /thumb/img/misc/star-cafe.png
+    date1: 2001
+    date2: 2012
+    text: >-
+      The STAR CAFÉ was a café with a restaurant-style counter offering a fast food type menu. In 2012, the group decides to sell the business to concentrate their efforts on other major projects. 
+  - logo: /thumb/img/misc/star-bar.png
+    date1: 2004
+    date2: 2015
+    text: >-
+      A variation of the previous project, the STAR BAR was rather a restaurant-bar experience. Several years later, the group adds the STAR CLUB offering a dance floor leading to upbeat evenings of all kinds. In 2015, the STAR BAR makes way for a new forward-thinking concept.
+  - logo: /img/logos/ptiteGrenouille-en.svg
+    date1: 2005
+    date2:
+    text: >-
+      With the Little Frog, the group offers a live show bar catering to a larger audience. Party fans still go to their 16 locations to sing old hits out loud. 
+  - logo: /thumb/img/misc/thaizone.png
+    date1: 2007
+    date2: 2013
+    text: >-
+      The group, joined by 2 associates at the time, opens Thaïzone in 2007, one of the largest Thai fast food chains. In 2013, a restaurant giant owning its closest competitor approaches them to acquire the chain, fearing the competition. The group accepts the appealing offer, but remains owner of the first location still operating today at the La Pyramide mall, in Ste-Foy.   
+  - logo: /thumb/img/misc/logo-salad-shop-dark.png
+    date1: 2009
+    date2: 2016
+    text: >-
+      Wishing to offer a healthy food counter, the group launches SaladShop in 2009. The banner is sold in 2016 to give the group the opportunity to concentrate their efforts on other projects. 
+  - logo: /img/logos/frits.svg
+    date1: 2011
+    date2:
+    text: >-
+      In 2011, the group and an associate take the plunge with an all-new adventure, Frit’s Burgers & Poutines. Their first restaurant in Ste-Foy’s La Pyramide mall then leads to a second restaurant in Beauport in 2017, others will follow in the coming years.  
+  - logo: /thumb/img/misc/portofino.png
+    date1: 2013
+    date2:
+    text: >-
+      Taking over the former location of the Mundial, a Ste-Foy bar that closed down, Portofino Italian Club opens its doors in 2013. An evolution of the original Portofino concept in Old Québec, the Ste-Foy location offers a cozy atmosphere, glamorous décor and delicious Italian inspiration cuisine.   
+  - logo: /img/logos/vapshop.svg
+    date1: 2014
+    date2:
+    text: >-
+      VAPOSHOP is first launched as a line of vaping liquid products. Quickly, the banner completes its offer with the opening of 3 locations.
+  - logo: /img/logos/shaker-en.svg
+    date1: 2015
+    date2:
+    text: >-
+      In 2015, the group updates the STAR BAR and presents SHAKER Kitchen & Mixology, offering tartares, cocktails and gourmet burgers, along with a number of promotions. Quickly expanding thanks to its immediate success, the banner with now 10 locations, is the only restaurant with these specialties.  
+  - logo: /img/logos/chocolate.svg
+    date1: 2015
+    date2:
+    text: >-
+      Born from the desire to capture the experience of the most prestigious Italian chocolate shops, the first Chocolato chocolate & ice cream bar, opens its doors in Ste-Foy; spawned by the group and its associates. The concept rapidly spreads throughout the province with its 12 locations.    
+  - logo: /img/logos/hola.svg
+    date1: 2015
+    date2:
+    text: >-
+      With HOLA Mexican Grill, the group diversifies its fast food restaurant offer with fresh, made to order cuisine. Located in Ste-Foy’s La Pyramide mall, HOLA Mexican Grill attracts Mexican food lovers and fans of health food alike.   
+  - logo: /img/logos/planette.svg
+    date1: 2015
+    date2:
+    text: >-
+      Planète Nutrition, a food supplement store offering a wide selection of complementary products, is launched by the group and an associate in 2015. Now boasting 7 locations and a transactional Web site, Planète Nutrition is already positioning itself as one the main players in its field.  
+  - logo: /img/logos/tartar.svg
+    date1: 2017
+    date2:
+    text: >-
+      The very first fast service counter specializing in tartares and poke bowls opens at La Pyramide mall in Ste-Foy. Garnering an immediate following of fans of healthy and tasty cuisine, TARTAR Station plans to open two new locations in the coming months.
+wrapup:
+  - nbre: 16
+    ligne1: Little Frog 
+    ligne2: 
+  - nbre: 12
+    ligne1: Chocolato
+    ligne2:
+  - nbre: 10
+    ligne1: SHAKER
+    ligne2: "Kitchen & Mixology"
+  - nbre: 7
+    ligne1: "Planète Nutrition"
+    ligne2: 
+  - nbre: 3
+    ligne1: VAPOSHOP
+    ligne2:
+  - nbre: 2
+    ligne1: "Frit's"
+    ligne2: "Burgers & Poutines"
+  - nbre: 2
+    ligne1: TARTAR Station
+    ligne2:
+  - nbre: 1
+    ligne1: "Thaïzone"
+    ligne2:
+  - nbre: 1
+    ligne1: HOLA
+    ligne2: Mexican Grill
+  - nbre: 1
+    ligne1: Portofino
+    ligne2: Italian Club
 ---
 
 ##### The Blanchette’s story: from dreamers to accomplished businessmen 

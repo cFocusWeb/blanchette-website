@@ -37,8 +37,8 @@ details:
   fondation: 2015
   nbre: 12
   redevances: 9%
-  pub: 3%
-  royautes: 6%
+  pub: 3 %
+  royautes: 6 %
 ctaimage: 
   need: true
   url: /img/franchises/chocolato-cta-banner.jpg
@@ -49,7 +49,7 @@ activemenu: franchise
 ordre: 2
 video: 1qWZ5377huA
 locations:
-  - Québec (Ste-Foy, Galeries de la Capitale, Laurier Québec, rue St-Jean, Chauveau, Charlesbourg, Pyramide )
+  - Québec (Ste-Foy, Galeries de la Capitale, Laurier Québec, rue St-Jean, Chauveau, Charlesbourg, Pyramide)
   - Lévis
   - Gatineau
   - Brossard

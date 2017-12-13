@@ -1,6 +1,7 @@
 //@prepros-prepend libs/jquery-1.12.0.min.js
 //@prepros-prepend libs/bootstrap.min.js
 //@prepros-prepend easing.js
+//@prepros-prepend libs/appear.min.js
 //@prepros-prepend libs/jquery-ui.min.js
 //@prepros-prepend libs/slick.min.js
 //@prepros-prepend jquery.matchHeight.js
@@ -43,6 +44,10 @@ $('#filter-bar .primary-tabs li.banners-tab a').click(function(){
   return false;
 })
 
+$('.timeline a.open-timeline').click(function(){
+  $(this).parent().toggleClass('opened');
+})
+
   // Remove placeholder
   $('input,textarea').focus(function(){
      $(this).data('placeholder',$(this).attr('placeholder'))
@@ -54,7 +59,22 @@ $('#filter-bar .primary-tabs li.banners-tab a').click(function(){
 
 });
 
-
+appear({
+  elements: function elements(){
+    // work with all elements with the class "track"
+    return document.getElementsByClassName('timeopen');
+  },
+  appear: function appear(el){
+    setTimeout(function(){
+      el.querySelector('div').classList.toggle("opened");
+    }, 600)
+  },
+  // disappear: function disappear(el){
+  //   console.log('no longer visible', el);
+  // },
+  bounds: 50,
+  reappear: false
+});
 
 
  $(function() {

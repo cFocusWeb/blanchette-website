@@ -27,7 +27,7 @@ accentcolor: "#c6a099"
 whitebg: true
 colorbg: true
 colorforbg: "#663022"
-website: http://www.chocolato.ca/
+website: http://www.chocolato.ca/en/
 details:
   type: Franchise
   frais: $30 000
@@ -49,7 +49,7 @@ activemenu: franchise
 ordre: 2
 video: 1qWZ5377huA
 locations:
-  - Québec (Ste-Foy, Galeries de la Capitale, Laurier Québec, rue St-Jean, Chauveau, Charlesbourg, Pyramide )
+  - Québec (Ste-Foy, Galeries de la Capitale, Laurier Québec, rue St-Jean, Chauveau, Charlesbourg, Pyramide)
   - Lévis
   - Gatineau
   - Brossard

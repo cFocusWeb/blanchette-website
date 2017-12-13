@@ -123,7 +123,8 @@
                                             <option>Sud de l’Alberta/Southern Alberta</option>
                                             <option>Centre de l’Alberta/Central Alberta</option>
                                             <option>Région de Calgary/Calgary Region</option>
-                                            <option>Région d’Edmonton/Edmonton Capital Region</option>                                      
+                                            <option>Région d’Edmonton/Edmonton Capital Region</option>
+                                            <option>Autre</option>                                      
                                         </select>
      
                                         <!-- COLOMBIE-BRITANNIQUE -->
@@ -132,6 +133,7 @@
                                             <option>L’Intérieur/British Columbia Interior</option>
                                             <option>La Côte/British Columbia Coast</option>
                                             <option>Les Basses-terres continentales/Lower Mainland</option>
+                                            <option>Autre</option>
                                         </select>                   
                                         
                                         <!-- MANITOBA -->
@@ -144,13 +146,15 @@
                                             <option>Ouest/Westman</option>
                                             <option>Région de Winnipeg/Winnipeg Capital Region</option>
                                             <option>Région des Parcs/Parkland</option>
+                                            <option>Autre</option>
                                         </select>                   
                                                         
                                         <!-- ONTARIO -->
                                         <select style="display:none;" id="select_ontario" name="select_ontario" class="select_region">
                                             <option value="Choisisez une région" id="Choisisez-une-région">Choisissez une région</option>                                       
                                             <option>Nord de l’Ontario/Northern Ontario</option>
-                                            <option>Sud de l’Ontario/Southern Ontario</option>                                  
+                                            <option>Sud de l’Ontario/Southern Ontario</option>
+                                            <option>Autre</option>                                  
                                         </select>                               
      
                                         <!-- QUÉBEC -->
@@ -172,7 +176,8 @@
                                             <option>Montréal</option>
                                             <option>Nord-du-Québec</option>
                                             <option>Outaouais</option>
-                                            <option>Saguenay-Lac-Saint-Jean</option>                                        
+                                            <option>Saguenay-Lac-Saint-Jean</option>
+                                            <option>Autre</option>                                        
                                         </select>                               
 
                                         <!-- SASKATCHEWAN -->
@@ -180,6 +185,7 @@
                                             <option value="Choisisez une région" id="Choisisez-une-région">Choisissez une région</option>
                                             <option>Nord/Northern Saskatchewan</option>
                                             <option>Sud/Southern Saskatchewan</option>
+                                            <option>Autre</option> 
                                         </select>                                           
 
                                         <br><span id="strErreurRegion" class="erreur"></span>
@@ -188,6 +194,8 @@
                                   </div>
                                   <label for=""><i class="fa fa-envelope-o" aria-hidden="true"></i> Courriel</label>
                                   <input type="email" name="email">
+                                  <label for=""><i class="fa fa-pencil" aria-hidden="true"></i> Questions / projets</label>
+                                  <textarea name="message" id="" cols="30" rows="10"></textarea>
                                   <input type="hidden" id="chosenbrands" name="franchises">
                                   <input type="submit" value="Envoyez >">
                                 {{ else if eq .Lang "en" }}
@@ -200,7 +208,7 @@
                                     <div class="col-sm-12">
  
                                         <select style="" id="province" name="province" class="select_region">
-                                            <option value="Choisisez-une-province" id="Choisisez-une-province">Select your province</option>
+                                            <option value="Choisisez-une-province" id="Choisisez-une-province">Select a province</option>
                                             <option value="alberta" id="alberta">Alberta</option>
                                             <option value="colombie-britannique" id="colombie-britannique">Colombie-Britannique/British Columbia</option>
                                             <option value="ile-du-prince-edouard" id="ile-du-prince-edouard">Île-du-Prince-Édouard/Prince Edward Island</option>
@@ -225,7 +233,8 @@
                                             <option>Sud de l’Alberta/Southern Alberta</option>
                                             <option>Centre de l’Alberta/Central Alberta</option>
                                             <option>Région de Calgary/Calgary Region</option>
-                                            <option>Région d’Edmonton/Edmonton Capital Region</option>                                      
+                                            <option>Région d’Edmonton/Edmonton Capital Region</option>
+                                            <option>Other</option>                                      
                                         </select>
      
                                         <!-- COLOMBIE-BRITANNIQUE -->
@@ -234,6 +243,7 @@
                                             <option>L’Intérieur/British Columbia Interior</option>
                                             <option>La Côte/British Columbia Coast</option>
                                             <option>Les Basses-terres continentales/Lower Mainland</option>
+                                            <option>Other</option> 
                                         </select>                   
                                         
                                         <!-- MANITOBA -->
@@ -246,13 +256,15 @@
                                             <option>Ouest/Westman</option>
                                             <option>Région de Winnipeg/Winnipeg Capital Region</option>
                                             <option>Région des Parcs/Parkland</option>
+                                            <option>Other</option> 
                                         </select>                   
                                                         
                                         <!-- ONTARIO -->
                                         <select style="display:none;" id="select_ontario" name="select_ontario" class="select_region">
                                             <option value="Choisisez une région" id="Choisisez-une-région">Select your region</option>                                       
                                             <option>Nord de l’Ontario/Northern Ontario</option>
-                                            <option>Sud de l’Ontario/Southern Ontario</option>                                  
+                                            <option>Sud de l’Ontario/Southern Ontario</option>
+                                            <option>Other</option>                                   
                                         </select>                               
      
                                         <!-- QUÉBEC -->
@@ -274,7 +286,8 @@
                                             <option>Montréal</option>
                                             <option>Nord-du-Québec</option>
                                             <option>Outaouais</option>
-                                            <option>Saguenay-Lac-Saint-Jean</option>                                        
+                                            <option>Saguenay-Lac-Saint-Jean</option>
+                                            <option>Other</option>                                         
                                         </select>                               
 
                                         <!-- SASKATCHEWAN -->
@@ -282,6 +295,7 @@
                                             <option value="Choisisez une région" id="Choisisez-une-région">Select your region</option>
                                             <option>Nord/Northern Saskatchewan</option>
                                             <option>Sud/Southern Saskatchewan</option>
+                                            <option>Other</option> 
                                         </select>                                           
 
                                         <br><span id="strErreurRegion" class="erreur"></span>
@@ -290,6 +304,8 @@
                                   </div>
                                   <label for=""><i class="fa fa-envelope-o" aria-hidden="true"></i> Email address</label>
                                   <input type="email" name="email">
+                                  <label for=""><i class="fa fa-pencil" aria-hidden="true"></i> Questions / projects</label>
+                                  <textarea name="message" id="" cols="30" rows="10"></textarea>
                                   <input type="hidden" id="chosenbrands" name="franchises">
                                   <input type="submit" value="Send >">
                                 {{ end }}

@@ -32,7 +32,7 @@ collections:
         widget: "object" 
         required: false 
         fields:
-          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", default: false, required: false}
           - {label: "Lien", name: "url", widget: "string", required: false}
           - {label: "Nom de la presse", name: "presse", widget: "string", required: false}
       - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
@@ -82,7 +82,7 @@ collections:
         widget: "object" 
         required: false 
         fields:
-          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", default: false, required: false}
           - {label: "Lien", name: "url", widget: "string", required: false}
           - {label: "Nom de la presse", name: "presse", widget: "string", required: false }
       - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
@@ -133,7 +133,7 @@ collections:
         widget: "object" 
         required: false 
         fields:
-          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", default: false, required: false}
           - {label: "Lien", name: "url", widget: "string", required: false}
           - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
       - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
@@ -183,7 +183,7 @@ collections:
         widget: "object" 
         required: false 
         fields:
-          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", default: false, required: false}
           - {label: "Lien", name: "url", widget: "string", required: false}
           - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
       - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
@@ -233,7 +233,7 @@ collections:
         widget: "object" 
         required: false 
         fields:
-          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", default: false, required: false}
           - {label: "Lien", name: "url", widget: "string", required: false}
           - {label: "Nom de la presse", name: "presse", widget: "string", required: false}
       - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
@@ -283,7 +283,7 @@ collections:
         widget: "object" 
         required: false 
         fields:
-          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", default: false, required: false}
           - {label: "Lien", name: "url", widget: "string", required: false}
           - {label: "Nom de la presse", name: "presse", widget: "string", required: false }
       - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
@@ -334,7 +334,7 @@ collections:
         widget: "object" 
         required: false 
         fields:
-          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", default: false, required: false}
           - {label: "Lien", name: "url", widget: "string", required: false}
           - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
       - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
@@ -384,7 +384,7 @@ collections:
         widget: "object" 
         required: false 
         fields:
-          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", default: false, required: false}
           - {label: "Lien", name: "url", widget: "string", required: false}
           - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
       - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
@@ -434,7 +434,7 @@ collections:
         widget: "object" 
         required: false 
         fields:
-          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", default: false, required: false}
           - {label: "Lien", name: "url", widget: "string", required: false}
           - {label: "Nom de la presse", name: "presse", widget: "string", required: false}
       - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
@@ -484,7 +484,7 @@ collections:
         widget: "object" 
         required: false 
         fields:
-          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", default: false, required: false}
           - {label: "Lien", name: "url", widget: "string", required: false}
           - {label: "Nom de la presse", name: "presse", widget: "string", required: false }
       - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
@@ -535,7 +535,7 @@ collections:
         widget: "object" 
         required: false 
         fields:
-          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", default: false, required: false}
           - {label: "Lien", name: "url", widget: "string", required: false}
           - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
       - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
@@ -585,7 +585,7 @@ collections:
         widget: "object" 
         required: false 
         fields:
-          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", default: false, required: false}
           - {label: "Lien", name: "url", widget: "string", required: false}
           - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
       - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
@@ -635,7 +635,7 @@ collections:
         widget: "object" 
         required: false 
         fields:
-          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", default: false, required: false}
           - {label: "Lien", name: "url", widget: "string", required: false}
           - {label: "Nom de la presse", name: "presse", widget: "string", required: false}
       - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
@@ -685,7 +685,7 @@ collections:
         widget: "object" 
         required: false 
         fields:
-          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", default: false, required: false}
           - {label: "Lien", name: "url", widget: "string", required: false}
           - {label: "Nom de la presse", name: "presse", widget: "string", required: false }
       - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
@@ -736,7 +736,7 @@ collections:
         widget: "object" 
         required: false 
         fields:
-          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", default: false, required: false}
           - {label: "Lien", name: "url", widget: "string", required: false}
           - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
       - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
@@ -786,7 +786,7 @@ collections:
         widget: "object" 
         required: false 
         fields:
-          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", default: false, required: false}
           - {label: "Lien", name: "url", widget: "string", required: false}
           - {label: "Nom de la presse", name: "presse", widget: "string", required: false, description: "Il faut bien spécifier le déterminant devant le nom du journal, par exemple --> le Journal de Montréal" }
       - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
@@ -836,7 +836,7 @@ collections:
         widget: "object" 
         required: false 
         fields:
-          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", default: false, required: false}
           - {label: "Lien", name: "url", widget: "string", required: false}
           - {label: "Nom de la presse", name: "presse", widget: "string", required: false}
       - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}
@@ -886,7 +886,7 @@ collections:
         widget: "object" 
         required: false 
         fields:
-          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", required: false}
+          - {label: "Est-ce un article externe?", name: "need", widget: "boolean", default: false, required: false}
           - {label: "Lien", name: "url", widget: "string", required: false}
           - {label: "Nom de la presse", name: "presse", widget: "string", required: false }
       - {label: "Est-il dans la catégorie occasion d'affaires?", name: "occasion", widget: "boolean", required: false, default: false}

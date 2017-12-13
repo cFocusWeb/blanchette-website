@@ -113,9 +113,25 @@
 		}
 		.cross {
 			text-align: left;
-			img {
-				width: 100%;
-				margin-top: 20px;
+			.bg-image {
+			  /* image specified in separate class below */
+			  height: 200px;
+			  width: 100%;
+			  @include breakpoint(phone) {
+			  	height: 300px;
+			  }
+			  @include breakpoint(phone-xs) {
+			  	height: 200px;
+			  }
+			  /* lt ie8 */
+			  -ms-background-position-x: center;
+			  -ms-background-position-y: bottom;
+			  background-position: center bottom;
+
+			  /* scale bg image proportionately */
+			  background-size: cover; 
+			  /* ie8 workaround - http://louisremi.github.io/background-size-polyfill/ */
+			  -ms-behavior: url(https://cdn.css-tricks.com/backgroundsize.min.htc);
 			}
 			h6 {
 				font-family: $font-main;
@@ -138,6 +154,11 @@
 				color: $black;
 			}
 			.col-sm-4 {
+				&:last-child(){
+					@include breakpoint(tablet) {
+						display: none;
+					}
+				}
 				@include breakpoint(phone) {
 					padding-bottom: 20px;
 				}

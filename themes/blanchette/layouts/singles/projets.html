@@ -1,7 +1,8 @@
 {{ define "main" }}
 {{ $mymonths := $.Site.Data.mois.mois }}
 {{ $articles := (where $.Site.RegularPages "Type" "articles")}}
-
+{{ $occasions := (where $articles ".Params.occasion" true)}}
+{{ $occasionsnb := len $occasions }}
 <div id="page-wrapper" class="projects-page">
 
                 <header id="inner-header">
@@ -738,13 +739,20 @@
                     <div role="tabpanel" class="tab-pane fade" id="occasions">
                         
                         <div class="row">
-
+                          {{ if eq $occasionsnb 0}}
+                            <div class="col-sm-12 texte-occasion">
+                              {{ if eq .Lang "fr" }}
+                              <p>Vous avez un projet à proposer au Groupe Blanchette ? Remplissez le formulaire <a href="{{.Site.BaseURL}}devenir-franchise">Devenir franchisé</a> pour soumettre votre idée.</br>Au plaisir !</p>
+                              {{ else if eq .Lang "en" }}
+                              <p>You want to suggest a project to the Groupe Blanchette ? Fill out the form <a href="{{.Site.BaseURL}}en/become-a-franchisee">Become a franchisee</a> to send us your idea.</br>We look forward to hearing from you! !</p>
+                              {{ end }}
+                            </div>
+                          {{ else}}
                             <div class="article-listing grid">
                               <!-- add sizing element for columnWidth -->
                                 <div class="grid-sizer col-md-4 col-sm-6"></div>
 
-                                {{ range $articles}}
-                                {{ if .Params.occasion }}
+                                {{ range $occasions}}
                                   {{ if .Params.external.need }}
                                   <div class="grid-item col-md-4 col-sm-6">
                                       <div class="article-box">
@@ -789,19 +797,10 @@
                                   <!-- // article  -->
                                   {{ end }}
                                 {{ end }}
-                                {{ end }}
 
                             </div>
                             <!-- // listing   -->
-                            {{ if .Site.Data.settings.occasion }}
-                                <div class="col-sm-12 texte-occasion">
-                                  {{ if eq .Lang "fr" }}
-                                  <p>Vous avez un projet à proposer au Groupe Blanchette ? Remplissez le formulaire <a href="{{.Site.BaseURL}}devenir-franchise">Devenir franchisé</a> pour soumettre votre idée.</br>Au plaisir !</p>
-                                  {{ else if eq .Lang "en" }}
-                                  <p>You want to suggest a project to the Groupe Blanchette ? Fill out the form <a href="{{.Site.BaseURL}}en/become-a-franchisee">Become a franchisee</a> to send us your idea.</br>We look forward to hearing from you! !</p>
-                                  {{ end }}
-                                </div>
-                                {{ end }} 
+                            {{ end }}
                         </div>
                         <!-- // row  -->
 

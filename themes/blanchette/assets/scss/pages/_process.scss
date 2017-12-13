@@ -279,7 +279,7 @@
 				color: $gray;
 			}
 		}
-		input[type="text"], input[type="email"], input[type="tel"] {
+		input[type="text"], input[type="email"], input[type="tel"], textarea {
 			margin-bottom: 30px;
 			border:2px solid #e8e2e1;
 			padding:10px;
@@ -325,7 +325,8 @@
 	    input[type="text"].input-error,
 	    input[type="password"].input-error,
 	    input[type="email"].input-error, 
-	    input[type="tel"].input-error {
+	    input[type="tel"].input-error,
+	    textarea.input-error {
 	        border-color: #d03e3e;
 	        color: #d03e3e;
 		}

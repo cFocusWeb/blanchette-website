@@ -683,6 +683,7 @@
 					  	padding: 0;
 					  	li {
 							-webkit-box-flex: 1;
+							-moz-box-flex: 1;
 						    -webkit-flex: 1 0 125px;
 						        -ms-flex: 1 0 125px;
 						            flex: 1 0 125px;
@@ -691,14 +692,22 @@
 							background-color: white;
 							padding: 15px;
 							width: 0;
+							span {
+								font-size: 0.7em;
+							}
 
 							&:empty {
-							height: 0;
-							border: none;
+								height: 0;
+								border: none;
 							};
 
-							strong {
+							p {
 								text-transform: uppercase;
+								font-size: 1em;
+								font-weight: 700;
+								line-height: 1.1em;
+								margin-bottom: 5px;
+								display: inline-block;
 							}
 						}
 					}
