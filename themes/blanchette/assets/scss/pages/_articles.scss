@@ -5,13 +5,16 @@
 			@include breakpoint(phone) {
 				display: none;
 			}
-			ul li {
-				display: inline-block;
-			    font-family: "helveticabold";
-			    color: #000;
-			    padding-right: 15px;
-				a {
-					font-size: 1em;
+			ul {
+				text-align: left;
+				li {
+					display: inline-block;
+				    font-family: "helveticabold";
+				    color: #000;
+				    padding-right: 15px;
+					a {
+						font-size: 1em;
+					}
 				}
 			}
 		}

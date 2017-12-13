@@ -1,5 +1,7 @@
 {{ define "main" }}
 {{ $mymonths := $.Site.Data.mois.mois }}
+{{ $articles := (where $.Site.RegularPages "Type" "articles")}}
+
 <div id="page-wrapper" class="projects-page">
 
                 <header id="inner-header">
@@ -61,7 +63,7 @@
                               <!-- add sizing element for columnWidth -->
                               <div class="grid-sizer col-md-4 col-sm-6"></div>
 
-                                {{ range where .Site.RegularPages "Type" "articles"}}
+                                {{ range $articles}}
 
                                   {{ if .Params.external.need }}
                                   <div class="grid-item col-md-4 col-sm-6">
@@ -677,7 +679,7 @@
                               <!-- add sizing element for columnWidth -->
                                 <div class="grid-sizer col-md-4 col-sm-6"></div>
 
-                                {{ range where .Site.RegularPages "Type" "articles"}}
+                                {{ range $articles}}
                                 {{ if .Params.historique }}
                                   {{ if .Params.external.need }}
                                   <div class="grid-item col-md-4 col-sm-6">
@@ -741,7 +743,7 @@
                               <!-- add sizing element for columnWidth -->
                                 <div class="grid-sizer col-md-4 col-sm-6"></div>
 
-                                {{ range where .Site.RegularPages "Section" "articles"}}
+                                {{ range $articles}}
                                 {{ if .Params.occasion }}
                                   {{ if .Params.external.need }}
                                   <div class="grid-item col-md-4 col-sm-6">
