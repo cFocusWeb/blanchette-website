@@ -932,8 +932,8 @@ collections:
             fields:
               - {label: "Nom", name: "name", widget: "string"}
               - {label: "Adresse", name: "loc", widget: "string"}
-              - {label: "Longitude", name: "lng", widget: "string"}
-              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+              - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
               - {label: "Ville", name: "city", widget: "string"}
           - name: chocolato
             label: Chocolato
@@ -942,8 +942,8 @@ collections:
             fields:
               - {label: "Nom", name: "name", widget: "string"}
               - {label: "Adresse", name: "loc", widget: "string"}
-              - {label: "Longitude", name: "lng", widget: "string"}
-              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+              - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
               - {label: "Ville", name: "city", widget: "string"}
           - name: frits
             label: "Frit's"
@@ -952,8 +952,8 @@ collections:
             fields:
               - {label: "Nom", name: "name", widget: "string"}
               - {label: "Adresse", name: "loc", widget: "string"}
-              - {label: "Longitude", name: "lng", widget: "string"}
-              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+              - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
               - {label: "Ville", name: "city", widget: "string"}
           - name: tartar
             label: TARTAR station
@@ -963,8 +963,8 @@ collections:
 
               - {label: "Nom", name: "name", widget: "string"}
               - {label: "Adresse", name: "loc", widget: "string"}
-              - {label: "Longitude", name: "lng", widget: "string"}
-              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+              - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
               - {label: "Ville", name: "city", widget: "string"}
           - name: hola
             label: Hola
@@ -973,8 +973,8 @@ collections:
             fields:
               - {label: "Nom", name: "name", widget: "string"}
               - {label: "Adresse", name: "loc", widget: "string"}
-              - {label: "Longitude", name: "lng", widget: "string"}
-              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+              - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
               - {label: "Ville", name: "city", widget: "string"}
           - name: vapo
             label: "Vaposhop"
@@ -983,8 +983,8 @@ collections:
             fields:
               - {label: "Nom", name: "name", widget: "string"}
               - {label: "Adresse", name: "loc", widget: "string"}
-              - {label: "Longitude", name: "lng", widget: "string"}
-              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+              - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
               - {label: "Ville", name: "city", widget: "string"}
           - name: grenouille
             label: Grenouille
@@ -994,8 +994,8 @@ collections:
 
               - {label: "Nom", name: "name", widget: "string"}
               - {label: "Adresse", name: "loc", widget: "string"}
-              - {label: "Longitude", name: "lng", widget: "string"}
-              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+              - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
               - {label: "Ville", name: "city", widget: "string"}
           - name: planete
             label: "Planète Nutrition"
@@ -1004,8 +1004,8 @@ collections:
             fields:
               - {label: "Nom", name: "name", widget: "string"}
               - {label: "Adresse", name: "loc", widget: "string"}
-              - {label: "Longitude", name: "lng", widget: "string"}
-              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+              - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
               - {label: "Ville", name: "city", widget: "string"}
       - name: "succursales-dev"
         label: "Succursales - Développement"
@@ -1020,8 +1020,8 @@ collections:
             fields:
               - {label: "Nom", name: "name", widget: "string"}
               - {label: "Adresse", name: "loc", widget: "string"}
-              - {label: "Longitude", name: "lng", widget: "string"}
-              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+              - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
               - {label: "Ville", name: "city", widget: "string"}
           - name: chocolato
             label: Chocolato
@@ -1031,8 +1031,8 @@ collections:
             fields:
               - {label: "Nom", name: "name", widget: "string"}
               - {label: "Adresse", name: "loc", widget: "string"}
-              - {label: "Longitude", name: "lng", widget: "string"}
-              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+              - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
               - {label: "Ville", name: "city", widget: "string"}
           - name: frits
             label: "Frit's"
@@ -1042,8 +1042,8 @@ collections:
             fields:
               - {label: "Nom", name: "name", widget: "string"}
               - {label: "Adresse", name: "loc", widget: "string"}
-              - {label: "Longitude", name: "lng", widget: "string"}
-              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+              - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
               - {label: "Ville", name: "city", widget: "string"}
           - name: tartar
             label: TARTAR station
@@ -1054,8 +1054,8 @@ collections:
 
               - {label: "Nom", name: "name", widget: "string"}
               - {label: "Adresse", name: "loc", widget: "string"}
-              - {label: "Longitude", name: "lng", widget: "string"}
-              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+              - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
               - {label: "Ville", name: "city", widget: "string"}
           - name: hola
             label: Hola
@@ -1065,8 +1065,8 @@ collections:
             fields:
               - {label: "Nom", name: "name", widget: "string"}
               - {label: "Adresse", name: "loc", widget: "string"}
-              - {label: "Longitude", name: "lng", widget: "string"}
-              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+              - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
               - {label: "Ville", name: "city", widget: "string"}
           - name: vapo
             label: "Vaposhop"
@@ -1076,8 +1076,8 @@ collections:
             fields:
               - {label: "Nom", name: "name", widget: "string"}
               - {label: "Adresse", name: "loc", widget: "string"}
-              - {label: "Longitude", name: "lng", widget: "string"}
-              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+              - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
               - {label: "Ville", name: "city", widget: "string"}
           - name: grenouille
             label: Grenouille
@@ -1088,8 +1088,8 @@ collections:
 
               - {label: "Nom", name: "name", widget: "string"}
               - {label: "Adresse", name: "loc", widget: "string"}
-              - {label: "Longitude", name: "lng", widget: "string"}
-              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+              - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
               - {label: "Ville", name: "city", widget: "string"}
           - name: planete
             label: "Planète Nutrition"
@@ -1099,15 +1099,15 @@ collections:
             fields:
               - {label: "Nom", name: "name", widget: "string"}
               - {label: "Adresse", name: "loc", widget: "string"}
-              - {label: "Longitude", name: "lng", widget: "string"}
-              - {label: "Latitude", name: "lat", widget: "string"}
+              - {label: "Longitude", name: "lng", widget: "number", valueType: "float", min: -80, max: -60}
+              - {label: "Latitude", name: "lat", widget: "number", valueType: "float", min: 35, max: 55}
               - {label: "Ville", name: "city", widget: "string"}
   - name: "pages"
     label: "Pages"
     editor:
       preview: false
     files:
-      - name: "accueil"
+      - name: "accueil-fr"
         label: "Accueil - FR"
         file: "content/_index.md"
         description: "Modification de la page d'accueil"
@@ -1158,7 +1158,7 @@ collections:
               - {label: "Image", name: "image", widget: "image"}
           - {label: "Hidden", name: "draft", widget: "hidden", required: false, default: false}
           - {label: "Langue", name: "i18nlanguage", widget: "hidden", default: fr}
-      - name: "accueil"
+      - name: "accueil-en"
         label: "Accueil - EN"
         file: "content/_index.en.md"
         description: "Modification de la page d'accueil"
