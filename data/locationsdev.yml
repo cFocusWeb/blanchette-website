@@ -1,6 +1,6 @@
 frits:
   - city: Testing
-    lat: 43
-    lng: -72
+    lat: 41.8634
+    lng: -72.87
     loc: '999 rue testing, Québec'
     name: Testing Frits
