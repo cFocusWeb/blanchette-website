@@ -37,9 +37,9 @@ details:
   contact: Hugo Laperrière
   fondation: 2015
   nbre: 1
-  redevances: 8%
-  pub: 2%
-  royautes: 6%
+  redevances: 8 %
+  pub: 2 %
+  royautes: 6 %
 ctaimage: 
   need: true
   url: /img/franchises/hola-cta-banner.jpeg

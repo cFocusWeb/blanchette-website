@@ -5,10 +5,39 @@ description: >-
 image: 
 i18nlanguage: fr
 draft: false
-ligne1:
-  img:
-ligne2:
-  img1:
+mshaker:
+  - image: /img/articles/mosaic-shaker1.jpg
+  - image: /img/articles/mosaic-shaker2.jpg
+  - image: /img/articles/mosaic-shaker3.jpg
+  - image: /img/articles/mosaic-shaker4.jpg
+mchocolato:
+  - image: /img/articles/mosaic-chocolato1.jpg
+  - image: /img/articles/mosaic-chocolato2.jpg
+  - image: /img/articles/mosaic-chocolato3.jpg
+  - image: /img/articles/mosaic-chocolato4.jpg
+mgrenouille:
+  - image: /img/articles/mosaic-grenouille1.jpg
+  - image: /img/articles/mosaic-grenouille2.jpg
+  - image: /img/articles/mosaic-grenouille3.jpg
+mtartar:
+  - image: /img/articles/mosaic-tartar1.jpg
+  - image: /img/articles/mosaic-tartar2.jpg
+  - image: /img/articles/mosaic-tartar3.jpg
+mfrits:
+  - image: /img/articles/mosaic-frits1.jpg
+  - image: /img/articles/mosaic-frits2.jpg
+  - image: /img/articles/mosaic-frits3.jpg
+mhola:
+  - image: /img/articles/mosaic-hola1.jpg
+  - image: /img/articles/mosaic-hola2.jpg
+  - image: /img/articles/mosaic-hola3.jpg
+mplanete:
+  - image: /img/articles/mosaic-planete1.jpg
+  - image: /img/articles/mosaic-planete2.jpg
+  - image: /img/articles/mosaic-planete3.jpg
+mvapo:
+  - image: /img/articles/mosaic-vapo1.jpg
+  - image: /img/articles/mosaic-vapo2.jpg
 ---
 
 # Nos franchises & licences

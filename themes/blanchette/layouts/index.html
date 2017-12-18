@@ -1,8 +1,9 @@
 {{ define "main" }}
 <header id="mas-header">
             <!-- <div class="overlay"></div> -->
-            
+            {{ if getenv "IS_PROD" }}
             <script src="https://fast.wistia.com/embed/medias/2n3h0ox8fh.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_2n3h0ox8fh videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+            {{ end }}
 
             <div id="logos-holder">
                 <div id="logos-slider">
@@ -41,15 +42,10 @@
                 <a href="{{.Site.BaseURL}}en/franchises/shaker">
                 {{ end }}
                     <div class="mosaic-slider">
-                        <img src="/img/mosaic/mosaic-shaker1.jpg" alt="" class="img-responsive">
-                        <img src="/img/mosaic/mosaic-shaker2.jpg" alt="" class="img-responsive">
-                        <img src="/img/mosaic/mosaic-shaker3.jpg" alt="" class="img-responsive">
-                        <img src="/img/mosaic/mosaic-shaker4.jpg" alt="" class="img-responsive">
+                        {{ range .Params.mshaker}}
+                        <img src="{{.image}}" alt="Shaker" class="img-responsive">
+                        {{ end }}
                     </div>
-                    <div class="caption">
-                        <img src='/img/logos/shaker-logo-white{{ if eq $.Lang "en" }}-en{{end}}.svg' class="logo-hover" />
-                    </div>
-                    <!-- // capt  -->
                 </a>
             </div>
             <!-- // image  -->
@@ -60,15 +56,10 @@
                 <a href="{{.Site.BaseURL}}en/franchises/chocolato">
                 {{ end }}
                     <div class="mosaic-slider">
-                        <img src="/img/mosaic/mosaic-chocolato1.jpg" alt="" class="img-responsive">
-                        <img src="/img/mosaic/mosaic-chocolato2.jpg" alt="" class="img-responsive">
-                        <img src="/img/mosaic/mosaic-chocolato3.jpg" alt="" class="img-responsive">
-                        <img src="/img/mosaic/mosaic-chocolato4.jpg" alt="" class="img-responsive">
+                        {{ range .Params.mchocolato}}
+                        <img src="{{.image}}" alt="Chocolato" class="img-responsive">
+                        {{ end }}
                     </div>
-                    <div class="caption">
-                        <img src="/img/logos/chocolate-white.svg" class="logo-hover" />
-                    </div>
-                    <!-- // capt  -->
                 </a>
             </div>
             <!-- // image  -->
@@ -85,14 +76,10 @@
                         <a href="{{.Site.BaseURL}}en/franchises/the-little-frog">
                         {{ end }}
                             <div class="mosaic-slider">
-                                <img src="/img/mosaic/mosaic-grenouille1.jpg" alt="" class="img-responsive">
-                                <img src="/img/mosaic/mosaic-grenouille2.jpg" alt="" class="img-responsive">
-                                <img src="/img/mosaic/mosaic-grenouille3.jpg" alt="" class="img-responsive">
+                                {{ range .Params.mgrenouille}}
+                                <img src="{{.image}}" alt="La P'tite Grenouille" class="img-responsive">
+                                {{ end }}
                             </div>
-                            <div class="caption">
-                                <img src='/img/logos/ptiteGrenouille-white{{ if eq $.Lang "en" }}-en{{end}}.svg' />
-                            </div>
-                            <!-- // capt  -->
                         </a>
                     </div>
                     <!-- // md 4  -->
@@ -103,14 +90,10 @@
                         <a href="{{.Site.BaseURL}}en/franchises/tartar-station">
                         {{ end }}
                             <div class="mosaic-slider">
-                                <img src="/img/mosaic/mosaic-tartar1.jpg" alt="" class="img-responsive">
-                                <img src="/img/mosaic/mosaic-tartar2.jpg" alt="" class="img-responsive">
-                                <img src="/img/mosaic/mosaic-tartar3.jpg" alt="" class="img-responsive">
+                                {{ range .Params.mtartar}}
+                                <img src="{{.image}}" alt="Tartar Station" class="img-responsive">
+                                {{ end }}
                             </div>
-                            <div class="caption">
-                                <img src="/img/logos/tartar-white-2.svg" />
-                            </div>
-                            <!-- // capt  -->
                         </a>
                     </div>
                     <!-- // md 8  -->
@@ -121,14 +104,10 @@
                         <a href="{{.Site.BaseURL}}en/franchises/frits">
                         {{ end }}
                             <div class="mosaic-slider">
-                                <img src="/img/mosaic/mosaic-frits1.jpg" alt="" class="img-responsive">
-                                <img src="/img/mosaic/mosaic-frits2.jpg" alt="" class="img-responsive">
-                                <img src="/img/mosaic/mosaic-frits3.jpg" alt="" class="img-responsive">
+                                {{ range .Params.mfrits}}
+                                <img src="{{.image}}" alt="Frit's" class="img-responsive">
+                                {{ end }}
                             </div>
-                            <div class="caption">
-                                <img src='/img/logos/frits-white.svg' />
-                            </div>
-                            <!-- // capt  -->
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0.8s">
@@ -138,14 +117,10 @@
                         <a href="{{.Site.BaseURL}}en/franchises/hola">
                         {{ end }}
                             <div class="mosaic-slider">
-                                <img src="/img/mosaic/mosaic-hola1.jpg" alt="" class="img-responsive">
-                                <img src="/img/mosaic/mosaic-hola2.jpg" alt="" class="img-responsive">
-                                <img src="/img/mosaic/mosaic-hola3.jpg" alt="" class="img-responsive">
+                                {{ range .Params.mhola}}
+                                <img src="{{.image}}" alt="Hola" class="img-responsive">
+                                {{ end }}
                             </div>
-                            <div class="caption">
-                                <img src='/img/logos/hola-white-2.svg' />
-                            </div>
-                            <!-- // capt  -->
                         </a>
                     </div>                            
                    <div class="col-md-4 col-sm-6" data-wow-duration="0.4s" data-wow-delay="0.8s">
@@ -155,14 +130,10 @@
                         <a href="{{.Site.BaseURL}}en/franchises/planete-nutrition">
                         {{ end }}
                             <div class="mosaic-slider">
-                                <img src="/img/mosaic/mosaic-planete1.jpg" alt="" class="img-responsive">
-                                <img src="/img/mosaic/mosaic-planete2.jpg" alt="" class="img-responsive">
-                                <img src="/img/mosaic/mosaic-planete3.jpg" alt="" class="img-responsive">
-                            </div>
-                            <div class="caption">
-                                <img src="/img/logos/planete-white.svg" />
-                            </div>
-                            <!-- // capt  -->                            
+                                {{ range .Params.mplanete}}
+                                <img src="{{.image}}" alt="Planete Nutrition" class="img-responsive">
+                                {{ end }}
+                            </div>                          
                         </a>                               
                    </div>
                    <!-- // col  -->
@@ -173,13 +144,10 @@
                         <a href="{{.Site.BaseURL}}en/franchises/vaposhop">
                         {{ end }}
                             <div class="mosaic-slider">
-                                <img src="/img/mosaic/mosaic-vapo1.jpg" alt="" class="img-responsive">
-                                <img src="/img/mosaic/mosaic-vapo2.jpg" alt="" class="img-responsive">
-                            </div>
-                            <div class="caption">
-                                <img src="/img/logos/vapo-white.svg" />
-                            </div>
-                            <!-- // capt  -->                            
+                                {{ range .Params.mvapo}}
+                                <img src="{{.image}}" alt="Vaposhop" class="img-responsive">
+                                {{ end }}
+                            </div>                          
                         </a>  
                     </div>                             
                 </div>

@@ -1,0 +1,116 @@
+fr:
+  alberta:
+    - choix: Choisissez une région
+    - choix: Nord de l’Alberta
+    - choix: Est de l’Alberta
+    - choix: Les Badlands
+    - choix: Rocheuses Albertaines
+    - choix: Sud de l’Alberta
+    - choix: Centre de l’Alberta
+    - choix: Région de Calgary
+    - choix: Région d’Edmonton
+    - choix: Autre 
+  bc:
+    - choix: Choisissez une région                                                                           
+    - choix: L’Intérieur
+    - choix: La Côte
+    - choix: Les Basses-terres continentales
+    - choix: Autre
+  manitoba:
+    - choix: Choisissez une région                                                               
+    - choix: Nord
+    - choix: Entre-les-lacs
+    - choix: Plaines centrales
+    - choix: Est
+    - choix: Ouest
+    - choix: Région de Winnipeg
+    - choix: Région des Parcs
+    - choix: Autre
+  ontario:
+    - choix: Choisissez une région                                       
+    - choix: Nord de l’Ontario
+    - choix: Sud de l’Ontario
+    - choix: Autre 
+  quebec:
+    - choix: Choisissez une région
+    - choix: Abitibi-Témiscamingue
+    - choix: Bas-Saint-Laurent
+    - choix: Capitale-Nationale
+    - choix: Centre-du-Québec
+    - choix: Chaudière-Appalaches
+    - choix: Côte-Nord
+    - choix: Estrie
+    - choix: Gaspésie-Îles-de-la-Madeleine
+    - choix: Lanaudière
+    - choix: Laurentides
+    - choix: Laval
+    - choix: Mauricie
+    - choix: Montérégie
+    - choix: Montréal
+    - choix: Nord-du-Québec
+    - choix: Outaouais
+    - choix: Saguenay-Lac-Saint-Jean
+    - choix: Autre 
+  sask:
+    - choix: Choisissez une région
+    - choix: Nord
+    - choix: Sud
+    - choix: Autre
+en:
+  alberta:
+    - choix: Select your region
+    - choix: Northern Alberta
+    - choix: East Alberta
+    - choix: Canadian Badlands
+    - choix: Alberta’s Rockies
+    - choix: Southern Alberta
+    - choix: Central Alberta
+    - choix: Calgary Region
+    - choix: Edmonton Capital Region
+    - choix: Other 
+  bc:
+    - choix: Select your region                                                                           
+    - choix: British Columbia Interior
+    - choix: British Columbia Coast
+    - choix: Lower Mainland
+    - choix: Other
+  manitoba:
+    - choix: Select your region                                                               
+    - choix: Northern
+    - choix: Interlake
+    - choix: Central Plains
+    - choix: Eastman
+    - choix: Westman
+    - choix: Winnipeg Capital Region
+    - choix: Parkland
+    - choix: Other
+  ontario:
+    - choix: Select your region                                       
+    - choix: Northern Ontario
+    - choix: Southern Ontario
+    - choix: Other 
+  quebec:
+    - choix: Select your region
+    - choix: Abitibi-Témiscamingue
+    - choix: Bas-Saint-Laurent
+    - choix: Capitale-Nationale
+    - choix: Centre-du-Québec
+    - choix: Chaudière-Appalaches
+    - choix: Côte-Nord
+    - choix: Estrie
+    - choix: Gaspésie-Îles-de-la-Madeleine
+    - choix: Lanaudière
+    - choix: Laurentides
+    - choix: Laval
+    - choix: Mauricie
+    - choix: Montérégie
+    - choix: Montréal
+    - choix: Nord-du-Québec
+    - choix: Outaouais
+    - choix: Saguenay-Lac-Saint-Jean
+    - choix: Other 
+  sask:
+    - choix: Select your region
+    - choix: Northern Saskatchewan
+    - choix: Southern Saskatchewan
+    - choix: Other  

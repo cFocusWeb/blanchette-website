@@ -31,9 +31,9 @@ details:
   contact: Pierre-Antoine Morency
   fondation: 2014
   nbre: 3
-  redevances: 0%
-  pub: 0%
-  royautes: 0%
+  redevances: 0 %
+  pub: 0 %
+  royautes: 0 % 
 ctaimage: 
   need: false
   url: /img/franchises/vapo-cta-banner.jpg

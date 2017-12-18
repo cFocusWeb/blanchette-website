@@ -35,9 +35,9 @@ details:
   contact: Hugo Laperrière
   fondation: 2011
   nbre: 2
-  redevances: 8%
-  pub: 2%
-  royautes: 6%
+  redevances: 8 %
+  pub: 2 %
+  royautes: 6 %
 ctaimage: 
   need: true
   url: /img/franchises/frits-cta-banner.jpeg

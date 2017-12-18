@@ -31,9 +31,9 @@ details:
   contact: Luc Beaumont
   fondation: 2015
   nbre: 10
-  redevances: 7%
-  pub: 3%
-  royautes: 4%
+  redevances: 7 %
+  pub: 3 %
+  royautes: 4 %
 ctaimage: 
   need: true
   url: /img/franchises/shaker-cta-banner.jpeg

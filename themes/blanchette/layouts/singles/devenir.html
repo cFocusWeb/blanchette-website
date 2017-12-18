@@ -100,92 +100,60 @@
                                         <select style="" id="province" name="province" class="select_region">
                                             <option value="Choisisez-une-province" id="Choisisez-une-province">Choisissez une province</option>
                                             <option value="alberta" id="alberta">Alberta</option>
-                                            <option value="colombie-britannique" id="colombie-britannique">Colombie-Britannique/British Columbia</option>
-                                            <option value="ile-du-prince-edouard" id="ile-du-prince-edouard">Île-du-Prince-Édouard/Prince Edward Island</option>
+                                            <option value="colombie-britannique" id="colombie-britannique">Colombie-Britannique</option>
+                                            <option value="ile-du-prince-edouard" id="ile-du-prince-edouard">Île-du-Prince-Édouard</option>
                                             <option value="manitoba" id="manitoba">Manitoba</option>
-                                            <option value="nouveau-brunswick" id="nouveau-brunswick">Nouveau-Brunswick/New Brunswick</option>
-                                            <option value="nouvelle-ecosse" id="nouvelle-ecosse">Nouvelle-Écosse/Nova Scotia</option>
+                                            <option value="nouveau-brunswick" id="nouveau-brunswick">Nouveau-Brunswick</option>
+                                            <option value="nouvelle-ecosse" id="nouvelle-ecosse">Nouvelle-Écosse</option>
                                             <option value="ontario" id="ontario">Ontario</option>
                                             <option value="quebec" id="quebec">Québec</option>
-                                            <option value="terre-neuve-et-labrador" id="terre-neuve-et-labrador">Terre-Neuve-et-Labrador/Newfoundland and Labrador</option>
+                                            <option value="terre-neuve-et-labrador" id="terre-neuve-et-labrador">Terre-Neuve-et-Labrador</option>
                                             <option value="saskatchewan" id="saskatchewan">Saskatchewan</option>
+                                            <option value="autre" id="other">Autre</option>
                                                 
                                             
                                         </select>
                                                         
                                         <!-- ALBERTA -->
                                         <select style="display: none;" id="select_alberta" name="select_alberta" class="select_region">
-                                            <option value="Choisisez-une-region" id="Choisisez-une-region">Choisissez une région</option>
-                                            <option>Nord de l’Alberta/Northern Alberta</option>
-                                            <option>Est de l’Alberta/East Alberta</option>
-                                            <option>Les Badlands/Canadian Badlands</option>
-                                            <option>Rocheuses Albertaines/Alberta’s Rockies</option>
-                                            <option>Sud de l’Alberta/Southern Alberta</option>
-                                            <option>Centre de l’Alberta/Central Alberta</option>
-                                            <option>Région de Calgary/Calgary Region</option>
-                                            <option>Région d’Edmonton/Edmonton Capital Region</option>
-                                            <option>Autre</option>                                      
+                                            {{ range $.Site.Data.select.fr.alberta }}
+                                            <option value="{{ .choix | urlize}}" id="{{ .choix | urlize}}">{{.choix}}</option> 
+                                            {{ end }}                                    
                                         </select>
      
                                         <!-- COLOMBIE-BRITANNIQUE -->
                                         <select style="display:none;" id="select_colombie_britannique" name="select_colombie_britannique" class="select_region">
-                                            <option value="Choisisez une région" id="Choisisez-une-région">Choisissez une région</option>                                                                           
-                                            <option>L’Intérieur/British Columbia Interior</option>
-                                            <option>La Côte/British Columbia Coast</option>
-                                            <option>Les Basses-terres continentales/Lower Mainland</option>
-                                            <option>Autre</option>
+                                            {{ range $.Site.Data.select.fr.bc }}
+                                            <option value="{{ .choix | urlize}}" id="{{ .choix | urlize}}">{{.choix}}</option> 
+                                            {{ end }}
                                         </select>                   
                                         
                                         <!-- MANITOBA -->
                                         <select style="display:none;" id="select_manitoba" name="select_manitoba" class="select_region">
-                                            <option value="Choisisez une région" id="Choisisez-une-région">Choisissez une région</option>                                                               
-                                            <option>Nord/Northern</option>
-                                            <option>Entre-les-lacs/Interlake</option>
-                                            <option>Plaines centrales/Central Plains</option>
-                                            <option>Est/Eastman</option>
-                                            <option>Ouest/Westman</option>
-                                            <option>Région de Winnipeg/Winnipeg Capital Region</option>
-                                            <option>Région des Parcs/Parkland</option>
-                                            <option>Autre</option>
+                                            {{ range $.Site.Data.select.fr.manitoba }}
+                                            <option value="{{ .choix | urlize}}" id="{{ .choix | urlize}}">{{.choix}}</option> 
+                                            {{ end }}
                                         </select>                   
                                                         
                                         <!-- ONTARIO -->
                                         <select style="display:none;" id="select_ontario" name="select_ontario" class="select_region">
-                                            <option value="Choisisez une région" id="Choisisez-une-région">Choisissez une région</option>                                       
-                                            <option>Nord de l’Ontario/Northern Ontario</option>
-                                            <option>Sud de l’Ontario/Southern Ontario</option>
-                                            <option>Autre</option>                                  
+                                            {{ range $.Site.Data.select.fr.ontario }}
+                                            <option value="{{ .choix | urlize}}" id="{{ .choix | urlize}}">{{.choix}}</option> 
+                                            {{ end }}                                  
                                         </select>                               
      
                                         <!-- QUÉBEC -->
                                         <select style="display:none;" id="select_quebec" name="select_quebec" class="select_region">
-                                            <option value="Choisisez une région" id="Choisisez-une-région">Choisissez une région</option>
-                                            <option>Abitibi-Témiscamingue</option>
-                                            <option>Bas-Saint-Laurent</option>
-                                            <option>Capitale-Nationale</option>
-                                            <option>Centre-du-Québec</option>
-                                            <option>Chaudière-Appalaches</option>
-                                            <option>Côte-Nord</option>
-                                            <option>Estrie</option>
-                                            <option>Gaspésie-Îles-de-la-Madeleine</option>
-                                            <option>Lanaudière</option>
-                                            <option>Laurentides</option>
-                                            <option>Laval</option>
-                                            <option>Mauricie</option>
-                                            <option>Montérégie</option>
-                                            <option>Montréal</option>
-                                            <option>Nord-du-Québec</option>
-                                            <option>Outaouais</option>
-                                            <option>Saguenay-Lac-Saint-Jean</option>
-                                            <option>Autre</option>                                        
+                                            {{ range $.Site.Data.select.fr.quebec }}
+                                            <option value="{{ .choix | urlize}}" id="{{ .choix | urlize}}">{{.choix}}</option> 
+                                            {{ end }}                                        
                                         </select>                               
 
                                         <!-- SASKATCHEWAN -->
                                         <select style="display:none;" id="select_saskatchewan" name="select_saskatchewan" class="select_region">
-                                            <option value="Choisisez une région" id="Choisisez-une-région">Choisissez une région</option>
-                                            <option>Nord/Northern Saskatchewan</option>
-                                            <option>Sud/Southern Saskatchewan</option>
-                                            <option>Autre</option> 
+                                            {{ range $.Site.Data.select.fr.sask }}
+                                            <option value="{{ .choix | urlize}}" id="{{ .choix | urlize}}">{{.choix}}</option> 
+                                            {{ end }}
                                         </select>                                           
 
                                         <br><span id="strErreurRegion" class="erreur"></span>
@@ -210,93 +178,62 @@
                                         <select style="" id="province" name="province" class="select_region">
                                             <option value="Choisisez-une-province" id="Choisisez-une-province">Select a province</option>
                                             <option value="alberta" id="alberta">Alberta</option>
-                                            <option value="colombie-britannique" id="colombie-britannique">Colombie-Britannique/British Columbia</option>
-                                            <option value="ile-du-prince-edouard" id="ile-du-prince-edouard">Île-du-Prince-Édouard/Prince Edward Island</option>
+                                            <option value="colombie-britannique" id="colombie-britannique">British Columbia</option>
+                                            <option value="ile-du-prince-edouard" id="ile-du-prince-edouard">Prince Edward Island</option>
                                             <option value="manitoba" id="manitoba">Manitoba</option>
-                                            <option value="nouveau-brunswick" id="nouveau-brunswick">Nouveau-Brunswick/New Brunswick</option>
-                                            <option value="nouvelle-ecosse" id="nouvelle-ecosse">Nouvelle-Écosse/Nova Scotia</option>
+                                            <option value="nouveau-brunswick" id="nouveau-brunswick">New Brunswick</option>
+                                            <option value="nouvelle-ecosse" id="nouvelle-ecosse">
+                                            Nova Scotia</option>
                                             <option value="ontario" id="ontario">Ontario</option>
                                             <option value="quebec" id="quebec">Québec</option>
-                                            <option value="terre-neuve-et-labrador" id="terre-neuve-et-labrador">Terre-Neuve-et-Labrador/Newfoundland and Labrador</option>
+                                            <option value="terre-neuve-et-labrador" id="terre-neuve-et-labrador">Newfoundland and Labrador</option>
                                             <option value="saskatchewan" id="saskatchewan">Saskatchewan</option>
+                                            <option value="autre" id="other">Other</option>
                                                 
                                             
                                         </select>
                                                         
                                         <!-- ALBERTA -->
                                         <select style="display: none;" id="select_alberta" name="select_alberta" class="select_region">
-                                            <option value="Choisisez-une-region" id="Choisisez-une-region">Select your region</option>
-                                            <option>Nord de l’Alberta/Northern Alberta</option>
-                                            <option>Est de l’Alberta/East Alberta</option>
-                                            <option>Les Badlands/Canadian Badlands</option>
-                                            <option>Rocheuses Albertaines/Alberta’s Rockies</option>
-                                            <option>Sud de l’Alberta/Southern Alberta</option>
-                                            <option>Centre de l’Alberta/Central Alberta</option>
-                                            <option>Région de Calgary/Calgary Region</option>
-                                            <option>Région d’Edmonton/Edmonton Capital Region</option>
-                                            <option>Other</option>                                      
+                                            {{ range $.Site.Data.select.en.alberta }}
+                                            <option value="{{ .choix | urlize}}" id="{{ .choix | urlize}}">{{.choix}}</option> 
+                                            {{ end }}                                    
                                         </select>
      
                                         <!-- COLOMBIE-BRITANNIQUE -->
                                         <select style="display:none;" id="select_colombie_britannique" name="select_colombie_britannique" class="select_region">
-                                            <option value="Choisisez une région" id="Choisisez-une-région">Select your region</option>                                                                           
-                                            <option>L’Intérieur/British Columbia Interior</option>
-                                            <option>La Côte/British Columbia Coast</option>
-                                            <option>Les Basses-terres continentales/Lower Mainland</option>
-                                            <option>Other</option> 
+                                            {{ range $.Site.Data.select.en.bc }}
+                                            <option value="{{ .choix | urlize}}" id="{{ .choix | urlize}}">{{.choix}}</option> 
+                                            {{ end }}
                                         </select>                   
                                         
                                         <!-- MANITOBA -->
                                         <select style="display:none;" id="select_manitoba" name="select_manitoba" class="select_region">
-                                            <option value="Choisisez une région" id="Choisisez-une-région">Select your region</option>                                                               
-                                            <option>Nord/Northern</option>
-                                            <option>Entre-les-lacs/Interlake</option>
-                                            <option>Plaines centrales/Central Plains</option>
-                                            <option>Est/Eastman</option>
-                                            <option>Ouest/Westman</option>
-                                            <option>Région de Winnipeg/Winnipeg Capital Region</option>
-                                            <option>Région des Parcs/Parkland</option>
-                                            <option>Other</option> 
+                                            {{ range $.Site.Data.select.en.manitoba }}
+                                            <option value="{{ .choix | urlize}}" id="{{ .choix | urlize}}">{{.choix}}</option> 
+                                            {{ end }}
                                         </select>                   
                                                         
                                         <!-- ONTARIO -->
                                         <select style="display:none;" id="select_ontario" name="select_ontario" class="select_region">
-                                            <option value="Choisisez une région" id="Choisisez-une-région">Select your region</option>                                       
-                                            <option>Nord de l’Ontario/Northern Ontario</option>
-                                            <option>Sud de l’Ontario/Southern Ontario</option>
-                                            <option>Other</option>                                   
+                                            {{ range $.Site.Data.select.en.ontario }}
+                                            <option value="{{ .choix | urlize}}" id="{{ .choix | urlize}}">{{.choix}}</option> 
+                                            {{ end }}                                  
                                         </select>                               
      
                                         <!-- QUÉBEC -->
                                         <select style="display:none;" id="select_quebec" name="select_quebec" class="select_region">
-                                            <option value="Choisisez une région" id="Choisisez-une-région">Select your region</option>
-                                            <option>Abitibi-Témiscamingue</option>
-                                            <option>Bas-Saint-Laurent</option>
-                                            <option>Capitale-Nationale</option>
-                                            <option>Centre-du-Québec</option>
-                                            <option>Chaudière-Appalaches</option>
-                                            <option>Côte-Nord</option>
-                                            <option>Estrie</option>
-                                            <option>Gaspésie-Îles-de-la-Madeleine</option>
-                                            <option>Lanaudière</option>
-                                            <option>Laurentides</option>
-                                            <option>Laval</option>
-                                            <option>Mauricie</option>
-                                            <option>Montérégie</option>
-                                            <option>Montréal</option>
-                                            <option>Nord-du-Québec</option>
-                                            <option>Outaouais</option>
-                                            <option>Saguenay-Lac-Saint-Jean</option>
-                                            <option>Other</option>                                         
+                                            {{ range $.Site.Data.select.en.quebec }}
+                                            <option value="{{ .choix | urlize}}" id="{{ .choix | urlize}}">{{.choix}}</option> 
+                                            {{ end }}                                        
                                         </select>                               
 
                                         <!-- SASKATCHEWAN -->
                                         <select style="display:none;" id="select_saskatchewan" name="select_saskatchewan" class="select_region">
-                                            <option value="Choisisez une région" id="Choisisez-une-région">Select your region</option>
-                                            <option>Nord/Northern Saskatchewan</option>
-                                            <option>Sud/Southern Saskatchewan</option>
-                                            <option>Other</option> 
-                                        </select>                                           
+                                            {{ range $.Site.Data.select.en.sask }}
+                                            <option value="{{ .choix | urlize}}" id="{{ .choix | urlize}}">{{.choix}}</option> 
+                                            {{ end }}
+                                        </select>                                            
 
                                         <br><span id="strErreurRegion" class="erreur"></span>
                                         

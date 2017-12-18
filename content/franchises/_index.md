@@ -4,7 +4,6 @@ description: >-
   Groupe Blanchette - Maître Franchiseur est l’un des plus importants courtiers en franchises. Acheter une franchise tel que le Shaker, Chocolato et plus encore!
 titre: Franchises
 image: null
-i18nlanguage: fr
 draft: false
 activemenu: franchise
 ordre: 20

@@ -1,0 +1,17 @@
+franchise:
+  - name: shaker
+    enlogo: true
+  - name: grenouille
+    enlogo: true
+  - name: chocolato
+    enlogo: false
+  - name: tartar
+    enlogo: false
+  - name: hola
+    enlogo: false
+  - name: vapo
+    enlogo: false
+  - name: planete
+    enlogo: false
+  - name: frits
+    enlogo: false

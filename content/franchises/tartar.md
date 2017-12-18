@@ -35,9 +35,9 @@ details:
   contact: Pierre-Antoine Morency
   fondation: 2017
   nbre: 2
-  redevances: 9%
-  pub: 3%
-  royautes: 6%
+  redevances: 9 %
+  pub: 3 %
+  royautes: 6 %
 ctaimage: 
   need: true
   url: /img/franchises/tartar-cta-banner.jpg

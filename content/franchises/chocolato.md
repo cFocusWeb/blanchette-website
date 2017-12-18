@@ -36,7 +36,7 @@ details:
   contact: Guyaume Arsenault
   fondation: 2015
   nbre: 12
-  redevances: 9%
+  redevances: 9 %
   pub: 3 %
   royautes: 6 %
 ctaimage: 

@@ -684,14 +684,14 @@
 					  	li {
 							-webkit-box-flex: 1;
 							-moz-box-flex: 1;
-						    -webkit-flex: 1 0 125px;
-						        -ms-flex: 1 0 125px;
-						            flex: 1 0 125px;
+						    -webkit-flex: 1 0 0px;
+						        -ms-flex: 1 0 0px;
+						            flex: 1 0 0px;
 							border-right: 1px solid #d2d2d2;
 							border-bottom: 1px solid #d2d2d2;
 							background-color: white;
 							padding: 15px;
-							width: 0;
+							width: 135px;
 							span {
 								font-size: 0.7em;
 							}
@@ -708,6 +708,7 @@
 								line-height: 1.1em;
 								margin-bottom: 5px;
 								display: inline-block;
+								width: 105px;
 							}
 						}
 					}

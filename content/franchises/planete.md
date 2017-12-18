@@ -34,9 +34,9 @@ details:
   contact: William Déry
   fondation: 2015
   nbre: 7
-  redevances: 0%
-  pub: 0%
-  royautes: 0%
+  redevances: 0 %
+  pub: 0 %
+  royautes: 0 %
 ctaimage: 
   need: true
   url: /img/franchises/planete-cta-banner.jpeg

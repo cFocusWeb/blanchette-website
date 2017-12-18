@@ -29,10 +29,10 @@
                 <section class="timeline">
                   <ol>
                     {{ range $i, $e := .Params.timeline}}
-                    <li class="{{ if or (eq $i 1) (eq $i 4)}}timeopen{{ end }}">
-                      <div>
-                        <time>{{$e.date1}}{{ with $e.date2}}-<br>{{.}}{{end}}</time>
-                        <a href="javascript:void(0)" class="open-timeline"><img src="{{$e.logo}}" alt=""></a>
+                    <li class="{{ if $e.crushed }}crushed{{ end }}{{ if $e.grouped }} grouped{{ end }}">
+                      <div class="time-content">
+                        {{ if $e.date1 }}<time>{{$e.date1}}{{ with $e.date2}}-<br>{{.}}{{end}}</time>{{ end }}
+                        <a href="javascript:void(0)" class="open-timeline"><img src="{{$e.logo}}" alt=""><i></i></a>
                         <p class="text">{{$e.text}}</p>
                       </div>
                     </li>
@@ -59,7 +59,7 @@
                     <div class="box">
                         <ul>
                             {{ range .Params.wrapup }}
-                            <li><p>{{.nbre}}</p><br><span>{{.ligne1}}</span><br><span class="small">{{.ligne2}}</span></li>
+                            <li><p class="counter">{{.nbre}}</p><br><p>{{.ligne1}}</p><br><p class="small">{{.ligne2}}</p></li>
                             {{ end }}
                         </ul>
                     </div>

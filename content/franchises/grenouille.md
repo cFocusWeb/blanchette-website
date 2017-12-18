@@ -34,9 +34,9 @@ details:
   contact: Jérôme Landry
   fondation: 2005
   nbre: 16
-  redevances: 0%
-  pub: 0%
-  royautes: 0%
+  redevances: 0 %
+  pub: 0 %
+  royautes: 0 %
 ctaimage: 
   need: true
   url: /img/franchises/grenouille-cta-banner.jpg
