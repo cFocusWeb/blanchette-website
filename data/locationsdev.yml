@@ -1,8 +1,6 @@
-shaker:
-chocolato:
 frits:
-tartar:
-hola:
-vapo:
-grenouille:
-planete:
+  - city: Testing
+    lat: '43'
+    lng: '-72'
+    loc: '999 rue testing, Québec'
+    name: Testing Frits
