@@ -94,7 +94,7 @@ $(document).ready(function(){
   $('#out-of-qc-notice').hide();
   if (location.pathname.indexOf('/franchises/') == 0 || location.pathname.indexOf('/en/franchises/') == 0) {
     $.ajax({
-        url: 'http://freegeoip.net/json/',
+        url: 'https://freegeoip.net/json/',
         type: "GET",
         dataType: 'json',
         success: function (data) {
