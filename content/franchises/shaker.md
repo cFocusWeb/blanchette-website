@@ -34,6 +34,7 @@ details:
   redevances: 7 %
   pub: 3 %
   royautes: 4 %
+  email: lucbeaumont@shakercuisineetmixologie.com
 ctaimage: 
   need: true
   url: /img/franchises/shaker-cta-banner.jpeg
@@ -45,31 +46,31 @@ coupdecoeur:
   texte: >-
     ### Les « bons coups » de SHAKER Cuisine & Mixologie
 
-    **Concours culinaire _La semaine Manger cru 2017_** ;</br>
+    **Concours culinaire _La semaine Manger cru 2017_**</br>
     Premier dans la catégorie « Meilleur goût », tartare « L’ALBACORE ASIATIQUE »
 
 
-    **Concours de mixologie _MADE WITH LOVE 2017_** ;</br>
-    Premier dans la catégorie « Choix du public », cocktail « BIG APPLE »
-
-
-    **Concours culinaire _Grilled cheese festival 2017_** ;</br>
+    **Concours culinaire _Grilled cheese festival 2017_**</br>
     Premier dans la catégorie « Coup de cœur du public », grilled cheese « Le P'TIT BAVEUX »
 
 
-    **Concours de mixologie _MADE WITH LOVE 2016_** ;</br>
+    **Concours de mixologie _MADE WITH LOVE 2017_**</br>
+    Premier dans la catégorie « Choix du public », cocktail « BIG APPLE »
+
+
+    **Concours de mixologie _MADE WITH LOVE 2016_**</br>
     Premier dans la catégorie « Choix du public », cocktail « LE SHAMAN »
 
 
-    **Concours de mixologie _MADE WITH LOVE 2015_** ;</br>
+    **Concours de mixologie _MADE WITH LOVE 2015_**</br>
     Premier dans la catégorie « Choix du public », cocktail « MADE WITH LOVE »
 
 
-    **Concours culinaire _Le Burger Week 2015_** ;</br>
+    **Concours culinaire _Le Burger Week 2015_**</br>
     Premier dans la catégorie « Choix des juges », burger bœuf et canard
   couleur: "183, 147, 0, 0.2"
 ordre: 1
-video: zwEe7XGCTOI
+video: "_6JiBVAm3xM"
 locations:
   - Ste-Foy
   - Cap-Rouge
@@ -78,7 +79,7 @@ locations:
   - Charlesbourg
   - Rivière-du-Loup
   - Gatineau
-  - Saint-Georges de Beauce
+  - St-Georges
   - Trois-Rivières
   - Sherbrooke
 ---

@@ -38,6 +38,7 @@ details:
   redevances: 9%
   pub: 3%
   royautes: 6%
+  email: tartarstation@gmail.com
 ctaimage: 
   need: true
   url: /img/franchises/tartar-cta-banner-en.jpg
@@ -49,11 +50,11 @@ coupdecoeur:
   texte: >-
     ### TARTAR Station's "good moves"
 
-    **Culinary competition _La semaine Manger cru 2017_** ;</br>
-    First place in the "Best Quality/Price Ratio" category for the "Hawaiian two-salmon & yogurt tartare mini pokebowl" poke bowl
+    **_La semaine Manger cru 2017_ Culinary competition**</br>
+    First place in the "Best Quality/Price Ratio" category for the "Hawaiian two-salmon & yogurt tartare" mini poke bowl
   couleur: "250, 82, 0, 0.2"
 ordre: 4
-video: K6K6AZN6LZc
+video: q48IsgMD7SA
 locations:
   - Ste-Foy
   - Charlesbourg
@@ -62,7 +63,7 @@ locations:
 
 ### A success story
 
-Two years after the general outline of the TARTAR Station project, the first restaurant was born in February 2017. The two young entrepreneurs at the base of the concept join forces with the expertise of Groupe Blanchette - Master Franchisor to achieve their purpose, and create the first fast food chain specializing in tartares and poke bowls, serving its dishes on the spot, as well as for take-out and delivery.
+Two years after the general outline of the TARTAR Station project, the first restaurant was born in February 2017. The two young entrepreneurs at the base of the concept join forces with the expertise of Groupe Blanchette - Master Franchisor to achieve their purpose, and create the first fast food chain specializing in tartares and poke bowls, serving its dishes on the spot, as well as for take-out and delivery.  
 
 As soon as the first branch opened, TARTAR Station was very successful, prompting the team to open a second one in the following months.
 
@@ -94,4 +95,4 @@ Stand out from the rest by opening your own TARTAR Station counter!
 
 ### Other details
 
-- Between 1000 to 3 000 sq ft location dimensions
+- Between 1000 to 3 000 sq ft location dimensions.

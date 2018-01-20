@@ -7,7 +7,7 @@
                         {{ if eq .Lang "fr" }}
                         <li><a href="{{ .Site.BaseURL}}franchises">Nos franchises</a></li>
                         {{ else if eq .Lang "en" }}
-                        <li><a href="{{ .Site.BaseURL}}en/franchises">Our franchises</a></li>
+                        <li><a href="{{ .Site.BaseURL}}en/franchises">Our Franchises</a></li>
                         {{ end }}
                         <li><a href="#nothing"><h1>{{.Params.resume.titre}}</h1></a></li>
                     </ul>
@@ -73,7 +73,7 @@
                                 {{ else if eq .Lang "en" }}
                                 <h6>The Company</h6>
                                 {{ end }}
-                                <p>{{.Params.business}}</p>
+                                <p>{{.Params.business | markdownify }}</p>
                             </div>
                             <!-- // about  -->
 
@@ -83,21 +83,25 @@
                                 {{ else if eq .Lang "en" }}
                                 <h6>Offer <span>details</span></h6>
                                 {{ end }}
+                                
+                                <div id="out-of-qc-notice" style="opacity: 0">
+                                    {{ if eq .Lang "fr" }}Vous semblez à l’extérieur du Québec, pour obtenir plus d’informations relatives à cette franchise, svp contactez{{ else if eq .Lang "en" }}You seem to be outside the limits of Quebec. To get more information regarding this franchise, please contact{{ end }} <a href="mailto:{{.Params.details.email}}">{{.Params.details.contact}}</a>.
+                                </div>
 
                                 <table width="100%">
                                     <tr>
                                         <td width="50%"><strong>Type</strong></td>
                                         <td width="50%">{{.Params.details.type}}</td>
                                     </tr>
-                                    <tr>
+                                    <tr class="out-of-qc">
                                         <td><strong>{{ if eq .Lang "fr" }}Mise de fonds{{ else if eq .Lang "en" }}Initial investment{{ end }}</strong></td>
                                         <td>{{.Params.details.misedefonds}}</td>
                                     </tr>
-                                    <tr>
-                                        <td><strong>{{ if eq .Lang "fr" }}Frais de {{lower .Params.details.type}}{{ else if eq .Lang "en" }}{{ .Params.details.type}} fees{{ end }}</strong></td>
+                                    <tr class="out-of-qc">
+                                        <td><strong>{{ if eq .Lang "fr" }}Frais de {{lower .Params.details.type}}{{ else if eq .Lang "en" }}{{.Params.details.type}} fees{{ end }}</strong></td>
                                         <td>{{.Params.details.frais}}</td>
                                     </tr>
-                                    <tr>
+                                    <tr class="out-of-qc">
                                         <td><strong>{{ if eq .Lang "fr" }}Investissement total estimé (avant taxes){{ else if eq .Lang "en" }}Investment total (before taxes){{ end }}</strong></td>
                                         <td>{{.Params.details.investissement}}</td>
                                     </tr>
@@ -113,11 +117,11 @@
                                         <td><strong>{{ if eq .Lang "fr" }}Nombre de succursales{{ else if eq .Lang "en" }}Number of locations{{ end }}</strong></td>
                                         <td>{{.Params.details.nbre}}</td>
                                     </tr>
-                                    <tr>
+                                    <tr class="out-of-qc">
                                         <td><strong>{{ if eq .Lang "fr" }}Royautés{{ else if eq .Lang "en" }}Royalties{{ end }}</strong></td>
                                         <td>{{.Params.details.royautes}}</td>
                                     </tr>
-                                    <tr>
+                                    <tr class="out-of-qc">
                                         <td><strong>{{ if eq .Lang "fr" }}Frais publicitaires{{ else if eq .Lang "en" }}Publicity fees{{ end }}</strong></td>
                                         <td>{{.Params.details.pub}}</td>
                                     </tr>
@@ -155,7 +159,7 @@
                                 {{ if eq .Lang "fr" }}
                                 <h6>Consultez le <span>site Web</span> :</h6>
                                 {{ else if eq .Lang "en" }}
-                                <h6>Visit our <span>website</span> :</h6>
+                                <h6>Visit the <span>website</span>:</h6>
                                 {{ end }}
                                 <p><a href="{{.Params.website}}" target="_blank">{{.Params.website}}</a></p>
                             </div>

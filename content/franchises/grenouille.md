@@ -37,6 +37,7 @@ details:
   redevances: 0 %
   pub: 0 %
   royautes: 0 %
+  email: froggerjay@hotmail.com
 ctaimage: 
   need: true
   url: /img/franchises/grenouille-cta-banner.jpg
@@ -45,7 +46,7 @@ ordre: 1
 draft: false
 activemenu: franchise
 ordre: 3
-video: r-92rtBzKrk
+video: Uft71tRM29k
 locations:
   - Ste-Foy
   - Laval
@@ -57,17 +58,18 @@ locations:
   - Sept-Îles
   - Thetford Mines
   - Trois-Rivières
-  - Baie Comeau
+  - Baie-Comeau
   - Rivière-du-Loup
   - Bromont
-  - Saint-Georges de Beauce
+  - St-Georges
   - Drummondville
+  - Mont-Laurier
 ---
 ## La P'tite Grenouille – Survol de la bannière
 
 ### Une histoire à succès
 
-C’est en 2005 que le tout premier établissement La P’tite Grenouille ouvrit ses portes, lequel fut suivi de près par plusieurs autres succursales pour maintenant totaliser 17 boîtes à chansons aux coins du Québec. 
+C’est en 2005 que le tout premier établissement La P’tite Grenouille ouvrit ses portes, lequel fut suivi de près par plusieurs autres succursales pour maintenant totaliser 16 boîtes à chansons aux coins du Québec. 
 
 ### La P’tite Grenouille fait rayonner nos artistes !
 

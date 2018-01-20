@@ -39,6 +39,7 @@ details:
   redevances: 9%
   pub: 3%
   royautes: 6%
+  email: "ga@groupeblanchette.com"
 ctaimage: 
   need: true
   url: /img/franchises/chocolato-cta-banner-en.jpg
@@ -47,7 +48,7 @@ ordre: 1
 draft: false
 activemenu: franchise
 ordre: 2
-video: 1qWZ5377huA
+video: Pm_Wx_35vC4
 locations:
   - Québec (Ste-Foy, Galeries de la Capitale, Laurier Québec, rue St-Jean, Chauveau, Charlesbourg, Pyramide)
   - Lévis

@@ -40,6 +40,7 @@ details:
   redevances: 8%
   pub: 2%
   royautes: 6%
+  email: "hl@groupeblanchette.com"
 ctaimage: 
   need: true
   url: /img/franchises/hola-cta-banner-en.jpg
@@ -48,7 +49,7 @@ ordre: 1
 draft: false
 activemenu: franchise
 ordre: 6
-video: qYkzN_5R1X4
+video: 9lpGlF8JZhk
 locations:
   - Ste-Foy
 ---

@@ -26,26 +26,5 @@ steps:
     line1: The start of a new adventure!
     line2: Your project takes shape and the process begins 
 ---
+
 Doing business with the Groupe Blanchette – Master Franchisor, is being surrounded and supported by a team of consummate professionals and experts, from the very first contact. 
-
-#### Franchisee Services & Support 
-
-Before opening, the future franchisee will benefit from the assistance of the franchisor for the following aspects:
-
-- Finding a location;
-- Negotiating the lease; 
-- Planning the layout;
-- Tenders;
-- Construction;
-- Ordering equipment;
-- Obtaining financing;
-- Preparing the business plan;
-- Developing the organizational personnel structure; 
-- Developing purchase and inventory management tools;
-- Theory and practice training for operators, managers and key employees of the future franchise. 
-
-Following the opening, the franchisor will provide continued support regarding the following aspects: 
-
-- Managing franchise standards;
-- Meeting marketing needs;
-- Follow-up of ratio performances.

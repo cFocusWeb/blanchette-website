@@ -69,12 +69,6 @@ $(document).ready(function(){
     if (parentli.hasClass('grouped')) {
       parentli.next('li').toggleClass('enlarged');
     }
-    // if (parentli.hasClass('grouped')) {
-    //   if (parentli.next('li').next('li').hasClass('enlarged')) {
-    //   } else {
-    //     parentli.next('li').toggleClass('enlarged');
-    //   }
-    // }
     $(this).parent().toggleClass('opened');
     if (!timelineTop) {
       $(".timeline ol").addClass('opened-top');
@@ -95,6 +89,22 @@ $(document).ready(function(){
   $('input,textarea').blur(function(){
      $(this).attr('placeholder',$(this).data('placeholder'));
   });
+
+  // Out of QC
+  $('#out-of-qc-notice').hide();
+  if (location.pathname.indexOf('/franchises/') == 0 || location.pathname.indexOf('/en/franchises/') == 0) {
+    $.ajax({
+        url: 'http://freegeoip.net/json/',
+        type: "GET",
+        dataType: 'json',
+        success: function (data) {
+            if  (data.region_code !== "QC" && data.region_name !== "Quebec") {
+               $('#out-of-qc-notice').show().css("opacity", "1");
+               $('.out-of-qc').hide();
+            }
+        }
+    });
+  }
 
 });
 
@@ -399,14 +409,14 @@ $(function() {
 });
 
 var videos = [
-  ['shaker', 61],
-  ['chocolato', 108],
-  ['grenouille', 169],
-  ['tartar', 222],
-  ['frits', 259],
-  ['hola', 303],
-  ['planete', 348],
-  ['vapo', 390]
+  ['shaker', 62],
+  ['chocolato', 111],
+  ['grenouille', 176],
+  ['tartar', 217],
+  ['frits', 256],
+  ['hola', 302],
+  ['planete', 346],
+  ['vapo', 389]
 ];
 
 function videoClick( i ){

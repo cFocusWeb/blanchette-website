@@ -25,7 +25,7 @@ accentcolor: "#53ab01"
 whitebg: true
 website: https://www.laptitegrenouille.ca/en/
 details:
-  type: Licence
+  type: License
   frais: $0
   investissement: from $100 000 
   misedefonds: from $100 000
@@ -35,6 +35,7 @@ details:
   redevances: 0%
   pub: 0%
   royautes: 0%
+  email: froggerjay@hotmail.com
 ctaimage: 
   need: true
   url: /img/franchises/grenouille-cta-banner-en.jpg
@@ -43,7 +44,7 @@ ordre: 1
 draft: false
 activemenu: franchise
 ordre: 3
-video: r-92rtBzKrk
+video: q3sNUEEPc_c
 locations:
   - Ste-Foy
   - Laval
@@ -55,17 +56,18 @@ locations:
   - Sept-Îles
   - Thetford Mines
   - Trois-Rivières
-  - Baie Comeau
+  - Baie-Comeau
   - Rivière-du-Loup
   - Bromont
-  - Saint-Georges de Beauce
+  - St-Georges
   - Drummondville
+  - Mont-Laurier
 ---
 ## Little Frog – Overview of the Banner 
 
 ### A success story 
 
-The very first Little Frog was opened in 2005, quickly followed by many other locations for a total number of 18 live show bars throughout the province. 
+The very first Little Frog was opened in 2005, quickly followed by many other locations for a total number of 16 live show bars throughout the province. 
 
 ### The Little Frog lets our artists shine! 
 
@@ -89,7 +91,7 @@ Bring a major asset to your area with your own Little Frog license!
 
 - Demonstrate an interest for the bar scene;
 - Have experience in a restaurant or bar;
-- Interest in the Québec music world; 
+- Interest in the Québec music world. 
 
 ### Other details 
 

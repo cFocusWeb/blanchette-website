@@ -25,7 +25,7 @@ whitebg: true
 website: http://vaposhop.ca/
 details:
   type: Licence
-  frais: 7500 $
+  frais: 7 500 $
   investissement: à partir de 47 500 $ 
   misedefonds: à partir de 40 000 $
   contact: Pierre-Antoine Morency
@@ -34,6 +34,7 @@ details:
   redevances: 0 %
   pub: 0 %
   royautes: 0 % 
+  email: tartarstation@gmail.com
 ctaimage: 
   need: false
   url: /img/franchises/vapo-cta-banner.jpg
@@ -42,7 +43,7 @@ ordre: 1
 draft: false
 activemenu: franchise
 ordre: 7
-video: eOwgoBJebJo
+video: HW4EYPVcNvI
 locations:
   - Ste-Foy
   - Charlesbourg

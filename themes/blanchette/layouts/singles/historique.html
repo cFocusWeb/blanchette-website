@@ -32,7 +32,7 @@
                     <li class="{{ if $e.crushed }}crushed{{ end }}{{ if $e.grouped }} grouped{{ end }}">
                       <div class="time-content">
                         {{ if $e.date1 }}<time>{{$e.date1}}{{ with $e.date2}}-<br>{{.}}{{end}}</time>{{ end }}
-                        <a href="javascript:void(0)" class="open-timeline"><img src="{{$e.logo}}" alt=""><i></i></a>
+                        <a href="javascript:void(0)" class="open-timeline {{ if $e.proche }}proche{{end}}"><img src="{{$e.logo}}" alt=""></a>
                         <p class="text">{{$e.text}}</p>
                       </div>
                     </li>

@@ -60,12 +60,14 @@ timeline:
     date1: 2014
     date2:
     grouped: true
+    proche: true
     text: >-
       VAPOSHOP est d'abord lancé en tant que ligne de produits liquides pour cigarettes électroniques. Rapidement, la bannière complète son offre avec l'ouverture de 3 succursales.
   - logo: /img/logos/shaker.svg
     date1: 2015
     date2:
     grouped: true
+    proche: true
     text: >-
       En 2015, le groupe actualise le STAR BAR et présente le SHAKER Cuisine & Mixologie, offrant tartares, cocktails et burgers gourmets, en plus des nombreuses promotions. Avec son expansion rapide et son succès fulgurant, la bannière, dénombrant maintenant 10 succursales, est désormais la seule chaîne de restaurants-bars spécialisée en la matière.   
   - logo: /img/logos/chocolate.svg
@@ -80,6 +82,7 @@ timeline:
     date2:
     crushed: true
     grouped: true
+    proche: true
     text: >-
       Avec HOLA Grill Mexicain, le groupe diversifie son offre en restauration rapide en offrant un comptoir avec une cuisine fraîche et sur mesure. Situé dans La Pyramide à Ste-Foy, HOLA Grill Mexicain attire autant les amateurs de nourriture mexicain que les adeptes de repas santé.   
   - logo: /quart/img/misc/logo-planete.png
@@ -91,6 +94,7 @@ timeline:
   - logo: /img/logos/tartar.svg
     date1: 2017
     date2:
+    proche: true
     text: >-
       Le tout premier comptoir de restauration rapide spécialisé en tartares, tatakis et poke bols ouvre ses portes à La Pyramide à Ste-Foy. Suscitant un grand engouement des amateurs de cuisine santé et savoureuse, TARTAR Station prévoit deux autres ouvertures dans les prochains mois. 
 wrapup:

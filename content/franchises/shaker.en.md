@@ -13,14 +13,14 @@ resume:
   desc: >-
     ### SHAKER Kitchen & Mixology 
 
-    is the only restaurant-bar chain specialized in cocktails, tartares and gourmet burgers. Its chic industrial décor welcomes customers of all ages, from lunch to late nights, to "Live the SHAKER experience", and enjoy great weekly promotions. 
+    is the only restaurant-bar chain specialized in cocktails, tartares and gourmet burgers. Its chic industrial _décor_ welcomes customers of all ages, from lunch to late nights, to "Live the SHAKER experience", and enjoy great weekly promotions. 
   investissement: "640 000 $"
   carouselclass: big-nav
   gridholder: shakermarg
 imagedesc: >-
   SHAKER Kitchen & Mixology: the perfect venue for business lunches, trendy dinners or a night out.  
 business: >-
-  SHAKER Kitchen & Mixology is the only restaurant-bar chain specialized in cocktails, tartares and gourmet burgers. Its chic industrial décor welcomes customers of all ages, from lunch to late nights, to "Live the SHAKER experience", and enjoy great weekly promotions.
+  SHAKER Kitchen & Mixology is the only restaurant-bar chain specialized in cocktails, tartares and gourmet burgers. Its chic industrial _décor_ welcomes customers of all ages, from lunch to late nights, to "Live the SHAKER experience", and enjoy great weekly promotions.
 accentcolor: "#b89217"
 website: https://www.shakerkitchenandmixology.com/
 details:
@@ -34,6 +34,7 @@ details:
   redevances: 7%
   pub: 3%
   royautes: 4%
+  email: lucbeaumont@shakercuisineetmixologie.com
 ctaimage: 
   need: true
   url: /img/franchises/shaker-cta-banner-en.jpg
@@ -45,32 +46,32 @@ coupdecoeur:
   texte: >-
     ### SHAKER Kitchen & Mixology's "good moves"
 
-    **Culinary competition _La semaine Manger cru 2017_**;</br>
-    First place in the " Best taste "  category, for the " L’ALBACORE ASIATIQUE "  tartare
+    **_La semaine Manger cru 2017_ Culinary competition**</br>
+    First place in the "Best taste"  category, for the "L’ALBACORE ASIATIQUE" tartare
 
 
-    **Mixology competition _MADE WITH LOVE 2017_**;</br>
-    First place in the " Public's Choice " category, fo the " BIG APPLE " cocktail
+    **_Grilled cheese festival 2017_ Culinary competition**</br>
+    First place in the "Favorite of the public" category, for the "Le P'TIT BAVEUX" grilled cheese
 
 
-    **Culinary competition _Grilled cheese festival 2017_**;</br>
-    First place in the " Favorite of the public" category, for the " Le P'TIT BAVEUX "  grilled cheese
+    **_MADE WITH LOVE 2017_ Mixology competition**</br>
+    First place in the "Public's Choice" category, fo the "BIG APPLE" cocktail
 
 
-    **Mixology competition _MADE WITH LOVE 2016_**;</br>
-    First place in the " Favorite of the public " category, for the " LE SHAMAN " cocktail
+    **_MADE WITH LOVE 2016_ Mixology competition**</br>
+    First place in the "Favorite of the public" category, for the "LE SHAMAN" cocktail
 
 
-    **Mixology competition _MADE WITH LOVE 2015_**;</br>
-    First place in the " Favorite of the public " category, for the " MADE WITH LOVE " cocktail
+    **_MADE WITH LOVE 2015_ Mixology competition**</br>
+    First place in the "Favorite of the public" category, for the "MADE WITH LOVE" cocktail
 
 
-    **Culinary competition _Le Burger Week 2015_**;</br>
-    First place in the " Selection of judges " category, for the Beef & Duck burger
+    **_Le Burger Week 2015_ Culinary competition**</br>
+    First place in the "Selection of judges" category, for the Beef & Duck burger
 
   couleur: "183, 147, 0, 0.2"
 ordre: 1
-video: zwEe7XGCTOI
+video: YhaHDUj8KTk
 locations:
   - Ste-Foy
   - Cap-Rouge
@@ -79,7 +80,7 @@ locations:
   - Charlesbourg
   - Rivière-du-Loup
   - Gatineau
-  - Saint-Georges de Beauce
+  - St-Georges
   - Trois-Rivières
   - Sherbrooke
 ---

@@ -38,6 +38,7 @@ details:
   redevances: 9 %
   pub: 3 %
   royautes: 6 %
+  email: tartarstation@gmail.com
 ctaimage: 
   need: true
   url: /img/franchises/tartar-cta-banner.jpg
@@ -49,11 +50,11 @@ coupdecoeur:
   texte: >-
     ### Les « bons coups » de TARTAR Station
 
-    **Concours culinaire _La semaine Manger cru 2017_** ;</br>
-    Première place dans la catégorie « Meilleur rapport qualité prix » pour le poke bol « Mini Pokebol Hawaïen au tartare double saumon & yogourt »
+    **Concours culinaire _La semaine Manger cru 2017_**</br>
+    Première place dans la catégorie « Meilleur rapport qualité-prix », mini poke bol « Hawaïen au tartare double saumon & yogourt »
   couleur: "250, 82, 0, 0.2"
 ordre: 4
-video: K6K6AZN6LZc
+video: 86t3XCkoSeQ
 locations:
   - Ste-Foy
   - Charlesbourg
@@ -68,9 +69,9 @@ Le concept voit le jour deux ans après la première image qu'en ont les deux en
 
 ### TARTAR 2.0
 
-Passant d'abord par son image de marque différente et une forte présence sur les réseaux sociaux, la marque TARTAR Station jouit d'une grande popularité grâce à son adaptation à une clientèle plus que jamais axée sur les nouvelles technologies. Ses bornes de commandes interactives en succursale et son système complet de commandes en ligne rendent l'expérience des plus conviviales pour les consommateurs. 
+C’est deux ans après la première esquisse du concept de TARTAR Station que le premier restaurant voit le jour en février 2017. Les deux jeunes entrepreneurs à la base du conceptjoignent leurs forces à l'expertise du Groupe Blanchette - Maître Franchiseur pour parvenir à leurs fins, et créent la première chaîne de restauration rapide spécialisée en tartares et poke bols, servant à la fois ses plats sur place, mais également pour emporter et en livraison. 
 
-Soucieux de satisfaire sa clientèle, TARTAR Station innove également par rapport à son offre de produits en proposant une ligne de thés froids infusés exclusive à leurs restaurants, les thés LT, ainsi qu'une gamme de mets préparés pour emporter.
+Dès l'ouverture de la première succursale, TARTAR Station connaît un grand succès, poussant l'équipe à en ouvrir une seconde dans les mois qui suivent.  
 
 
 #### Occasions d'affaires
@@ -90,7 +91,7 @@ Différenciez-vous de la masse en ouvrant votre propre comptoir TARTAR Station !
 
 - Être à l'aise avec le public ; 
 - Aimer relever de nouveaux défis ;
-- Avoir de l'intérêt pour la cuisine crue (tartares, tatakis, etc.) ;
+- Avoir de l'intérêt pour la cuisine crue ;
 - Avoir de l'expérience en restauration ou en opération d'un établissement dans ce milieu est un atout.
 
 ### Autres détails

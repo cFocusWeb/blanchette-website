@@ -37,6 +37,7 @@ details:
   redevances: 0 %
   pub: 0 %
   royautes: 0 %
+  email: info@planetenutrition.ca
 ctaimage: 
   need: true
   url: /img/franchises/planete-cta-banner.jpeg
@@ -45,7 +46,7 @@ ordre: 1
 draft: false
 activemenu: franchise
 ordre: 8
-video: hVyEqXZYcts
+video: pQVsuDgUCBU
 locations:
   - Québec (Bouvier)
   - Cap-Rouge

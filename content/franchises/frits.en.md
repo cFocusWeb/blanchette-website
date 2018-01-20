@@ -38,6 +38,7 @@ details:
   redevances: 8%
   pub: 2%
   royautes: 6%
+  email: "hl@groupeblanchette.com"
 ctaimage: 
   need: true
   url: /img/franchises/frits-cta-banner-en.jpg
@@ -46,7 +47,7 @@ ordre: 1
 draft: false
 activemenu: franchise
 ordre: 5
-video: I471h2cLgBI
+video: zq52OJUk6Fo
 locations:
   - Ste-Foy
   - Beauport
@@ -71,8 +72,8 @@ Hop on the Frit’s Burgers & Poutines wave by opening your own franchise!
 
 ### Why Frit’s Burgers & Poutines?
 
-- Different menu based on local products 
-- Extremely easy to operate, perfect for a first-time franchise project;  
+- Different menu based on local products; 
+- Extremely easy to operate, perfect for a first-time franchise project.  
 
 ### Profile of future franchisee  
 

@@ -27,7 +27,7 @@ whitebg: true
 colorbg: false
 website: https://planetenutrition.ca/
 details:
-  type: Licence
+  type: License
   frais: $10 000
   investissement: from $90 500 
   misedefonds: from $54 000
@@ -37,6 +37,7 @@ details:
   redevances: 0%
   pub: 0%
   royautes: 0%
+  email: info@planetenutrition.ca
 ctaimage: 
   need: true
   url: /img/franchises/planete-cta-banner-en.jpg
@@ -45,7 +46,7 @@ ordre: 1
 draft: false
 activemenu: franchise
 ordre: 8
-video: hVyEqXZYcts
+video: BIBVZimwnrw
 locations:
   - Québec (Bouvier)
   - Cap-Rouge
