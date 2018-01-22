@@ -18,7 +18,7 @@ draft: false
 ---
 Le bar à chocolat & crème glacée Chocolato poursuit son expansion à travers la province et prépare l'ouverture d'une toute nouvelle succursale dans le quartier St-Roch, à Québec.
 
-Le futur Chocolato élira domicile dans un secteur hautement commercial, à l'angle du boulevard Charest et de la rue du Parvis. Situé dans un bâtiment doté d'un grand cachet, le futur Chocolato jouira d'une très haute visibilité, et son emplacement permettra la combinaison possible avec d'autres comptoirs de restauration rapide tels que le Frit's Burgers & Poutines. 
+Le futur Chocolato élira domicile dans un secteur hautement commercial, à l'angle du boulevard Charest et de la rue du Parvis. Situé dans un bâtiment doté d'un grand cachet, le futur Chocolato bénéficiera d'une très haute visibilité, et son emplacement permettra la combinaison possible avec d'autres comptoirs de restauration rapide tels que le Frit's Burgers & Poutines. 
 
 Le concept unique de bar laitier & chocolaterie ouvert sur 4 saisons promet l'arrivée d'un vent nouveau dans le paysage commercial de St-Roch. Le vaste choix de produits qu'offre la bannière laisse ses plus proches compétiteurs loin derrière : 20 choix de trempages, 20 variétés de friandises, 12 saveurs de gelati et sorbets, de nombreux desserts maison, fondues à déguster sur place ou pour emporter, chocolats fins, paniers-cadeaux et autres surprises chocolatées.
 
