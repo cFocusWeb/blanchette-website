@@ -1,7 +1,7 @@
 ---
-title: 'Franchisé recherché à Victoriaville à Québec, dans St-Roch'
-slug: franchise-recherche-a-victoriaville-a-quebec-dans-st-roch
-identifiant: franchise-recherche-a-victoriaville-a-quebec-dans-st-roch
+title: 'Franchisé recherché à Québec, dans St-Roch'
+slug: franchise-recherche-a-quebec-dans-st-roch
+identifiant: franchise-recherche-a-quebec-dans-st-roch
 image: /img/articles/img_2981.jpg
 date: '2018-01-22'
 occasion: true
