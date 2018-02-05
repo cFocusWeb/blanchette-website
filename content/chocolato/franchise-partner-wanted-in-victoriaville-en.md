@@ -1,5 +1,5 @@
 ---
-title: FRANCHISE PARTNER WANTED IN VICTORIAVILLE
+title: Franchise Partner Wanted in Victoriaville
 slug: franchise-partner-wanted-in-victoriaville
 identifiant: franchise-partner-wanted-in-victoriaville
 image: /img/articles/franchise-recherche-victoriaville_.jpg
