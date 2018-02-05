@@ -1,6 +1,6 @@
 ---
-title: Franchisé recherché à St-Roch (ville de Québec)
-slug: franchise-recherche-a-st-roch-ville-de-quebec
+title: Franchisé recherché dans St-Roch (ville de Québec)
+slug: franchise-recherche-dans-st-roch-ville-de-quebec
 identifiant: franchise-recherche-a-st-roch-ville-de-quebec
 image: /img/articles/frit's_beauport.jpg
 date: '2018-01-22'
@@ -8,7 +8,7 @@ occasion: true
 historique: false
 arrowc: white
 list:
-  pretitle: FRIT'S
+  pretitle: 'FRIT''S BURGERS & POUTINES :'
 i18nlanguage: fr
 type: articles
 activemenu: projets
