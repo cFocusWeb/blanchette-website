@@ -1,7 +1,7 @@
 ---
-title: 'Franchisé recherché à Québec, dans St-Roch'
-slug: franchise-recherche-a-quebec-dans-st-roch
-identifiant: franchise-recherche-a-quebec-dans-st-roch
+title: Franchisé recherché à St-Roch (ville de Québec)
+slug: franchise-recherche-a-st-roch-ville-de-quebec
+identifiant: franchise-recherche-a-st-roch-ville-de-quebec
 image: /img/articles/frit's_beauport.jpg
 date: '2018-01-22'
 occasion: true
