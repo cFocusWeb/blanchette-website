@@ -1,7 +1,7 @@
 ---
 title: Franchise Partner Wanted in St-Roch (Quebec City)
 slug: franchise-partner-wanted-in-st-roch-quebec-city
-identifiant: franchise-partner-wanted-in-st-roch-quebec-city
+identifiant: franchise-recherche-a-st-roch-ville-de-quebec
 image: /img/articles/frit's_beauport.jpg
 date: '2018-01-15'
 occasion: true

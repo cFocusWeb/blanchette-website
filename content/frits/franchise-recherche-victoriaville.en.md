@@ -1,7 +1,7 @@
 ---
 title: 'Franchise Partner Wanted in Victoriaville '
 slug: franchise-partner-wanted-in-victoriaville
-identifiant: franchise-partner-wanted-in-victoriaville
+identifiant: franchise-recherche-victoriaville
 image: /img/articles/frit's_beauport.jpg
 date: '2018-01-15'
 occasion: true

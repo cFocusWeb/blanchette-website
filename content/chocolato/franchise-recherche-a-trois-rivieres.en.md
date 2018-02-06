@@ -1,7 +1,7 @@
 ---
 title: Franchise Partner Wanted in Trois-Rivières
 slug: franchise-partner-wanted-in-trois-rivieres
-identifiant: franchise-partner-wanted-in-trois-rivieres
+identifiant: franchise-recherche-a-trois-rivieres
 image: /img/articles/franchise-recherche-victoriaville_.jpg
 date: '2018-01-15'
 occasion: true
