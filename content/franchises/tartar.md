@@ -51,7 +51,7 @@ coupdecoeur:
     ### Les « bons coups » de TARTAR Station
 
     **Concours culinaire _La semaine Manger cru 2017_**</br>
-    Première place dans la catégorie « Meilleur rapport qualité-prix », mini poke bol « Hawaïen au tartare double saumon & yogourt »
+    Premier dans la catégorie « Meilleur rapport qualité-prix », mini poke bol « Hawaïen au tartare double saumon & yogourt »
   couleur: "250, 82, 0, 0.2"
 ordre: 4
 video: 86t3XCkoSeQ
@@ -63,15 +63,17 @@ locations:
 
 ### Une histoire à succès
 
-TARTAR Station a vu le jour en février 2017, et compte déjà une succursale active et une seconde en voie d'ouvrir dans la même année. 
+C’est deux ans après la première esquisse du concept de TARTAR Station que le premier restaurant voit le jour en février 2017. Les deux jeunes entrepreneurs à la base du concept joignent leurs forces à l'expertise du Groupe Blanchette - Maître Franchiseur pour parvenir à leurs fins, et créent la première chaîne de restauration rapide spécialisée en tartares et poke bols, servant à la fois ses plats sur place, mais également pour emporter et en livraison.
 
-Le concept voit le jour deux ans après la première image qu'en ont les deux entrepreneurs : créer la première chaîne de restaurants de style restauration rapide spécialisée en tartares et poke bols, servant à la fois ses plats sur place, mais également pour emporter et en livraison. Dans l'atteinte de son objectif, le duo à la base du concept joint ses forces à l'expertise du Groupe Blanchette-Maître Franchiseur, rendant leurs idées de grandeur enfin réalisables.  
+Dès l'ouverture de la première succursale, TARTAR Station connaît un grand succès, poussant l'équipe à en ouvrir une seconde dans les mois qui suivent. 
+ 
 
 ### TARTAR 2.0
 
-C’est deux ans après la première esquisse du concept de TARTAR Station que le premier restaurant voit le jour en février 2017. Les deux jeunes entrepreneurs à la base du conceptjoignent leurs forces à l'expertise du Groupe Blanchette - Maître Franchiseur pour parvenir à leurs fins, et créent la première chaîne de restauration rapide spécialisée en tartares et poke bols, servant à la fois ses plats sur place, mais également pour emporter et en livraison. 
+Passant d'abord par son image de marque différente et une forte présence sur les réseaux sociaux, la marque TARTAR Station jouit d'une grande popularité grâce à son adaptation à une clientèle plus que jamais axée sur les nouvelles technologies. Ses bornes de commandes interactives en succursale et son système complet de commandes en ligne rendent l'expérience des plus conviviales pour les consommateurs. 
 
-Dès l'ouverture de la première succursale, TARTAR Station connaît un grand succès, poussant l'équipe à en ouvrir une seconde dans les mois qui suivent.  
+Soucieux de satisfaire sa clientèle, TARTAR Station innove également par rapport à son offre de produits en proposant une ligne de thés froids infusés exclusive à leurs restaurants, les thés LT, ainsi qu'une gamme de mets préparés pour emporter.
+ 
 
 
 #### Occasions d'affaires
@@ -96,7 +98,7 @@ Différenciez-vous de la masse en ouvrant votre propre comptoir TARTAR Station !
 
 ### Autres détails
 
-- Local d'une dimension entre 1 000 et 3 000 pi2.
+- Local de + ou – 1 500 pi2.
 
 
 

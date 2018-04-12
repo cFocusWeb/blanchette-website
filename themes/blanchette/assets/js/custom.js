@@ -5,6 +5,7 @@
 //@prepros-prepend libs/jquery-ui.min.js
 //@prepros-prepend libs/slick.min.js
 //@prepros-prepend libs/waypoints.min.js
+//@prepros-prepend libs/hammer.min.js
 //@prepros-prepend libs/jquery.counterup.min.js
 //@prepros-prepend jquery.matchHeight.js
 //@prepros-prepend wow.min.js
