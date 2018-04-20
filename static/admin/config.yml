@@ -14,6 +14,7 @@ collections:
   - name: "articles-autres-fr" # Used in routes, e.g. /admin/collections/blog
     label: "Articles - Autres - FR" # Used in the UI
     folder: "content/autres" # The path to the folder where the documents are stored
+    format: "yaml-frontmatter"
     slug: "{{identifiant}}"
     editor:
       preview: false
@@ -66,6 +67,7 @@ collections:
     folder: "content/autres" # The path to the folder where the documents are stored
     slug: "{{identifiant}}"
     extension: "en.md"
+    format: "yaml-frontmatter"
     editor:
       preview: false
     create: true # Allow users to create new documents in this collection
@@ -116,6 +118,7 @@ collections:
   - name: "articles-shaker-fr" # Used in routes, e.g. /admin/collections/blog
     label: "Articles - Shaker - FR" # Used in the UI
     folder: "content/shaker" # The path to the folder where the documents are stored
+    format: "yaml-frontmatter"
     slug: "{{identifiant}}"
     editor:
       preview: false
@@ -168,6 +171,7 @@ collections:
     folder: "content/shaker" # The path to the folder where the documents are stored
     slug: "{{identifiant}}"
     extension: "en.md"
+    format: "yaml-frontmatter"
     editor:
       preview: false
     create: true # Allow users to create new documents in this collection
@@ -217,6 +221,7 @@ collections:
   - name: "articles-grenouille-fr" # Used in routes, e.g. /admin/collections/blog
     label: "Articles - La P'tite Grenouille - FR" # Used in the UI
     folder: "content/grenouille" # The path to the folder where the documents are stored
+    format: "yaml-frontmatter"
     slug: "{{identifiant}}"
     editor:
       preview: false
@@ -269,6 +274,7 @@ collections:
     folder: "content/grenouille" # The path to the folder where the documents are stored
     slug: "{{identifiant}}"
     extension: "en.md"
+    format: "yaml-frontmatter"
     editor:
       preview: false
     create: true # Allow users to create new documents in this collection
@@ -319,6 +325,7 @@ collections:
   - name: "articles-chocolato-fr" # Used in routes, e.g. /admin/collections/blog
     label: "Articles - Chocolato - FR" # Used in the UI
     folder: "content/chocolato" # The path to the folder where the documents are stored
+    format: "yaml-frontmatter"
     slug: "{{identifiant}}"
     editor:
       preview: false
@@ -371,6 +378,7 @@ collections:
     folder: "content/chocolato" # The path to the folder where the documents are stored
     slug: "{{identifiant}}"
     extension: "en.md"
+    format: "yaml-frontmatter"
     editor:
       preview: false
     create: true # Allow users to create new documents in this collection
@@ -420,6 +428,7 @@ collections:
   - name: "articles-frits-fr" # Used in routes, e.g. /admin/collections/blog
     label: "Articles - Frit's - FR" # Used in the UI
     folder: "content/frits" # The path to the folder where the documents are stored
+    format: "yaml-frontmatter"
     slug: "{{identifiant}}"
     editor:
       preview: false
@@ -472,6 +481,7 @@ collections:
     folder: "content/frits" # The path to the folder where the documents are stored
     slug: "{{identifiant}}"
     extension: "en.md"
+    format: "yaml-frontmatter"
     editor:
       preview: false
     create: true # Allow users to create new documents in this collection
@@ -522,6 +532,7 @@ collections:
   - name: "articles-hola-fr" # Used in routes, e.g. /admin/collections/blog
     label: "Articles - Hola - FR" # Used in the UI
     folder: "content/hola" # The path to the folder where the documents are stored
+    format: "yaml-frontmatter"
     slug: "{{identifiant}}"
     editor:
       preview: false
@@ -574,6 +585,7 @@ collections:
     folder: "content/hola" # The path to the folder where the documents are stored
     slug: "{{identifiant}}"
     extension: "en.md"
+    format: "yaml-frontmatter"
     editor:
       preview: false
     create: true # Allow users to create new documents in this collection
@@ -623,6 +635,7 @@ collections:
   - name: "articles-planete-fr" # Used in routes, e.g. /admin/collections/blog
     label: "Articles - Planète - FR" # Used in the UI
     folder: "content/planete" # The path to the folder where the documents are stored
+    format: "yaml-frontmatter"
     slug: "{{identifiant}}"
     editor:
       preview: false
@@ -675,6 +688,7 @@ collections:
     folder: "content/planete" # The path to the folder where the documents are stored
     slug: "{{identifiant}}"
     extension: "en.md"
+    format: "yaml-frontmatter"
     editor:
       preview: false
     create: true # Allow users to create new documents in this collection
@@ -725,6 +739,7 @@ collections:
   - name: "articles-tartar-fr" # Used in routes, e.g. /admin/collections/blog
     label: "Articles - Tartar - FR" # Used in the UI
     folder: "content/tartar" # The path to the folder where the documents are stored
+    format: "yaml-frontmatter"
     slug: "{{identifiant}}"
     editor:
       preview: false
@@ -777,6 +792,7 @@ collections:
     folder: "content/tartar" # The path to the folder where the documents are stored
     slug: "{{identifiant}}"
     extension: "en.md"
+    format: "yaml-frontmatter"
     editor:
       preview: false
     create: true # Allow users to create new documents in this collection
@@ -826,6 +842,7 @@ collections:
   - name: "articles-vapo-fr" # Used in routes, e.g. /admin/collections/blog
     label: "Articles - Vaposhop - FR" # Used in the UI
     folder: "content/vapo" # The path to the folder where the documents are stored
+    format: "yaml-frontmatter"
     slug: "{{identifiant}}"
     editor:
       preview: false
@@ -878,6 +895,7 @@ collections:
     folder: "content/vapo" # The path to the folder where the documents are stored
     slug: "{{identifiant}}"
     extension: "en.md"
+    format: "yaml-frontmatter"
     editor:
       preview: false
     create: true # Allow users to create new documents in this collection
