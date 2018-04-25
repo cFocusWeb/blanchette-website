@@ -19,7 +19,11 @@ draft: false
 ---
 The VAPOSHOP banner, specialized in vaping products, continues to expand across the province and plans to open new branches in the regions of Québec, Montréal, Trois-Rivières, Drummondville, Saguenay, Rimouski et de la Côte-Nord.
 
+
+
 After developing expertise in the production of vaping products, VAPOSHOP opens its own eponymous stores. The concept has evolved quickly to ensure that VAPOSHOP becomes a leader wherever their business is operated. Detaining and producing its own range of liquids gives it an undeniable competitive advantage.
+
+
 
 Offer details:
 
@@ -38,6 +42,8 @@ Offer details:
 ·         Royalties: 0%
 
 ·         Publicity fees: 0%
+
+
 
 You would like to be involved in this project? This is your chance to get started!
 
