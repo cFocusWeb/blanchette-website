@@ -1,6 +1,6 @@
 ---
-title: 'VAPOSHOP: LICENSE PARTNER WANTED'
-slug: vaposhop-license-partner-wanted
+title: x
+slug: vaposhop-x
 identifiant: vaposhop-licencie-recherche
 image: /img/articles/vaposhop-licencie-recherche.jpg
 date: '2018-04-24'
@@ -8,14 +8,14 @@ occasion: true
 historique: false
 arrowc: white
 list:
-  pretitle: VAPOSHOP
-  title: License partner wanted
+  pretitle: x
+  title: x
 i18nlanguage: fr
 type: articles
 activemenu: projets
 weight: '1'
 autres: oui
-draft: false
+draft: true
 ---
 The VAPOSHOP banner, specialized in vaping products, continues to expand across the province and plans to open new branches in the regions of Québec, Montréal, Trois-Rivières, Drummondville, Saguenay, Rimouski et de la Côte-Nord.
 
