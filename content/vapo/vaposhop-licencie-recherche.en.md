@@ -1,5 +1,5 @@
 ---
-title: 'VAPOSHOP: LICENSE PARTNER WANTED'
+title: 'VAPOSHOP: License partner wanted'
 slug: vaposhop-license-partner-wanted
 identifiant: vaposhop-licencie-recherche
 image: /img/articles/vaposhop-licencie-recherche.jpg
