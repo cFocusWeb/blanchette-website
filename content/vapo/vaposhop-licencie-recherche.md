@@ -9,7 +9,7 @@ historique: false
 arrowc: white
 list:
   pretitle: VAPOSHOP
-  title: LICENCIÉ RECHERCHÉ
+  title: Licencié recherché
 i18nlanguage: fr
 type: articles
 activemenu: projets
@@ -41,4 +41,4 @@ Détails de l’offre
 
 Vous aimeriez être impliqué dans ce projet ? Voilà votre chance de vous lancer !
 
-Remplissez le [formulaire de demande d’informations](https://www.groupeblanchette.com/devenir-franchise/) dès maintenant !
+Remplissez le [formulaire de demande d’informations](https://www.groupeblanchette.com/devenir-franchise/?franchise=vapo) dès maintenant !
