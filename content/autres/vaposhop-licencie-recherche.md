@@ -1,5 +1,5 @@
 ---
-title: 'VAPOSHOP: LICENSE PARTNER WANTED'
+title: x
 slug: vaposhop-x
 identifiant: vaposhop-licencie-recherche
 image: /img/articles/vaposhop-licencie-recherche.jpg
@@ -8,8 +8,8 @@ occasion: true
 historique: false
 arrowc: white
 list:
-  pretitle: VAPOSHOP
-  title: License partner wanted
+  pretitle: x
+  title: x
 i18nlanguage: fr
 type: articles
 activemenu: projets
