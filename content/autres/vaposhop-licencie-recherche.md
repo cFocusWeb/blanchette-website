@@ -1,6 +1,6 @@
 ---
 title: 'VAPOSHOP: LICENSE PARTNER WANTED'
-slug: vaposhop-license-partner-wanted
+slug: vaposhop-x
 identifiant: vaposhop-licencie-recherche
 image: /img/articles/vaposhop-licencie-recherche.jpg
 date: '2018-04-24'
