@@ -30,11 +30,11 @@ website: https://tartarstation.com/
 details:
   type: Franchise
   frais: 30 000 $
-  investissement: à partir de 400 000 $ 
-  misedefonds: à partir de 140 000 $
+  investissement: à partir de 405 000 $ 
+  misedefonds: à partir de 105 000 $
   contact: Pierre-Antoine Morency
   fondation: 2017
-  nbre: 2
+  nbre: 1
   redevances: 9 %
   pub: 3 %
   royautes: 6 %
@@ -57,7 +57,6 @@ ordre: 4
 video: 86t3XCkoSeQ
 locations:
   - Ste-Foy
-  - Charlesbourg
 ---
 ## TARTAR Station – Survol de la bannière
 
