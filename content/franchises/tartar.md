@@ -64,8 +64,6 @@ locations:
 ### Une histoire à succès
 
 C’est deux ans après la première esquisse du concept de TARTAR Station que le premier restaurant voit le jour en février 2017. Les deux jeunes entrepreneurs à la base du concept joignent leurs forces à l'expertise du Groupe Blanchette - Maître Franchiseur pour parvenir à leurs fins, et créent la première chaîne de restauration rapide spécialisée en tartares et poke bols, servant à la fois ses plats sur place, mais également pour emporter et en livraison.
-
-Dès l'ouverture de la première succursale, TARTAR Station connaît un grand succès, poussant l'équipe à en ouvrir une seconde dans les mois qui suivent. 
  
 
 ### TARTAR 2.0
