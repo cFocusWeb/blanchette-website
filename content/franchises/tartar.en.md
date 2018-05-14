@@ -30,11 +30,11 @@ website: https://tartarstation.com/
 details:
   type: Franchise
   frais: $30 000
-  investissement: from $400 000 
-  misedefonds: from $140 000
+  investissement: from $405 000 
+  misedefonds: from $105 000
   contact: Pierre-Antoine Morency
   fondation: 2017
-  nbre: 2
+  nbre: 1
   redevances: 9%
   pub: 3%
   royautes: 6%
@@ -57,15 +57,12 @@ ordre: 4
 video: q48IsgMD7SA
 locations:
   - Ste-Foy
-  - Charlesbourg
 ---
 ## TARTAR Station – Overview of the Banner 
 
 ### A success story
 
 Two years after the general outline of the TARTAR Station project, the first restaurant was born in February 2017. The two young entrepreneurs at the base of the concept join forces with the expertise of Groupe Blanchette - Master Franchisor to achieve their purpose, and create the first fast food chain specializing in tartares and poke bowls, serving its dishes on the spot, as well as for take-out and delivery.  
-
-As soon as the first branch opened, TARTAR Station was very successful, prompting the team to open a second one in the following months.
 
 
 ### TARTAR 2.0
