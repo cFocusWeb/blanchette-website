@@ -1,7 +1,7 @@
 ---
-title: Acheter une franchise - Maître franchiseur
+title: Achetez une franchise - Maître franchiseur
 description: >-
-  Groupe Blanchette - Maître Franchiseur est l’un des plus importants courtiers en franchises. Acheter une franchise tel que le Shaker, Chocolato et plus encore!
+  Groupe Blanchette - Maître Franchiseur est l’un des plus importants courtiers en franchises. Achetez une franchise telle que le SHAKER Cuisine et Mixologie, Chocolato et plus encore !
 image: 
 i18nlanguage: fr
 draft: false
