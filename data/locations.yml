@@ -49,6 +49,11 @@ shaker:
     lng: 46.813423
     loc: '228, rue St-Joseph Est, Québec'
     name: SHAKER St-Joseph
+  - city: St-Hyacinthe
+    lat: 45.640049
+    lng: -72.962486
+    loc: 3200 avenue Cusson
+    name: SHAKER St-Hyacinthe
 chocolato:
   - city: Ste-Foy
     lat: 46.7915833333333
