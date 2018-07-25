@@ -52,7 +52,7 @@ shaker:
   - city: St-Hyacinthe
     lat: 45.640049
     lng: -72.962486
-    loc: 3200 avenue Cusson
+    loc: '3200 avenue Cusson, St-Hyacinthe'
     name: SHAKER St-Hyacinthe
 chocolato:
   - city: Ste-Foy
@@ -128,8 +128,13 @@ chocolato:
   - city: Beloeil
     lat: -73.206368
     lng: 45.59371
-    loc: '650 Rue Serge-Pepin #161'
+    loc: '650 Rue Serge-Pepin #161, Beloeil'
     name: Chocolato Beloeil
+  - city: Lévis
+    lat: -71.186438
+    lng: 46.810933
+    loc: '6026 Rue Saint-Laurent, Lévis'
+    name: Chocolato Quai Paquet
 frits:
   - city: Ste-Foy
     lat: 46.78652
