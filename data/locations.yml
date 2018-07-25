@@ -125,6 +125,11 @@ chocolato:
     lng: 45.692894
     loc: '861, rue St-Pierre, Terrebonne'
     name: Chocolato Vieux-Terrebonne
+  - city: Beloeil
+    lat: -73.206368
+    lng: 45.59371
+    loc: '650 Rue Serge-Pepin #161'
+    name: Chocolato Beloeil
 frits:
   - city: Ste-Foy
     lat: 46.78652
