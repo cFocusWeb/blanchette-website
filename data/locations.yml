@@ -135,6 +135,11 @@ chocolato:
     lng: 46.810933
     loc: '6026 Rue Saint-Laurent, Lévis'
     name: Chocolato Quai Paquet
+  - city: Donnacona
+    lat: -71.726874
+    lng: 46.682019
+    loc: '252 route 138, Donnacona'
+    name: Chocolato Donnacona
 frits:
   - city: Ste-Foy
     lat: 46.78652
