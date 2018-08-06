@@ -14,7 +14,7 @@ shaker:
     lng: -71.3799444444444
     loc: '3695, rue de l''Hêtrière, St-Augustin-des-Desmaures'
     name: SHAKER Cap-Rouge
-  - city: Québec
+  - city: Charlesbourg
     lat: 46.8634444444444
     lng: -71.2681111111111
     loc: '8000, boul. Henri-Bourassa, Québec'
@@ -49,6 +49,11 @@ shaker:
     lng: 46.813423
     loc: '228, rue St-Joseph Est, Québec'
     name: SHAKER St-Joseph
+  - city: St-Hyacinthe
+    lat: 45.640049
+    lng: -72.962486
+    loc: '3200 avenue Cusson, St-Hyacinthe'
+    name: SHAKER St-Hyacinthe
 chocolato:
   - city: Ste-Foy
     lat: 46.7915833333333
@@ -120,6 +125,21 @@ chocolato:
     lng: 45.692894
     loc: '861, rue St-Pierre, Terrebonne'
     name: Chocolato Vieux-Terrebonne
+  - city: Beloeil
+    lat: -73.206368
+    lng: 45.59371
+    loc: '650 Rue Serge-Pepin #161, Beloeil'
+    name: Chocolato Beloeil
+  - city: Lévis
+    lat: -71.186438
+    lng: 46.810933
+    loc: '6026 Rue Saint-Laurent, Lévis'
+    name: Chocolato Quai Paquet
+  - city: Donnacona
+    lat: -71.726874
+    lng: 46.682019
+    loc: '252 route 138, Donnacona'
+    name: Chocolato Donnacona
 frits:
   - city: Ste-Foy
     lat: 46.78652
