@@ -11,7 +11,7 @@ mainimage: /img/franchises/chocolato-franchise.jpg
 resume:
   titre: Chocolato
   desc: >-
-    Le bar à chocolat & crème glacée 
+    La chocolaterie & crème glacée 
 
     ### Chocolato 
 
@@ -22,7 +22,7 @@ resume:
 imagedesc: >-
   Chocolato est la destination dessert en toutes saisons ! Ci-dessus : la première succursale Chocolato, située à Ste-Foy.
 business: >-
-  Le bar à chocolat & crème glacée Chocolato se positionne comme l’un des plus gros joueurs dans son domaine d’activités, présentant la plus grande variété de trempages chocolatés. Avec un concept 4 saisons doté d’une offre de produits des plus diversifiée, à déguster sur place ou pour emporter, Chocolato se veut la destination par excellence des amateurs de sucré.  
+  La chocolaterie & crème glacée Chocolato se positionne comme l’un des plus gros joueurs dans son domaine d’activités, présentant la plus grande variété de trempages chocolatés. Avec un concept 4 saisons doté d’une offre de produits des plus diversifiée, à déguster sur place ou pour emporter, Chocolato se veut la destination par excellence des amateurs de sucré.  
 accentcolor: "#c6a099"
 whitebg: true
 colorbg: true

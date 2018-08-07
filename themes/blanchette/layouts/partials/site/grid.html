@@ -14,7 +14,7 @@
             {{ if eq $.Lang "fr" }}
             <footer>
                 <div class="tooltip">
-                    <small><strong>À ce jour :</strong> {{.Params.details.nbre}} {{ if eq .Params.details.nbre 1 }}succursale{{ else }}succursales{{ end }}</small>
+                    <small><strong>À ce jour :</strong> {{$nb}} {{ if eq $nb 1 }}succursale{{ else }}succursales{{ end }}</small>
                     <div class="tooltiptext {{ if eq $nb 1 }}unique{{ end }}">
                         <div class="box">
                             <ul>
@@ -30,7 +30,7 @@
             {{ else if eq $.Lang "en" }}
             <footer>
                 <div class="tooltip">
-                    <small><strong>To this day:</strong> {{.Params.details.nbre}} {{ if eq .Params.details.nbre 1 }}location{{ else }}locations{{ end }}</small>
+                    <small><strong>To this day:</strong> {{$nb}} {{ if eq $nb 1 }}location{{ else }}locations{{ end }}</small>
                     <div class="tooltiptext">
                         <div class="box">
                             <ul>
