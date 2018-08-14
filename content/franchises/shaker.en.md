@@ -45,7 +45,7 @@ activemenu: franchise
 coupdecoeur: 
   texte: >-
     ### SHAKER Kitchen & Mixology's "good moves"
-	
+
     **_MADE WITH LOVE 2018_ Mixology competition**</br>
     First place in the "Public's Choice" category, for the "JUSTIFY" cocktail
 
