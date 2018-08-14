@@ -24,7 +24,7 @@ imagedesc: >-
   TARTAR Station : pour des repas savoureux et sur le pouce ! Ci-dessus : le premier comptoir de la bannière, situé à Ste-foy.
 business: >-
   Le comptoir de restauration rapide se spécialisant dans les tartares et poke bols s’est rapidement taillé une place de choix dans le cœur des amateurs de repas santé et sur le pouce. À l’affût des dernières tendances, TARTAR Station propose des recettes savoureuses à déguster sur place, pour emporter ou en livraison ; sans compromis sur la qualité et le goût. 
-accentcolor: "#fa5200"
+accentcolor: "#ca15a1"
 whitebg: true
 website: https://tartarstation.com/
 details:
@@ -52,7 +52,7 @@ coupdecoeur:
 
     **Concours culinaire _La semaine Manger cru 2017_**</br>
     Premier dans la catégorie « Meilleur rapport qualité-prix », mini poke bol « Hawaïen au tartare double saumon & yogourt »
-  couleur: "250, 82, 0, 0.2"
+  couleur: "202, 21, 161, 0.2"
 ordre: 4
 video: 86t3XCkoSeQ
 locations:

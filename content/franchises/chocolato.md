@@ -35,7 +35,7 @@ details:
   misedefonds: 180 000 $
   contact: Guyaume Arsenault
   fondation: 2015
-  nbre: 12
+  nbre: 17
   redevances: 9 %
   pub: 3 %
   royautes: 6 %
@@ -53,14 +53,19 @@ locations:
   - Québec (Ste-Foy, Galeries de la Capitale, Laurier Québec, rue St-Jean, Chauveau, Charlesbourg, Pyramide)
   - Lévis
   - Gatineau
-  - Brossard
+  - Brossard (Mail Champlain et Place Portobello)
+  - Joliette
   - Shawinigan
+  - Vieux-Terrebonne
+  - Quai Paquet
+  - Beloeil
+  - Donnacona
 ---
 ## Chocolato – Survol de la bannière
 
 ### Une histoire à succès
 
-À peine 2 ans après le début de son aventure en août 2015, la bannière de bar à chocolat et crème glacée Chocolato dénombre 12 succursales aux quatre coins de la province, et prévoit plusieurs ouvertures au cours des prochains mois. 
+À peine 2 ans après le début de son aventure en août 2015, la bannière de chocolaterie et crème glacée Chocolato dénombre 17 succursales aux quatre coins de la province, et prévoit plusieurs ouvertures au cours des prochains mois. 
 Avec des concepts de pignon sur rue, de kiosques en centres commerciaux, de succursales et de comptoirs « express »,  Chocolato continue son expansion d’un bout à l’autre du Québec pour propager son amour du chocolat. 
 
 ### Une foule de choix 

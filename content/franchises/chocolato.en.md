@@ -35,7 +35,7 @@ details:
   misedefonds: $180 000
   contact: Guyaume Arsenault
   fondation: 2015
-  nbre: 12
+  nbre: 17
   redevances: 9%
   pub: 3%
   royautes: 6%
@@ -53,14 +53,19 @@ locations:
   - Québec (Ste-Foy, Galeries de la Capitale, Laurier Québec, rue St-Jean, Chauveau, Charlesbourg, Pyramide)
   - Lévis
   - Gatineau
-  - Brossard
+  - Brossard (Mail Champlain and Place Portobello)
+  - Joliette
   - Shawinigan
+  - Vieux-Terrebonne
+  - Quai Paquet
+  - Beloeil
+  - Donnacona
 ---
 ## Chocolato – Overview of the Banner
 
 ### A success story 
 
-LIttle over 2 years after the adventure began in August 2015, the chocolate & ice cream bar banner counts 12 locations throughout the province, and plans many openings over the coming months.
+LIttle over 2 years after the adventure began in August 2015, the chocolate & ice cream bar banner counts 17 locations throughout the province, and plans many openings over the coming months.
 
 With storefront concepts, mall, location and "express" counters, Chocolato keeps on expanding throughout Québec spreading its love of chocolate. 
 

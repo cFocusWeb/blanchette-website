@@ -24,7 +24,7 @@ imagedesc: >-
   TARTAR Station: for tasty and on-the-go meals! Above: the first counter of the banner, located in Ste-foy.
 business: >-
   This fast service counter specializing in tartares and poke bowls has quickly become a favorite among amateurs of healthy, on the go meals. At the forefront of the latest food trends, TARTAR Station offers delicious recipes to be enjoyed on site, as take-out or delivery; without compromising quality or taste in any way. 
-accentcolor: "#fa5200"
+accentcolor: "#ca15a1"
 whitebg: true
 website: https://tartarstation.com/
 details:
@@ -52,7 +52,7 @@ coupdecoeur:
 
     **_La semaine Manger cru 2017_ Culinary competition**</br>
     First place in the "Best Quality/Price Ratio" category for the "Hawaiian two-salmon & yogurt tartare" mini poke bowl
-  couleur: "250, 82, 0, 0.2"
+  couleur: "202, 21, 161, 0.2"
 ordre: 4
 video: q48IsgMD7SA
 locations:
