@@ -30,7 +30,7 @@ details:
   misedefonds: à partir de 190 000 $
   contact: Luc Beaumont
   fondation: 2015
-  nbre: 10
+  nbre: 11
   redevances: 7 %
   pub: 3 %
   royautes: 4 %
@@ -45,6 +45,9 @@ activemenu: franchise
 coupdecoeur: 
   texte: >-
     ### Les « bons coups » de SHAKER Cuisine & Mixologie
+	
+	**Concours de mixologie  _MADE WITH LOVE 2018_**</br>
+    Premier dans la catégorie « Choix du public », cocktail « JUSTIFY »
 
     **Concours culinaire _La semaine Manger cru 2017_**</br>
     Premier dans la catégorie « Meilleur goût », tartare « L’ALBACORE ASIATIQUE »

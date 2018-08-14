@@ -30,7 +30,7 @@ details:
   misedefonds: from $190 000
   contact: Luc Beaumont
   fondation: 2015
-  nbre: 10
+  nbre: 11
   redevances: 7%
   pub: 3%
   royautes: 4%
@@ -45,6 +45,9 @@ activemenu: franchise
 coupdecoeur: 
   texte: >-
     ### SHAKER Kitchen & Mixology's "good moves"
+	
+	**_MADE WITH LOVE 2018_ Mixology competition**</br>
+    First place in the "Public's Choice" category, for the "JUSTIFY" cocktail
 
     **_La semaine Manger cru 2017_ Culinary competition**</br>
     First place in the "Best taste"  category, for the "L’ALBACORE ASIATIQUE" tartare
@@ -55,7 +58,7 @@ coupdecoeur:
 
 
     **_MADE WITH LOVE 2017_ Mixology competition**</br>
-    First place in the "Public's Choice" category, fo the "BIG APPLE" cocktail
+    First place in the "Public's Choice" category, for the "BIG APPLE" cocktail
 
 
     **_MADE WITH LOVE 2016_ Mixology competition**</br>
