@@ -67,14 +67,14 @@ timeline:
     date2:
     grouped: true
     text: >-
-      In 2015, the group updates the STAR BAR and presents SHAKER Kitchen & Mixology, offering tartares, cocktails and gourmet burgers, along with a number of promotions. Quickly expanding thanks to its immediate success, the banner with now 10 locations, is the only restaurant with these specialties.  
+      In 2015, the group updates the STAR BAR and presents SHAKER Kitchen & Mixology, offering tartares, cocktails and gourmet burgers, along with a number of promotions. Quickly expanding thanks to its immediate success, the banner with now 11 locations, is the only restaurant with these specialties.  
   - logo: /img/logos/chocolate.svg
     date1: 
     date2:
     grouped: true
     crushed: true
     text: >-
-      Born from the desire to capture the experience of the most prestigious Italian chocolate shops, the first Chocolato chocolate & ice cream bar, opens its doors in Ste-Foy; spawned by the group and its associates. The concept rapidly spreads throughout the province with its 12 locations.    
+      Born from the desire to capture the experience of the most prestigious Italian chocolate shops, the first Chocolato chocolate & ice cream bar, opens its doors in Ste-Foy; spawned by the group and its associates. The concept rapidly spreads throughout the province with its 17 locations.    
   - logo: /img/logos/hola.svg
     date1: 
     date2:
@@ -98,10 +98,10 @@ wrapup:
   - nbre: 16
     ligne1: Little Frog 
     ligne2: 
-  - nbre: 12
+  - nbre: 17
     ligne1: Chocolato
     ligne2:
-  - nbre: 10
+  - nbre: 11
     ligne1: SHAKER
     ligne2: "Kitchen & Mixology"
   - nbre: 7
@@ -113,7 +113,7 @@ wrapup:
   - nbre: 2
     ligne1: "Frit's"
     ligne2: "Burgers & Poutines"
-  - nbre: 2
+  - nbre: 1
     ligne1: TARTAR Station
     ligne2:
   - nbre: 1

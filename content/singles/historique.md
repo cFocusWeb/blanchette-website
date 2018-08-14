@@ -69,14 +69,14 @@ timeline:
     grouped: true
     proche: true
     text: >-
-      En 2015, le groupe actualise le STAR BAR et présente le SHAKER Cuisine & Mixologie, offrant tartares, cocktails et burgers gourmets, en plus des nombreuses promotions. Avec son expansion rapide et son succès fulgurant, la bannière, dénombrant maintenant 10 succursales, est désormais la seule chaîne de restaurants-bars spécialisée en la matière.   
+      En 2015, le groupe actualise le STAR BAR et présente le SHAKER Cuisine & Mixologie, offrant tartares, cocktails et burgers gourmets, en plus des nombreuses promotions. Avec son expansion rapide et son succès fulgurant, la bannière, dénombrant maintenant 11 succursales, est désormais la seule chaîne de restaurants-bars spécialisée en la matière.   
   - logo: /img/logos/chocolate.svg
     date1: 
     date2:
     crushed: true
     grouped: true
     text: >-
-      Né d'une envie de reproduire l'expérience des plus prestigieuses chocolateries italiennes, le premier bar à chocolat & crème glacée Chocolato ouvre ses portes à Ste-Foy ; un travail du groupe et d'un de ses associés. Le concept se répand rapidement à travers la province avec ses 12 succursales.   
+      Né d'une envie de reproduire l'expérience des plus prestigieuses chocolateries italiennes, le premier bar à chocolat & crème glacée Chocolato ouvre ses portes à Ste-Foy ; un travail du groupe et d'un de ses associés. Le concept se répand rapidement à travers la province avec ses 17 succursales.   
   - logo: /img/logos/hola.svg
     date1: 
     date2:
@@ -101,10 +101,10 @@ wrapup:
   - nbre: 16
     ligne1: La P'tite Grenouille
     ligne2: 
-  - nbre: 12
+  - nbre: 17
     ligne1: Chocolato
     ligne2:
-  - nbre: 10
+  - nbre: 11
     ligne1: SHAKER
     ligne2: "Cuisine & Mixologie"
   - nbre: 7
@@ -116,7 +116,7 @@ wrapup:
   - nbre: 2
     ligne1: "Frit's"
     ligne2: "Burgers & Poutines"
-  - nbre: 2
+  - nbre: 1
     ligne1: TARTAR Station
     ligne2:
   - nbre: 1
