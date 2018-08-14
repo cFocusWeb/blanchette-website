@@ -78,11 +78,12 @@ locations:
   - Lévis
   - Rimouski
   - Charlesbourg
-  - Rivière-du-Loup
   - Gatineau
   - St-Georges
   - Trois-Rivières
   - Sherbrooke
+  - St-Joseph
+  - St-Hyacinthe
 ---
 ## SHAKER Kitchen & Mixology – Overview of the Banner 
 
