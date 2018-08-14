@@ -46,7 +46,7 @@ coupdecoeur:
   texte: >-
     ### Les « bons coups » de SHAKER Cuisine & Mixologie
 	
-	**Concours de mixologie _MADE WITH LOVE 2018_**</br>
+    **Concours de mixologie _MADE WITH LOVE 2018_**</br>
     Premier dans la catégorie « Choix du public », cocktail « JUSTIFY »
 
     **Concours culinaire _La semaine Manger cru 2017_**</br>
