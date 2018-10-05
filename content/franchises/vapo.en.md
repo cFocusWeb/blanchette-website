@@ -47,7 +47,7 @@ video: 7XUuB2F0Gz0
 locations:
   - Ste-Foy
   - Charlesbourg
-  - Lévis
+  - Limoilou
 ---
 ## VAPOSHOP – Overview of the banner
 

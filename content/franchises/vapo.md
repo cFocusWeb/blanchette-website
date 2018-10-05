@@ -47,7 +47,7 @@ video: HW4EYPVcNvI
 locations:
   - Ste-Foy
   - Charlesbourg
-  - Lévis
+  - Limoilou
 ---
 ## VAPOSHOP – Survol de la bannière
 
