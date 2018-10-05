@@ -174,11 +174,11 @@ vapo:
     lng: -71.2681111111111
     loc: '8000, boul. Henri-Bourrassa, Québec'
     name: Vaposhop Charlesbourg
-  - city: Lévis
-    lat: 46.7991111111111
-    lng: -71.1819444444445
-    loc: '1, route du Président-Kennedy, Lévis'
-    name: Vaposhop Lévis
+  - city: Limoilou
+    lat: 46.826719
+    lng: -71.229603
+    loc: '985 3e avenue, Québec, QC, G1L 2X2'
+    name: Vaposhop Limoilou
 grenouille:
   - city: Ste-Foy
     lat: 46.7904722222222
