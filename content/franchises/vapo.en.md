@@ -57,7 +57,7 @@ In 2014, the group and two young entrepreneurs establish VAPOSHOP and venture in
 
 ### Opening locations
 
-After developing an initial expertise in vaping products, the team behind VAPOSHOP decides to launch a chain of shops of the same name. They open a store in Ste-Foy in 2014, sell a Lévis franchise and then open a second corporate location in Charlesbourg in 2017.
+After developing an initial expertise in vaping products, the team behind VAPOSHOP decides to launch a chain of shops of the same name. They open a store in Ste-Foy in 2014, another one in Charlesbourg in 2017 and plan to open two new branches in Limoilou and Lévis in November 2018.
 
 The concept has quickly evolved to allow VAPOSHOP to become a leader wherever their businesses are in activity. Owning and producing their own line of vaping liquid products gives them an undeniable competitive edge.
 

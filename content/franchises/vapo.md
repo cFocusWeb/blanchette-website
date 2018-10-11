@@ -57,7 +57,7 @@ En 2014, le groupe et deux jeunes entrepreneurs fondent VAPOSHOP et se lancent d
 
 ### L'ouverture de commerces 
 
-Après avoir développé une expertise dans son domaine initial, l’équipe derrière VAPOSHOP décide de se lancer en ouvrant ses propres boutiques éponymes. Ils ouvrent donc une première boutique à Ste-Foy en 2014, vendent une franchise à Lévis et ouvrent finalement une deuxième succursale corporative à Charlesbourg en 2017. 
+Après avoir développé une expertise dans son domaine initial, l’équipe derrière VAPOSHOP décide de se lancer en ouvrant ses propres boutiques éponymes. Ils ouvrent donc une première succursale à Ste-Foy en 2014, une deuxième à Charlesbourg en 2017 et planifient l’ouverture de deux nouveaux établissements à Limoilou et Lévis pour novembre 2018.
 
 Le concept a su évoluer rapidement pour permettre à VAPOSHOP de devenir un chef de file partout où un de leurs commerces est exploité. Détenir et produire sa propre gamme de liquides lui apporte un avantage concurrentiel indéniable.   
 
