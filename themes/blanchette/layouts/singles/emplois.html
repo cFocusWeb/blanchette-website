@@ -1,0 +1,156 @@
+{{ define "main" }}
+<div id="page-wrapper" class="contact-page">
+	<header id="inner-header">
+      <div class="container">
+          
+
+<h1 id="nous-sommes-à-l-écoute">Faites carrière au Groupe Blanchette</h1>
+
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui candidature spontanée.</p>
+
+      </div>
+  </header>
+  <!-- // inner  -->
+
+  <div>
+    <img src="https://www.groupeblanchette.com/img/franchises/chocolato-cta-banner.jpg" alt="Devenir franchise" style="display: block;width: 100%;">
+  </div>
+
+  <div>
+    <h2>Postes à combler</h2>
+  </div>
+
+  <div>
+    <div>
+        <img src="https://www.groupeblanchette.com/img/emplois/groupe-blanchette-emplois.jpg" alt="Groupe Blanchette - Emplois"> <strong>Directeurs de succursales (4) | </strong>Groupe Blanchette
+    </div>
+    <div>
+        <img src="https://www.groupeblanchette.com/img/emplois/shaker-emplois.jpg" alt="Shaker - Emplois"> <strong>Directeurs de succursales (4) | </strong>SHAKER Cuisine & Mixologie
+    </div>
+  </div>
+
+  <div class="form-container">
+  	<div class="container">
+      {{ if eq .Lang "fr" }}
+			<form action="/merci" method="post" class="registration-form" netlify name="contact-form">
+				<div id="form-wrapper">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="form-holder" id="form-start">
+								<div class="row">
+                  <div class="form-group col-sm-6 col-md-4">
+                    <input type="text" name="name" placeholder="Nom*">
+                  </div>
+                  <div class="form-group col-sm-6 col-md-8">
+                    <input type="text" name="email" placeholder="Courriel*">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-group col-sm-6 col-md-4">
+                    <input type="text" name="phone" placeholder="Téléphone*">
+                  </div>
+                  <div class="form-group col-sm-6 col-md-8">
+                    <input type="text" name="subject" placeholder="Sujet*" style="">
+                  </div>
+                </div>
+                <div class="row">
+                	<div class="col-sm-12">
+                		<input type="text" name="franchise" class="form-control not-required" placeholder="Franchise">
+                	</div>		
+                </div>
+                <div class="row file">
+                	<div class="col-sm-12">
+                		<div>
+                			<span>Fichier</span> <input type="file" name="file" class="form-control">
+                		</div>
+                	</div>
+                </div>
+                <div class="row">
+                	<div class="col-sm-12">
+                		<textarea name="message" id="" cols="30" rows="10" placeholder="Message*"></textarea>
+                    <p class="white">Les champs marqués d'un astérisque (*) sont obligatoires.</p>
+                		<input type="submit" value="Envoyer mon message">
+                	</div>
+                </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+      {{ else if eq .Lang "en" }}
+      <form action="/en/thank-you" method="post" class="registration-form" netlify name="contact-form-en">
+        <div id="form-wrapper">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="form-holder" id="form-start">
+                <div class="row">
+                  <div class="form-group col-sm-6 col-md-4">
+                    <input type="text" name="name" placeholder="Name*">
+                  </div>
+                  <div class="form-group col-sm-6 col-md-8">
+                    <input type="text" name="email" placeholder="Email address*">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-group col-sm-6 col-md-4">
+                    <input type="text" name="phone" placeholder="Phone number*">
+                  </div>
+                  <div class="form-group col-sm-6 col-md-8">
+                    <input type="text" name="subject" placeholder="Subject*" style="">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <input type="text" name="franchise" class="form-control not-required" placeholder="Franchise">
+                  </div>    
+                </div>
+                <div class="row file">
+                  <div class="col-sm-12">
+                    <div>
+                      <span>File</span> <input type="file" name="file" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Message*"></textarea>
+                    <p class="white">All fields marked with an asterisk (*) are mandatory.</p>
+                    <input type="submit" value="Send my message">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+      {{ end }}
+  	</div>
+  </div>
+  <div class="container contact-info">
+  	<div class="row">
+  		<div class="col-sm-5 col-md-4 match">
+        {{ if eq .Lang "fr" }}
+  			<h4>Service à la clientèle</h4>
+  			<p>Bureau à Ste-Foy</p>
+  			<a href="tel:+14186860069"><i class="fa fa-phone"></i>418 686-0069</a>
+  			<p class="address"><i class="fa fa-map-marker"></i>2360, chemin Ste-Foy, Bureau 380</p>
+  			<p>Québec (Québec) G1V 4H2</p>
+  			<p class="hours">Heures d'ouverture</p>
+  			<p>Lundi au vendredi : 9 h à 17 h </br>Samedi et dimanche : fermé</p>
+        {{ else if eq .Lang "en" }}
+        <h4>Customer service</h4>
+        <p>Office in Ste-Foy</p>
+        <a href="tel:+14186860069"><i class="fa fa-phone"></i>418 686-0069</a>
+        <p class="address"><i class="fa fa-map-marker"></i>2360, chemin Ste-Foy, Office 380</p>
+        <p>Québec (Québec) G1V 4H2</p>
+        <p class="hours">Business hours</p>
+        <p>Monday to Friday: 9 am to 5 pm</br>Saturday and Sunday : closed</p>
+        {{ end }}
+	  	</div>
+	  	<div class="col-sm-7 col-md-8 match">
+	  		<div id="contact-map"></div>
+	  	</div>
+  	</div>
+  </div>
+</div>
+{{ end }}
