@@ -179,6 +179,11 @@ vapo:
     lng: -71.229603
     loc: '985 3e avenue, Québec, QC, G1L 2X2'
     name: Vaposhop Limoilou
+  - city: Lévis
+    lat: 46.797133
+    lng: -71.170514
+    loc: '104 route du Président-Kennedy, Lévis, G6V 6C9'
+    name: Vaposhop Lévis
 grenouille:
   - city: Ste-Foy
     lat: 46.7904722222222
