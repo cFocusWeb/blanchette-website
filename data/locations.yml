@@ -54,6 +54,11 @@ shaker:
     lng: -72.962486
     loc: '3200 avenue Cusson, St-Hyacinthe'
     name: SHAKER St-Hyacinthe
+  - city: Victoriaville
+    lat: -71.935936
+    lng: 46.060787
+    loc: '405 Boulevard Jutras E, Victoriaville G6S 1C1'
+    name: SHAKER Victoriaville
 chocolato:
   - city: Ste-Foy
     lat: 46.7915833333333
@@ -140,6 +145,11 @@ chocolato:
     lng: 46.682019
     loc: '252 route 138, Donnacona'
     name: Chocolato Donnacona
+  - city: Montréal
+    lat: -73.572196
+    lng: 45.503369
+    loc: '364, rue Ste-Catherine Ouest Montréal (Québec) H3B 1A1'
+    name: Chocolato Ste-Catherine Ouest
 frits:
   - city: Ste-Foy
     lat: 46.78652
