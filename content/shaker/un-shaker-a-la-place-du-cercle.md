@@ -1,6 +1,5 @@
 ---
-title: >-
-  https://www.lesoleil.com/actualite/un-shaker-a-la-place-du-cercle-f83fcc04f6c2acf5edcc8a607a9bd072
+title: Un Shaker à la place du cercle
 slug: un-shaker-a-la-place-du-cercle
 identifiant: un-shaker-a-la-place-du-cercle
 image: /img/articles/d0e0e007-5ea8-4cf4-9bd7-26c3f6829c35_1024.jpg
