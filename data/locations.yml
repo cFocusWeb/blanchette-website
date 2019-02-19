@@ -150,6 +150,11 @@ chocolato:
     lng: 45.503369
     loc: '364, rue Ste-Catherine Ouest Montréal (Québec) H3B 1A1'
     name: Chocolato Ste-Catherine Ouest
+  - city: Rimouski
+    lat: -68.501645
+    lng: 48.4561108
+    loc: '371, rue Léonidas Sud Rimouski (Québec) G5M 1A1'
+    name: Chocolato Rimouski
 frits:
   - city: Ste-Foy
     lat: 46.78652
