@@ -35,7 +35,7 @@ details:
   misedefonds: $180 000
   contact: Guyaume Arsenault
   fondation: 2015
-  nbre: 17
+  nbre: 19
   redevances: 9%
   pub: 3%
   royautes: 6%
@@ -60,12 +60,14 @@ locations:
   - Quai Paquet
   - Beloeil
   - Donnacona
+  - Montréal
+  - Rimouski
 ---
 ## Chocolato – Overview of the Banner
 
 ### A success story 
 
-LIttle over 2 years after the adventure began in August 2015, the chocolate & ice cream bar banner counts 17 locations throughout the province, and plans many openings over the coming months.
+LIttle over 2 years after the adventure began in August 2015, the chocolate & ice cream bar banner is now present throughout the province, and plans many openings over the coming months.
 
 With storefront concepts, mall, location and "express" counters, Chocolato keeps on expanding throughout Québec spreading its love of chocolate. 
 

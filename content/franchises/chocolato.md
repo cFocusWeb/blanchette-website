@@ -35,7 +35,7 @@ details:
   misedefonds: 180 000 $
   contact: Guyaume Arsenault
   fondation: 2015
-  nbre: 17
+  nbre: 19
   redevances: 9 %
   pub: 3 %
   royautes: 6 %
@@ -60,12 +60,14 @@ locations:
   - Quai Paquet
   - Beloeil
   - Donnacona
+  - Montréal
+  - Rimouski
 ---
 ## Chocolato – Survol de la bannière
 
 ### Une histoire à succès
 
-À peine 2 ans après le début de son aventure en août 2015, la bannière de chocolaterie et crème glacée Chocolato dénombre 17 succursales aux quatre coins de la province, et prévoit plusieurs ouvertures au cours des prochains mois. 
+À peine 2 ans après le début de son aventure en août 2015, la bannière de chocolaterie et crème glacée Chocolato est maintenant présente aux quatre coins de la province, et prévoit plusieurs ouvertures au cours des prochains mois. 
 Avec des concepts de pignon sur rue, de kiosques en centres commerciaux, de succursales et de comptoirs « express »,  Chocolato continue son expansion d’un bout à l’autre du Québec pour propager son amour du chocolat. 
 
 ### Une foule de choix 
