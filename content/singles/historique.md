@@ -98,19 +98,19 @@ timeline:
     text: >-
       Le tout premier comptoir de restauration rapide spécialisé en tartares, tatakis et poke bols ouvre ses portes à La Pyramide à Ste-Foy. Suscitant un grand engouement des amateurs de cuisine santé et savoureuse, TARTAR Station prévoit deux autres ouvertures dans les prochains mois. 
 wrapup:
-  - nbre: 16
+  - nbre: 18
     ligne1: La P'tite Grenouille
     ligne2: 
-  - nbre: 17
+  - nbre: 19
     ligne1: Chocolato
     ligne2:
-  - nbre: 11
+  - nbre: 12
     ligne1: SHAKER
     ligne2: "Cuisine & Mixologie"
   - nbre: 7
     ligne1: "Planète Nutrition"
     ligne2: 
-  - nbre: 3
+  - nbre: 4
     ligne1: VAPOSHOP
     ligne2:
   - nbre: 2

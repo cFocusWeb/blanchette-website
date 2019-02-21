@@ -95,19 +95,19 @@ timeline:
     text: >-
       The very first fast service counter specializing in tartares and poke bowls opens at La Pyramide mall in Ste-Foy. Garnering an immediate following of fans of healthy and tasty cuisine, TARTAR Station plans to open two new locations in the coming months.
 wrapup:
-  - nbre: 16
+  - nbre: 18
     ligne1: Little Frog 
     ligne2: 
-  - nbre: 17
+  - nbre: 19
     ligne1: Chocolato
     ligne2:
-  - nbre: 11
+  - nbre: 12
     ligne1: SHAKER
     ligne2: "Kitchen & Mixology"
   - nbre: 7
     ligne1: "Planète Nutrition"
     ligne2: 
-  - nbre: 3
+  - nbre: 4
     ligne1: VAPOSHOP
     ligne2:
   - nbre: 2
