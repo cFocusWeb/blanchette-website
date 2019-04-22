@@ -101,14 +101,6 @@ tartar:
     email: "tartarstation@gmail.com"
 blancs:
   - description: >-
-      Directeur du développement des affaires
-    descriptionen: >-
-      Business Development Director
-    nom: "Hugo Laperrière"
-    ordre: 11
-    photo: 14-blanchette-hugol.jpg
-    email: "hl@groupeblanchette.com"
-  - description: >-
       Directrice marketing
     descriptionen: >-
       Marketing Director
