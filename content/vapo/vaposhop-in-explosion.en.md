@@ -2,7 +2,7 @@
 title: VAPOSHOP in explosion!
 slug: vaposhop-in-explosion
 identifiant: vaposhop-in-explosion
-image: /img/articles/60338319_744599809289473_9095222384679452672_n.jpg
+image: /img/articles/vapo.jpg
 date: '2019-05-24'
 occasion: false
 historique: true
