@@ -181,11 +181,6 @@ frits:
     lng: -71.28221
     loc: '2360, ch. Ste-Foy, Québec'
     name: Frit's Ste-Foy
-  - city: Québec
-    lat: 46.8753333333333
-    lng: -71.1967777777778
-    loc: '228, rue Seigneuriale, Québec'
-    name: Frit's Beauport
 tartar:
   - city: Ste-Foy
     lat: 46.786598
