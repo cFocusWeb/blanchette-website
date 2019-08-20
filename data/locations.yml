@@ -219,6 +219,16 @@ vapo:
     lng: -71.170514
     loc: '104 route du Président-Kennedy, Lévis, G6V 6C9'
     name: Vaposhop Lévis
+  - city: Beauport
+    lat: 35
+    lng: 46.893993
+    loc: '2400 Boulevard Louis-XIV, Québec, QC, G1C 5Y8'
+    name: Vaposhop Beauport
+  - city: Roberval
+    lat: -72.224055
+    lng: 48.511283
+    loc: '612 Boulevard Marcotte, Roberval, QC, G8H 1Z6'
+    name: Vaposhop Roberval
 grenouille:
   - city: Ste-Foy
     lat: 46.7904722222222
