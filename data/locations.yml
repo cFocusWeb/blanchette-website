@@ -59,6 +59,11 @@ shaker:
     lng: 46.060787
     loc: '405 Boulevard Jutras E, Victoriaville G6S 1C1'
     name: SHAKER Victoriaville
+  - city: Montréal
+    lat: -73.570433
+    lng: 45.513318
+    loc: '3518 boulevard St-Laurent, Montréal, QC H2X 2T6'
+    name: SHAKER St-Laurent
 chocolato:
   - city: Ste-Foy
     lat: 46.7915833333333
