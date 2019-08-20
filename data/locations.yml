@@ -160,6 +160,21 @@ chocolato:
     lng: 48.4561108
     loc: '371, rue Léonidas Sud Rimouski (Québec) G5M 1A1'
     name: Chocolato Rimouski
+  - city: Québec
+    lat: -71.225225
+    lng: 46.814859
+    loc: '380 Rue de la Couronne, Québec, QC G1K 0G5'
+    name: Chocolato St-Roch
+  - city: Trois-Rivières
+    lat: -72.540811
+    lng: 46.342013
+    loc: '103 Rue des Forges, Trois-Rivières, QC G9A 2G7'
+    name: Chocolato Trois-Rivières
+  - city: Laval
+    lat: -73.727531
+    lng: 45.566831
+    loc: '1687 Boulevard de l''Avenir, Laval, QC H7S 2N5'
+    name: Chocolato Laval
 frits:
   - city: Ste-Foy
     lat: 46.78652
