@@ -44,6 +44,6 @@ mvapo:
 
 The Groupe Blanchette – Master Franchisor is one of the largest franchise broker groups in Québec, offering truly innovative restaurant and entertainment concepts.
 
-Founder, developer and operator of over 60 locations since its inception, Groupe Blanchette – Master Franchisor features a complete, diversified portfolio of brands with its franchise concepts (SHAKER Kitchen & Mixology, Chocolato, TARTAR Station, Frit’s Burgers & Poutines, HOLA Mexican Grill) and licenses (Little Frog, Planète Nutrition & VAPOSHOP). 
+Founder, developer and operator of over 60 locations since its inception, Groupe Blanchette – Master Franchisor features a complete, diversified portfolio of brands with its franchise concepts (SHAKER Kitchen & Mixology, TARTAR Station, Frit’s Burgers & Poutines, HOLA Mexican Grill) and licenses (Little Frog, Planète Nutrition & VAPOSHOP). 
 
 [Discover their story >](/en/history)
