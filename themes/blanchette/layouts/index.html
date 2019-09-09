@@ -51,13 +51,44 @@
             <!-- // image  -->
             <div class="image-holder wow fadeIn half-masonry" data-wow-duration="0.7s" data-wow-delay="0.4s" id="masonry-franchise">
                 {{ if eq .Lang "fr" }}
-                <a href="{{.Site.BaseURL}}franchises/chocolato">
+                <a href="{{.Site.BaseURL}}franchises/la-ptite-grenouille">
                 {{ else if eq .Lang "en" }}
-                <a href="{{.Site.BaseURL}}en/franchises/chocolato">
+                <a href="{{.Site.BaseURL}}en/franchises/the-little-frog">
                 {{ end }}
                     <div class="mosaic-slider">
-                        {{ range .Params.mchocolato}}
-                        <img src="{{.image}}" alt="Chocolato" class="img-responsive">
+                        {{ range .Params.mgrenouille}}
+                        <img src="{{.image}}" alt="La P'tite Grenouille" class="img-responsive">
+                        {{ end }}
+                    </div>
+                </a>
+            </div>
+            <!-- // image  -->
+        </section>
+
+        <section id="about-block">
+            <div class="image-holder premier wow fadeIn half-masonry" data-wow-duration="0.7s" data-wow-delay="0.4s" id="masonry-franchise">
+                {{ if eq .Lang "fr" }}
+                <a href="{{.Site.BaseURL}}franchises/tartar-station">
+                {{ else if eq .Lang "en" }}
+                <a href="{{.Site.BaseURL}}en/franchises/tartar-station">
+                {{ end }}
+                    <div class="mosaic-slider">
+                        {{ range .Params.mtartar}}
+                        <img src="{{.image}}" alt="Tartar Station" class="img-responsive">
+                        {{ end }}
+                    </div>
+                </a>
+            </div>
+            <!-- // image  -->
+            <div class="image-holder wow fadeIn half-masonry" data-wow-duration="0.7s" data-wow-delay="0.4s" id="masonry-franchise">
+                {{ if eq .Lang "fr" }}
+                <a href="{{.Site.BaseURL}}franchises/frits">
+                {{ else if eq .Lang "en" }}
+                <a href="{{.Site.BaseURL}}en/franchises/frits">
+                {{ end }}
+                    <div class="mosaic-slider">
+                        {{ range .Params.mfrits}}
+                        <img src="{{.image}}" alt="Frit's" class="img-responsive">
                         {{ end }}
                     </div>
                 </a>
@@ -69,47 +100,6 @@
         <div id="masonry-franchise">
             <div class="container-fluidx">
                 <div class="row no-gutter">
-                    <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0.2s">
-                        {{ if eq .Lang "fr" }}
-                        <a href="{{.Site.BaseURL}}franchises/la-ptite-grenouille">
-                        {{ else if eq .Lang "en" }}
-                        <a href="{{.Site.BaseURL}}en/franchises/the-little-frog">
-                        {{ end }}
-                            <div class="mosaic-slider">
-                                {{ range .Params.mgrenouille}}
-                                <img src="{{.image}}" alt="La P'tite Grenouille" class="img-responsive">
-                                {{ end }}
-                            </div>
-                        </a>
-                    </div>
-                    <!-- // md 4  -->
-                    <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0.4s">
-                        {{ if eq .Lang "fr" }}
-                        <a href="{{.Site.BaseURL}}franchises/tartar-station">
-                        {{ else if eq .Lang "en" }}
-                        <a href="{{.Site.BaseURL}}en/franchises/tartar-station">
-                        {{ end }}
-                            <div class="mosaic-slider">
-                                {{ range .Params.mtartar}}
-                                <img src="{{.image}}" alt="Tartar Station" class="img-responsive">
-                                {{ end }}
-                            </div>
-                        </a>
-                    </div>
-                    <!-- // md 8  -->
-                    <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0.6s">
-                        {{ if eq .Lang "fr" }}
-                        <a href="{{.Site.BaseURL}}franchises/frits">
-                        {{ else if eq .Lang "en" }}
-                        <a href="{{.Site.BaseURL}}en/franchises/frits">
-                        {{ end }}
-                            <div class="mosaic-slider">
-                                {{ range .Params.mfrits}}
-                                <img src="{{.image}}" alt="Frit's" class="img-responsive">
-                                {{ end }}
-                            </div>
-                        </a>
-                    </div>
                     <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0.8s">
                         {{ if eq .Lang "fr" }}
                         <a href="{{.Site.BaseURL}}franchises/hola">
