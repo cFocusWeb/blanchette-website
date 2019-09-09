@@ -5438,57 +5438,7 @@ function initMap() {
     
     
     
-	  var iconchocolato = {
-	    url: "/img/logos/marker-chocolato.png", 
-	    scaledSize: new google.maps.Size(50, 67), 
-	    origin: new google.maps.Point(0,0), 
-	    anchor: new google.maps.Point(0, 0) 
-	  };
 	  
-
-	  var mchocolato = [
-	  	
-	  		['Chocolato Ste-Foy','2327 boul. Versant-Nord, Québec', -71.2877222222222 , 46.7915833333333 ]
-	  	
-	  		,['Chocolato Lévis','95 route du Président-Kennedy, Lévis', -71.1665277777778 , 46.7923888888889 ]
-	  	
-	  		,['Chocolato Galerie de la Capitale','5401 boul. des Galeries, Québec', -71.3001111111111 , 46.8297777777778 ]
-	  	
-	  		,['Chocolato Promenades Gatineau','1100 boul. Maloney Ouest, Gatineau', -75.6969722222222 , 45.4760555555556 ]
-	  	
-	  		,['Chocolato Laurier Québec','2700 boul. Laurier, Québec', -71.2846666666667 , 46.7702222222222 ]
-	  	
-	  		,['Chocolato Rue St-Jean','1015 rue St-Jean, Québec', -71.2123611111111 , 46.8131388888889 ]
-	  	
-	  		,['Chocolato Chauveau','2293 av. Chauveau, Québec', -71.3266666666667 , 46.8414444444444 ]
-	  	
-	  		,['Chocolato Joliette','515 rue St-Charles-Borromée Nord, Joliette', -73.44225 , 46.0364444444444 ]
-	  	
-	  		,['Chocolato Charlesbourg','4250 1re Avenue, Québec', -71.2480277777778 , 46.8430833333333 ]
-	  	
-	  		,['Chocolato Pyramide','2360 chemin Ste-Foy, Québec', -71.281991 , 46.786573 ]
-	  	
-	  		,['Chocolato Mail Champlain','2151 boul. Lapinière, Brossard', -73.4715833333333 , 45.4717777777778 ]
-
-	  		,['Chocolato Shawinigan', '1553, boul. Hubert-Biermans, Shawinigan', -72.7199166666667, 46.5749166666667]
-
-            , ['Chocolato Rimouski', '371, rue Léonidas Sud, Rimouski', -68.501645, 48.4561108]
-	  	
-	  ];
-	  for (i = 0; i < mchocolato.length; i++) {  
-	    marker = new google.maps.Marker({
-	         position: { lat: mchocolato[i][3], lng: mchocolato[i][2]},
-	         map: map,
-	         animation: google.maps.Animation.DROP,
-	         icon: iconchocolato
-	    });
-	    google.maps.event.addListener(marker, 'click', (function(marker, i) {
-	      return function() {
-	        infowindow.setContent(mchocolato[i][0]+'</br>'+mchocolato[i][1]);
-	        infowindow.open(map, marker);
-	      }
-	    })(marker, i));
-	  }
 	  
 	  
 	
