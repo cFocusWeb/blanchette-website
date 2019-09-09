@@ -1,4 +1,9 @@
 <head>
+		<script type="text/javascript">
+		if (window.location.href.indexOf('https://www.groupeblanchette.com/franchises/chocolato/') === 0) {
+			window.location.href = 'https://www.groupeblanchette.com/{{ page.url }}';
+		}
+		</script>
 {{- partial "head/noindex.html" . -}}
 {{- partial "head/metadata-standard.html" . -}}
 {{- partial "head/metadata-opengraph.html" . -}}
