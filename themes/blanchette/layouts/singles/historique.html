@@ -131,27 +131,6 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-6 match logo">
-                            <div class="holder chocfrits">
-                                <img src="/img/logos/chocolate.svg" alt="">
-                                <img src="/img/logos/frits.svg" alt="" class="frits-history">
-                            </div>
-                        </div>
-                        {{ range sort .Site.Data.equipe.chocolato "ordre" "asce" }}
-                        <div class="col-sm-6 match">
-                            {{ if eq $.Lang "fr" }}
-                            <img src="/img/team/{{.photo}}" alt="{{.nom}}, {{.description}}" class="img-responsive">
-                            <p class="title">{{.nom}} <a href="mailto:{{.email}}"><i class="fa fa-envelope"></i></a></p>
-                            <p class="desc">{{.description}}</p>
-                            {{ else if eq $.Lang "en" }}
-                            <img src="/img/team/{{.photo}}" alt="{{.nom}}, {{.descriptionen}}" class="img-responsive">
-                            <p class="title">{{.nom}} <a href="mailto:{{.email}}"><i class="fa fa-envelope"></i></a></p>
-                            <p class="desc">{{.descriptionen}}</p>
-                            {{ end }}
-                        </div>
-                        {{ end }}
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6 match logo">
                             <div class="holder grenouille">
                                 <img src='/img/logos/ptiteGrenouille{{ if eq $.Lang "en" }}-en{{end}}.svg' alt="">
                             </div>
@@ -192,6 +171,26 @@
                         </div>
                         {{ end }}
                         </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 match logo">
+                            <div class="holder chocfrits">
+                                <img src="/img/logos/frits.svg" alt="" class="frits-history">
+                            </div>
+                        </div>
+                        {{ range sort .Site.Data.equipe.chocolato "ordre" "asce" }}
+                        <div class="col-sm-6 match">
+                            {{ if eq $.Lang "fr" }}
+                            <img src="/img/team/{{.photo}}" alt="{{.nom}}, {{.description}}" class="img-responsive">
+                            <p class="title">{{.nom}} <a href="mailto:{{.email}}"><i class="fa fa-envelope"></i></a></p>
+                            <p class="desc">{{.description}}</p>
+                            {{ else if eq $.Lang "en" }}
+                            <img src="/img/team/{{.photo}}" alt="{{.nom}}, {{.descriptionen}}" class="img-responsive">
+                            <p class="title">{{.nom}} <a href="mailto:{{.email}}"><i class="fa fa-envelope"></i></a></p>
+                            <p class="desc">{{.descriptionen}}</p>
+                            {{ end }}
+                        </div>
+                        {{ end }}
                     </div>
                     <div class="row">
                         <div class="col-sm-6 match logo">
