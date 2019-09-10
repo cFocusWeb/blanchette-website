@@ -74,7 +74,7 @@ timeline:
     grouped: true
     crushed: true
     text: >-
-      Born from the desire to capture the experience of the most prestigious Italian chocolate shops, the first Chocolato chocolate & ice cream bar, opens its doors in Ste-Foy; spawned by the group and its associates. The concept rapidly spreads throughout the province with its 17 locations.    
+      In 2015, the group and one of its associates create the first chocolat and ice cream bar that will be known as Chocolato. Led by the desire to imitate prestigious Italian chocolate factories, the concept spreads like wildfire with the establishment of 22 branches throughout the years. In 2019, Foodtastic acquires the brand and it’s with great pride that the group transfers the concept to watch It grow, not only outside of the province, but also in the United States. Despite this, the group retains ownership of the Sainte-Foy (Versant Nord) branch and the express kiosk located in the Pyramide, in Sainte-Foy and remains co-owner of the Gatineau (Promenades Gatineau) branch.    
   - logo: /img/logos/hola.svg
     date1: 
     date2:
@@ -98,19 +98,16 @@ wrapup:
   - nbre: 18
     ligne1: Little Frog 
     ligne2: 
-  - nbre: 19
-    ligne1: Chocolato
-    ligne2:
-  - nbre: 12
+  - nbre: 13
     ligne1: SHAKER
     ligne2: "Kitchen & Mixology"
   - nbre: 7
     ligne1: "Planète Nutrition"
     ligne2: 
-  - nbre: 4
+  - nbre: 6
     ligne1: VAPOSHOP
     ligne2:
-  - nbre: 2
+  - nbre: 1
     ligne1: "Frit's"
     ligne2: "Burgers & Poutines"
   - nbre: 1

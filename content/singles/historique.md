@@ -1,7 +1,7 @@
 ---
 title: Notre histoire - Maître Franchiseur
 description: >-
-  Groupe Blanchette - Maître Franchiseur est l’un des plus importants courtiers en franchises. Acheter une franchise tel que le Shaker, Chocolato et plus encore!
+  Groupe Blanchette - Maître Franchiseur est l’un des plus importants courtiers en franchises. Acheter une franchise tel que le Shaker et plus encore!
 titre: Historique
 slug: historique
 layout: historique
@@ -76,7 +76,7 @@ timeline:
     crushed: true
     grouped: true
     text: >-
-      Né d'une envie de reproduire l'expérience des plus prestigieuses chocolateries italiennes, le premier bar à chocolat & crème glacée Chocolato ouvre ses portes à Ste-Foy ; un travail du groupe et d'un de ses associés. Le concept se répand rapidement à travers la province avec ses 17 succursales.   
+      En 2015, le groupe et l’un de ses associés créent le premier bar à chocolat & crème glacée Chocolato. Né d’une envie de reproduire l’expérience des plus prestigieuses chocolateries italiennes, le concept se répand à une vitesse incroyable avec l’implantation de 22 succursales. En 2019, Foodtastic fait l’acquisition de la marque et c’est avec fierté que le groupe cède le concept pour le voir grandir non seulement en dehors de la province, mais également aux États-Unis. Le groupe reste tout de même propriétaire de la succursale de Sainte-Foy (Versant-Nord) et du comptoir express dans la Pyramide de Sainte-Foy, en plus d’être copropriétaire de la succursale de Gatineau (Les Promenades Gatineau).   
   - logo: /img/logos/hola.svg
     date1: 
     date2:
@@ -101,19 +101,16 @@ wrapup:
   - nbre: 18
     ligne1: La P'tite Grenouille
     ligne2: 
-  - nbre: 19
-    ligne1: Chocolato
-    ligne2:
-  - nbre: 12
+  - nbre: 13
     ligne1: SHAKER
     ligne2: "Cuisine & Mixologie"
   - nbre: 7
     ligne1: "Planète Nutrition"
     ligne2: 
-  - nbre: 4
+  - nbre: 6
     ligne1: VAPOSHOP
     ligne2:
-  - nbre: 2
+  - nbre: 1
     ligne1: "Frit's"
     ligne2: "Burgers & Poutines"
   - nbre: 1
