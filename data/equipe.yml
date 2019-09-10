@@ -63,14 +63,23 @@ shaker:
     nom: "Jean-David Forcier"
     ordre: 3
     photo: 08-shaker-jean-david.jpg
-    email: "jdforcier@shakercuisineetmixologie.com"  
+    email: "jdforcier@shakercuisineetmixologie.com"
+chocolato:
+  - description: >-
+      Copropriétaire
+    descriptionen: >-
+      Co-owner
+    nom: "Guyaume Arsenault"
+    ordre: 7
+    photo: 09-fritz-guyaume.jpg
+    email: "ga@groupeblanchette.com"
 grenouille:
   - description: >-
       Copropriétaire et directeur général
     descriptionen: >-
       Co-owner, Managing Director
     nom: "Jérôme Landry"
-    ordre: 4
+    ordre: 5
     photo: 10-grenouille-jerome.jpg
     email: "froggerjay@hotmail.com"
 tartar:
@@ -79,17 +88,9 @@ tartar:
     descriptionen: >-
       Co-owner
     nom: "Pierre-Antoine Morency"
-    ordre: 5
+    ordre: 6
     photo: 12-tartar-pierre-antoine.jpg
     email: "tartarstation@gmail.com"
-  - description: >-
-      Copropriétaire
-    descriptionen: >-
-      Co-owner
-    nom: "Guyaume Arsenault"
-    ordre: 6
-    photo: 09-fritz-guyaume.jpg
-    email: "ga@groupeblanchette.com"
   - description: >-
       Copropriétaire
     descriptionen: >-
