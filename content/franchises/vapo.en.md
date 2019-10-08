@@ -48,6 +48,9 @@ locations:
   - Ste-Foy
   - Charlesbourg
   - Limoilou
+  - Lévis
+  - Beauport
+  - Roberval
 ---
 ## VAPOSHOP – Overview of the banner
 

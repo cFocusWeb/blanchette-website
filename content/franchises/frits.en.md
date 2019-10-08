@@ -50,7 +50,6 @@ ordre: 5
 video: zq52OJUk6Fo
 locations:
   - Ste-Foy
-  - Beauport
 ---
 ## Frit’s Burgers & Poutines – Overview of the Banner 
 
