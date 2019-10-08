@@ -32,13 +32,13 @@ details:
   frais: $30 000
   investissement: from $360 000 
   misedefonds: from $65 000
-  contact: Hugo Laperrière
+  contact: Guyaume Arseneault
   fondation: 2011
   nbre: 2
   redevances: 8%
   pub: 2%
   royautes: 6%
-  email: "hl@groupeblanchette.com"
+  email: "ga@groupeblanchette.com"
 ctaimage: 
   need: true
   url: /img/franchises/frits-cta-banner-en.jpg
