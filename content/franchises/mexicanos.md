@@ -25,6 +25,9 @@ business: >-
   Qualité et saveurs sont au rendez-vous au comptoir de restauration rapide Mexicanos. On y propose une cuisine mexicaine axée sur la fraîcheur des aliments, pour des repas santé et sur le pouce. Les possibilités sont infinies pour créer un repas sur mesure, au goût du client ; sur place, pour emporter ou en livraison.  
 accentcolor: "#c5c3c4"
 whitebg: true
+colorbg: true
+colorlogo: true
+colorforbg: "#ffffff"
 website: https://mexicanos.ca/
 details:
   type: Franchise
