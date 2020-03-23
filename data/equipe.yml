@@ -99,20 +99,3 @@ tartar:
     ordre: 8
     photo: 11-tartar-felix.jpg
     email: "tartarstation@gmail.com"
-blancs:
-  - description: >-
-      Directrice marketing
-    descriptionen: >-
-      Marketing Director
-    nom: "Catherine Roman"
-    ordre: 10
-    photo: 15-blanchette-catherine.jpg
-    email: "cr@groupeblanchette.com"
-  - description: >-
-      Contrôleur, CPA CGA
-    descriptionen: >-
-      Controller, CPA CGA
-    nom: "Samuel Poulin"
-    ordre: 9
-    photo: samuel-poulin.jpg
-    email: "sp@groupeblanchette.com"
