@@ -1,34 +1,34 @@
 ---
-title: HOLA Mexican Grill Franchise
+title: Mexicanos Franchise
 description: >-
   Mexican cuisine based on the freshest ingredients, for healthy, on the go meals.
-slug: hola
-identifiant: hola
+slug: mexicanos
+identifiant: mexicanos
 image: "/img/franchises/hola-franchise.jpg"
-logoc: "/img/logos/hola.svg"
-logow: "/img/logos/hola-white-2.svg"
+logoc: "/img/logos/logo-mexicanos.svg"
+logow: "/img/logos/logo-mexicanos-blanc.svg"
 mainimage: /img/franchises/hola-franchise.jpg
 resume:
-  titre: HOLA Mexican Grill 
+  titre: Mexicanos 
   desc: >-
     Quality and flavor are a given at a 
 
-    ### HOLA Mexican Grill 
+    ### Mexicanos
 
     fast service counter. Mexican cuisine based on the freshest ingredients, for healthy, on the go meals. The possibilities and combinations are unlimited for the creation of a made-to-measure meal, tailored to the customer’s tastes; be it on location, for take-out or delivery.    
   investissement: "360 000$"
   carouselclass: hola-logo
   gridholder: mediumlogo
 imagedesc: >-
-  HOLA Mexican Grill, for healthy meals on the run! Above: the HOLA Mexican Grill counter located at La Pyramide in Ste-Foy.
+  Mexicanos, for healthy meals on the run! Above: the Mexicanos counter located at La Pyramide in Ste-Foy.
 business: >-
-  Quality and flavor are a given at a HOLA Mexican Grill fast service counter. Mexican cuisine based on the freshest ingredients, for healthy, on the go meals. The possibilities and combinations are unlimited for the creation of a made-to-measure meal, tailored to the customer’s tastes; be it on location, for take-out or delivery.  
-accentcolor: "#dd1000"
+  Quality and flavor are a given at a Mexicanos fast service counter. Mexican cuisine based on the freshest ingredients, for healthy, on the go meals. The possibilities and combinations are unlimited for the creation of a made-to-measure meal, tailored to the customer’s tastes; be it on location, for take-out or delivery.  
+accentcolor: "#c5c3c4"
 whitebg: true
 colorbg: true
 colorlogo: true
-colorforbg: "#dd1000"
-website: https://www.holagrill.ca/
+colorforbg: "#ffffff"
+website: https://mexicanos.ca/
 details:
   type: Franchise
   frais: $30 000
@@ -43,7 +43,7 @@ details:
   email: "hl@groupeblanchette.com"
 ctaimage: 
   need: true
-  url: /img/franchises/hola-cta-banner-en.jpg
+  url: /img/franchises/mexicanos-cta-banner-en.jpg
 i18nlanguage: fr
 ordre: 1
 draft: false
@@ -53,25 +53,25 @@ video: 9lpGlF8JZhk
 locations:
   - Ste-Foy
 ---
-## HOLA Mexican Grill – Overview of the Banner
+## Mexicanos – Overview of the Banner
 
-### HOLA Mexican Grill’s story
+### Mexicanos’ story
 
-HOLA Mexican Grill fast service counter opens in 2015, guided by the desire to offer healthy, fresh and on the go Mexican cuisine.
+Mexicanos fast service counter opens in 2015, guided by the desire to offer healthy, fresh and on the go Mexican cuisine.
 
-The layout and kitchen equipment were designed to make optimal use of limited spaces, making establishing a HOLA Mexican Grill location very easy in shopping malls or other locations with limited spacing. 
+The layout and kitchen equipment were designed to make optimal use of limited spaces, making establishing a Mexicanos location very easy in shopping malls or other locations with limited spacing. 
 
-### HOLA Mexican Grill’s competitive edge 
+### Mexicanos’ competitive edge 
 
-At HOLA Mexican Grill, the customer is king: with the possibility of customizing every element in the meal. Choice of dish, meat, vegetables, condiments, sauces and other sides; it all leads to made to measure pleasure for those who like it milder, or those who like to spice it up. Therefore, HOLA Mexican Grill reaches a very large clientele, catering to traditional Mexican food aficionados but also healthy cuisine fans. 
+At Mexicanos, the customer is king: with the possibility of customizing every element in the meal. Choice of dish, meat, vegetables, condiments, sauces and other sides; it all leads to made to measure pleasure for those who like it milder, or those who like to spice it up. Therefore, Mexicanos reaches a very large clientele, catering to traditional Mexican food aficionados but also healthy cuisine fans. 
 
 #### Business Opportunity 
 
-### A HOLA Mexican Grill within your reach! 
+### A Mexicanos within your reach! 
 
-Seize the opportunity to offer a different fast food experience with your own HOLA Mexican Grill! 
+Seize the opportunity to offer a different fast food experience with your own Mexicanos! 
 
-### Why HOLA Mexican Grill? 
+### Why Mexicanos? 
 
 - On-trend menu; 
 - Perfect for a first franchise project; 
