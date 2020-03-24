@@ -71,8 +71,8 @@ timeline:
     text: >-
       En 2015, le groupe actualise le STAR BAR et présente le SHAKER Cuisine & Mixologie, offrant tartares, cocktails et burgers gourmets, en plus des nombreuses promotions. Avec son expansion rapide et son succès fulgurant, la bannière, dénombrant maintenant 11 succursales, est désormais la seule chaîne de restaurants-bars spécialisée en la matière.   
   - logo: /img/logos/chocolate.svg
-    date1: 
-    date2:
+    date1: 2015
+    date2: 2019
     crushed: true
     grouped: true
     text: >-

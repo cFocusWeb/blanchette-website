@@ -69,8 +69,8 @@ timeline:
     text: >-
       In 2015, the group updates the STAR BAR and presents SHAKER Kitchen & Mixology, offering tartares, cocktails and gourmet burgers, along with a number of promotions. Quickly expanding thanks to its immediate success, the banner with now 11 locations, is the only restaurant with these specialties.  
   - logo: /img/logos/chocolate.svg
-    date1: 
-    date2:
+    date1: 2015
+    date2: 2019
     grouped: true
     crushed: true
     text: >-
