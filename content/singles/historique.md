@@ -76,15 +76,7 @@ timeline:
     crushed: true
     grouped: true
     text: >-
-      En 2015, le groupe et l’un de ses associés créent le premier bar à chocolat & crème glacée Chocolato. Né d’une envie de reproduire l’expérience des plus prestigieuses chocolateries italiennes, le concept se répand à une vitesse incroyable avec l’implantation de 22 succursales. En 2019, Foodtastic fait l’acquisition de la marque et c’est avec fierté que le groupe cède le concept pour le voir grandir non seulement en dehors de la province, mais également aux États-Unis. Le groupe reste tout de même propriétaire de la succursale de Sainte-Foy (Versant-Nord) et du comptoir express dans la Pyramide de Sainte-Foy, en plus d’être copropriétaire de la succursale de Gatineau (Les Promenades Gatineau).   
-  - logo: /img/logos/hola.svg
-    date1: 
-    date2:
-    crushed: true
-    grouped: true
-    proche: true
-    text: >-
-      Avec HOLA Grill Mexicain, le groupe diversifie son offre en restauration rapide en offrant un comptoir avec une cuisine fraîche et sur mesure. Situé dans La Pyramide à Ste-Foy, HOLA Grill Mexicain attire autant les amateurs de nourriture mexicain que les adeptes de repas santé.   
+      En 2015, le groupe et l’un de ses associés créent le premier bar à chocolat & crème glacée Chocolato. Né d’une envie de reproduire l’expérience des plus prestigieuses chocolateries italiennes, le concept se répand à une vitesse incroyable avec l’implantation de 22 succursales. En 2019, Foodtastic fait l’acquisition de la marque et c’est avec fierté que le groupe cède le concept pour le voir grandir non seulement en dehors de la province, mais également aux États-Unis. Le groupe reste tout de même propriétaire de la succursale de Sainte-Foy (Versant-Nord) et du comptoir express dans la Pyramide de Sainte-Foy, en plus d’être copropriétaire de la succursale de Gatineau (Les Promenades Gatineau).     
   - logo: /quart/img/misc/logo-planete.png
     date1: 
     date2:
@@ -97,6 +89,14 @@ timeline:
     proche: true
     text: >-
       Le tout premier comptoir de restauration rapide spécialisé en tartares, tatakis et poke bols ouvre ses portes à La Pyramide à Ste-Foy. Suscitant un grand engouement des amateurs de cuisine santé et savoureuse, TARTAR Station prévoit deux autres ouvertures dans les prochains mois. 
+  - logo: /img/logos/logo-mexicanos.svg
+    date1: 2019
+    date2:
+    crushed: true
+    grouped: true
+    proche: true
+    text: >-
+      Avec Mexicanos, le groupe diversifie son offre en restauration rapide en offrant un comptoir avec une cuisine fraîche et sur mesure. Situé dans La Pyramide à Ste-Foy, Mexicanos attire autant les amateurs de nourriture mexicain que les adeptes de repas santé. 
 wrapup:
   - nbre: 18
     ligne1: La P'tite Grenouille
