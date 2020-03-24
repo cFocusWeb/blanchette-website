@@ -80,8 +80,8 @@ timeline:
   - logo: /img/logos/logo-mexicanos.svg
     date1: 2017
     date2:
-    crushed: true
-    grouped: 
+    crushed: 
+    grouped: true
     proche: true
     text: >-
       Avec Mexicanos, le groupe diversifie son offre en restauration rapide en offrant un comptoir avec une cuisine fraîche et sur mesure. Situé dans La Pyramide à Ste-Foy, Mexicanos attire autant les amateurs de nourriture mexicain que les adeptes de repas santé. 
