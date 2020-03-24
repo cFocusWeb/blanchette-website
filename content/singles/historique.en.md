@@ -117,8 +117,8 @@ wrapup:
     ligne1: "Thaïzone"
     ligne2:
   - nbre: 1
-    ligne1: HOLA
-    ligne2: Mexican Grill
+    ligne1: Mexicanos
+    ligne2: 
   - nbre: 1
     ligne1: Portofino
     ligne2: Italian Club
