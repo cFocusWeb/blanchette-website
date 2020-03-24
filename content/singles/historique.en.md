@@ -79,7 +79,7 @@ timeline:
     date1: 2017
     date2:
     grouped: true
-    crushed: true
+    crushed: 
     text: >-
       With Mexicanos, the group diversifies its fast food restaurant offer with fresh, made to order cuisine. Located in Ste-Foy’s La Pyramide mall, Mexicanos attracts Mexican food lovers and fans of health food alike. 
   - logo: /quart/img/misc/logo-planete.png
