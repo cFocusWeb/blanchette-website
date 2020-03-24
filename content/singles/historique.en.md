@@ -75,6 +75,13 @@ timeline:
     crushed: true
     text: >-
       In 2015, the group and one of its associates create the first chocolat and ice cream bar that will be known as Chocolato. Led by the desire to imitate prestigious Italian chocolate factories, the concept spreads like wildfire with the establishment of 22 branches throughout the years. In 2019, Foodtastic acquires the brand and it’s with great pride that the group transfers the concept to watch It grow, not only outside of the province, but also in the United States. Despite this, the group retains ownership of the Sainte-Foy (Versant Nord) branch and the express kiosk located in the Pyramide, in Sainte-Foy and remains co-owner of the Gatineau (Promenades Gatineau) branch.      
+  - logo: /img/logos/logo-mexicanos.svg
+    date1: 2017
+    date2:
+    grouped: true
+    crushed: true
+    text: >-
+      With Mexicanos, the group diversifies its fast food restaurant offer with fresh, made to order cuisine. Located in Ste-Foy’s La Pyramide mall, Mexicanos attracts Mexican food lovers and fans of health food alike. 
   - logo: /quart/img/misc/logo-planete.png
     date1: 
     date2:
@@ -87,13 +94,6 @@ timeline:
     date2:
     text: >-
       The very first fast service counter specializing in tartares and poke bowls opens at La Pyramide mall in Ste-Foy. Garnering an immediate following of fans of healthy and tasty cuisine, TARTAR Station plans to open two new locations in the coming months.
-  - logo: /img/logos/logo-mexicanos.svg
-    date1: 2019
-    date2:
-    grouped: true
-    crushed: true
-    text: >-
-      With Mexicanos, the group diversifies its fast food restaurant offer with fresh, made to order cuisine. Located in Ste-Foy’s La Pyramide mall, Mexicanos attracts Mexican food lovers and fans of health food alike. 
 wrapup:
   - nbre: 18
     ligne1: Little Frog 
