@@ -2,7 +2,7 @@
 title: Franchise Mexicanos
 description: >-
   On y propose une cuisine mexicaine axée sur la fraîcheur des aliments, pour des repas santé et sur le pouce.
-slug: hola
+slug: mexicanos
 identifiant: hola
 image: "/img/franchises/hola-franchise.jpg"
 logoc: "/img/logos/logo-mexicanos.svg"

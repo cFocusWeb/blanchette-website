@@ -2,7 +2,7 @@
 title: Mexicanos Franchise
 description: >-
   Mexican cuisine based on the freshest ingredients, for healthy, on the go meals.
-slug: hola
+slug: mexicanos
 identifiant: hola
 image: "/img/franchises/hola-franchise.jpg"
 logoc: "/img/logos/logo-mexicanos.svg"
