@@ -27,14 +27,14 @@
         </header>
         <!-- // mas header  -->
 
-        <section id="about-block">
+        <!-- <section id="about-block">
             <div class="container wow fadeIn" data-wow-duration="0.7s" data-wow-delay="0.2s">
                 <article class="content">
                     {{ .Content }}
                 </article>
-                <!-- // content  -->
+                
             </div>
-            <!-- // content  -->
+            
             <div class="image-holder premier wow fadeIn half-masonry" data-wow-duration="0.7s" data-wow-delay="0.4s" id="masonry-franchise">
                 {{ if eq .Lang "fr" }}
                 <a href="{{.Site.BaseURL}}franchises/shaker">
@@ -48,7 +48,7 @@
                     </div>
                 </a>
             </div>
-            <!-- // image  -->
+            
             <div class="image-holder wow fadeIn half-masonry" data-wow-duration="0.7s" data-wow-delay="0.4s" id="masonry-franchise">
                 {{ if eq .Lang "fr" }}
                 <a href="{{.Site.BaseURL}}franchises/la-ptite-grenouille">
@@ -62,7 +62,7 @@
                     </div>
                 </a>
             </div>
-            <!-- // image  -->
+            
         </section>
 
         <section id="about-block">
@@ -79,7 +79,7 @@
                     </div>
                 </a>
             </div>
-            <!-- // image  -->
+            
             <div class="image-holder wow fadeIn half-masonry" data-wow-duration="0.7s" data-wow-delay="0.4s" id="masonry-franchise">
                 {{ if eq .Lang "fr" }}
                 <a href="{{.Site.BaseURL}}franchises/frits">
@@ -93,39 +93,82 @@
                     </div>
                 </a>
             </div>
-            <!-- // image  -->
-        </section>
-        <!-- // about block  -->
+            
+        </section> -->
+        
 
         <div id="masonry-franchise">
             <div class="container-fluidx">
                 <div class="row no-gutter">
                     <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0.8s">
                         {{ if eq .Lang "fr" }}
-                        <a href="{{.Site.BaseURL}}franchises/hola">
+                        <a href="{{.Site.BaseURL}}franchises/shaker">
                         {{ else if eq .Lang "en" }}
-                        <a href="{{.Site.BaseURL}}en/franchises/hola">
+                        <a href="{{.Site.BaseURL}}en/franchises/shaker">
                         {{ end }}
                             <div class="mosaic-slider">
-                                {{ range .Params.mhola}}
-                                <img src="{{.image}}" alt="Hola" class="img-responsive">
+                                {{ range .Params.mshaker}}
+                                <img src="{{.image}}" alt="Shaker" class="img-responsive">
                                 {{ end }}
                             </div>
                         </a>
                     </div>                            
                    <div class="col-md-4 col-sm-6" data-wow-duration="0.4s" data-wow-delay="0.8s">
                         {{ if eq .Lang "fr" }}
-                        <a href="{{.Site.BaseURL}}franchises/planete-nutrition">
+                        <a href="{{.Site.BaseURL}}franchises/la-ptite-grenouille">
                         {{ else if eq .Lang "en" }}
-                        <a href="{{.Site.BaseURL}}en/franchises/planete-nutrition">
+                        <a href="{{.Site.BaseURL}}en/franchises/the-little-frog">
                         {{ end }}
                             <div class="mosaic-slider">
-                                {{ range .Params.mplanete}}
-                                <img src="{{.image}}" alt="Planete Nutrition" class="img-responsive">
+                                {{ range .Params.mgrenouille}}
+                                <img src="{{.image}}" alt="La P'tite Grenouille" class="img-responsive">
                                 {{ end }}
                             </div>                          
                         </a>                               
                    </div>
+                   <!-- // col  -->
+                   <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-duration="0.4s" data-wow-delay="1s">
+                        {{ if eq .Lang "fr" }}
+                        <a href="{{.Site.BaseURL}}franchises/tartar-station">
+                        {{ else if eq .Lang "en" }}
+                        <a href="{{.Site.BaseURL}}en/franchises/tartar-station">
+                        {{ end }}
+                            <div class="mosaic-slider">
+                                {{ range .Params.mtartar}}
+                                <img src="{{.image}}" alt="Tartar Station" class="img-responsive">
+                                {{ end }}
+                            </div>                          
+                        </a>  
+                    </div>                             
+                </div>
+				
+				<div class="row no-gutter">
+                    <div class="col-md-4 col-sm-6" data-wow-duration="0.4s" data-wow-delay="0.8s">
+                        {{ if eq .Lang "fr" }}
+                        <a href="{{.Site.BaseURL}}franchises/frits">
+                        {{ else if eq .Lang "en" }}
+                        <a href="{{.Site.BaseURL}}en/franchises/frits">
+                        {{ end }}
+                            <div class="mosaic-slider">
+                                {{ range .Params.mfrits}}
+                                <img src="{{.image}}" alt="Frit's" class="img-responsive">
+                                {{ end }}
+                            </div>                          
+                        </a>                               
+                   </div>
+					<div class="col-md-4 col-sm-6 wow fadeIn" data-wow-duration="0.4s" data-wow-delay="0.8s">
+                        {{ if eq .Lang "fr" }}
+                        <a href="{{.Site.BaseURL}}franchises/mexicanos">
+                        {{ else if eq .Lang "en" }}
+                        <a href="{{.Site.BaseURL}}en/franchises/mexicanos">
+                        {{ end }}
+                            <div class="mosaic-slider">
+                                {{ range .Params.mhola}}
+                                <img src="{{.image}}" alt="Mexicanos" class="img-responsive">
+                                {{ end }}
+                            </div>
+                        </a>
+                    </div>                            
                    <!-- // col  -->
                    <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-duration="0.4s" data-wow-delay="1s">
                         {{ if eq .Lang "fr" }}
