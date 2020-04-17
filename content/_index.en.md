@@ -1,10 +1,9 @@
 ---
 title: Buy a franchise – Master Franchisor
 description: >-
-  The Groupe Blanchette – Master Franchisor is one of the largest franchise broker groups in Québec, offering truly innovative restaurant and entertainment concepts.
-image: 
-i18nlanguage: en
-draft: false
+  The Groupe Blanchette – Master Franchisor is one of the largest franchise
+  broker groups in Québec, offering truly innovative restaurant and
+  entertainment concepts.
 mshaker:
   - image: /img/articles/mosaic-shaker1.jpg
   - image: /img/articles/mosaic-shaker2.jpg
@@ -28,9 +27,9 @@ mfrits:
   - image: /img/articles/mosaic-frits2.jpg
   - image: /img/articles/mosaic-frits3.jpg
 mhola:
-  - image: /img/articles/mosaic-hola1.jpg
-  - image: /img/articles/mosaic-hola2.jpg
-  - image: /img/articles/mosaic-hola3.jpg
+  - image: /img/articles/burritos.jpg
+  - image: /img/articles/employes.jpg
+  - image: /img/articles/cover_ubereats_mexicanos.jpg
 mplanete:
   - image: /img/articles/mosaic-planete1.jpg
   - image: /img/articles/mosaic-planete2.jpg
@@ -38,12 +37,13 @@ mplanete:
 mvapo:
   - image: /img/articles/mosaic-vapo1.jpg
   - image: /img/articles/mosaic-vapo2.jpg
+draft: false
+i18nlanguage: en
 ---
-
 # Our franchises & licenses
 
 The Groupe Blanchette – Master Franchisor is one of the largest franchise broker groups in Québec, offering truly innovative restaurant and entertainment concepts.
 
-Founder, developer and operator of over 60 locations since its inception, Groupe Blanchette – Master Franchisor features a complete, diversified portfolio of brands with its franchise concepts (SHAKER Kitchen & Mixology, TARTAR Station, Frit’s Burgers & Poutines, HOLA Mexican Grill) and licenses (Little Frog, Planète Nutrition & VAPOSHOP). 
+Founder, developer and operator of over 60 locations since its inception, Groupe Blanchette – Master Franchisor features a complete, diversified portfolio of brands with its franchise concepts (SHAKER Kitchen & Mixology, TARTAR Station, Frit’s Burgers & Poutines, Mexicanos) and licenses (Little Frog, Planète Nutrition & VAPOSHOP). 
 
 [Discover their story >](/en/history)
