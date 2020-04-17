@@ -3,7 +3,7 @@ title: Achetez une franchise - Maître franchiseur
 description: >-
   Groupe Blanchette - Maître Franchiseur est l’un des plus importants courtiers
   en franchises. Achetez une franchise telle que le SHAKER Cuisine et Mixologie,
-  Chocolato et plus encore !
+  La P'tite Grenouille, Tartar Station et plus encore !
 mshaker:
   - image: /img/articles/mosaic-shaker1.jpg
   - image: /img/articles/mosaic-shaker2.jpg
