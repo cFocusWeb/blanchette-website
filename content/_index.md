@@ -10,10 +10,10 @@ mshaker:
   - image: /img/articles/mosaic-shaker3.jpg
   - image: /img/articles/mosaic-shaker4.jpg
 mchocolato:
-  - image: /img/articles/mosaic-chocolato1.jpg
-  - image: /img/articles/mosaic-chocolato2.jpg
-  - image: /img/articles/mosaic-chocolato3.jpg
-  - image: /img/articles/mosaic-chocolato4.jpg
+  - image: ''
+  - image: ''
+  - image: ''
+  - image: ''
 mgrenouille:
   - image: /img/articles/mosaic-grenouille1.jpg
   - image: /img/articles/mosaic-grenouille2.jpg
