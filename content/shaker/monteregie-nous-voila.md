@@ -3,7 +3,7 @@ title: 'Montérégie, nous voilà !'
 slug: monteregie-nous-voila
 identifiant: monteregie-nous-voila
 image: /img/articles/67_07_shaker-st-hyacinthe.jpg
-date: '2018-06-08'
+date: '2018-07-08'
 occasion: false
 historique: true
 arrowc: white
