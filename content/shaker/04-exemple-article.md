@@ -2,8 +2,10 @@
 title: >-
   Le resto-bar SHAKER débarque à St-Jérôme juste à temps pour l'ouverture des
   terrasses
-slug: ceci-est-un-example
-identifiant: 04-exemple-article
+slug: >-
+  le-resto-bar-shaker-debarque-a-st-jerome-juste-a-temps-pour-l-ouverture-des-terrasses
+identifiant: >-
+  le-resto-bar-shaker-debarque-a-st-jerome-juste-a-temps-pour-l-ouverture-des-terrasses
 image: /img/articles/94_shaker-victo.jpg
 date: '2020-03-06'
 external:
