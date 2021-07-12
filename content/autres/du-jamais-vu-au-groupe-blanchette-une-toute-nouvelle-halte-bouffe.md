@@ -4,7 +4,7 @@ slug: du-jamais-vu-au-groupe-blanchette-une-toute-nouvelle-halte-bouffe
 identifiant: du-jamais-vu-au-groupe-blanchette-une-toute-nouvelle-halte-bouffe
 image: /img/articles/haltebouffebouvier_intérieur.jpg
 date: '2020-12-01'
-occasion: false
+occasion: true
 historique: true
 arrowc: white
 list:
