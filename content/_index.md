@@ -44,6 +44,6 @@ i18nlanguage: fr
 
 Le Groupe Blanchette – Maître Franchiseur est l’un des plus importants courtiers en franchises du Québec, se distinguant par ses concepts novateurs dans le milieu de la restauration et du divertissement.
 
-Fondateur, développeur et opérateur d’une soixantaine d’adresses depuis sa création, le Groupe Blanchette – Maître Franchiseur présente un portefeuille de marques des plus complets avec ses concepts de franchises (SHAKER Cuisine & Mixologie, TARTAR Station, Frit’s Burgers & Poutines, Mexicanos et de licences (La P’tite Grenouille et VAPOSHOP). 
+Fondateur, développeur et opérateur d’une soixantaine d’adresses depuis sa création, le Groupe Blanchette – Maître Franchiseur présente un portefeuille de marques des plus complets avec ses concepts de franchises (SHAKER Cuisine & Mixologie, TARTAR Station, Frit’s Burgers & Poutines, Mexicanos, Sushi X) et de licences (La P’tite Grenouille et VAPOSHOP). 
 
 [Découvrez leur histoire >](/historique)
